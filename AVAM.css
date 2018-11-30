@@ -554,7 +554,7 @@ body.forum-78 {background-image: url(https://i.imgur.com/TMwZKXy.gif);}
 .forum-78 .perfil .postprofile-contact a {border: 1px solid #f1f1f1;background: #fdfdfd;}
 .forum-78 .postprofile-contact-profile a:before, .forum-78 .perfil .postprofile-contact-pm a:before, .forum-78 .postprofile-contact-field:nth-child(4) a:after, .forum-78 .postprofile-contact-field:nth-child(5) a:after {color: #6f834c;}
 .forum-78 .postbody .tbase-text {background: #fdfdfd; border-top: 4px solid #6f834c; color: #1f1f1f;}
-.forum-78 .tbase-titulo2 {background: #752121; color: #f5f5f5;}
+.forum-78 .tbase-titulo2 { background: #fdfdfd; color: #6f834c; }
 .forum-78 .tbase-titulo2 .fas, .forum-78 .tbase-titulo2 .ra, .forum-78 .avam-acep .fas, .forum-78 .tbase-num  {color: #6f834c;}
 .forum-78 .expavam-a {color: #6f834c; border-bottom: 1px solid #ccc;}
 .forum-78 .objeto .desc::-webkit-scrollbar-thumb {background: #6f834c!important;}
