@@ -425,7 +425,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 
 /***** TABLILLA DE STATS + TABLILLAS DE TRAMAS *****/
 .rpg { background: #0a0a0a; font-family: arial; font-size: 11px; margin: auto; padding: 20px; text-align: justify; width: 380px;}
-.rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px;}
+.rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px; vertical-align: top;}
 .rpg .op { padding: 0; border-left: 0px solid #232b3a;}
 .rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px;}
 .rpg .df2avam { font-size: 8px; width: auto; margin-bottom: -10px;}
@@ -439,6 +439,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
 .rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px;}
 .rpg .datos strong { color: #2a3340; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
+.rpg .op .datos { padding: 12px; height: 143px; overflow: auto; margin: 0; }
 
 .rpg.mini { width: 230px; }
 .rpg.mini .pj { width: 100%; padding: 0px; }
@@ -457,16 +458,14 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
 
-.tgrom .df3a {border-color: #665770;} 
-.rpg.tgrom .caja .stat, .res.tgrom strong {color: #665770;} 
-.rpg.tgrom .nf2avam {border-color: #665770;} 
-.rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #4c3a54;} 
-.rpg.tgrom c:before {color: #665770}
+.tgrom .df3a {border-color: #483b5d;} 
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before .res.tgrom strong {color: #483b5d}
+.rpg.tgrom .nf2avam {border-color: #483b5d;} 
+.rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
 .tggri .df3a {border-color: #8a651e;} 
-.rpg.tggri .caja .stat, .res.tggri strong {color: #af8127;} 
-.rpg.tggri .nf2avam {border-color: #C28D23;} 
-.rpg.tggri .datos::-webkit-scrollbar-thumb { background: #8a651e;} 
-.rpg.tggri c:before {color: #8a651e}
+.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #B88939}
+.rpg.tggri .nf2avam {border-color: #B88939;} 
+.rpg.tggri .datos::-webkit-scrollbar-thumb { background: #B88939;} 
 
 
 /* SKIN NAVIDEÑO */
