@@ -459,7 +459,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
 
 .tgrom .df3a {border-color: #483b5d;} 
-.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before .res.tgrom strong {color: #483b5d}
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
 .rpg.tgrom .nf2avam {border-color: #483b5d;} 
 .rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
 .tggri .df3a {border-color: #8a651e;} 
