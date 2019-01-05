@@ -437,7 +437,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg c {margin-right: -5px; } .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
-.rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;}
+.rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;overflow: auto; max-height: 100px;}
 .rpg .datos strong { color: #2a3340; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
 .rpg .op .datos { padding: 12px; height: 143px; overflow: auto; margin: 0; }
 
