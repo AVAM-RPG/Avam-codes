@@ -462,6 +462,19 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg.tggri .nf2avam {border-color: #B88939;} 
 .rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #B88939;} 
 
+/* TABLILLA DE PNJ */
+
+.pnjs2 {width: 360px; display: inline-block; padding: 15px; margin: auto;} 
+.pnjbtn { transition: 0.5s;background: #2a3340e6; width: 50px; height: 20px; border-radius: 100%; padding: 40px 25px; font-size: 9px; opacity: 0; letter-spacing: 1px; font-family: calibri; } 
+.imaf1avam:hover .pnjbtn {opacity: 1;} 
+.pnjs2 .nf2avam {font-size: 12px; line-height: 0px; padding-left: 15px; padding-bottom: 12px; color: #2a3340; vertical-align: top; margin-top: -8px; margin-bottom: 8px;} 
+.pnjs2 .cr-res { font-size: 10px; line-height: 14px; margin-top: -3px;padding-right: 4px;} 
+.pnjs2 .expavam-info { margin-left: 15px; width: 237px; } 
+.pnjs2 .expavam-infot { width: 90px; } 
+.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: #3F576B; } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: #3F576B; border-color: #3F576B;} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: #3F576B;} .pnjs2.celta .pnjbtn { background-color: #3f576be6;} 
+.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: #422f4a; } .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: #422f4a; border-color: #422f4a;} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: #422f4a;} .pnjs2.romano .pnjbtn { background-color: #422f4ae6;} 
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: #8e6917; } .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: #8e6917; border-color: #b88939;} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: #8e6917;} .pnjs2.griego .pnjbtn { background-color: #8e6917e6;}
+
 
 /* SKIN NAVIDEÑO */
 
