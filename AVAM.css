@@ -466,7 +466,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 
 .pnjs2 {width: 360px; display: inline-block; padding: 15px; margin: auto;} 
 .pnjbtn { transition: 0.5s;background: #2a3340e6; width: 50px; height: 20px; border-radius: 100%; padding: 40px 25px; font-size: 9px; opacity: 0; letter-spacing: 1px; font-family: calibri; } 
-.imaf1avam:hover .pnjbtn {opacity: 1;} 
+.pnjs2:hover .pnjbtn {opacity: 1;}
 .pnjs2 .nf2avam {font-size: 12px; line-height: 0px; padding-left: 15px; padding-bottom: 12px; color: #2a3340; vertical-align: top; margin-top: -8px; margin-bottom: 8px;} 
 .pnjs2 .cr-res { font-size: 10px; line-height: 14px; margin-top: -3px;padding-right: 4px;} 
 .pnjs2 .expavam-info { margin-left: 15px; width: 237px; } 
