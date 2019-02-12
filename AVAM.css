@@ -422,7 +422,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg { background: #0a0a0a; font-family: arial; font-size: 11px; margin: auto; padding: 20px; text-align: justify; width: 380px;}
 .rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px; vertical-align: top;}
 .rpg .op { padding: 0; border-left: 0px solid #232b3a;}
-.rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px;}
+.rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 2px 3px; padding: 0 0 4px;}
 .rpg .df2avam { font-size: 8px; width: auto; margin-bottom: -10px;}
 .rpg .caja { height: auto; background: #060606; border: 1px solid #111; font-family: calibri; letter-spacing: .5px; line-height: 8px; margin: 2px; text-transform: uppercase;}
 .rpg .pj .caja .stat, .rpg .op .caja .stat { width: 19px; display: inline-block; color: #333f56; font-weight: 900; padding: 7px 5px; font-size: 9px; text-align: center; margin-top: 0px; border-right: 1px solid #0a0a0a; font-family: arial; background: #040404;}
