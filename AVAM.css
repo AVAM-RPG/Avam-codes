@@ -473,6 +473,60 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: #422f4a; } .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: #422f4a; border-color: #422f4a;} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: #422f4a;} .pnjs2.romano .pnjbtn { background-color: #422f4ae6;} 
 .pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: #8e6917; } .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: #8e6917; border-color: #b88939;} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: #8e6917;} .pnjs2.griego .pnjbtn { background-color: #8e6917e6;}
 
+/*Tablilla de Logros*/
+
+.achi {
+  width: 174px;
+  height: 95px;
+  vertical-align: top;
+  display: inline-block;
+}
+.achi1 {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  vertical-align: top;
+  display: inline-block;
+}
+.achi2 {
+  width: 140px;
+  height: 25px;
+  background-color: #000;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 5px;
+}
+.achi3 {
+  width: 150px;
+  height: 40;
+  background-color: #0f0f0f;
+  margin-top: 5px;
+  overflow: auto;
+  padding: 10px;
+}
+.achtext1 {
+  font-family: Arial;
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2a3340;
+  margin: 6px;
+}
+.achtext2 {
+  font-size: 11px;
+  text-align: justify;
+  line-height: 120%;
+}
+.achtext3 {
+  font-family: Arial;
+  font-size: 9px;
+  font-weight: 800;
+  text-align: center;
+  color: #bfbfbf;
+  margin: 6px;
+}
+
 /* SKIN NAVIDEÑO */
 
 .forum-78 .headeravam {background: url(https://i.imgur.com/wIfgria.gif) center;border-bottom: 10px solid #030303;}
