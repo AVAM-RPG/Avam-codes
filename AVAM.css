@@ -523,8 +523,8 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
   font-size: 9px;
   font-weight: 800;
   text-align: center;
-  color: #bfbfbf;
   margin: 6px;
+  line-height: 13px;  
 }
 
 /* SKIN NAVIDEÑO */
