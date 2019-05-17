@@ -429,38 +429,47 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;overflow: auto; max-height: 100px;}
 .rpg .datos strong { color: #2a3340; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
 .rpg .op .datos { padding: 12px; height: 143px; max-height: 143px; overflow: auto; margin: 0; }
-
 .rpg.mini { width: 230px; }
 .rpg.mini .pj { width: 100%; padding: 0px; }
 
-.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong {color: #6f2727;}
+.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
 .arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
-.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong {color: #736e8e;}
+.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
 .lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
-.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong {color: #707070;}
+.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong, .maza.rpg c:before {color: #707070;}
 .maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
-.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong {color: #707070;}
+.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong, .maza.rpg c:before {color: #707070;}
 .hacha.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
-.espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam{ border-color: #34694e;} 
-.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .desarmado.rpg .datos strong {color: #34694e;}
-.espada.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
-.daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #27476f;} 
-.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #27476f;} 
-.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
-.daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
+.espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam {border-color: #34694e;} 
+.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .escudo.rpg .datos strong, .espada.rpg c:before, .escudo.rpg c:before {color: #34694e;}
+.espada.rpg .df222::-webkit-scrollbar-thumb, .escudo.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
+.daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #466388;} 
+.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #466388;} 
+.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #466388 !important;} 
+.daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #466388;} 
 
-.tgrom .df3a {border-color: #483b5d;} 
+.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: #483b5d;} 
 .rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
-.rpg.tgrom .nf2avam {border-color: #483b5d;} 
 .rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
-.tggri .df3a {border-color: #8e6917;} 
+.tggri .df3a, .rpg.tggri .nf2avam {border-color: #8e6917;} 
 .rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #B88939}
-.rpg.tggri .nf2avam {border-color: #B88939;} 
 .rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #B88939;} 
-.tgcel .df3a {border-color: #3F576B;} 
+.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: #3F576B;} 
 .rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
-.rpg.tgcel .nf2avam {border-color: #3F576B;} 
 .rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
+
+.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #605b1c;} 
+.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #605b1c}
+.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #605b1c;}
+.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #8b968b;} 
+.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #8b968b}
+.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #8b968b;} 
+.grupo-c .df3a, .rpg.grupo-c .nf2avam {border-color: #7c704a;} 
+.rpg.grupo-c .caja .stat, .rpg.grupo-c .datos strong, .rpg.grupo-c c:before, .res.grupo-c strong {color: #7c704a}
+.rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
+.grupo-bd .df3a, .rpg.grupo-d .nf2avam {border-color: #74564b;} 
+.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #74564b}
+.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #74564b;} 
 
 /* TABLILLA DE PNJ */
 
