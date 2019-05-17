@@ -433,17 +433,19 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg.mini { width: 230px; }
 .rpg.mini .pj { width: 100%; padding: 0px; }
 
-.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat {color: #6f2727;}
+.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong {color: #6f2727;}
 .arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
-.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat {color: #736e8e;}
+.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong {color: #736e8e;}
 .lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
-.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat {color: #707070;}
+.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong {color: #707070;}
 .maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong {color: #707070;}
+.hacha.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
 .espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam{ border-color: #34694e;} 
-.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat {color: #34694e;}
+.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .desarmado.rpg .datos strong {color: #34694e;}
 .espada.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
 .daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #27476f;} 
-.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat {color: #27476f;} 
+.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #27476f;} 
 .daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
 
