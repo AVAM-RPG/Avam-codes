@@ -458,18 +458,18 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
 .rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
 
-.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #605b1c;} 
-.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #605b1c}
-.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #605b1c;}
-.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #8b968b;} 
-.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #8b968b}
-.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #8b968b;} 
+.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
+.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #82545a}
+.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #82545a;}
+.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #587758;} 
+.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #587758}
+.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #587758;} 
 .grupo-c .df3a, .rpg.grupo-c .nf2avam {border-color: #7c704a;} 
 .rpg.grupo-c .caja .stat, .rpg.grupo-c .datos strong, .rpg.grupo-c c:before, .res.grupo-c strong {color: #7c704a}
 .rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
-.grupo-bd .df3a, .rpg.grupo-d .nf2avam {border-color: #74564b;} 
-.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #74564b}
-.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #74564b;} 
+.grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
+.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
+.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
 
 /* TABLILLA DE PNJ */
 
