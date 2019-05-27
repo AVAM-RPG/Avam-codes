@@ -184,7 +184,7 @@ overflow: hidden;
   -o-border-radius: 150px; 
   -webkit-border-radius: 150px; 
   border-radius: 150px; 
-  border: 4px solid #2a3340; 
+  border: 4px solid #82742c; 
   background-color: #0a0a0a; 
   width: 150px; 
   height: 150px; 
@@ -197,7 +197,7 @@ overflow: hidden;
   display: inline-block;
 }
 .expavam-name {
-  border-bottom: 1px solid #2a3340; 
+  border-bottom: 1px solid #82742c; 
   padding-bottom: 10px;
   
   text-align: center;
@@ -213,7 +213,7 @@ overflow: hidden;
   width: 250px; 
   margin-top: -15px;
   font-size: 10px;
-  color: #2a3340;
+  color: #82742c;
 }
 .expavam-infodiv.b {margin-top: -15px;}
 .expavam-infoicon {
@@ -221,7 +221,7 @@ overflow: hidden;
   -o-border-radius: 15px; 
   -webkit-border-radius: 15px; 
   border-radius: 15px; 
-  background-color: #2a3340; 
+  background-color: #82742c; 
   color: #b5b5b5; 
   font-size: 8px; 
   height: 20px; 
@@ -257,7 +257,7 @@ overflow: hidden;
   letter-spacing: 0px; 
   font-weight: 900; 
   font-family: arial; 
-  color: #2a3340;
+  color: #82742c;
 }
 .expavam-a, .exp12 {
   text-align: left; 
@@ -266,7 +266,7 @@ overflow: hidden;
   font-weight: 900; 
   letter-spacing: -1px; 
   color: #b5b5b5; 
-  border-bottom: 1px solid #2a3340; 
+  border-bottom: 1px solid #82742c; 
   padding-bottom: 5px; 
   margin-bottom: -20px;
 }
@@ -282,7 +282,7 @@ overflow: hidden;
   letter-spacing: 0px; 
   font-weight: 900; 
   font-family: arial; 
-  color: #2a3340; 
+  color: #82742c; 
   text-transform: uppercase;
 }
 
@@ -301,7 +301,7 @@ overflow: hidden;
 /**** CSS EXTRA TABLILLAS ****/
 
 .post .content .tbase-text.text-lista strong {
-color: #2a3340;
+color: #82742c;
 font-family: arial;
 font-size: 10px;
 font-weight: 900;
@@ -310,7 +310,7 @@ text-transform: uppercase;
 }
 
 .aa { margin: auto; height: auto; width: 270px; } 
-.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid #2a3340;}
+.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid #82742c;}
 .ad { background: #0a0a0a; font-family: arial; margin: 0px auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; }
 
 /*Tablilla del Sistema de Entrenamientos*/
@@ -326,7 +326,7 @@ text-transform: uppercase;
   font-family: Arial;
   font-weight: 900;
   font-size: 12px;
-  color: #2a3340;
+  color: #82742c;
   text-align: center;
   margin-top: 3px;
 }
@@ -381,7 +381,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 
 /*MISIONES*/
 .misiones {line-height: 10px;} 
-.misiones i {border-right: 1px solid #2a3340;color: #2a3340; padding-right: 4px; margin-right: 5px; height: 15px; min-width: 16px; text-align: center; } 
+.misiones i {border-right: 1px solid #82742c;color: #82742c; padding-right: 4px; margin-right: 5px; height: 15px; min-width: 16px; text-align: center; } 
 .misiones .fas.fa-dollar-sign {font-size: 14px;} 
 .misiones-info {vertical-align: top; display: inline-block; font-family: calibri;font-size: 8.5px;font-weight: 900; letter-spacing: 0px; text-transform: uppercase; margin-top: 3px; } 
 .misiones .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri;font-size: 8px;font-weight: 900; letter-spacing: 1px;text-transform: uppercase; margin-top: 3px;} 
@@ -427,7 +427,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
 .rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;overflow: auto; max-height: 100px;}
-.rpg .datos strong { color: #2a3340; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
+.rpg .datos strong { color: #82742c; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
 .rpg .op .datos { padding: 12px; height: 143px; max-height: 143px; overflow: auto; margin: 0; }
 .rpg.mini { width: 230px; }
 .rpg.mini .pj { width: 100%; padding: 0px; }
@@ -474,9 +474,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 /* TABLILLA DE PNJ */
 
 .pnjs2 {width: 360px; display: inline-block; padding: 15px; margin: auto;} 
-.pnjbtn { transition: 0.5s;background: #2a3340e6; width: 50px; height: 20px; border-radius: 100%; padding: 40px 25px; font-size: 9px; opacity: 0; letter-spacing: 1px; font-family: calibri; } 
+.pnjbtn { transition: 0.5s;background: #82742c; width: 50px; height: 20px; border-radius: 100%; padding: 40px 25px; font-size: 9px; opacity: 0; letter-spacing: 1px; font-family: calibri; } 
 .pnjs2:hover .pnjbtn {opacity: 1;}
-.pnjs2 .nf2avam {font-size: 12px; line-height: 0px; padding-left: 15px; padding-bottom: 12px; color: #2a3340; vertical-align: top; margin-top: -8px; margin-bottom: 8px;} 
+.pnjs2 .nf2avam {font-size: 12px; line-height: 0px; padding-left: 15px; padding-bottom: 12px; color: #82742c; vertical-align: top; margin-top: -8px; margin-bottom: 8px;} 
 .pnjs2 .cr-res { font-size: 10px; line-height: 14px; margin-top: -3px;padding-right: 4px;} 
 .pnjs2 .expavam-info { margin-left: 15px; width: 237px; } 
 .pnjs2 .expavam-infot { width: 90px; } 
@@ -521,7 +521,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
-  color: #2a3340;
+  color: #82742c;
   margin: 6px;
 }
 .achtext2 {
