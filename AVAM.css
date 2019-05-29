@@ -286,9 +286,9 @@ overflow: hidden;
   text-transform: uppercase;
 }
 
-.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .expavam .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .expavam .bf1 .nf2avam, .usergroup-group-griegos .expavam .imaf111 { border-color: #8e6917;}
-.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .expavam .df2 strong, .usergroup-group-griegos .expavam .cuadroinformativo strong {color: #8e6917;}
-.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: #8e6917;}
+.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .expavam .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .expavam .bf1 .nf2avam, .usergroup-group-griegos .expavam .imaf111 { border-color: #A16422;}
+.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .expavam .df2 strong, .usergroup-group-griegos .expavam .cuadroinformativo strong {color: #A16422;}
+.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: #A16422;}
 
 .usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .expavam .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .expavam .bf1 .nf2avam, .usergroup-group-romanos .expavam .imaf111 { border-color: #422f4a;}
 .usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .expavam .df2 strong, .usergroup-group-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
@@ -402,9 +402,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .tbase-destacado.otros {color: #636363;} .cr-icon.otros { background-color: #636363;}
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
-.usergroup-group-griegos .postprofile-rank {border-color: #8e6917;}
-.usergroup-group-griegos .postprofile-field-label {border-color: #8e6917;}
-.usergroup-group-griegos .postprofile-contact a:hover {border-color: #8e6917;text-decoration: none;transition:0.5s;}
+.usergroup-group-griegos .postprofile-rank {border-color: #A16422;}
+.usergroup-group-griegos .postprofile-field-label {border-color: #A16422;}
+.usergroup-group-griegos .postprofile-contact a:hover {border-color: #A16422;text-decoration: none;transition:0.5s;}
 .usergroup-group-romanos .postprofile-rank {border-color: #422f4a;}
 .usergroup-group-romanos .postprofile-field-label {border-color: #422f4a;}
 .usergroup-group-romanos .postprofile-contact a:hover {border-color: #422f4a;text-decoration: none;transition:0.5s;}
@@ -451,9 +451,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .tgrom .df3a, .rpg.tgrom .nf2avam {border-color: #483b5d;} 
 .rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
 .rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
-.tggri .df3a, .rpg.tggri .nf2avam {border-color: #8e6917;} 
-.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #B88939}
-.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #B88939;} 
+.tggri .df3a, .rpg.tggri .nf2avam {border-color: #A16422;} 
+.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #A16422}
+.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #A16422;} 
 .tgcel .df3a, .rpg.tgcel .nf2avam {border-color: #3F576B;} 
 .rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
 .rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
@@ -482,7 +482,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .pnjs2 .expavam-infot { width: 90px; } 
 .pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: #3F576B; } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: #3F576B; border-color: #3F576B;} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: #3F576B;} .pnjs2.celta .pnjbtn { background-color: #3f576be6;} 
 .pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: #422f4a; } .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: #422f4a; border-color: #422f4a;} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: #422f4a;} .pnjs2.romano .pnjbtn { background-color: #422f4ae6;} 
-.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: #8e6917; } .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: #8e6917; border-color: #b88939;} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: #8e6917;} .pnjs2.griego .pnjbtn { background-color: #8e6917e6;}
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: #A16422; } .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: #A16422; border-color: #A16422;} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: #A16422;} .pnjs2.griego .pnjbtn { background-color: #A16422e6;}
 
 /*Tablilla de Logros*/
 
