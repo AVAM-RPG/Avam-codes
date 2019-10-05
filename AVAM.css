@@ -392,8 +392,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 /*** BESTIARIO ***/
 .col1, .col2 { display: inline-block; vertical-align: top; width: 192px; } 
 .col1 .info {width: 389px;} .col2 .info { margin-left: -197px; } 
+.bestiario .tascen .ra {color: #293a37;}
 .bestiario .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri; font-size: 8px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; margin-top: -5px; margin-left: 10px;} 
-.bestiario.grupal .click i {color: #75684c;} .bestiario.celta .click i {color: #3f576b;} .bestiario.otros .click i {color: #636363;} 
+.bestiario.grupal a.click, .bestiario.grupal .click i {color: #75684c;} .bestiario.celta a.click, .bestiario.celta .click i {color: #3f576b;} .bestiario.otros a.click, .bestiario.otros .click i {color: #636363;} 
 .bestiario .info.grupal {border-top: 1px solid #75684c; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
 .bestiario .info.otros {border-top: 1px solid #636363; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
 .bestiario .info.celta {border-top: 1px solid #3f576b; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
