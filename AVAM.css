@@ -212,6 +212,7 @@ overflow: hidden;
   line-height: 9px; 
   width: 250px; 
   margin-top: -15px;
+  margin-bottom: 4px;
   font-size: 10px;
   color: var(--color-avam);
 }
@@ -486,9 +487,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .pnjs2 .cr-res { font-size: 10px; line-height: 14px; margin-top: -3px;padding-right: 4px;} 
 .pnjs2 .expavam-info { margin-left: 15px; width: 237px; } 
 .pnjs2 .expavam-infot { width: 90px; } 
-.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: #3F576B; } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: #3F576B; border-color: #3F576B;} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: #3F576B;} .pnjs2.celta .pnjbtn { background-color: #3f576be6;} 
-.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: #422f4a; } .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: #422f4a; border-color: #422f4a;} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: #422f4a;} .pnjs2.romano .pnjbtn { background-color: #422f4ae6;} 
-.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: #A16422; } .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: #A16422; border-color: #A16422;} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: #A16422;} .pnjs2.griego .pnjbtn { background-color: #A16422e6;}
+.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-avam-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: #3F576B; border-color: var(--color-avam-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-avam-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-avam-celtas);} 
+.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: var(--color-avam-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-avam-romanos); border-color: var(--color-avam-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-avam-romanos);} .pnjs2.romano .pnjbtn { background-color: var(--color-avam-romanos);} 
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: var(--color-avam-griegos2);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-avam-griegos2); border-color: var(--color-avam-griegos2);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-avam-griegos2);} .pnjs2.griego .pnjbtn { background-color: var(--color-avam-griegos2);}
 
 /*Tablilla de Logros*/
 
