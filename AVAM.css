@@ -441,7 +441,7 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .rpg .caja.pc, .rpg .caja.pr, .rpg .caja.pe, .rpg .caja.vel {display:inline-block; width: calc(50% - 6px);} 
 .rpg .pj .puntos, .rpg .op .puntos {display: inline-block; margin: auto; width: calc(100% - 30px); text-align: center; vertical-align: top; padding-top: 7px; letter-spacing: 2px; } 
 .rpg c:before {content: '•'; width: 5px; color: var(--color-avam); display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
-.rpg c {margin-right: -5px; } .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
+.rpg c {margin-right: -5px; display: contents;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
 .rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;overflow: auto; max-height: 100px;}
