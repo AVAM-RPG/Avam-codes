@@ -31,6 +31,15 @@
 .usergroup-group-alek .campoperfil.c9::-webkit-scrollbar-thumb, .usergroup-group-alek .lineainfo {background: var(--color-alek);} 
 .usergroup-group-alek .campoperfil .titulo { border-color: var(--color-alek);} 
 
+.usergroup-group-zaytun .perfil .postprofile-rank, .usergroup-group-zaytun .postprofile-field.postprofile-field-estadisticas .postprofile-field-content { background: var(--color-zaytun);}
+.usergroup-group-zaytun .postprofile-field-label, .usergroup-group-zaytun .campoperfil .titulo {border-color: var(--color-zaytun);}
+.usergroup-group-zaytun .postprofile-contact a:hover {border-color: var(--color-zaytun);text-decoration: none;transition:0.5s;}
+.usergroup-group-zaytun .servicio .dato, .usergroup-group-zaytun .mensajes .dato, .usergroup-group-zaytun .monedas .dato {color: var(--color-zaytun);}
+
+.usergroup-group-zaytun .servicio .dato, .usergroup-group-zaytun .mensajes .dato, .usergroup-group-zaytun .monedas .dato, .usergroup-group-zaytun .inventario strong {color: var(--color-zaytun);}
+.usergroup-group-zaytun .campoperfil.c9::-webkit-scrollbar-thumb, .usergroup-group-zaytun .lineainfo {background: var(--color-zaytun);}
+.usergroup-group-zaytun .campoperfil .titulo { border-color: var(--color-zaytun);}
+
 /* Selector de color avanzado */
 .colorpicker {
 width: 356px;
