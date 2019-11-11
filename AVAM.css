@@ -423,6 +423,9 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .bestiarioinfo {display: inline-block; line-height: 10px; margin-left: 10px; vertical-align: top; margin-top: -10px;}
 .tbase-destacado.celta {color: #3f576b;} .cr-icon.celta { background-color: #3f576b;} 
 .tbase-destacado.otros {color: #636363;} .cr-icon.otros { background-color: #636363;}
+.bestiario .info.grupal b {color: #75684c;} 
+.bestiario .info.otros b {color: #636363;} 
+.bestiario .info.celta b {color: #3f576b;}
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
 .usergroup-group-griegos .postprofile-rank, .usergroup-group-griegos .postprofile-field.postprofile-field-estadisticas .postprofile-field-content { background: var(--color-avam-griegos); }
