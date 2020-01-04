@@ -209,6 +209,10 @@
 }
 .colorpicker { z-index: 3; }
 
+div.sceditor-dropdown {
+  border: 0px!important;
+   }
+
 /**** EXPEDIENTES ****/
 .expavam-header {
   background: #0a0a0a; 
