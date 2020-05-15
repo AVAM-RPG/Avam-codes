@@ -6,7 +6,7 @@
 .mf { background: #000000cf; color: #c5c5c5; font-family: calibri; font-size: 13px; height: auto; line-height: 13px; margin: auto auto 13px; outline: 20px solid #000000cf; outline-offset: 1px; padding: 21px; text-align: justify; width: 360px; } 
 .dfxxx { border-bottom: 1px solid #09625d; color: #fff; font-family: Calibri; font-size: 9px; height: 13px; letter-spacing: 9px; margin-bottom: 5px; padding: 33px; text-align: center; text-transform: uppercase; width: auto; } 
 .df2avam { font-family: calibri; font-size: 10px; letter-spacing: 1px; line-height: 9px; margin: auto; padding: 4px; text-align: center; text-transform: uppercase; width: 290px; } 
-.subfr { color: #09625d; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; text-align: center; }
+.afiliacion .subfr { color: #09625d; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; text-align: center; }
 
 
 .tbase.afiliacion { width: 470px;height: 200px; margin: auto;} 
@@ -21,4 +21,4 @@
 .tbase-text.afiliacion dl.codebox { font-size: 11px; margin: 5px; background: #040404; padding: 15px 15px 5px; color: #b5b5b5; border: 0;  text-align: center;} 
 .tbase-text.afiliacion dl.codebox dt {font-style: normal; color: #2a3340; font-family: arial; font-size: 10px; font-weight: 900; margin: -7px -7px 0px; text-align: center; text-transform: uppercase; background: #040404; padding: 0 0 5px; border-bottom: 2px solid #0a0a0a !important; letter-spacing: 0;} 
 .tbase-text.afiliacion .spoiler .spoiler_content { margin-top: 5px; } 
-.tbase-textafiliacion dl.codebox code { color: #e3e3e3; font-size: 11px; font-family: arial;}
+.tbase-text.afiliacion dl.codebox code { color: #e3e3e3; font-size: 11px; font-family: arial;}
