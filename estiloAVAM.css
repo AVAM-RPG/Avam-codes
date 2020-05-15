@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
+/*Colores de grupos*/
+.postgroup-narracion .post-cabecera-icon, .postgroup-narracion .postprofile-icon, .postgroup-narracion .postprofile-contact span a, .profilegroup-narracion .perfil-icon .dato, .profilegroup-narracion #botones1 .botoncito1  {
+    border-color: var(--color-narracion);
+}
+.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
+    border-color: var(--color-romanos);
+}
+.postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile-icon, .postgroup-griegos .postprofile-contact span a, .profilegroup-griegos .perfil-icon .dato, .profilegroup-griegos #botones1 .botoncito1  {
+    border-color: var(--color-griegos);
+}
+.postgroup-celtas .post-cabecera-icon, .postgroup-celtas .postprofile-icon, .postgroup-celtas .postprofile-contact span a, .profilegroup-celtas .perfil-icon .dato, .profilegroup-celtas #botones1 .botoncito1  {
+    border-color: var(--color-celtas);
+}
+.postgroup-narracion .postprofile-field.postprofile-field-nivel, .postgroup-narracion .postprofile-field-edad .postprofile-field-content, .postgroup-narracion .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-narracion .postprofile-field-monedas .postprofile-field-content, .postgroup-narracion .postprofile-field-mensajes .postprofile-field-content, .postgroup-narracion .default-icon, .postgroup-narracion .postprofile-field-content .ra, .profilegroup-narracion .campoperfil .dato, .profilegroup-narracion .perfil-titulo, .profilegroup-narracion .campoperfil.c10 .dato .ra, .profilegroup-narracion .botoncito1.activo {
+    color: var(--color-narracion);
+}
+.postgroup-romanos .postprofile-field.postprofile-field-nivel, .postgroup-romanos .postprofile-field-edad .postprofile-field-content, .postgroup-romanos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-romanos .postprofile-field-monedas .postprofile-field-content, .postgroup-romanos .postprofile-field-mensajes .postprofile-field-content, .postgroup-romanos .default-icon, .postgroup-romanos .postprofile-field-content .ra, .profilegroup-romanos .campoperfil .dato, .profilegroup-romanos .perfil-titulo, .profilegroup-romanos .campoperfil.c10 .dato .ra, .profilegroup-romanos .botoncito1.activo {
+    color: var(--color-romanos);
+}
+.postgroup-griegos .postprofile-field.postprofile-field-nivel, .postgroup-griegos .postprofile-field-edad .postprofile-field-content, .postgroup-griegos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-griegos .postprofile-field-monedas .postprofile-field-content, .postgroup-griegos .postprofile-field-mensajes .postprofile-field-content, .postgroup-griegos .default-icon, .postgroup-griegos .postprofile-field-content .ra, .profilegroup-griegos .campoperfil .dato, .profilegroup-griegos .perfil-titulo, .profilegroup-griegos .campoperfil.c10 .dato .ra, .profilegroup-griegos .botoncito1.activo {
+    color: var(--color-griegos);
+}
+.postgroup-celtas .postprofile-field.postprofile-field-nivel, .postgroup-celtas .postprofile-field-edad .postprofile-field-content, .postgroup-celtas .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-celtas .postprofile-field-monedas .postprofile-field-content, .postgroup-celtas .postprofile-field-mensajes .postprofile-field-content, .postgroup-celtas .default-icon, .postgroup-celtas .postprofile-field-content .ra, .profilegroup-celtas .campoperfil .dato, .profilegroup-celtas .perfil-titulo, .profilegroup-celtas .campoperfil.c10 .dato .ra, .profilegroup-celtas .botoncito1.activo {
+    color: var(--color-celtas);
+}
+.postgroup-narracion .postprofile-avatar {
+    outline-color: var(--color-narracion);
+}
+.postgroup-romanos .postprofile-avatar {
+    outline-color: var(--color-romanos);
+}
+.postgroup-griegos .postprofile-avatar {
+    outline-color: var(--color-griegos);
+}
+.postgroup-celtas .postprofile-avatar {
+    outline-color: var(--color-celtas);
+}
+
 /**** FUENTES ****/ 
 @font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
@@ -255,3 +293,67 @@ border: 0px!important;}
 div.sceditor-dropdown textarea{
 border-top: 0px!important;
 border: 0px!important;}
+
+/*NOTIFICACIONES*/
+a#fa_show {display:none!important;}
+#fa_toolbar {z-index:5!important;position:fixed;top:-50px}
+#fa_toolbar_hidden {background:transparent;}
+a#fa_notifications:hover, #fa_toolbar #fa_right #notif_list li.see_all a:hover {text-decoration: none;}
+#fa_right #fa_notifications {
+margin-top:68px!important; text-transform: uppercase; font-weight: bold;
+font-family: calibri;
+font-size: 9px;
+font-weight: 700;
+letter-spacing: 1px;
+background: var(--fondo-oscuro);
+border: 1px solid var(--color-acento);
+padding: 5px 10px;
+height: auto;
+line-height: 14px;
+color: var(--color-texto-claro);
+}
+#fa_menu:hover :visited, #fa_toolbar > #fa_right.notification > #fa_notifications {
+background-color: var(--fondo-oscuro);
+color: var(--color-texto-claro);
+}
+#fa_right #fa_notifications.unread {background: var(--color-acento);}
+#fa_toolbar #fa_right #notif_list {
+border-color: #0a0a0a;
+background: var(--fondo-oscuro);
+border-top: 1px;
+font-size: 10px;
+}
+#fa_toolbar #fa_right #notif_list li.see_all, #fa_toolbar #fa_right #notif_list li {
+background: var(--fondo-oscuro);
+color: var(--color-texto);
+}
+#fa_toolbar #fa_right #notif_list li.unread {
+background: var(--fondo-oscuro);
+padding: 5px;
+font-weight: normal;
+}
+#fa_toolbar #fa_right #notif_list li .content {min-height: auto;}
+#fa_toolbar #fa_right #notif_list li .contentText {
+width: 260px;
+font-size: 12px;
+height: auto;
+}
+#fa_toolbar #fa_right #notif_list li .contentText a {
+color: var(--color-acento) !important;
+text-decoration: none !important;
+font-weight: bold;
+}
+#fa_toolbar #fa_right #notif_list li a.delete {
+background: transparent url(https://i.imgur.com/NtLwPZ8.png) no-repeat;
+height: 12px;
+width: 22px;
+display: inline-block;
+text-decoration: none;
+}
+#fa_toolbar #fa_right #notif_list li a.delete::before {
+font-family: 'Font Awesome 5 Free';
+content: '\f057';
+visibility: visible;
+color: var(--color-acento) !important;
+ }
+#fa_toolbar #fa_right #notif_list li hr {display: none;}
