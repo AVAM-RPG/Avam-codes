@@ -1,366 +1,13 @@
 @charset "UTF-8";
 
-/**** CSS EXTRA TABLILLAS ****/
-.post .content .tbase-text.text-lista strong {
-color: var(--color-acento);
-font-family: arial;
-font-size: 10px;
-font-weight: 900;
-letter-spacing: 0;
-text-transform: uppercase;
-}
-
-.aa { margin: auto; height: auto; width: 270px; } 
-.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
-.ad { background: #0a0a0a; font-family: arial; margin: 0px auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; }
-
-/**** EXPEDIENTES ****/
-.expavam-header {
-  background: #0a0a0a; 
-  padding: 20px 20px 15px 20px; 
-  margin: auto; 
-  font-family: arial; 
-  width: 430px;
-  margin-bottom: -35px;
-}
-.expavam-img {
-   display: inline-block; 
-  -moz-border-radius: 150px; 
-  -o-border-radius: 150px; 
-  -webkit-border-radius: 150px; 
-  border-radius: 150px; 
-  border: 4px solid var(--color-acento); 
-  background-color: #0a0a0a; 
-  width: 150px; 
-  height: 150px; 
-  background-size: cover; 
-}
-.expavam-info {
-  width: 225px; 
-  margin-left: 25px; 
-  vertical-align: top; 
-  display: inline-block;
-}
-.expavam-name {
-  border-bottom: 1px solid var(--color-acento); 
-  padding-bottom: 10px;
-  
-  text-align: center;
-  text-transform: uppercase; 
-  font-size: 14px; 
-  font-weight: 900; 
-  letter-spacing: -1px; 
-  color: #b5b5b5; 
-}
-.expavam-infodiv {
-  text-align: left; 
-  line-height: 9px; 
-  width: 250px; 
-  margin-top: -15px;
-  margin-bottom: 4px;
-  font-size: 10px;
-  color: var(--color-acento);
-}
-.expavam-infodiv.b {margin-top: -15px;}
-.expavam-infoicon {
-  -moz-border-radius: 15px; 
-  -o-border-radius: 15px; 
-  -webkit-border-radius: 15px; 
-  border-radius: 15px; 
-  background-color: var(--color-acento); 
-  color: #b5b5b5; 
-  font-size: 8px; 
-  height: 20px; 
-  text-align: center; 
-  width: 20px; 
-  display: inline-block; 
-  vertical-align: super;
-}
-.expavam-infoicon i {
-    font-size: 10px;
-    padding: 5px;
-    margin: 0px;
-    display: inline-block;
-}
-.expavam-infoicon .fa-university {
-  margin-top: -1px;
-}
-.expavam-infoicon .ra-bowie-knife{
-  font-size: 10px; 
-}  
-.expavam-infot {
-  color: #b5b5b5; 
-  font-family: calibri; 
-  font-size: 7.5px; 
-  font-weight: normal; 
-  letter-spacing: 1px; 
-  text-transform: uppercase; 
-  display: inline-block; 
-  min-width: 70px;
-}
-.expavam-infod {
-  font-size: 10px;
-  letter-spacing: 0px; 
-  font-weight: 900; 
-  font-family: arial; 
-  color: var(--color-acento);
-}
-.expavam-a, .exp12 {
-  text-align: left; 
-  text-transform: uppercase; 
-  font-size: 12px; 
-  font-weight: 900; 
-  letter-spacing: -1px; 
-  color: #b5b5b5; 
-  border-bottom: 1px solid var(--color-acento); 
-  padding-bottom: 5px; 
-  margin-bottom: -20px;
-}
-.expavam-stata {
-  font-family: calibri; 
-  font-size: 9.5px; 
-  font-weight: normal; 
-  letter-spacing: 1px; 
-  text-transform: uppercase;
-}
-.expavam-statb {
-  font-size: 10px;
-  letter-spacing: 0px; 
-  font-weight: 900; 
-  font-family: arial; 
-  color: var(--color-acento); 
-  text-transform: uppercase;
-}
-
-.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .expavam .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .expavam .bf1 .nf2avam, .usergroup-group-griegos .expavam .imaf111 { border-color: #A16422;}
-.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .expavam .df2 strong, .usergroup-group-griegos .expavam .cuadroinformativo strong {color: #A16422;}
-.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .lineainfo, .usergroup-group-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-griegos);}
-
-.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .expavam .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .expavam .bf1 .nf2avam, .usergroup-group-romanos .expavam .imaf111 { border-color: #422f4a;}
-.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .expavam .df2 strong, .usergroup-group-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
-.usergroup-group-romanos .expavam-infoicon, .usergroup-group-romanos .lineainfo,.usergroup-group-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color--romanos);}
-
-.usergroup-group-celtas .expavam-img, .usergroup-group-celtas .expavam-name, .usergroup-group-celtas .expavam .tbase-text, .usergroup-group-celtas .expavam .expavam-a, .usergroup-group-celtas .imaf1, .usergroup-group-celtas .expavam .exp12, .usergroup-group-celtas .nf, .usergroup-group-celtas .expavam .bf1 .nf2avam, .usergroup-group-celtas.expavam  .expavam .imaf111 { border-color: #3F576B;}
-.usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .expavam .df2 strong, .usergroup-group-celtas .expavam .cuadroinformativo strong {color: #3F576B;}
-.usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .lineainfo, .usergroup-group-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-celtas);}
-
-/*Tablilla del Sistema de Entrenamientos*/
-.entcaja1 {
-  width: 96px;
-  height: 25px;
-  background-color: #040404;
-  display: inline-block;
-  margin-left: 1px;
-}
-.entxt1 {
-  font-family: Arial;
-  font-weight: 900;
-  font-size: 12px;
-  color: var(--color-acento);
-  text-align: center;
-  margin-top: 3px;
-}
-.entcaja2 {
-  vertical-align: top;
-  width: 96px;
-  height: 50px;
-  background-color: #0f0f0f;
-  display: inline-block;
-  margin-left: 1px;
-  margin-top: 1px;
-}
-.entxt2 {
-  font-family: Arial;
-  font-size: 10px;
-  color: #bfbfbf;
-  text-align: justify;
-  margin: 5px 10px;
-  line-height: 110%;
-}
-.entxt3 {
-  font-family: Arial;
-  font-size: 10px;
-  color: #bfbfbf;
-  text-align: center;
-  margin-top: 4px;
-}
-
-/*** TABLILLA BÚSQUEDA ***/
-.busquedatab { margin: auto; background: #0a0a0a; color: #b5b5b5; font-family: arial; font-size: 12px; font-weight: normal; padding: 40px; text-align: justify; width: 335px; } 
-.cnombrem { height: 53px; margin-top: 1px; width: 108px; padding: 19px; vertical-align: top; display: inline-block; border: 1px solid #131212; background: #0b0b0b; } 
-.nom { vertical-align: top; display: inline-block; width: 115px; font-size: 20px; text-align: center; font-family: arial; text-transform: uppercase; font-weight: 900; } 
-.textonombre { width: 105px; font-family: verdana; color: #fff; text-transform: uppercase; font-size: 5.4px; text-align: justify; margin-left: 5px; line-height: 10px; letter-spacing: 1.5px; } 
-.datosm { vertical-align: top; display: inline-block; font-size: 9.5px; font-family: arial; height: 71px; font-weight: 900; padding: 10px; margin-left: 2px; border: 1px solid #131212; background: #0b0b0b; margin-top: 1px; width: 163px; color: #273040; } 
-.datosm .col { display: inline-block; width: 80px; margin-top: 3px; line-height: 10px; } 
-datom { margin: 3px 0 -1px; display: block; } 
-rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter-spacing: 1px; font-weight: 400; font-size: 7px; display: block; } 
-.temas-icon { width: 25px; height: 20px; margin-top: 1px; margin-right: 5px; text-align: Center; font-weight: 900; background:#111; float: left; font-family: Arial; line-height: 19px; } 
-.extrainfo { vertical-align: top; display: inline-block; font-size: 9.5px; font-family: arial; height: 90px; padding: 10px; color: #ccc; border: 1px solid #131212; background: #0b0b0b; margin-top: 2px; overflow:auto; width: 199px; } 
-.imagentbr { width: 90px; height: 90px; vertical-align: top; display: inline-block; margin-top: 3px; margin-left: 2px; border: 10px solid #0b0b0b; outline: 1px solid #131212; }
-
-.bt1 {margin:auto;background:#0a0a0a;color:#b5b5b5;font-family:arial;font-size:12px;font-weight:400; padding:40px; text-align:justify;width:377px} 
-.tinformacion {font-size:9.5px; font-family:arial; height:185px; color:#ccc; background:#0b0b0b;overflow:auto; width:170px;float:right; padding-right:3px; border: 10px solid #0b0b0b; outline: #131212 solid 1px;} 
-.imgtb {width:160px;height:90px; border:10px solid #0b0b0b; outline:#131212 solid 1px} 
-.bt1 .datosm {margin: 3px 0 0 -1px;width: 160px;}
-
-.bt11 { margin: auto; background: #0a0a0a; color: #b5b5b5; outline: #131212 solid 1px; outline-offset: -40px;font-family: arial; font-size: 11px; font-weight: normal; padding: 40px; text-align: justify; width: 380px; } 
-.gcontainer { background: #0b0b0b; border: 10px solid #0b0b0b; width: 170px; margin: auto; display: inline-block; } 
-.z-info { font-family:arial; font-size: 10px; font-weight: 900; text-transform: uppercase; text-align: center; line-height: 170%; margin-top: 5px; } 
-.z-info-mini { text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; color: #b5b5b5; margin-top: -5px; } 
-.ch-text { width: 170px; padding: 5px 5px 0px 0px; overflow: auto!important; height: 65px; font-family: arial; font-size: 10px; line-height: 100%; text-align: justify; color: #afafaf; margin: auto; }
-
-/*MISIONES*/
-.misiones {line-height: 10px;} 
-.misiones i {border-right: 1px solid var(--color-acento);color: var(--color-acento); padding-right: 4px; margin-right: 5px; height: 15px; min-width: 16px; text-align: center; } 
-.misiones .fas.fa-dollar-sign {font-size: 14px;} 
-.misiones-info {vertical-align: top; display: inline-block; font-family: calibri;font-size: 8.5px;font-weight: 900; letter-spacing: 0px; text-transform: uppercase; margin-top: 3px; } 
-.misiones .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri;font-size: 8px;font-weight: 900; letter-spacing: 1px;text-transform: uppercase; margin-top: 3px;} 
-.misiones .click i {border-right: 0px; margin-left: -4px;} .misiones .info {line-height: 16px; margin-top: -10px; font-size: 11px;} 
-.misiones .expavam-a {line-height: 20px; margin-bottom: -7px;}
-
-/*** BESTIARIO ***/
-.col1, .col2 { display: inline-block; vertical-align: top; width: 192px; } 
-.col1 .info {width: 389px;} .col2 .info { margin-left: -197px; } 
-.bestiario .tascen .ra {color: #293a37;}
-.bestiario .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri; font-size: 8px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; margin-top: -5px; margin-left: 10px;} 
-.bestiario.grupal a.click, .bestiario.grupal .click i {color: #75684c;} .bestiario.celta a.click, .bestiario.celta .click i {color: #3f576b;} .bestiario.otros a.click, .bestiario.otros .click i {color: #636363;} 
-.bestiario .info.grupal {border-top: 1px solid #75684c; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
-.bestiario .info.otros {border-top: 1px solid #636363; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
-.bestiario .info.celta {border-top: 1px solid #3f576b; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
-.info.grupal i { color: #75684c;} .info.celta i { color: #3f576b;} .info.otros i { color: #636363;} 
-.bestiarioinfo {display: inline-block; line-height: 10px; margin-left: 10px; vertical-align: top; margin-top: -10px;}
-.tbase-destacado.celta {color: #3f576b;} .cr-icon.celta { background-color: #3f576b;} 
-.tbase-destacado.otros {color: #636363;} .cr-icon.otros { background-color: #636363;}
-.bestiario .info.grupal b {color: #75684c;} 
-.bestiario .info.otros b {color: #636363;} 
-.bestiario .info.celta b {color: #3f576b;}
-
-/***** TABLILLA DE STATS + TABLILLAS DE TRAMAS *****/
-.rpg { background: #0a0a0a; font-family: arial; font-size: 11px; margin: auto; padding: 20px; text-align: justify; width: 380px;}
-.rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px; vertical-align: top;}
-.rpg .op { padding: 0; border-left: 0px solid #232b3a;}
-.rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 2px 3px; padding: 0 0 4px;}
-.rpg .df2avam { font-size: 8px; width: auto; margin-bottom: -10px;}
-.rpg .caja { height: auto; background: #060606; border: 1px solid #111; font-family: calibri; letter-spacing: .5px; line-height: 8px; margin: 2px; text-transform: uppercase;}
-.rpg .pj .caja .stat, .rpg .op .caja .stat { width: 19px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 9px; text-align: center; margin-top: 0px; border-right: 1px solid #0a0a0a; font-family: arial; background: #040404;}
-.rpg .caja.pc, .rpg .caja.pr, .rpg .caja.pe, .rpg .caja.vel {display:inline-block; width: calc(50% - 6px);} 
-.rpg .pj .puntos, .rpg .op .puntos {display: inline-block; margin: auto; width: calc(100% - 30px); text-align: center; vertical-align: top; padding-top: 7px; letter-spacing: 2px; } 
-.rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
-.rpg c {margin-right: -5px; display: contents;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
-.rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
-.rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
-.rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px; padding: 5px; background: #060606; border: 1px solid #111;overflow: auto; max-height: 100px;}
-.rpg .datos strong { color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
-.rpg .op .datos { padding: 12px; height: 143px; max-height: 143px; overflow: auto; margin: 0; }
-.rpg.mini { width: 230px; }
-.rpg.mini .pj { width: 100%; padding: 0px; }
-
-.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
-.arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
-.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
-.lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
-.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong, .maza.rpg c:before {color: #707070;}
-.maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
-.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong, .maza.rpg c:before {color: #707070;}
-.hacha.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
-.espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam {border-color: #34694e;} 
-.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .escudo.rpg .datos strong, .espada.rpg c:before, .escudo.rpg c:before {color: #34694e;}
-.espada.rpg .df222::-webkit-scrollbar-thumb, .escudo.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
-.daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #466388;} 
-.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #466388;} 
-.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #466388 !important;} 
-.daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #466388;} 
-
-.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: #483b5d;} 
-.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
-.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
-.tggri .df3a, .rpg.tggri .nf2avam {border-color: #A16422;} 
-.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #A16422}
-.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #A16422;} 
-.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: #3F576B;} 
-.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
-.rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
-
-.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
-.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #82545a}
-.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #82545a;}
-.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #587758;} 
-.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #587758}
-.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #587758;} 
-.grupo-c .df3a, .rpg.grupo-c .nf2avam {border-color: #7c704a;} 
-.rpg.grupo-c .caja .stat, .rpg.grupo-c .datos strong, .rpg.grupo-c c:before, .res.grupo-c strong {color: #7c704a}
-.rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
-.grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
-.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
-.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
-
-/* TABLILLA DE PNJ */
-.pnjs2 {width: 360px; display: inline-block; padding: 15px; margin: auto;} 
-.pnjbtn { transition: 0.5s;background: var(--color-acento); width: 50px; height: 20px; border-radius: 100%; padding: 40px 25px; font-size: 9px; opacity: 0; letter-spacing: 1px; font-family: calibri; } 
-.pnjs2:hover .pnjbtn {opacity: 1;}
-.pnjs2 .nf2avam {font-size: 12px; line-height: 0px; padding-left: 15px; padding-bottom: 12px; color: var(--color-acento); vertical-align: top; margin-top: -8px; margin-bottom: 8px;} 
-.pnjs2 .cr-res { font-size: 10px; line-height: 14px; margin-top: -3px;padding-right: 4px;} 
-.pnjs2 .expavam-info { margin-left: 15px; width: 237px; } 
-.pnjs2 .expavam-infot { width: 90px; } 
-.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: #3F576B; border-color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-celtas);} 
-.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: var(--color--romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color--romanos); border-color: var(--color--romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color--romanos);} .pnjs2.romano .pnjbtn { background-color: var(--color--romanos);} 
-.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos); border-color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .pnjbtn { background-color: var(--color-griegos);}
-
-/*Tablilla de Logros*/
-.achi {
-  width: 174px;
-  height: 95px;
-  vertical-align: top;
-  display: inline-block;
-}
-.achi1 {
-  width: 25px;
-  height: 25px;
-  background-color: #000;
-  vertical-align: top;
-  display: inline-block;
-}
-.achi2 {
-  width: 140px;
-  height: 25px;
-  background-color: #000;
-  vertical-align: top;
-  display: inline-block;
-  margin-left: 5px;
-}
-.achi3 {
-  width: 150px;
-  height: 40px;
-  background-color: #0f0f0f;
-  margin-top: 5px;
-  overflow: auto;
-  padding: 10px;
-}
-.achtext1 {
-  font-family: Arial;
-  font-size: 9px;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-acento);
-  margin: 6px;
-}
-.achtext2 {
-  font-size: 11px;
-  text-align: justify;
-  line-height: 120%;
-}
-.achtext3 {
-  font-family: Arial;
-  font-size: 9px;
-  font-weight: 800;
-  text-align: center;
-  margin: 6px;
-  line-height: 13px;  
-}
-
-
 /**** FUENTES ****/ 
+@font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
+@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_rounded.ttf'); }
+@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_bold.ttf'); font-weight: bold;}
+
 @font-face { font-family: Olive; src: url('https://AVAM-RPG.github.io/Avam-codes/olive.ttf'); } 
 @font-face { font-family: Yellove; src: url('https://AVAM-RPG.github.io/Avam-codes/YelloveDEMO.ttf'); }
 @font-face {
@@ -376,6 +23,56 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/*Css base de los toggle*/
+.toggle .click:hover {cursor: pointer;}
+.toggle .info, .toggle .info-asc {
+display: none;
+font-size: 12px;
+font-weight: normal; 
+text-transform: none;
+font-style: normal;
+}
+
+/*CSS de los modals del tablon*/
+.modal-container>.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.modal-container>.modal.show {
+  display: flex;
+}
+.modal-container>.modal>.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000bf;
+  z-index: 10;
+  display: none;
+}
+.modal-container>.modal.show>.modal-backdrop {
+  display: block;
+}
+.modal-container>.modal>.modal-content {
+  position: fixed;
+  margin: auto;
+  z-index: 100;
+  transform: scale(0);
+  transition: transform .2s ease-out;
+}
+.modal-container>.modal.show>.modal-content {
+  transform: scale(1);
+  transition: transform .2s ease-out;
 }
 
 /* Selector de color avanzado */
