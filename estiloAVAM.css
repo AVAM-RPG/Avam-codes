@@ -134,7 +134,7 @@ font-style: normal;
 
 /*CSS de los modals del tablon*/
 .modal-container>.modal {
-  display: none;
+  /*display: none;*/
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -142,7 +142,7 @@ font-style: normal;
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 5;
+  z-index: -1;
 }
 .modal-container>.modal.show {
   display: flex;
@@ -158,7 +158,8 @@ font-style: normal;
   display: none;
 }
 .modal-container>.modal.show>.modal-backdrop {
-  display: block;
+  /*display: block;*/
+    z-index: 5;
 }
 .modal-container>.modal>.modal-content {
   position: fixed;
