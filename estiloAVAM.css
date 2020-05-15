@@ -63,6 +63,46 @@
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+/*Tablilla de stats para tramas*/
+.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
+.arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
+.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
+.lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
+.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong, .maza.rpg c:before {color: #707070;}
+.maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong, .maza.rpg c:before {color: #707070;}
+.hacha.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam {border-color: #34694e;} 
+.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .escudo.rpg .datos strong, .espada.rpg c:before, .escudo.rpg c:before {color: #34694e;}
+.espada.rpg .df222::-webkit-scrollbar-thumb, .escudo.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
+.daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #466388;} 
+.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #466388;} 
+.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #466388 !important;} 
+.daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #466388;} 
+
+.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: #483b5d;} 
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
+.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
+.tggri .df3a, .rpg.tggri .nf2avam {border-color: #A16422;} 
+.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #A16422}
+.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #A16422;} 
+.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: #3F576B;} 
+.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
+.rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
+
+.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
+.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #82545a}
+.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #82545a;}
+.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #587758;} 
+.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #587758}
+.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #587758;} 
+.grupo-c .df3a, .rpg.grupo-c .nf2avam {border-color: #7c704a;} 
+.rpg.grupo-c .caja .stat, .rpg.grupo-c .datos strong, .rpg.grupo-c c:before, .res.grupo-c strong {color: #7c704a}
+.rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
+.grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
+.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
+.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
+
 /*Css base de los toggle*/
 .toggle .click:hover {cursor: pointer;}
 .toggle .info, .toggle .info-asc {
