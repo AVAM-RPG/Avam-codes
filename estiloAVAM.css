@@ -63,7 +63,12 @@
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/*Tablilla de stats para tramas*/
+/*Variaciones tablilla PNJs*/
+.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-celtas);} 
+.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos); border-color: var(--color-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-romanos);} .pnjs2.romano .pnjbtn { background-color: var(--color-romanos);} 
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos); border-color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .pnjbtn { background-color: var(--color-griegos);}
+
+/*Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
 .arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
 .lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
