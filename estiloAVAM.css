@@ -43,49 +43,23 @@
 .usergroup-griegos a.userlink {background: var(--color-griegos);}
 .usergroup-celtas a.userlink {background: var(--color-celtas);}
 
-/**** FUENTES ****/ 
-@font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
-@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_rounded.ttf'); }
-@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_bold.ttf'); font-weight: bold;}
-
-@font-face { font-family: Olive; src: url('https://AVAM-RPG.github.io/Avam-codes/olive.ttf'); } 
-@font-face { font-family: Yellove; src: url('https://AVAM-RPG.github.io/Avam-codes/YelloveDEMO.ttf'); }
-@font-face {
-  font-family: Kaushan Script;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v6/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
 /*Variaciones expedientes*/
+.usergroupgroup-griegos .expavam-img, .usergroupgroup-griegos .expavam-name, .usergroupgroup-griegos .expavam .tbase-text, .usergroupgroup-griegos .expavam .expavam-a, .usergroupgroup-griegos .imaf1, .usergroupgroup-griegos .expavam .exp12, .usergroupgroup-griegos .nf, .usergroupgroup-griegos .expavam .bf1 .nf2avam, .usergroupgroup-griegos .expavam .imaf111 { border-color: #A16422;}
+.usergroupgroup-griegos .expavam-infod, .usergroupgroup-griegos .expavam .tbase-text .fa-angle-right, .usergroupgroup-griegos .expavam-statb, .usergroupgroup-griegos .expavam .df2 strong, .usergroupgroup-griegos .expavam .cuadroinformativo strong {color: #A16422;}
+.usergroupgroup-griegos .expavam-infoicon, .usergroupgroup-griegos .lineainfo, .usergroupgroup-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-griegos);}
 
-.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .expavam .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .expavam .bf1 .nf2avam, .usergroup-group-griegos .expavam .imaf111 { border-color: #A16422;}
-.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .expavam .df2 strong, .usergroup-group-griegos .expavam .cuadroinformativo strong {color: #A16422;}
-.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .lineainfo, .usergroup-group-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-griegos);}
+.usergroupgroup-romanos .expavam-img, .usergroupgroup-romanos .expavam-name, .usergroupgroup-romanos .expavam .tbase-text, .usergroupgroup-romanos .expavam .expavam-a, .usergroupgroup-romanos .imaf1, .usergroupgroup-romanos .expavam .exp12, .usergroupgroup-romanos .nf, .usergroupgroup-romanos .expavam .bf1 .nf2avam, .usergroupgroup-romanos .expavam .imaf111 { border-color: #422f4a;}
+.usergroupgroup-romanos .expavam-infod, .usergroupgroup-romanos .expavam .tbase-text .fa-angle-right, .usergroupgroup-romanos .expavam-statb, .usergroupgroup-romanos .expavam .df2 strong, .usergroupgroup-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
+.usergroupgroup-romanos .expavam-infoicon, .usergroupgroup-romanos .lineainfo,.usergroupgroup-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-romanos);}
 
-.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .expavam .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .expavam .bf1 .nf2avam, .usergroup-group-romanos .expavam .imaf111 { border-color: #422f4a;}
-.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .expavam .df2 strong, .usergroup-group-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
-.usergroup-group-romanos .expavam-infoicon, .usergroup-group-romanos .lineainfo,.usergroup-group-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-romanos);}
-
-.usergroup-group-celtas .expavam-img, .usergroup-group-celtas .expavam-name, .usergroup-group-celtas .expavam .tbase-text, .usergroup-group-celtas .expavam .expavam-a, .usergroup-group-celtas .imaf1, .usergroup-group-celtas .expavam .exp12, .usergroup-group-celtas .nf, .usergroup-group-celtas .expavam .bf1 .nf2avam, .usergroup-group-celtas.expavam  .expavam .imaf111 { border-color: #3F576B;}
-.usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .expavam .df2 strong, .usergroup-group-celtas .expavam .cuadroinformativo strong {color: #3F576B;}
-.usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .lineainfo, .usergroup-group-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-celtas);}
+.usergroupgroup-celtas .expavam-img, .usergroupgroup-celtas .expavam-name, .usergroupgroup-celtas .expavam .tbase-text, .usergroupgroup-celtas .expavam .expavam-a, .usergroupgroup-celtas .imaf1, .usergroupgroup-celtas .expavam .exp12, .usergroupgroup-celtas .nf, .usergroupgroup-celtas .expavam .bf1 .nf2avam, .usergroupgroup-celtas.expavam  .expavam .imaf111 { border-color: #3F576B;}
+.usergroupgroup-celtas .expavam-infod, .usergroupgroup-celtas .expavam .tbase-text .fa-angle-right, .usergroupgroup-celtas .expavam-statb, .usergroupgroup-celtas .expavam .df2 strong, .usergroupgroup-celtas .expavam .cuadroinformativo strong {color: #3F576B;}
+.usergroupgroup-celtas .expavam-infoicon, .usergroupgroup-celtas .lineainfo, .usergroupgroup-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-celtas);}
 
 /*Variaciones tablilla PNJs*/
-.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-celtas);} 
-.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos); border-color: var(--color-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-romanos);} .pnjs2.romano .pnjbtn { background-color: var(--color-romanos);} 
-.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos); border-color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .pnjbtn { background-color: var(--color-griegos);}
+.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { outline-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-celtas);}
+.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { outline-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-romanos);}
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { outline-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-griegos);}
 
 /*Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
@@ -126,6 +100,31 @@
 .grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
 .rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
 .rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
+
+/**** FUENTES ****/ 
+@font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
+@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_rounded.ttf'); }
+@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_bold.ttf'); font-weight: bold;}
+
+@font-face { font-family: Olive; src: url('https://AVAM-RPG.github.io/Avam-codes/olive.ttf'); } 
+@font-face { font-family: Yellove; src: url('https://AVAM-RPG.github.io/Avam-codes/YelloveDEMO.ttf'); }
+@font-face {
+  font-family: Kaushan Script;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v6/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 
 /*Css base de los toggle*/
 .toggle .click:hover {cursor: pointer;}
