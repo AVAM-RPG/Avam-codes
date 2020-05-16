@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Colores de grupos*/
+/*Colores generales de grupos*/
 .postgroup-narracion .post-cabecera-icon, .postgroup-narracion .postprofile-icon, .postgroup-narracion .postprofile-contact span a, .profilegroup-narracion .perfil-icon .dato, .profilegroup-narracion #botones1 .botoncito1  {
     border-color: var(--color-narracion);
 }
@@ -44,22 +44,22 @@
 .usergroup-celtas a.userlink {background: var(--color-celtas);}
 
 /*Variaciones expedientes*/
-.usergroupgroup-griegos .expavam-img, .usergroupgroup-griegos .expavam-name, .usergroupgroup-griegos .expavam .tbase-text, .usergroupgroup-griegos .expavam .expavam-a, .usergroupgroup-griegos .imaf1, .usergroupgroup-griegos .expavam .exp12, .usergroupgroup-griegos .nf, .usergroupgroup-griegos .expavam .bf1 .nf2avam, .usergroupgroup-griegos .expavam .imaf111 { border-color: #A16422;}
-.usergroupgroup-griegos .expavam-infod, .usergroupgroup-griegos .expavam .tbase-text .fa-angle-right, .usergroupgroup-griegos .expavam-statb, .usergroupgroup-griegos .expavam .df2 strong, .usergroupgroup-griegos .expavam .cuadroinformativo strong {color: #A16422;}
-.usergroupgroup-griegos .expavam-infoicon, .usergroupgroup-griegos .lineainfo, .usergroupgroup-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-griegos);}
+.postgroup-griegos .expavam-img, .postgroup-griegos .expavam-name, .postgroup-griegos .expavam .tbase-text, .postgroup-griegos .expavam .expavam-a, .postgroup-griegos .imaf1, .postgroup-griegos .expavam .exp12, .postgroup-griegos .nf, .postgroup-griegos .expavam .bf1 .nf2avam, .postgroup-griegos .expavam .imaf111 { border-color: var(--color-griegos);}
+.postgroup-griegos .expavam-infod, .postgroup-griegos .expavam .tbase-text .fa-angle-right, .postgroup-griegos .expavam-statb, .postgroup-griegos .expavam .df2 strong, .postgroup-griegos .expavam .cuadroinformativo strong {color: var(--color-griegos);}
+.postgroup-griegos .expavam-infoicon, .postgroup-griegos .lineainfo, .postgroup-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-griegos);}
 
-.usergroupgroup-romanos .expavam-img, .usergroupgroup-romanos .expavam-name, .usergroupgroup-romanos .expavam .tbase-text, .usergroupgroup-romanos .expavam .expavam-a, .usergroupgroup-romanos .imaf1, .usergroupgroup-romanos .expavam .exp12, .usergroupgroup-romanos .nf, .usergroupgroup-romanos .expavam .bf1 .nf2avam, .usergroupgroup-romanos .expavam .imaf111 { border-color: #422f4a;}
-.usergroupgroup-romanos .expavam-infod, .usergroupgroup-romanos .expavam .tbase-text .fa-angle-right, .usergroupgroup-romanos .expavam-statb, .usergroupgroup-romanos .expavam .df2 strong, .usergroupgroup-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
-.usergroupgroup-romanos .expavam-infoicon, .usergroupgroup-romanos .lineainfo,.usergroupgroup-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-romanos);}
+.postgroup-romanos .expavam-img, .postgroup-romanos .expavam-name, .postgroup-romanos .expavam .tbase-text, .postgroup-romanos .expavam .expavam-a, .postgroup-romanos .imaf1, .postgroup-romanos .expavam .exp12, .postgroup-romanos .nf, .postgroup-romanos .expavam .bf1 .nf2avam, .postgroup-romanos .expavam .imaf111 { border-color: var(--color-romanos);}
+.postgroup-romanos .expavam-infod, .postgroup-romanos .expavam .tbase-text .fa-angle-right, .postgroup-romanos .expavam-statb, .postgroup-romanos .expavam .df2 strong, .postgroup-romanos .expavam .cuadroinformativo strong {color: var(--color-romanos);}
+.postgroup-romanos .expavam-infoicon, .postgroup-romanos .lineainfo,.postgroup-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-romanos);}
 
-.usergroupgroup-celtas .expavam-img, .usergroupgroup-celtas .expavam-name, .usergroupgroup-celtas .expavam .tbase-text, .usergroupgroup-celtas .expavam .expavam-a, .usergroupgroup-celtas .imaf1, .usergroupgroup-celtas .expavam .exp12, .usergroupgroup-celtas .nf, .usergroupgroup-celtas .expavam .bf1 .nf2avam, .usergroupgroup-celtas.expavam  .expavam .imaf111 { border-color: #3F576B;}
-.usergroupgroup-celtas .expavam-infod, .usergroupgroup-celtas .expavam .tbase-text .fa-angle-right, .usergroupgroup-celtas .expavam-statb, .usergroupgroup-celtas .expavam .df2 strong, .usergroupgroup-celtas .expavam .cuadroinformativo strong {color: #3F576B;}
-.usergroupgroup-celtas .expavam-infoicon, .usergroupgroup-celtas .lineainfo, .usergroupgroup-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-celtas);}
+.postgroup-celtas .expavam-img, .postgroup-celtas .expavam-name, .postgroup-celtas .expavam .tbase-text, .postgroup-celtas .expavam .expavam-a, .postgroup-celtas .imaf1, .postgroup-celtas .expavam .exp12, .postgroup-celtas .nf, .postgroup-celtas .expavam .bf1 .nf2avam, .postgroup-celtas.expavam  .expavam .imaf111 { border-color: var(--color-celtas);}
+.postgroup-celtas .expavam-infod, .postgroup-celtas .expavam .tbase-text .fa-angle-right, .postgroup-celtas .expavam-statb, .postgroup-celtas .expavam .df2 strong, .postgroup-celtas .expavam .cuadroinformativo strong {color: var(--color-celtas);}
+.postgroup-celtas .expavam-infoicon, .postgroup-celtas .lineainfo, .postgroup-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-celtas);}
 
 /*Variaciones tablilla PNJs*/
-.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { outline-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-celtas);}
-.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { outline-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-romanos);}
-.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { outline-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { border-color: var(--color-griegos);}
+.pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-celtas);} 
+.pnjs2.romano .imaf1avam, .pnjs2.romano .cajadatos { border-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos); border-color: var(--color-romanos);} .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-romanos);} .pnjs2.romano .pnjbtn { background-color: var(--color-romanos);} 
+.pnjs2.griego .imaf1avam, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos); border-color: var(--color-griegos);} .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .pnjbtn { background-color: var(--color-griegos);}
 
 /*Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
@@ -78,15 +78,15 @@
 .daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #466388 !important;} 
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #466388;} 
 
-.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: #483b5d;} 
-.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: #483b5d}
-.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #483b5d;} 
-.tggri .df3a, .rpg.tggri .nf2avam {border-color: #A16422;} 
-.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: #A16422}
-.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #A16422;} 
-.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: #3F576B;} 
-.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: #3F576B}
-.rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: #3F576B;} 
+.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: var(--color-romanos);} 
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: var(--color-romanos)}
+.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
+.tggri .df3a, .rpg.tggri .nf2avam {border-color: var(--color-griegos);} 
+.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: var(--color-griegos)}
+.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
+.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: var(--color-celtas);} 
+.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: var(--color-celtas)}
+.rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
 
 .grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
 .rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #82545a}
