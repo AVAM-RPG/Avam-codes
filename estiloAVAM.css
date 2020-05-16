@@ -45,19 +45,19 @@
 
 /*Variaciones expedientes*/
 .postgroup-griegos .expavam-img, .postgroup-griegos .img-expediente { outline-color: var(--color-griegos);} 
-.postgroup-griegos .expavam-name, .postgroup-griegos .expavam .tbase-text, .postgroup-griegos .expavam .expavam-a, .postgroup-griegos .imaf1, .postgroup-griegos .expavam .exp12, .postgroup-griegos .nf, .postgroup-griegos .expavam .bf1 .nf2avam, .postgroup-griegos .expavam .imaf111 { border-color: var(--color-griegos);}
-.postgroup-griegos .expavam-infod, .postgroup-griegos .expavam .tbase-text .fa-angle-right, .postgroup-griegos .expavam-statb, .postgroup-griegos .expavam .df2 strong, .postgroup-griegos .expavam .cuadroinformativo strong {color: var(--color-griegos);}
-.postgroup-griegos .expavam-infoicon, .postgroup-griegos .lineainfo, .postgroup-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-griegos);}
+.postgroup-griegos .expavam .tbase-text, .postgroup-griegos .expavam-infoicon, .postgroup-griegos .expavam .expavam-a, .postgroup-griegos .imaf1, .postgroup-griegos .expavam .exp12, .postgroup-griegos .nf, .postgroup-griegos .expavam .bf1 .nf2avam, .postgroup-griegos .expavam .imaf111 { border-color: var(--color-griegos);}
+.postgroup-griegos .expavam-name, .postgroup-griegos .expavam-infod, .postgroup-griegos .expavam .tbase-text .fa-angle-right, .postgroup-griegos .expavam-statb, .postgroup-griegos .expavam .df2 strong, .postgroup-griegos .expavam .cuadroinformativo strong {color: var(--color-griegos);}
+.postgroup-griegos .lineainfo, .postgroup-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-griegos);}
 
 .postgroup-romanos .expavam-img, .postgroup-romanos .img-expediente { outline-color: var(--color-romanos);} 
-.postgroup-romanos .expavam-name, .postgroup-romanos .expavam .tbase-text, .postgroup-romanos .expavam .expavam-a, .postgroup-romanos .imaf1, .postgroup-romanos .expavam .exp12, .postgroup-romanos .nf, .postgroup-romanos .expavam .bf1 .nf2avam, .postgroup-romanos .expavam .imaf111 { border-color: var(--color-romanos);}
-.postgroup-romanos .expavam-infod, .postgroup-romanos .expavam .tbase-text .fa-angle-right, .postgroup-romanos .expavam-statb, .postgroup-romanos .expavam .df2 strong, .postgroup-romanos .expavam .cuadroinformativo strong {color: var(--color-romanos);}
-.postgroup-romanos .expavam-infoicon, .postgroup-romanos .lineainfo,.postgroup-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-romanos);}
+.postgroup-romanos .expavam .tbase-text, .postgroup-romanos .expavam-infoicon, .postgroup-romanos .expavam .expavam-a, .postgroup-romanos .imaf1, .postgroup-romanos .expavam .exp12, .postgroup-romanos .nf, .postgroup-romanos .expavam .bf1 .nf2avam, .postgroup-romanos .expavam .imaf111 { border-color: var(--color-romanos);}
+.postgroup-romanos .expavam-name, .postgroup-romanos .expavam-infod, .postgroup-romanos .expavam .tbase-text .fa-angle-right, .postgroup-romanos .expavam-statb, .postgroup-romanos .expavam .df2 strong, .postgroup-romanos .expavam .cuadroinformativo strong {color: var(--color-romanos);}
+.postgroup-romanos .lineainfo,.postgroup-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-romanos);}
 
 .postgroup-celtas .expavam-img, .postgroup-celtas .img-expediente { outline-color: var(--color-celtas);} 
-.postgroup-celtas .expavam-name, .postgroup-celtas .expavam .tbase-text, .postgroup-celtas .expavam .expavam-a, .postgroup-celtas .imaf1, .postgroup-celtas .expavam .exp12, .postgroup-celtas .nf, .postgroup-celtas .expavam .bf1 .nf2avam, .postgroup-celtas.expavam  .expavam .imaf111 { border-color: var(--color-celtas);}
-.postgroup-celtas .expavam-infod, .postgroup-celtas .expavam .tbase-text .fa-angle-right, .postgroup-celtas .expavam-statb, .postgroup-celtas .expavam .df2 strong, .postgroup-celtas .expavam .cuadroinformativo strong {color: var(--color-celtas);}
-.postgroup-celtas .expavam-infoicon, .postgroup-celtas .lineainfo, .postgroup-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-avam-celtas);}
+.postgroup-celtas .expavam .tbase-text, .postgroup-celtas .expavam-infoicon, .postgroup-celtas .expavam .expavam-a, .postgroup-celtas .imaf1, .postgroup-celtas .expavam .exp12, .postgroup-celtas .nf, .postgroup-celtas .expavam .bf1 .nf2avam, .postgroup-celtas.expavam  .expavam .imaf111 { border-color: var(--color-celtas);}
+.postgroup-celtas .expavam-name, .postgroup-celtas .expavam-infod, .postgroup-celtas .expavam .tbase-text .fa-angle-right, .postgroup-celtas .expavam-statb, .postgroup-celtas .expavam .df2 strong, .postgroup-celtas .expavam .cuadroinformativo strong {color: var(--color-celtas);}
+.postgroup-celtas .lineainfo, .postgroup-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: var(--color-celtas);}
 
 /*Variaciones tablilla PNJs*/
 .pnjs2.celta .imaf1avam, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .expavam-infoicon, .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .pnjbtn { background-color: var(--color-celtas);} 
