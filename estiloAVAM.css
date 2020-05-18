@@ -38,7 +38,7 @@
     outline-color: var(--color-celtas);
 }
 
-.usergroup-narracion a.userlink, profilegroup-narracion::-webkit-scrollbar-thumb {
+.usergroup-narracion a.userlink, .profilegroup-narracion::-webkit-scrollbar-thumb {
     background: var(--color-narracion);
 }
 .usergroup-romanos a.userlink, .profilegroup-romanos::-webkit-scrollbar-thumb {
@@ -47,7 +47,7 @@
 .usergroup-griegos a.userlink, .profilegroup-griegos::-webkit-scrollbar-thumb {
     background: var(--color-griegos);
 }
-.usergroup-celtas a.userlink, profilegroup-celtas::-webkit-scrollbar-thumb {
+.usergroup-celtas a.userlink, .profilegroup-celtas::-webkit-scrollbar-thumb {
     background: var(--color-celtas);
 }
 
