@@ -16,13 +16,13 @@
 .postgroup-narracion .postprofile-field.postprofile-field-nivel, .postgroup-narracion .postprofile-field-edad .postprofile-field-content, .postgroup-narracion .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-narracion .postprofile-field-monedas .postprofile-field-content, .postgroup-narracion .postprofile-field-mensajes .postprofile-field-content, .postgroup-narracion .default-icon, .postgroup-narracion .postprofile-field-content .ra, .profilegroup-narracion .campoperfil .dato, .profilegroup-narracion .perfil-titulo, .profilegroup-narracion .campoperfil.c6 .dato .ra, .profilegroup-narracion .botoncito1.activo, .profilegroup-narracion .perfil-stats .dato strong {
     color: var(--color-narracion);
 }
-.postgroup-romanos .postprofile-field.postprofile-field-nivel, .postgroup-romanos .postprofile-field-edad .postprofile-field-content, .postgroup-romanos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-romanos .postprofile-field-monedas .postprofile-field-content, .postgroup-romanos .postprofile-field-mensajes .postprofile-field-content, .postgroup-romanos .default-icon, .postgroup-romanos .postprofile-field-content .ra, .profilegroup-romanos .campoperfil .dato, .profilegroup-romanos .perfil-titulo, .profilegroup-romanos .campoperfil.c6 .dato .ra, .profilegroup-romanos .botoncito1.activo, .profilegroup-narracion .perfil-stats .dato strong {
+.postgroup-romanos .postprofile-field.postprofile-field-nivel, .postgroup-romanos .postprofile-field-edad .postprofile-field-content, .postgroup-romanos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-romanos .postprofile-field-monedas .postprofile-field-content, .postgroup-romanos .postprofile-field-mensajes .postprofile-field-content, .postgroup-romanos .default-icon, .postgroup-romanos .postprofile-field-content .ra, .profilegroup-romanos .campoperfil .dato, .profilegroup-romanos .perfil-titulo, .profilegroup-romanos .campoperfil.c6 .dato .ra, .profilegroup-romanos .botoncito1.activo, .profilegroup-romanos .perfil-stats .dato strong {
     color: var(--color-romanos);
 }
-.postgroup-griegos .postprofile-field.postprofile-field-nivel, .postgroup-griegos .postprofile-field-edad .postprofile-field-content, .postgroup-griegos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-griegos .postprofile-field-monedas .postprofile-field-content, .postgroup-griegos .postprofile-field-mensajes .postprofile-field-content, .postgroup-griegos .default-icon, .postgroup-griegos .postprofile-field-content .ra, .profilegroup-griegos .campoperfil .dato, .profilegroup-griegos .perfil-titulo, .profilegroup-griegos .campoperfil.c6 .dato .ra, .profilegroup-griegos .botoncito1.activo, .profilegroup-narracion .perfil-stats .dato strong {
+.postgroup-griegos .postprofile-field.postprofile-field-nivel, .postgroup-griegos .postprofile-field-edad .postprofile-field-content, .postgroup-griegos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-griegos .postprofile-field-monedas .postprofile-field-content, .postgroup-griegos .postprofile-field-mensajes .postprofile-field-content, .postgroup-griegos .default-icon, .postgroup-griegos .postprofile-field-content .ra, .profilegroup-griegos .campoperfil .dato, .profilegroup-griegos .perfil-titulo, .profilegroup-griegos .campoperfil.c6 .dato .ra, .profilegroup-griegos .botoncito1.activo, .profilegroup-griegos .perfil-stats .dato strong {
     color: var(--color-griegos);
 }
-.postgroup-celtas .postprofile-field.postprofile-field-nivel, .postgroup-celtas .postprofile-field-edad .postprofile-field-content, .postgroup-celtas .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-celtas .postprofile-field-monedas .postprofile-field-content, .postgroup-celtas .postprofile-field-mensajes .postprofile-field-content, .postgroup-celtas .default-icon, .postgroup-celtas .postprofile-field-content .ra, .profilegroup-celtas .campoperfil .dato, .profilegroup-celtas .perfil-titulo, .profilegroup-celtas .campoperfil.c6 .dato .ra, .profilegroup-celtas .botoncito1.activo, .profilegroup-narracion .perfil-stats .dato strong {
+.postgroup-celtas .postprofile-field.postprofile-field-nivel, .postgroup-celtas .postprofile-field-edad .postprofile-field-content, .postgroup-celtas .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-celtas .postprofile-field-monedas .postprofile-field-content, .postgroup-celtas .postprofile-field-mensajes .postprofile-field-content, .postgroup-celtas .default-icon, .postgroup-celtas .postprofile-field-content .ra, .profilegroup-celtas .campoperfil .dato, .profilegroup-celtas .perfil-titulo, .profilegroup-celtas .campoperfil.c6 .dato .ra, .profilegroup-celtas .botoncito1.activo, .profilegroup-celtas .perfil-stats .dato strong {
     color: var(--color-celtas);
 }
 .postgroup-narracion .postprofile-avatar {
@@ -38,16 +38,16 @@
     outline-color: var(--color-celtas);
 }
 
-.usergroup-narracion a.userlink, .profilegroup-narracion::-webkit-scrollbar-thumb {
+.usergroup-narracion a.userlink, .profilegroup-narracion #perfil-avamesta::-webkit-scrollbar-thumb {
     background: var(--color-narracion);
 }
-.usergroup-romanos a.userlink, .profilegroup-romanos::-webkit-scrollbar-thumb {
+.usergroup-romanos a.userlink, .profilegroup-romanos #perfil-avamesta::-webkit-scrollbar-thumb {
     background: var(--color-romanos);
 }
-.usergroup-griegos a.userlink, .profilegroup-griegos::-webkit-scrollbar-thumb {
+.usergroup-griegos a.userlink, .profilegroup-griegos #perfil-avamesta::-webkit-scrollbar-thumb {
     background: var(--color-griegos);
 }
-.usergroup-celtas a.userlink, .profilegroup-celtas::-webkit-scrollbar-thumb {
+.usergroup-celtas a.userlink, .profilegroup-celtas #perfil-avamesta::-webkit-scrollbar-thumb {
     background: var(--color-celtas);
 }
 
