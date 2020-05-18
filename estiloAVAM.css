@@ -38,10 +38,18 @@
     outline-color: var(--color-celtas);
 }
 
-.usergroup-narracion a.userlink {background: var(--color-narracion);}
-.usergroup-romanos a.userlink {background: var(--color-romanos);}
-.usergroup-griegos a.userlink {background: var(--color-griegos);}
-.usergroup-celtas a.userlink {background: var(--color-celtas);}
+.usergroup-narracion a.userlink, profilegroup-narracion::-webkit-scrollbar-thumb {
+    background: var(--color-narracion);
+}
+.usergroup-romanos a.userlink, .profilegroup-romanos::-webkit-scrollbar-thumb {
+    background: var(--color-romanos);
+}
+.usergroup-griegos a.userlink, .profilegroup-griegos::-webkit-scrollbar-thumb {
+    background: var(--color-griegos);
+}
+.usergroup-celtas a.userlink, profilegroup-celtas::-webkit-scrollbar-thumb {
+    background: var(--color-celtas);
+}
 
 /*Variaciones expedientes*/
 .postgroup-griegos .expavam-img, .postgroup-griegos .img-expediente { outline-color: var(--color-griegos);} 
