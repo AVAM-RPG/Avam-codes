@@ -91,12 +91,12 @@
 
 .tgrom .df3a, .rpg.tgrom .nf2avam {border-color: var(--color-romanos);} 
 .rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom c:before, .res.tgrom strong {color: var(--color-romanos)}
-.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
+.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .fa-angle-right, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
 .tggri .df3a, .rpg.tggri .nf2avam {border-color: var(--color-griegos);} 
 .rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri c:before, .res.tggri strong {color: var(--color-griegos)}
-.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
+.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .fa-angle-right, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
 .tgcel .df3a, .rpg.tgcel .nf2avam {border-color: var(--color-celtas);} 
-.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel c:before, .res.tgcel strong {color: var(--color-celtas)}
+.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel .fa-angle-right, .rpg.tgcel c:before, .res.tgcel strong {color: var(--color-celtas)}
 .rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
 
 .grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
