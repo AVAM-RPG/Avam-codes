@@ -370,7 +370,7 @@ border-top: 0px!important;
 border: 0px!important;}
 
 /*NOTIFICACIONES*/
-a#fa_show, #fa_menu {display:none!important;}
+a#fa_show, #fa_menu, .fa_tbMainElement a.rightHeaderLink {display:none!important;}
 #fa_toolbar {z-index:4!important;position:fixed;top:-50px}
 #fa_toolbar_hidden {background:transparent;}
 a#fa_notifications:hover, #fa_toolbar #fa_right #notif_list li.see_all a:hover {text-decoration: none;}
