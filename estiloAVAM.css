@@ -365,7 +365,7 @@ div.sceditor-dropdown div input {border: 0px;}
 div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown div .button:hover {
     background: var(--fondo-oscuro);
 }
-div.sceditor-dropdown div label {color: var(--color-texto-claro);}
+div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label {color: var(--color-texto-claro);}
 div.sceditor-dropdown div input {border: 0px;text-transform: none;}
 div.sceditor-dropdown div .button {
     color: var(--color-texto-claro);
