@@ -360,11 +360,12 @@ font-style: normal;
 .sceditor-dropdown {
   border: 0px!important;
 }
-
+/*Modificaciones de los BBCodes*/
 div.sceditor-dropdown div input {border: 0px;}
 div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown div .button:hover {
     background: var(--fondo-oscuro);
 }
+a.sceditor-font-option:hover {background: var(--fondo-base);}
 div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label {color: var(--color-texto-claro);}
 div.sceditor-dropdown div input {border: 0px;text-transform: none;}
 div.sceditor-dropdown div .button {
@@ -378,7 +379,7 @@ div.sceditor-dropdown div .button {
     letter-spacing: 1px;
 }
 
-div.sceditor-dropdown textarea{
+div.sceditor-dropdown textarea {
 border-top: 0px!important;
 border: 0px!important;}
 
