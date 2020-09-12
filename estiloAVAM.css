@@ -431,13 +431,7 @@ color: var(--color-acento) !important;
 text-decoration: none !important;
 font-weight: bold;
 }
-#fa_toolbar #fa_right #notif_list li a.delete {
-background: transparent url(https://i.imgur.com/NtLwPZ8.png) no-repeat;
-height: 12px;
-width: 22px;
-display: inline-block;
-text-decoration: none;
-}
+#fa_toolbar #fa_right #notif_list li a.delete {background: none;}
 #fa_toolbar #fa_right #notif_list li a.delete::before {
 font-family: 'Font Awesome 5 Free';
 content: '\f057';
