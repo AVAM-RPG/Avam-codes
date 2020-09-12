@@ -423,7 +423,7 @@ font-weight: normal;
 #fa_toolbar #fa_right #notif_list li .content {min-height: auto;}
 #fa_toolbar #fa_right #notif_list li .contentText {
 width: 260px;
-font-size: 12px;
+font-size: 13px;
 height: auto;
 }
 #fa_toolbar #fa_right #notif_list li .contentText a {
