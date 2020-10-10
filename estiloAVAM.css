@@ -73,6 +73,17 @@
 .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos);} .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .imaf1avam {outline-color: var(--color-griegos);}
 
 /*Variaciones tablilla stats Tramas*/
+.postgroup-romanos .df3a, .rpg.postgroup-romanos .nf2avam {border-color: var(--color-romanos);} 
+.rpg.postgroup-romanos .caja .stat, .rpg.postgroup-romanos .datos strong, .rpg.postgroup-romanos .fa-angle-right, .rpg.postgroup-romanos c:before, .res.postgroup-romanos strong {color: var(--color-romanos)}
+.rpg.postgroup-romanos .df222::-webkit-scrollbar-thumb, .rpg.postgroup-romanos .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
+.postgroup-griegos .df3a, .rpg.postgroup-griegos .nf2avam {border-color: var(--color-griegos);} 
+.rpg.postgroup-griegos .caja .stat, .rpg.postgroup-griegos .datos strong, .rpg.postgroup-griegos .fa-angle-right, .rpg.postgroup-griegos c:before, .res.postgroup-griegos strong {color: var(--color-griegos)}
+.rpg.postgroup-griegos .df222::-webkit-scrollbar-thumb, .rpg.postgroup-griegos .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
+.postgroup-celtas .df3a, .rpg.postgroup-celtas .nf2avam {border-color: var(--color-celtas);} 
+.rpg.postgroup-celtas .caja .stat, .rpg.postgroup-celtas .datos strong, .rpg.postgroup-celtas .fa-angle-right, .rpg.postgroup-celtas c:before, .res.postgroup-celtas strong {color: var(--color-celtas)}
+.rpg.postgroup-celtas .df222::-webkit-scrollbar-thumb, .rpg.postgroup-celtas .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
+
+/*OLD - Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
 .arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
 .lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
