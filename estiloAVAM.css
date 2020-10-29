@@ -125,9 +125,16 @@
 
 /**** FUENTES ****/ 
 @font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
+
+@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Regular.otf'); }
+@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Bold.otf'); font-weight: bold;}
+@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Regular%20Italic.otf'); font-style: italic;}
+@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Bold%20Italic.otf'); font-weight: bold; font-style: italic;}
+
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
+
 @font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_rounded.ttf'); }
 @font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_bold.ttf'); font-weight: bold;}
 
