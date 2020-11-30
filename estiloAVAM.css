@@ -125,34 +125,11 @@
 
 /**** FUENTES ****/ 
 
-@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Regular.otf'); }
-@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Bold.otf'); font-weight: bold;}
-@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Regular%20Italic.otf'); font-style: italic;}
-@font-face { font-family: Silk Serif; src: url('https://AVAM-RPG.github.io/Avam-codes/Silk%20Serif/Silk%20Serif%20Bold%20Italic.otf'); font-weight: bold; font-style: italic;}
-
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
 
-@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_rounded.ttf'); }
-@font-face { font-family: Delicate; src: url('https://AVAM-RPG.github.io/Avam-codes/Delicate/Delicate_bold.ttf'); font-weight: bold;}
-
-@font-face { font-family: Brookline; src: url('https://AVAM-RPG.github.io/Avam-codes/Brookline.ttf'); }
-@font-face { font-family: Orlline; src: url('https://AVAM-RPG.github.io/Avam-codes/Orlline.otf'); } 
-@font-face { font-family: Olive; src: url('https://AVAM-RPG.github.io/Avam-codes/olive.ttf'); } 
-@font-face { font-family: Yellove; src: url('https://AVAM-RPG.github.io/Avam-codes/YelloveDEMO.ttf'); }
-@font-face {
-  font-family: Kaushan Script;
-  font-style: normal;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+@font-face { font-family: Christmas; src: url('https://AVAM-RPG.github.io/Avam-codes/PWChristmasfont.ttf'); }
 
 /*Css base de los toggle*/
 .toggle .click:hover {cursor: pointer;}
