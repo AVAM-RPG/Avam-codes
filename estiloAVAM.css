@@ -71,17 +71,6 @@
 .pnjs2.romano .expavam-infoicon, .pnjs2.romano .cajadatos { border-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos);} .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-romanos);} .pnjs2.romano .imaf1avam {outline-color: var(--color-romanos);}
 .pnjs2.griego .expavam-infoicon, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos);} .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .imaf1avam {outline-color: var(--color-griegos);}
 
-/*Variaciones tablilla Tramas*/
-.postgroup-romanos .trama .df3a, .postgroup-romanos .rpg.trama .nf2avam {border-color: var(--color-romanos);} 
-.postgroup-romanos .rpg.trama .caja .stat, .postgroup-romanos .rpg.trama .datos strong, .postgroup-romanos .rpg.trama .fa-angle-right, .postgroup-romanos .rpg.trama c:before, .postgroup-romanos .res strong {color: var(--color-romanos)}
-.postgroup-romanos .rpg.trama .df222::-webkit-scrollbar-thumb, .postgroup-romanos .rpg.trama .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
-.postgroup-griegos .trama .df3a, .postgroup-griegos .rpg .nf2avam {border-color: var(--color-griegos);} 
-.postgroup-griegos .rpg.trama .caja .stat, .postgroup-griegos .rpg.trama .datos strong, .postgroup-griegos .rpg.trama .fa-angle-right, .postgroup-griegos .rpg.trama c:before, .postgroup-griegos .res strong {color: var(--color-griegos)}
-.postgroup-griegos .rpg.trama .df222::-webkit-scrollbar-thumb, .postgroup-griegos .rpg.trama  .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
-.postgroup-celtas .trama .df3a, .postgroup-celtas .rpg .nf2avam {border-color: var(--color-celtas);} 
-.postgroup-celtas .rpg.trama .caja .stat, .postgroup-celtas .rpg.trama .datos strong, .postgroup-celtas .rpg.trama .fa-angle-right, .postgroup-celtas .rpg.trama c:before, .postgroup-celtas .res strong {color: var(--color-celtas)}
-.postgroup-celtas .rpg.trama .df222::-webkit-scrollbar-thumb, .postgroup-celtas .rpg.trama .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
-
 /*Variaciones iconos tablilla Stats*/
 .arco .pj .rpg-icon div:before {content: "\e054"; font-family: "saturnicons";}
 .dagas .pj .rpg-icon div:before {content: "";}
@@ -95,9 +84,9 @@
 .epico .op .rpg-icon div:before {content: "";}
 
 /**Variaciones tablilla Tramas*/
-.postgroup-romanos .bf3, .postgroup-romanos .tab-batalla {--color-acento: var(--color-romanos);}
-.postgroup-griegos .bf3, .postgroup-griegos .tab-batalla {--color-acento: var(--color-griegos);}
-.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla {--color-acento: var(--color-celtas);}
+.postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
+.postgroup-griegos .bf3, .postgroup-griegos .tab-batalla, .postgroup-griegos .rpg {--color-acento: var(--color-griegos);}
+.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}
 
 /*OLD - Tablilla de stats*/
 .rpg {background: var(--fondo-claro); font-family: arial; font-size: 11px; font-weight: 400; margin: 10px auto; outline: 1px solid #161616; outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 380px; display: flex; flex-wrap: wrap; justify-content: space-between; }
