@@ -37,7 +37,6 @@
 .postgroup-celtas .postprofile-avatar {
     outline-color: var(--color-celtas);
 }
-
 .usergroup-narracion a.userlink, .profilegroup-narracion #perfil-avamesta::-webkit-scrollbar-thumb {
     background: var(--color-narracion);
 }
@@ -82,6 +81,25 @@
 .postgroup-celtas .trama .df3a, .postgroup-celtas .rpg .nf2avam {border-color: var(--color-celtas);} 
 .postgroup-celtas .rpg.trama .caja .stat, .postgroup-celtas .rpg.trama .datos strong, .postgroup-celtas .rpg.trama .fa-angle-right, .postgroup-celtas .rpg.trama c:before, .postgroup-celtas .res strong {color: var(--color-celtas)}
 .postgroup-celtas .rpg.trama .df222::-webkit-scrollbar-thumb, .postgroup-celtas .rpg.trama .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
+
+/*OLD - Tablilla de rol*/
+.rpg {background: var(--fondo-claro); font-family: arial; font-size: 11px; font-weight: 400; margin: 10px auto; outline: 1px solid #161616; outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 380px; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; width: 184px; justify-content: space-between; } .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
+.rpg .nf2avam {width: 100%;font-size: 12px;white-space:nowrap;overflow:hidden;line-height:10px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
+.rpg .caja {height: auto; background: #060606; outline: 1px solid #111; font-family: calibri; letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
+.rpg .caja.vida {width: 100%; display: block;}
+.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 22px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 9px; margin-top: 0px; border-right: 1px solid #0a0a0a; background: #040404; float: left;}
+.rpg .caja .puntos { display: inline-block; width: calc(100% - 34px); margin: auto; text-align: center; vertical-align: top; padding-top: 12px; }
+.rpg .pj .puntos, .rpg .op .puntos {padding-top: 7px; letter-spacing: 1px; } 
+.rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -2px;font-size: 10px;} 
+.rpg c {margin-right: -5px;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
+.rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
+.rpg .df222 {width: 100%; height: 35px; display: flex; align-items: center; justify-content: center; background: #060606; overflow: auto; outline: 1px solid #111; margin: 2px 0; padding: 9px 6px; font-size: 11px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px; }
+.rpg .datos {margin: 7px 0 0; padding: 5px; background: #060606; outline: 1px solid #111; overflow: auto; max-height: 100px; width: 100%;}
+.rpg .datos strong { color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
+.rpg .op .datos {padding:12px;height:153px;max-height:153px;overflow:auto;margin:0}
+.rpg.mini { width: 230px;} .rpg.mini .pj { width: 100%; padding: 0px;}
+.rpg .datos::-webkit-scrollbar, .rpg .df222::-webkit-scrollbar {width: 5px;}
 
 /*OLD - Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
