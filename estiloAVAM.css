@@ -82,7 +82,7 @@
 .postgroup-celtas .rpg.trama .caja .stat, .postgroup-celtas .rpg.trama .datos strong, .postgroup-celtas .rpg.trama .fa-angle-right, .postgroup-celtas .rpg.trama c:before, .postgroup-celtas .res strong {color: var(--color-celtas)}
 .postgroup-celtas .rpg.trama .df222::-webkit-scrollbar-thumb, .postgroup-celtas .rpg.trama .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
 
-/*Variaciones iconos tablilla de rol*/
+/*Variaciones iconos tablilla Stats*/
 .arco .pj .rpg-icon div:before {content: "\e054"; font-family: "saturnicons";}
 .dagas .pj .rpg-icon div:before {content: "";}
 .escudo .pj .rpg-icon div:before {content: "\efe6"; font-family: IcoFont;}
@@ -93,6 +93,11 @@
 .intermedio .op .rpg-icon div:before {content: "";}
 .avanzado .op .rpg-icon div:before {content: "";}
 .epico .op .rpg-icon div:before {content: "";}
+
+/**Variaciones tablilla Tramas*/
+.postgroup-romanos .bf3, .postgroup-romanos .tab-batalla {--color-acento: var(--color-romanos);}
+.postgroup-griegos .bf3, .postgroup-griegos .tab-batalla {--color-acento: var(--color-griegos);}
+.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla {--color-acento: var(--color-celtas);}
 
 /*OLD - Tablilla de stats*/
 .rpg {background: var(--fondo-claro); font-family: arial; font-size: 11px; font-weight: 400; margin: 10px auto; outline: 1px solid #161616; outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 380px; display: flex; flex-wrap: wrap; justify-content: space-between; }
