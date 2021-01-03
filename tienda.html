@@ -1,0 +1,1006 @@
+<style>
+  .tbase.tienda {width: 788px;}
+  .tbase-text.tiendas { width: 700px; margin: 10px auto 15px;} 
+  .objeto { outline: 1px solid #161616; margin: 5px;position: relative; padding: 12px; width: 198px; background: var(--fondo-base); } 
+  .tienda-icon { text-align: center; color: var(--color-acento); font-size: 40px; width: 100%; } 
+  .objeto .expavam-a { margin: -15px auto 0; text-align: center; font-size: 12px; } 
+  .objeto .tbase-destacado { text-align: center; margin: 0 auto 5px;} 
+  .objeto .desc { font-size: 12px; line-height: 120%; padding-right: 0; height: auto; overflow: hidden;} 
+  .objeto strong { font-weight: 900; font-family: arial; font-size: 10px; color: var(--color-acento) !important; text-transform: uppercase; } 
+  .tienda-botones, .tienda-contenido {display: flex; flex-wrap: wrap; justify-content: center;} .tienda-botones label { padding: 0; } 
+  .tienda-botones input {display: none;} 
+  .tienda-botones div {font-family: calibri; font-size: 10px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 6px; margin: 0 1px; text-transform: uppercase; cursor: pointer;} 
+  .tienda-botones input:checked + div {background: var(--color-acento)} .panteon div { font-size: 11px; letter-spacing: 2px; padding: 5px 10px; margin: 0 3px; } 
+  .tienda-botones.categoria { margin: -20px auto; width: 373px; } 
+  .tiendas .panteon .flt-rom input:checked + div, .tiendas .categoria .flt-rom, .objeto.rom {--color-acento: var(--color-romanos);} 
+  .tiendas .panteon .flt-gri input:checked + div, .tiendas .categoria .flt-gri, .objeto.gri {--color-acento: var(--color-griegos);} 
+  .tiendas .panteon .flt-cel input:checked + div, .tiendas .categoria .flt-cel, .objeto.cel {--color-acento: var(--color-celtas);}
+  .objeto.rom.gri.cel {--color-acento: inherit;}
+</style>
+<div class="tbase tienda"><div class="tbase-titulo2"><i class="ra ra-brandy-bottle" style="font-size: 22px;"></i> Catálogo</div></div>
+<div class="tbase-text tiendas">
+<div class="tienda-botones panteon">
+<label><input type="radio" name="filter1" value=".rom,.gri,.cel" /><div>todos</div></label>
+<label class="flt-rom"><input type="radio" name="filter1" value=".flt-rom,.rom" checked="check" /><div>romanos</div></label>
+<label class="flt-gri"><input type="radio" name="filter1" value=".flt-gri,.gri" /><div>griegos</div></label>
+<label class="flt-cel"><input type="radio" name="filter1" value=".flt-cel,.cel" /><div>celtas</div></label>
+</div>
+<br/><br/>
+<div class="tienda-botones categoria">
+<label class="flt-rom"><input type="radio" name="filter" value=".flt-rom,.rom.cach" /><div>cachivaches</div></label>
+<label class="flt-rom"><input type="radio" name="filter" value=".flt-rom,.rom.trampa" /><div>items trampa</div></label>
+<label class="flt-rom"><input type="radio" name="filter" value=".flt-rom,.rom.arma" /><div>armas</div></label>
+<label class="flt-rom"><input type="radio" name="filter" value=".flt-rom,.rom.esc" /><div>escudos</div></label>
+<label class="flt-rom"><input type="radio" name="filter" value=".flt-rom,.rom.armdr" /><div>armaduras</div></label>
+<label class="flt-gri"><input type="radio" name="filter" value=".flt-gri,.gri.cach" /><div>cachivaches</div></label>
+<label class="flt-gri"><input type="radio" name="filter" value=".flt-gri,.gri.trampa" /><div>items trampa</div></label>
+<label class="flt-gri"><input type="radio" name="filter" value=".flt-gri,.gri.arma" /><div>armas</div></label>
+<label class="flt-gri"><input type="radio" name="filter" value=".flt-gri,.gri.esc" /><div>escudos</div></label>
+<label class="flt-gri"><input type="radio" name="filter" value=".flt-gri,.gri.armdr" /><div>armaduras</div></label>
+<label class="flt-cel"><input type="radio" name="filter" value=".flt-cel,.cel.cach" /><div>cachivaches</div></label>
+<label class="flt-cel"><input type="radio" name="filter" value=".flt-cel,.cel.trampa" /><div>items trampa</div></label>
+<label class="flt-cel"><input type="radio" name="filter" value=".flt-cel,.cel.arma" /><div>armas</div></label>
+<label class="flt-cel"><input type="radio" name="filter" value=".flt-cel,.cel.esc" /><div>escudos</div></label>
+<label class="flt-cel"><input type="radio" name="filter" value=".flt-cel,.cel.armdr" /><div>armaduras</div></label>
+</div>
+<br/><br/>
+<div class="tienda-contenido">
+<div class="objeto rom cach"><div class="tbase-destacado">Balteus mágico</div>
+<div class="desc">Un cinturón encantado perfecto para llevar colgando todas tus bolsitas y herramientas, y así tenerlas a mano.
+
+<br/><br/><strong>Bonus</strong> +1 hueco de Inventario. Permite adquirir múltiples Bolsas Encantadas y aumenta su capacidad en +2 huecos extras. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 25 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Cinto mágico</div>
+<div class="desc">Un cinturón encantado perfecto para llevar colgando todas tus bolsas y utensilios, y así tenerlos a mano.
+
+<br/><br/><strong>Bonus</strong> +1 hueco de Inventario. Permite adquirir múltiples Saquitos Encantados y aumenta su capacidad en +2 huecos extras. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 25 d.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Cinturón mágico</div>
+<div class="desc">Sujétate los pantalones con este fabuloso cinturón encantado que se extiende tanto como sea necesario.
+
+<br/><br/><strong>Bonus</strong> +1 hueco de Inventario. Permite adquirir múltiples Bolsas Encantadas y aumenta su capacidad en +2 huecos extras. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 25 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Bolsa encantada</div>
+<div class="desc">Pequeño zurrón hechizado para almacenar más objetos de los que normalmente cabrían y que solo el dueño puede retirarlos.
+
+<br/><br/><strong>Bonus</strong> +5 huecos de Inventario. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Bolsa encantada</div>
+<div class="desc">Pequeña bolsa aumentada mágicamente para almacenar más objetos de los que normal y que solo el dueño puede retirarlos.
+
+<br/><br/><strong>Bonus</strong> +5 huecos de Inventario. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Saquito encantado</div>
+<div class="desc">Una pequeña bolsa hecha de tela de colores, hechizada para guardar múltiples objetos y que solo el dueño puede retirarlos.
+
+<br/><br/><strong>Bonus</strong> +5 huecos de Inventario. No ocupa espacio de inventario.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 50 a.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Sarcina sin fondo</div>
+<div class="desc">Bolso clásico romano mágico que se oculta en forma de una mochila común y corriente y permite guardar infinita cantidad de objetos.
+
+<br/><br/><strong>Bonus</strong> Inventario sin límites.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 300 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Morral sin fondo</div>
+<div class="desc">Encantado para que parezca una mochila normal y corriente, este zurrón permite guardar infinidad de objetos sin notar su peso.
+
+<br/><br/><strong>Bonus</strong> Inventario sin límites.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 300 d.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Alforjas sin fondo</div>
+<div class="desc">Una de las ventajas de tener un caballo es que pueda cargar cosas y, con estas alforjas, podrá cargar todo lo que quieras. Literal, no tienen fondo.
+
+<br/><br/><strong>Bonus</strong> Inventario sin límites.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 300 a.</div></div>
+<div class="objeto rom gri cel cach"><div class="tbase-destacado">Tinte mágico</div>
+<div class="desc">La solución perfecta para una coloración del cabello instantánea y duradera, porque tienes derecho a lucir la melena que siempre soñaste.
+
+<br/><br/><strong>Bonus</strong> Cambia el color del pelo del semidiós a cualquier otro a su elección. Dura tanto tiempo como se desee y el regreso al color natural es automático.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 mo.</div></div>
+<div class="objeto rom gri cel cach"><div class="tbase-destacado">Spray de Glamour</div>
+<div class="desc">¡Prueba nuestro nuevo spray con un 100% más de glamour! Con él los monstruos estarán tan confusos que no sabrán si atacarte a ti o al vecino.
+
+<br/><br/><strong>Bonus</strong> Rebaja en -50% dos ataques de 50% o 100% por oponente.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 500 m.</div></div>
+<div class="objeto rom gri cel cach"><div class="tbase-destacado">Cubo de ambrosía</div>
+<div class="desc">El alimento de los dioses presentado en forma de brownies, horneados con mucho amor. Tienen el sabor de la comida favorita del semidiós y sana heridas leves.
+
+<br/><br/><strong>Bonus</strong> Recupera 3 PV. 
+<br/><strong>Tipo</strong> Cachivache 
+<br/><strong>Usos</strong> Consumible, máximo un uso por tema.
+<br/><strong>Precio</strong> 40 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Cantimplora con néctar</div>
+<div class="desc">¿Cansado de que te aplaste la ambrosía en el bolsillo? En forma de cantimplora, este néctar es de fácil consumo y aún más fácil rellenado.
+
+<br/><br/><strong>Bonus</strong> Recupera 3 PV. 
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Recargable, 3 cargas, solo un uso por tema.
+<br/><strong>Precio</strong> 100 d. Descuento de 20 d. a hijos de Juventas.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Cápsula multivitaminica</div>
+<div class="desc">Recién salida del horno de los hijos de Ceres, esta vitamina super poderosa permite aumentar las fuerzas del semidiós para resistir más en batalla. 
+
+<br/><br/><strong>Bonus</strong> Suma 1 punto a elección en PC, VEL o PR por el resto del tema. 
+<br/><strong>Tipo</strong> Cachivache.
+<br/><strong>Usos</strong> Consumible, máximo 5 dosis por tema.
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">Termo de los vientos</div>
+<div class="desc">Toda la fuerza de los vientos Norte, Sur, Este y Oeste contenida en un termo. Se puede utilizar como una brújula o como una forma de ataque poco potente. 
+
+<br/><br/><strong>Bonus</strong> Los ataques del enemigo se reducen en un 50% tantos turnos como lo indicado por el dado de acción.
+<br/><strong>Tipo</strong> Cachivache trampa 
+<br/><strong>Usos</strong> Consumible 
+<br/><strong>Precio</strong> 250 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Cápsula de esencia</div>
+<div class="desc">Una pequeña pastilla que permite afianzar el lazo mágico del legionario para potenciar sus ataques mágicos.
+
+<br/><br/><strong>Bonus</strong> +1 PE. Una vez por tema, lanza dos dados de espíritu y elige el mejor.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible 
+<br/><strong>Precio</strong> 400 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Bomba de humo</div>
+<div class="desc">Un pequeño dispositivo de humo que puedes activar como una bomba, tirándola o simplemente dejando que haga lo suyo con tu último aliento.
+
+<br/><br/><strong>Bonus</strong> Al llegar 0 PV o menos, suelta un humo denso hacia los oponentes. El personaje puede escapar, pero tras ponerse a salvo cae inconsciente.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 250 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Buccina</div>
+<div class="desc">Adaptado del antiguo, y enorme, instrumento romano, este silbato produce un sonido solo audible para otros mestizos y permite identificar la posición aproximada.
+
+<br/><br/><strong>Bonus</strong> Reduce el tiempo requerido para que lleguen refuerzos o quita la sorpresa a un oponente escondido.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 30 d.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">C4 Oro Imperial</div>
+<div class="desc">Y hace boom. Capaz de hacer volar hasta al monstruo más feo, el C4 de oro imperial es la solución perfecta para no tener que pensar mucho en una estrategia de batalla.
+
+<br/><br/><strong>Bonus</strong> Lanza dos dados de acción para calcular el daño neto que reciben tantos enemigos como la mitad del resultado. Ej: Dado de acción 1 = 4. Dado de acción 2 = 7. El daño es de 11 PV y se realiza a 5 enemigos.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 500 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado" style="letter-spacing:.5px;">Camiseta del Campamento</div>
+<div class="desc">La camiseta morada clásica de los campistas del destruido campamento Júpiter. Nada como el orgullo mestizo para resistir los golpes.
+
+<br/><br/><strong>Bonus</strong> Identifica y muestra afinidad al Campamento Júpiter. No ocupa espacio en el Inventario.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 10 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Caramelo de la suerte</div>
+<div class="desc">Todos los legionarios en algún momento han sentido que los hados no estaban de su parte. Pero ahora, con los caramelos de la suerte, Fortuna nunca dejará de sonreíros.
+
+<br/><br/><strong>Bonus</strong> Altera el resultado de un dado de cualquier tipo del personaje. El dado de batalla solo puede alterarse +100% (sin superar el máximo). El dado de acción o denario se modifica a cualquier valor.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 d. Descuento de 10 d. a hijos de Fortuna.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Cuerno de unicornio</div>
+<div class="desc">Un brebaje mágico con potentes poderes curativos y de buen sabor, hecho a base de cuerno de unicornio.
+
+<br/><br/><strong>Bonus</strong> Anula el efecto de venenos e inmuniza al personaje durante el resto del tema.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 70 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Extracto de esencia</div>
+<div class="desc">Unas gotas de este suero sobre el arma y esta pasará a ser una extensión del espíritu del legionario, adquiriendo un poco de su magia.
+
+<br/><br/><strong>Bonus</strong> +1 PE. Otorga al ataque de Combate un efecto parcialmente mágico (un hijo de Chione produciría hielo) y suma al ataque de Espíritu +50% una vez por tema.
+<br/><strong>Tipo</strong> Mágico
+<br/><strong>Usos</strong> Consumible, 1 tema.
+<br/><strong>Precio</strong> 200 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Rosa de viaje</div>
+<div class="desc">Rezarle a Proserpina nunca había dado tan buenos resultados. Plantando esta flor, podrás obtener un viaje de regreso a casa instantáneo.
+
+<br/><br/><strong>Bonus</strong> Permite transportarse de regreso a algún lugar conocido. 
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 45 d. Descuento de 25 d. a hijos de Ceres.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Flor de seguimiento</div>
+<div class="desc">Con esta flor se puede encontrar a una persona en específico. Sus pétalos van cayendo a medida que uno se acerca al objetivo y, al encontrarlo, la flor muere.
+
+<br/><br/><strong>Bonus</strong> Permite rastrear a una persona.
+<br/><br/><strong>Bonus</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 50 d. Descuento de 25 d. a hijos de Ceres.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">Lazo</div>
+<div class="desc">Una soga especial de hilos de oro imperial trenzado finamente, pensado para inmovilizar adversarios.
+
+<br/><br/><strong>Bonus</strong> El enemigo no puede realizar ninguna acción de batalla mientras está atrapado. En cada turno, lanza dado de acción y al obtener 6 o más se suelta. De sacar 9 o 10, rompe el lazo.
+<br/><strong>Tipo</strong> Cachivache trampa 
+<br/><strong>Usos</strong> Consumible, 3 usos (si no se rompe).
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto rom gri cel cach"><div class="tbase-destacado">Afilador</div>
+<div class="desc">¡El afilador! ¡Ya está aquí el afiladooooor! Una hoja afilada siempre es necesaria en batalla por lo que tener una piedra de afilar a mano es completamente necesario. 
+
+<br/><br/><strong>Bonus</strong> Una vez por tema, el dado de Combate de 100% sube a 150%.
+<br/><strong>Tipo</strong> Cachivache
+<br/><br/><strong>Bonus</strong>  Consumible, 2 usos.
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Pulsera atrapasueños</div>
+<div class="desc">Atrapa un sueño bonito de otra persona y lo reproduce cuando la persona tiene puesta la pulsera y se queda dormido. Muy útil para aquellos que tienen pesadillas y no pueden soñar con nada agradable.
+
+<br/><br/><strong>Bonus</strong> Mejora el sueño y repone las fuerzas.
+<br/><br/><strong>Bonus</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><br/><strong>Bonus</strong> 70 d. Descuento de 10 d. a hijos de Somnus.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Talismán Equitativo</div>
+<div class="desc">Llevando este talismán mágico, podrás hacer sentir a tu atacante una pequeña parte del dolor que este te haya producido a ti.
+
+<br/><br/><strong>Bonus</strong> Al recibir crítico, rebota un 50% del daño como ataque mágico (neto) una vez por enemigo. No puede usarse a la vez que otro talismán.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> 3 temas
+<br/><strong>Precio</strong> 200 d. Descuento de 50 d. a hijos de Envidia.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Talismán de la suerte</div>
+<div class="desc">La suerte favorece a los valientes y a los que llevan equipado este amuleto. 
+
+<br/><br/><strong>Bonus</strong> Aumenta en +4 un dado de acción y altera el resultado de un denario una vez por tema. No puede usarse a la vez que otro talismán. 
+<br/><strong>Tipo</strong> Mágico 
+<br/><strong>Usos</strong> 2 temas
+<br/><strong>Precio</strong> 300 d. Descuento de 50 d. a hijos de Fortuna.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Tribulus</div>
+<div class="desc">Abrojos de oro imperial con 4 puntas utilizados para evitar que los enemigos puedan cruzar alguna zona, dado que pisarlos sería contraproducente.
+
+<br/><br/><strong>Bonus</strong> El enemigo pierde -1 VEL en ese turno.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible, 3 usos.
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Vendaje</div>
+<div class="desc">Tratado con la magia curativa de los hijos de Apolo y un emplasto especial de hierbas, estas vendas curan al momento cualquier herida abierta.
+
+<br/><br/><strong>Bonus</strong> Anula el efecto Sangrado o habilidades similares que descuenten PV por herida. No aplica a venenos o magia.
+<br/><strong>Tipo</strong> Mágico 
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado">Vitaminas de Trivia</div>
+<div class="desc">Estas píldoras vuelven al consumidor inmune a efectos mágicos. Se acabó que los hijos de Somnus te hagan dormir con su presencia.
+
+<br/><br/><strong>Bonus</strong> Efectos mágicos narrativos como ilusiones, polimorfia, auras y hechizos que actúen sobre el personaje son anulados.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema.
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto rom cach"><div class="tbase-destacado" style="letter-spacing:.5px;">Condones Amoquinéticos</div>
+<div class="desc">Tratados con una fórmula creada por el mismísimo Eros para que no termines el tema en un post. 
+
+<br/><br/><strong>Bonus</strong> Permite no traer bendiciones al campamento.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 10 d. Descuento de 5 d. a hijos de Venus.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Pugio ligero</div>
+<div class="desc">Una daga ligera y recta, capaz de colarse entre espacios de la armadura de un oponente confiado.
+
+Una vez por oponente, en caso de obtener un 100% al lanzar la daga, se puede sumar +50% al daño.  +1 PC. Especialidad: Escudo puede usarlo junto a sus bonus.
+3 temas - Reparable - 400 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Pugio pesado</div>
+<div class="desc">Una versión bien equilibrada de la daga tradicional, con un contrapeso adecuado y una forma aerodinámica. Su peso superior a las dagas habituales permite generar heridas más profundas a costa de una menor precisión. 
+
+Especialidad: Daga. Otorga una esquiva extra de 50% o 100%. Aumenta el daño producido por la habilidad Sangrado +1 PV. +1 PC. 
+3 temas - Reparable - 600 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Pugios duales</div>
+<div class="desc">Dagas romanas un poco más anchas, con una guarda adecuada para proteger la mano en combate prolongado; un juego de dos armas idénticas. Utilizadas mejor en conjunto, maximizan el daño del legionario.
+
+Especialidad: Daga. El dado de combate de 50% del semidiós ignora PR y, una vez por oponente, puede eludirse un 150% del enemigo. +1 PC y +1 VEL.
+3 temas - Reparable - 800 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Gladius</div>
+<div class="desc">Espada corta clásica romana, de unos 60 centímetros de largo, creada para apuñalar en conjunto con un escudo.
+
+<br/><strong>Stats</strong> +1 PC
+<br/><br/><strong>Bonus</strong> Dos veces por enemigo, otorga +2 VEL para calcular a cuantos oponentes atacar a la vez, hacer esquives o utilizar algún bonus.
+<br/><strong>Usos</strong> 3 temas, reparable
+<br/><strong>Tipo</strong> Espada
+<br/><strong>Precio</strong> 400 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Spatha</div>
+<div class="desc">Espada larga de una mano, balanceada para ser usada en ataque y en defensa, en solitario o con escudo.
+
+<br/><strong>Stats</strong> +1 PC y +1 VEL
+<br/><br/><strong>Bonus</strong> Suma +50% al ataque una vez por enemigo y da +1 PC si la VEL del enemigo es superior.
+<br/><strong>Usos</strong> 3 temas, reparable
+<br/><strong>Tipo</strong> Espada (Exclusivo)
+<br/><strong>Precio</strong> 800 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Pilum ligero</div>
+<div class="desc">Un tipo de lanza básica que se utilizaba a larga distancia en su mayoría y medía unos 2 metros. Existen dos tipos, el pilum ligero otorga mayor maniobrabilidad al lanzar el arma.
+
+Especialidad: Lanza.Mejora el bonus de especialidad de sumar +2 PR a +3 PR. +1 PC.
+3 remas - Reparable - 400 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Hasta</div>
+<div class="desc">El arma icónica de los Hastati, se trata de una lanza de 1.70 metros aproximadamente, utilizada para combate cuerpo a cuerpo a corta y media distancia. Su hoja es de oro imperial por lo que también es muy útil para ensartar enemigos.
+
+Especialidad: Lanza. Aprovechando el largo de la lanza, dos veces por oponente eluden el daño de 50%. +1 PC.
+3 temas - Reparable - 500 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Pilum pesado</div>
+<div class="desc">Un tipo de lanza básica que se utilizaba a larga distancia en su mayoría y medía unos 2 metros. Existen dos tipos, el pilum pesado posee una mayor perforación en su hoja.
+
+Especialidad: Lanza. Una vez por enemigo, pueden reducir el ataque recibido en un -50%. En caso de obtener crítico, una vez por oponente se suma un 50% al ataque del siguiente personaje en atacar a dicho enemigo. +1 PC.
+3 temas - Reparable - 600 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Contus</div>
+<div class="desc">Utilizada como pica de infantería o lanza de caballería. Es una lanza muy larga y pesada, diseñada para ser usada con ambas manos. Debido a ello quien la lleve no puede portar armaduras ni tampoco escudos pesados.
+
+Especialidad: Lanza. En caso de obtener un 0% o 50%, una vez por enemigo pueden sumar un 100% a su ataque. Si el enemigo tiene más velocidad que el semidiós, suman +1 VEL adicional. +1 PC y +1 VEL.
+3 remas - Reparable - 800 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Arco corto</div>
+<div class="desc">Una versión ligera y sencilla de llevar del arco común, pero no por ello menos potente. Ideal en combate cerrado o para tiros directos más que voleas.
+
+El primer disparo del arquero recibe un +50% al dado de combate. +1 PC.
+3 temas - Reparable - 400 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Ballesta Ligera</div>
+<div class="desc">Inspirada en la gran ballesta romana, un arma de asedio, la versión ligera es una ballesta de mano que puede ser utilizada por los legionarios como arma regular.
+
+Especialidad: Arco. Gracias a la potencia del disparo, dos veces por enemigo su daño crítico aumentan en un 50%. +1PC.
+3 temas - Reparable - 700 d.</div></div>
+<div class="objeto rom arma"><div class="tbase-destacado">Arco largo</div>
+<div class="desc">El arma a distancia básica de los Sagitarii. Un tipo de arco hecho de cuerno, madera y tendón, usado para lanzar flechas con punta de oro a gran distancia. 
+
+Especialidad: Arco. Al obtener 150% suma +50% de daño una vez por oponente e ignora 2PR del enemigo. +1 PC y +1 VEL.
+3 temas - Reparable - 800 d.</div></div>
+
+<div class="objeto rom trampa"><div class="tbase-destacado">Plumbata clásica</div>
+<div class="desc">Tres dardos largos utilizados para hostigar enemigos o deshacer formaciones, siendo como flechas pequeñas con un peso entre la madera y la punta metálica para facilitar su lanzamiento.
+
+Permite provocar al enemigo, haciendo a que el daño de su siguiente ataque recaiga sobre él. Cada plumbata produce un turno de provocación.
+3 usos - Trampa - 100 d.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">Plumbata hiriente</div>
+<div class="desc">Tres dardos aserrados que están diseñados para lacerar y crear heridas sangrantes difíciles de curar.
+
+Quita 1 PV al enemigo y reduce sus siguientes 2 curaciones a la mitad. Si se trata de un monstruo que se cure pasivamente, su curación se reduce en 2.
+3 usos - Trampa - 50 d.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">Plumbata rastreadora</div>
+<div class="desc">Tres dardos pequeños pero muy afilados pensados para sacar sangre constantemente, aunque no en cantidades peligrosas, sino como modo de rastreo confiable.
+
+Evita que un enemigo escape por medios de engañar a los sentidos, pues siempre indica su ubicación con un color iridiscente. Si hay que rastrear luego, otorga un +2 a esas tiradas, al teñir brillante el rastro de sangre de la víctima.
+3 usos - Trampa - 50 d.</div></div>
+<div class="objeto rom trampa"><div class="tbase-destacado">Amentum</div>
+<div class="desc">Una soguilla de oro imperial trenzada y colocada sobre las plumbatas para darles potencia y alcance superior.
+
+Permite atacar al usar plumbatas, pero el daño debe calcularse con el valor de PC sin sumarle bonus de ningún arma adicional (pues se está atacando con las plumbatas). 
+3 usos - Trampa - 50 d.</div></div>
+<div class="objeto rom esc"><div class="tbase-destacado">Rodela</div>
+<div class="desc">Un escudo pequeño y redondo, a veces usado con un asa, a veces amarrado al brazo, dependiendo de la unidad que lo porte. En ocasiones, toma la forma de un brazalete reforzado con bordes salientes.
+
+Convierte un 150% en 0% una vez por enemigo. +1 PR. Especialidades: Espada y Lanza pueden usarlo sin perder sus bonus pero reduce en 1 la VEL.
+3 temas - Reparable - 400 d.</div></div>
+<div class="objeto rom esc"><div class="tbase-destacado">Relieve</div>
+<div class="desc">Un escudo con relieve bañado en oro imperial, los golpes de los monstruos serán reducidos al ellos mismos lastimarse en cada ataque, por lo que la resistencia del semidiós bajará más lentamente. 
+
+Especialidad: Escudo. La reducción de resistencia del semidios aumenta, siendo necesarios 2 golpes críticos (150%) para reducir 1 PR. +1 PR.
+3 Temas - Reparable - 500 d.</div></div>
+<div class="objeto rom esc"><div class="tbase-destacado">Parma</div>
+<div class="desc">Un escudo grande básico para todo soldado o guerrero. Es de forma circular y quizás algo pesado para su tamaño medio, pero perfectamente manejable. Con él puedes protegerte y arrear algún que otro golpe.
+
+Especialidad: Escudo. Anula el daño poco efectivo (50%) una vez por oponente y otorga un +50% al dado de defensa una vez por oponente. +1 PR.
+3 Temas - Reparable - 600 d.</div></div>
+<div class="objeto rom esc"><div class="tbase-destacado">Scutum</div>
+<div class="desc">El clásico escudo grande de la infantería pesada. Superficie semicilíndrica, en ocasiones plana, con forma rectangular y tamaño considerable. Posee un revestimiento de piel o tela y un reforzamiento de metal en el centro. Su forma y tamaño permiten proteger al legionario de golpes contundentes, además de desviar flechas. 
+
+Especialidad: Escudo. Anula el daño de 50% y, al obtener 200% en una defensa aliada, aumenta el daño al enemigo en +5 PV. +2 PR.
+3 Temas - Reparable - 800 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Túnica bendecida</div>
+<div class="desc">Todos debemos llevar algo debajo de la armadura. Los que prefieren ser más clásicos, pueden utilizar una túnica corta como los antiguos legionarios. Tiene varias formas, siempre con adornos romanos.
+
+Vestimenta. Una vez por tema, reduce en un 50% un ataque enemigo de cualquier tipo. No necesita ser equipada en el inventario en tramas oficiales.
+Permanente - 250 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Manica consagrada</div>
+<div class="desc">Un conjunto de brazal largo con hombrera y correas, consagradas a los dioses de la batalla y al servicio de Roma. Incluye grebas. Sólo pueden portarlo aquellos favorecidos por los dioses.
+
+Vestimenta. Otorga +5 PV, pero no puede usarse en conjunto con armadura.
+Permanente - 400 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Botas de Mercurio</div>
+<div class="desc">Los hijos de Mercurio han decidido entrar en el mercado de los zapatos para hacerle la competencia a cierta diosa griega que no nombraremos. Que no te engañen, estas botas sí te hacen correr más rápido.
+
+Vestimenta. +1 VEL. No se puede equipar a la vez que otras botas. 
+Descuento de 30 d. a hijos de Mercurio.
+3 temas - 200 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Casco Lujoso</div>
+<div class="desc">Casco pulido decorado con una increíble crin roja, portándolo serás el más fabuloso de tu cohorte y también el más admirado. Cualquiera diría que eres alguien importante, de hecho.
+
+Vestimenta. Otorga +2 en el dado de Acción para cualquier uso de poderes de influencia, manipulación o que afecten las mentes de tercero de alguna manera. No se pueden equipar a la vez que otros cascos.
+Permanente - 200 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Brazales de Hércules</div>
+<div class="desc">Son brazaletes pesados que dan un extra a la hora de dar golpes gracias a la inercia que producen, se ganaron este nombre ya que Hércules entrenaba con 10 de estos y tomaba la sopa con 5. 
+
+Vestimenta. Suma +50% al dado de Combate una vez por enemigo. No pueden equiparse a la vez que otros brazaletes.
+2 temas - 500 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Cestus</div>
+<div class="desc">Brazaletes con correajes, placas y/o remaches de oro imperial. Permiten pelear sin ocupar las manos, lo que da una gran ventaja táctica para hacer maniobras como desarmes, derribos, empujones o golpes aturdidores.
+
+Vestimenta. Una vez por oponente, al realizar un crítico, anula el ataque enemigo en ese turno. No pueden equiparse a la vez que otros brazaletes.
+2 Temas - 500 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Subarmalis</div>
+<div class="desc">Prenda acolchada llevada típicamente debajo de la armadura (de llevarla) y sobre la ropa, usada como elemento protector.
+
+Vestimenta. De llevarla en solitario o con otra pieza de vestimenta, da +2 PR.
+2 Temas - 250 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Casco Ligero</div>
+<div class="desc">Protege tu cabeza como un buen legionario gracias a este casco discreto y eficaz.
+
+Pieza de armadura. Convierte un ataque efectivo (100%) en poco efectivo (50%) por oponente. No puede usarse a la vez que otro casco. +1 PR.
+3 temas - Reparable - 400 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Botas Reforzadas</div>
+<div class="desc">Porque una buena armadura no puede ser completada sin el calzado adecuado, estas son las botas perfectas para ir a matar monstruos. Ya sabes, por si te pinchan en los pies.
+
+Pieza de armadura. +1 PR. Una vez por oponente esquiva un ataque de 50% o 100% de combate. No se puede equipar a la vez que otras botas.
+3 Temas - Reparable - 400 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Lorica Hamata</div>
+<div class="desc">Consiste en una serie de anillos de hierro entrelazados vertical y horizontalmente, resultando en una malla flexible y resistente. Cubre la mitad de la espalda, todo el pecho y muslos mientras que los hombros van cubiertos por un tipo de mangas de malla. Utilizada por arqueros y algunos lanceros.
+
+Armadura ligera. Una vez por enemigo, anula un ataque efectivo o poco efectivo. +5 PV y +1 PR, -1 VEL. Con Especialidad: Escudo, no disminuye la velocidad.
+3 temas - Reparable - 500 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Lorica Squamata</div>
+<div class="desc">Consiste en una serie de pequeñas piezas de metal cosidas con alambre a un forro interior. El metal no es muy grueso pero la superposición de las escamas ofrece una consistente protección al legionario. Protege del pecho hasta los muslos, y los hombros quedan cubiertos por mangas de malla.
+
+Armadura intermedia. Una vez por enemigo, permite lanzar dos dados de defensa y elegir el que más le favorezca. +5 PV y +1 PR, -1 VEL. Con Especialidad: Escudo no disminuye la velocidad.
+3 Temas - Reparable - 600 d.</div></div>
+<div class="objeto rom armdr"><div class="tbase-destacado">Lorica Segmentata</div>
+<div class="desc">Consiste en una serie de bandas de hierro o acero atadas a tiras de cuero internas. Las bandas cruzan de forma horizontal al torso, sobreponiéndose las unas a las otras en sentido descendente, y rodean el cuerpo del legionario en dos mitades laterales atadas en la parte frontal y trasera. Más tiras protegen el pecho y los hombros.
+
+Exclusivo: Escudo. Armadura pesada. +50% a dos defensas por oponente. +5 PV y +2 PR.
+3 Temas - Reparable - 800 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Petaca con néctar</div>
+<div class="desc">¿Cansado de que se te aplaste la ambrosía en el bolsillo? Embasado en una petaca metálica, este néctar es de fácil consumo y aún más fácil rellenado.
+
+<br/><br/><strong>Bonus</strong> Recupera 3 PV. 
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Recargable, 3 cargas, solo un uso por tema.
+<br/><strong>Precio</strong> 100 d. Descuento de 20 d. a hijos de Hebe.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Cápsula Multivitamínica</div>
+<div class="desc">Recién salida del horno de los hijos de Demeter, esta vitamina super poderosa permite aumentar las fuerzas del semidiós para resistir más en batalla. 
+
+<br/><br/><strong>Bonus</strong> Suma 1 punto a elección en PC, VEL o PR por el resto del tema. 
+<br/><strong>Tipo</strong> Cachivache.
+<br/><strong>Usos</strong> Consumible, máximo 5 dosis por tema.
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Bomba de humo</div>
+<div class="desc">Un pequeño dispositivo de humo que puedes activar como una bomba, tirándola o simplemente dejando que haga lo suyo con tu último aliento.
+
+<br/><br/><strong>Bonus</strong> Al llegar 0 PV o menos, suelta un humo denso hacia los oponentes. El personaje puede escapar, pero tras ponerse a salvo cae inconsciente.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 250 d.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Bomba de luz</div>
+<div class="desc">Esta bomba de luz fue pensada para ser lanzada contra un enemigo y cegarlo durante unos pocos minutos.
+
+<br/><br/><strong>Bonus</strong> Reduce el PR enemigo a la mitad durante tres turnos.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 350 d.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Bomba Cerdo</div>
+<div class="desc">Ya se sabe que no se puede dejar solos a los hijos de Hécate. Tiempo libre y magia provocan cosas como estos artefactos que se han convertido en un curioso modo de dejar desprotegido al enemigo. 
+
+<br/><br/><strong>Bonus</strong> Convierte a un enemigo en cerdo por dos turnos y anula sus habilidades. Ataca con PC.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 d. Descuento del 10% a hijos de Hécate</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">C4 Bronce de celestial</div>
+<div class="desc">Y hace boom. Capaz de hacer volar hasta al monstruo más feo, el C4 de oro imperial es la solución perfecta para no tener que pensar mucho en una estrategia de batalla.
+
+<br/><br/><strong>Bonus</strong> Lanza dos dados de acción para calcular el daño neto que reciben tantos enemigos como la mitad del resultado. Ej: Dado de acción 1 = 4. Dado de acción 2 = 7. El daño es de 11 PV y se realiza a 5 enemigos.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 500 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Cadena</div>
+<div class="desc">Una cadena especial de eslabones de bronce celestial terminada en gancho, pensada para inmovilizar adversarios.
+
+<br/><br/><strong>Bonus</strong> El enemigo no puede realizar ninguna acción de batalla mientras está atrapado. En cada turno, lanza dado de acción y al obtener 6 o más se suelta. De sacar 9 o 10, rompe el lazo.
+<br/><strong>Tipo</strong> Cachivache trampa 
+<br/><strong>Usos</strong> Consumible, 3 usos (si no se rompe).
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Collar de cuentas</div>
+<div class="desc">Un cordel de cuero trenzado entregado a todo campista en su primer verano y al que se le añade una cuenta por cada verano de estancia en el Campamento Mestizo.
+
+<br/><br/><strong>Bonus</strong> Indica los años en el Campamento Mestizo. No ocupa espacio en el Inventario.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 10 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado" style="letter-spacing:.5px;">Camiseta del Campamento</div>
+<div class="desc">La camiseta naranja clásica de los campistas del Campamento Mestizo, puede llevarse bajo la armadura o como única protección. Nada como el orgullo mestizo para resistir los golpes.
+
+<br/><br/><strong>Bonus</strong> Identifica y muestra afinidad al Campamento Mestizo. No ocupa espacio en el Inventario.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 10 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Caramelo de la suerte</div>
+<div class="desc">Todos los mestizos en algún han sentido que los hados no estaban de su parte. Pero ahora, con los caramelos de la suerte, Tiqué nunca dejará de sonreíros.
+
+<br/><br/><strong>Bonus</strong> Altera el resultado de un dado de cualquier tipo del personaje. El dado de batalla solo puede alterarse +100% (sin superar el máximo). El dado de acción o denario se modifica a cualquier valor.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 d. Descuento de 10 d. a hijos de Tiqué.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Cuerno de Unicornio</div>
+<div class="desc">Un brebaje mágico con potentes poderes curativos y de buen sabor, hecho a base de cuerno de unicornio.
+
+<br/><br/><strong>Bonus</strong> Anula el efecto de venenos e inmuniza al personaje durante el resto del tema.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 70 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Crema antimagia</div>
+<div class="desc">Esta crema, con un suave aroma a flores silvestres, fue creada por la misma Medea para volver a quién la utiliza resistente a la magia.
+
+<br/><br/><strong>Bonus</strong> +1 PE. Dos veces por tema, el daño neto de cualquier tipo de ataque no ignora PR.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 400 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Bloqueador de coco</div>
+<div class="desc">Protector solar factor 500.000, un bloqueador con suave olor a coco que inhibe a los semidioses tanto del frío como del calor. 
+
+<br/><br/><strong>Bonus</strong> Reduce en un 50% ataques de frío o fuego y anula los efectos de quemaduras o congelación.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible 
+<br/><strong>Precio</strong> 300 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Extracto de esencia</div>
+<div class="desc">Unas gotas de este suero sobre el arma y esta pasará a ser una extensión del espíritu del campista, adquiriendo un poco de su magia.
+
+<br/><br/><strong>Bonus</strong> +1 PE. Otorga al ataque de Combate un efecto parcialmente mágico (un hijo de Khione produciría hielo) y suma al ataque de Espíritu +50% una vez por tema.
+<br/><strong>Tipo</strong> Mágico
+<br/><strong>Usos</strong> Consumible, 1 tema.
+<br/><strong>Precio</strong> 200 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Rosa de viaje</div>
+<div class="desc">Rezarle a Perséfone nunca había dado tan buenos resultados. Plantando esta flor, podrás obtener un viaje de regreso a casa instantáneo.
+
+<br/><br/><strong>Bonus</strong> Permite transportarse de regreso a algún lugar conocido. 
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 50 d. Descuento de 25 d. a hijos de  Deméter.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Flor de seguimiento</div>
+<div class="desc">Con esta flor se puede encontrar a una persona en específico. Sus pétalos van cayendo a medida que uno se acerca al objetivo y, al encontrarlo, la flor muere.
+
+<br/><br/><strong>Bonus</strong> Permite rastrear a una persona.
+<br/><br/><strong>Bonus</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 50 d. Descuento de 25 d. a hijos de Deméter.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Fuego griego</div>
+<div class="desc">Una solución alquímica contenida por un frasco aerodinámico hecho de cerámica. Una vez que comienza a arder, apagarlo es casi imposible.
+
+<br/><br/><strong>Bonus</strong> Quema al enemigo y hace que pierda 2 PV cada 3 turnos. Curable solo con Bloqueador de coco o habilidades de sanación.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Talismán Equitativo</div>
+<div class="desc">Llevando este talismán mágico, podrás hacer sentir a tu atacante una pequeña parte del dolor que este te haya producido a ti.
+
+<br/><br/><strong>Bonus</strong> Al recibir crítico, rebota un 50% del daño como ataque mágico (neto) una vez por enemigo. No puede usarse a la vez que otro talismán.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> 3 temas
+<br/><strong>Precio</strong> 200 d. Descuento de 50 d. a hijos de Némesis.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Talismán de la suerte</div>
+<div class="desc">La suerte favorece a los valientes y a los que llevan equipado este amuleto. 
+
+<br/><br/><strong>Bonus</strong> Aumenta en +4 un dado de acción y altera el resultado de un denario una vez por tema. No puede usarse a la vez que otro talismán. 
+<br/><strong>Tipo</strong> Mágico 
+<br/><strong>Usos</strong> 2 temas
+<br/><strong>Precio</strong> 300 d. Descuento de 50 d. a hijos de Tiqué.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Veneno</div>
+<div class="desc">La hoja o arma que se recubra con este veneno, pegajoso y transparente, crea heridas envenenadas que reducen la vida del afectado poco a poco.
+
+<br/><br/><strong>Bonus</strong> Al realizar un ataque de Combate crítico, envenena al enemigo haciendo que pierda 1 PV cada 2 turnos. Curable con Cuerno de Unicornio o habilidades de sanación.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 300 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Vendaje</div>
+<div class="desc">Tratado con la magia curativa de los hijos de Apolo y un emplasto especial de hierbas, estas vendas curan cualquier herida abierta en cuestión de segundos.
+
+<br/><br/><strong>Bonus</strong> Anula el efecto Sangrado o habilidades similares que descuenten PV por herida. No aplica a venenos o magia.
+<br/><strong>Tipo</strong> Mágico 
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado">Vitaminas de Hécate</div>
+<div class="desc">Estas píldoras vuelven al consumidor inmune a efectos mágicos. Se acabó que los hijos de Hipnos te hagan dormir con su presencia.
+
+<br/><br/><strong>Bonus</strong> Efectos mágicos narrativos como ilusiones, polimorfia, auras y hechizos que actúen sobre el personaje son anulados.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema.
+<br/><strong>Precio</strong> 50 d.</div></div>
+<div class="objeto gri cach"><div class="tbase-destacado" style="letter-spacing:.5px;">Condones Amoquinéticos</div>
+<div class="desc">Tratados con una fórmula creada por el mismísimo Eros para que no termines el tema en un post. 
+
+<br/><br/><strong>Bonus</strong> Permite no traer bendiciones al campamento. 
+<br/><strong>Tipo</strong> Cachivache narrativo.
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 10 d. Descuento de 5 d. a hijos de Afrodita.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Parazonium ligero</div><div class="df2avam">3 temas - Reparable - 400 d.</div>
+<div class="desc">Una daga ligera y recta, capaz de colarse entre espacios de la armadura de un oponente confiado.
+
+Una vez por oponente, en caso de obtener un 100% al lanzar la daga, se puede sumar +50% al daño.  +1 PC.Especialidad: Escudo puede usarlo junto a sus bonus.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Parazonium pesado</div><div class="df2avam">3 temas - Reparable - 600 d.</div>
+<div class="desc">Una versión bien equilibrada de la daga tradicional, con un contrapeso adecuado y una forma aerodinámica. Su peso superior a las dagas habituales permite generar heridas más profundas a costa de una menor precisión. 
+
+Exclusivo: Daga. Otorga una esquiva extra de 50% o 100%. Aumenta el daño producido por el sangrado de la especialidad en +1. +1PC. </div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Parazonium duales</div><div class="df2avam">3 temas - Reparable - 800 d.</div>
+<div class="desc">Dagas griegas un poco más anchas, con una guarda adecuada para proteger la mano en combate prolongado; un juego de dos armas idénticas. Utilizadas mejor en conjunto, maximizan el daño del campista.
+
+Exclusivo: Daga. El dado de combate de 50% del semidiós ignora PR y, una vez por oponente, puede eludirse un 150% del enemigo. +1 PC y +1 VEL. </div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Xiphos</div><div class="df2avam">3 temas - Reparable - 400 d.</div>
+<div class="desc">Espada corta de doble filo y doble curvatura, versátil y confiable. Era el arma básica de la mayoría de guerreros griegos.
+
++1 PC. Dos veces por oponente, suma +2 VEL.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Kopis</div><div class="df2avam">3 temas - Reparable - 600 d.</div>
+<div class="desc">Espada larga y con ligera curvatura en la punta que la hace más similar a un machete. Esto permite una mayor maniobrabilidad en los movimientos con el arma.
+
+Exclusivo: Espada. En caso de obtener un 0%, una vez por enemigo su dado aumentará en un 100%.  Si se usa contra un oponente con más PC que el semidiós, obtiene +1 PC extra. +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Sable corvo</div><div class="df2avam">3 temas - Reparable - 800 d.</div>
+<div class="desc">Espada con una hoja curva, muy ligera y muy filosa que puede ser muy bien empleada en combates cuerpo a cuerpo. Su diseño permite la realización de movimientos precisos y veloces.
+
+Exclusivo: Espada. Ofrece un esquive de 150% una vez por enemigo. En caso de que la velocidad del enemigo sea superior a la del semidiós, el mismo obtendrá +1 PC. +1PC y +1VEL.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Doru ligero</div><div class="df2avam">3 remas - Reparable - 400 d.</div>
+<div class="desc">Un tipo de lanza básica que se utilizaba a larga distancia en su mayoría y medía metro y medio. Existen dos tipos, el doru ligero otorga mayor maniobrabilidad al lanzar el arma.
+
+Exclusivo: Lanza. Mejora el bonus de especialidad de sumar +2 PR a +3 PR. +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Xystón</div>
+<div class="df2avam">3 temas - Reparable - 500 d.</div>
+<div class="desc">El arma icónica de los hoplitas, se trata de una lanza de 2 metros aproximadamente, utilizada para la formación falange. Por esta razón, cuenta con una punta robusta de bronce celestial. Es un favorito de aquellos que buscan contundencia y combate táctico.
+
+Exclusivo: Lanza. Aprovechando el largo de la lanza, dos veces por oponente eluden el daño de 50%. +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Doru pesado</div><div class="df2avam">3 temas - Reparable - 600 d.</div>
+<div class="desc">Un tipo de lanza básica que se utilizaba a larga distancia en su mayoría y medía metro y medio. Existen dos tipos, el doru pesado posee una mayor perforación en su hoja.
+
+Exclusivo: Lanza. Una vez por enemigo, puedes reducir el ataque recibido en un -50%. En caso de obtener crítico, una vez por oponente se suma un 50% al ataque del siguiente personaje en atacar a dicho enemigo. +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Sarisa</div><div class="df2avam">3 remas - Reparable - 800 d.</div>
+<div class="desc">Pica muy pesada y larga usada por los griegos. Dada su contextura, quien la lleve no puede portar armaduras ni escudos pesados.
+
+Exclusivo: Lanza. En caso de obtener un 0% o 50%, una vez por enemigo pueden sumar un 100% a su ataque. Si el enemigo tiene más velocidad que el semidiós, suman +1 VEL adicional. +1 PC y +1 VEL.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Arco corto</div><div class="df2avam">3 temas - Reparable - 400 d.</div>
+<div class="desc">Una versión ligera y sencilla de llevar del arco común, pero no por ello menos potente. Ideal en combate cerrado o para tiros directos más que voleas.
+
+El primer disparo del arquero recibe un +50% al dado de combate. +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Arco largo</div><div class="df2avam">3 temas - Reparable - 800 d.</div>
+<div class="desc">El arma a distancia básica de los Sagitarii. Un tipo de arco hecho de cuerno, madera y tendón, usado para lanzar flechas con punta de bronce a gran distancia. 
+
+Exclusivo: Arco. Al obtener 150% suma +50% de daño una vez por oponente e ignora 2PR del enemigo. +1 PC y +1 VEL. </div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Hacha arrojadiza</div><div class="df2avam">3 temas - Reparable - 500 d.</div>
+<div class="desc">Hacha con una sola hoja de menor tamaño y materiales más ligeros que, por lo tanto, permite una mayor maniobrabilidad y la posibilidad de arrojarla a un objetivo. Posee un pequeño anillo en el extremo para poder engancharla o recogerla con facilidad.
+
+Exclusivo: Hacha. Una vez por oponente, permite reaplicar un bonus que indique una sola vez por enemigo.  +1 PC.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Labrys</div><div class="df2avam">3 temas - Reparable -  800 d.</div>
+<div class="desc">Potente hacha de doble hoja, demasiado grande para llevarla en una sola mano pero mortalmente efectiva. 
+
+Exclusivo: Hacha. Al obtener 150% suman +50% de daño una vez por oponente y los dos siguientes ataques contra ese mismo enemigo aumentan en un 50%. Este bonus no sustituye al de especialidad, ni se acumula, sino que aumenta de uno a dos ataques el bonus asociado. +1 PC y +1PR.</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Martillo de guerra</div><div class="df2avam">3 temas - Reparable - 500 d.</div>
+<div class="desc">Una maza con la peculiaridad de que tener cabeza con forma de martillo de guerra, con picos en un costado. Perfecta para golpear escudos, bloquear ataques y destrozar armaduras.
+
+Exclusivo: Maza. El primer golpe contra un oponente recibe un +50% extra de daño. De tener el enemigo más PC que el semidiós, este recibe +1 PC extra. +1 PC .</div></div>
+<div class="objeto gri arma"><div class="tbase-destacado">Gran Clava</div><div class="df2avam">3 temas - Reparable - 800 d.</div>
+<div class="desc">Maza de gran tamaño y peso, reforzada con remaches de bronce celestial y cuero en el agarre para mayor confort en su manejo. 
+
+Exclusivo: Maza. Una vez por oponente, suma +50% al dado. Una vez por oponente y en caso de golpe critico, puede restar 1 stat (PC, PR o VEL) a eleccion del semidios de forma permanente. +2 PC.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Akontia clásica</div><div class="df2avam">3 usos - Trampa - 100 d.</div>
+<div class="desc">Tres dardos utilizados para hostigar enemigos y causar malestar. Siendo como lanzas pequeñas con un peso entre la madera y la punta metálica para facilitar su lanzamiento.
+
+Permite provocar al enemigo, haciendo a que el daño de su siguiente ataque recaiga sobre él. Cada akontia produce un turno de provocación.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Akontia hiriente</div><div class="df2avam">3 usos - Trampa - 50 d.</div>
+<div class="desc">Tres dardos aserrados diseñados para lacerar al objetivo y crear, así, heridas sangrantes difíciles de curar.
+
+Quita 1 PV al enemigo y reduce sus siguientes 2 curaciones a la mitad. Si se trata de un monstruo que se cure pasivamente, su curación se reduce en 2.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Akontia rastreadora</div><div class="df2avam">3 usos - Trampa - 50 d.</div>
+<div class="desc">Tres dardos pequeños pero muy afilados pensados para sacar sangre constantemente, aunque no en cantidades peligrosas, sino como modo de rastreo confiable.
+
+Evita que un enemigo escape por medios de engañar a los sentidos, pues siempre indica su ubicación con un color iridiscente. Si hay que rastrear luego, otorga un +2 a esas tiradas, al teñir brillante el rastro de sangre de la víctima.</div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Amentum</div><div class="df2avam">3 usos - Trampa - 50 d.</div>
+<div class="desc">Una soguilla de bronce celestial trenzada y colocada sobre las akontias para darles potencia y alcance superior.
+
+Permite atacar al usar akontias, pero el daño debe calcularse con el valor de PC sin sumarle bonus de ningún arma adicional (pues se está atacando con las akontias). </div></div>
+<div class="objeto gri trampa"><div class="tbase-destacado">Honda</div><div class="df2avam">3 cargas - Recargable - Trampa - 150 d.</div>
+<div class="desc">No es un arma muy prestigiosa, pero algunos griegos la utilizan como arma secundaria, continuando con la antigua práctica de los hoplitas. Permite disparar proyectiles pequeños a buena velocidad.
+
+Si el enemigo es volador, lo hiere de forma tal que impide un ataque por un turno. Si el enemigo es terrestre reduce sus ataques por un turno en un 50%, excepto los críticos. Si bien la honda no es consumible, los proyectiles sí y solo pueden ser usados tres veces (los puedes usar tres veces en un mismo tema o una vez en tres temas distintos). No se pueden aplicar bonus de especialidad durante el turno de uso.</div></div>
+<div class="objeto gri esc"><div class="tbase-destacado">Pelte</div><div class="df2avam">3 temas - Reparable - 400 d.</div>
+<div class="desc">Escudo pequeño y ligero, la parte superior suele tener una hendidura en forma de media luna en la que poder posicionar el arma.
+
+Convierte un 150% en 0% una vez por enemigo. +1 PR. Especialidad: Espada y Lanza pueden usarlo junto a sus bonus pero reduce en 1 VEL.</div></div>
+<div class="objeto gri esc"><div class="tbase-destacado">Relieve</div><div class="df2avam">3 Temas - Reparable - 500 d.</div>
+<div class="desc">Un escudo con relieve bañado en bronce celestial, los golpes de los monstruos serán reducidos al ellos mismos lastimarse en cada ataque, por lo que la resistencia del semidiós bajará más lentamente. 
+
+Exclusivo: Escudo. -1 PR extra cada 2 críticos (150%). +1 PR.</div></div>
+<div class="objeto gri esc"><div class="tbase-destacado">Hoplón</div><div class="df2avam">3 Temas - Reparable - 600 d.</div>
+<div class="desc">Un escudo de tamaño medio, favorecido por los hoplitas. Es de forma circular y bastante robusto, bien equilibrado. En ocasiones posee hendiduras a los laterales en forma de media luna.
+
+Exclusivo: Escudo. Anula un ataque poco efectivo por oponente y suma +50% a la defensa una vez por oponente. +1 PR.</div></div>
+<div class="objeto gri esc"><div class="tbase-destacado">Aspis</div><div class="df2avam">3 Temas - Reparable - 800 d.</div>
+<div class="desc">Más pesado que el hoplón, de forma circular, estos escudos están hechos enteramente de bronce celestial y, por ello, tienen más peso y protección. Los espartanos los portaban, luciendo el símbolo de Lambda, emblema de Laconia. 
+
+Exclusivo: Escudo. Anula un ataque poco efectivo y, al obtener 200% en una defensa aliada, aumenta el daño devuelto en 5 PV. +2 PR.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Brazaletes bendecidos</div><div class="df2avam">Permanente - 250 d.</div>
+<div class="desc">Brazaletes reforzados que protegen todo el antebrazo y los codos, bendecidos por los dioses para defensa de sus campeones.
+
+Vestimenta. Una vez por tema, reduce en un 50% un ataque enemigo cualquiera. No necesita ser equipada en el inventario en tramas oficiales.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Brazales de Heracles</div><div class="df2avam">2 temas - 500 d.</div>
+<div class="desc">Son brazaletes pesados que dan un extra a la hora de dar golpes gracias a la inercia que producen, se ganaron este nombre ya que Heracles entrenaba con 10 de estos y tomaba la sopa con 5. 
+
+Vestimenta. Suma +50% al dado de Combate una vez por enemigo. No pueden equiparse junto a otros brazaletes.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Botas de Hermes</div><div class="df2avam">3 temas - 200 d.</div>
+<div class="desc">Los hijos de Hermes han decidido entrar en el mercado de los zapatos para hacerle la competencia a cierta diosa griega que no nombraremos. Que no te engañen, estas botas sí te hacen correr más rápido.
+
+Vestimenta. +1 VEL. No se puede equipar junto a otras botas. 
+Descuento de 30 d. a hijos de Hermes.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Grebas consagradas</div><div class="df2avam">Permanente - 400 d.</div>
+<div class="desc">Protección reforzada para las canillas y pantorrillas, más robustas de lo usual, completas con rodilleras. Encantadas para mayor capacidad defensiva de los favoritos de los dioses.
+
+Vestimenta. +5 PV. No puede usarse con armaduras.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Quitón acolchado</div><div class="df2avam">2 Temas - Reparable - 250 d.</div>
+<div class="desc">Prenda acolchada llevada típicamente debajo de la armadura (de llevarla) y sobre la ropa, usada como elemento protector.
+
+Vestimenta. De llevarla en solitario o con otra pieza de vestimenta, da +2 PR.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Linotórax</div><div class="df2avam">3 temas - Reparable - 500 d.</div>
+<div class="desc">Pechera de bronce celestial que deja los brazos libres para combatir con libertad. Posee su propio juego de braceras y grebas más ligeras y sencillas.
+
+Armadura ligera. Anula un dado poco efectivo por oponente. +5 PV y +1 PR, -1 VEL. Con Especialidad: Escudo, no disminuye la velocidad.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Thórax</div><div class="df2avam">3 Temas - Reparable - 600 d.</div>
+<div class="desc">Una coraza de bronce celestial y cuero, que deja los brazos libres para combatir con libertad. Posee su propio juego de braceras y grebas.
+
+Armadura intermedia. Una vez por enemigo obtener una defensa poco efectiva, realiza un daño neto igual la mitad de la defensa total. +5 PV y +1 PR, -1 VEL. Con Especialidad: Escudo no disminuye la velocidad.</div></div>
+<div class="objeto gri armdr"><div class="tbase-destacado">Quintosios</div><div class="df2avam">3 Temas - Reparable - 800 d.</div>
+<div class="desc">Un camisote de malla metálica con placas de bronce celestial, suficientemente móvil, suficientemente revestida para el estilo griego.
+
+Exclusivo: Escudo. Armadura pesada. +5 PV y +1 PR, -1 VEL. +50% a dos defensas por oponente.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Cerveza feérica</div>
+<div class="desc">¿Ambrosía? Tsk, el verdadero néctar de los dioses es la cerveza. Especialmente la cerveza feérica. Puede que tomarla te haga ver cosas que no están ahí (¿o sí?) pero esa es la gracia, ¿no?
+
+<br/><br/><strong>Bonus</strong> Recupera 3 PV.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Recargable, 3 cargas
+<br/><strong>Precio</strong> 100 a. Descuento de 10. a hijos de Dagda y Brigid</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Amuleto rúnico</div>
+<div class="desc">Aumenta la capacidad mágica del semidiós, haciéndolo conseguir un manejo mayor sobre sus propios poderes. 
+
+<br/><br/><strong>Bonus</strong> +1 PE. Una vez por tema el dado de 0% en espíritu no gasta poder. No puede usarse junto a otro amuleto.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 200 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Amuleto de Lugh</div>
+<div class="desc">¿Qué es esto? ¿Un amuleto de la buena suerte? Sí... Algo así, un amuleto que es mejor cargar siempre encima si se quiere tener un poco más de suerte en esto de la buena utilización de los poderes. 
+
+<br/><br/><strong>Bonus</strong> Otorga una tirada extra del dado de espíritu para uso de un poder de nivel 0 o 1. No puede usarse junto a otro amuleto.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 400 a.</div></div>
+<div class="objeto cel trampa"><div class="tbase-destacado">C4 Hierro Druida</div>
+<div class="desc">Y hace boom. Capaz de hacer volar hasta al monstruo más feo, es la solución perfecta para no tener que pensar mucho en una estrategia de batalla.
+
+<br/><br/><strong>Bonus</strong> Lanza dos dados de acción para calcular el daño neto que reciben tantos enemigos como la mitad del resultado. Ej: Dado de acción 1 = 4. Dado de acción 2 = 7. El daño es de 11 PV y se realiza a 5 enemigos.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 500 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Caramelo de la suerte</div>
+<div class="desc">Todos los cazadores en algún momento de su vida han creído que los hados no estaban de su parte. Pero ahora, con los caramelos de la suerte, la fortuna nunca dejará de sonreíros.
+
+<br/><br/><strong>Bonus</strong> Altera el resultado de un dado de cualquier tipo del personaje. El dado de batalla solo puede alterarse +100% (sin superar el máximo). El dado de acción o denario se modifica a cualquier valor.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 a.</div></div> 
+<div class="objeto cel cach"><div class="tbase-destacado">Chaqueta de la Cacería</div>
+<div class="desc">Las camisetas son para flojuchos, los celtas anuncian su pertenencia a la Cacería Salvaje vistiendo una gruesa chaqueta de cuero negro. En la espalda lleva el nombre de la cacería y el dibujo de un bulldog como símbolo. Eso es ser badass. 
+
+<br/><br/><strong>Bonus</strong> Identifica y muestra afinidad a la Cacería Salvaje. No ocupa espacio en el Inventario.
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Permanente
+<br/><strong>Precio</strong> 10 a.</div></div>
+<div class="objeto cel trampa"><div class="tbase-destacado">Cuerda</div>
+<div class="desc">Una cuerda especial hecha de hilos de hierro druida trenzado finamente, pensada para inmovilizar adversarios.
+
+<br/><br/><strong>Bonus</strong> El enemigo no puede realizar ninguna acción de batalla mientras está atrapado. En cada turno, lanza dado de acción y al obtener 6 o más se suelta. De sacar 9 o 10, rompe el lazo.
+<br/><strong>Tipo</strong> Cachivache trampa 
+<br/><strong>Usos</strong> Consumible, 3 usos (si no se rompe).
+<br/><strong>Precio</strong> 100 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Cuerno de unicornio</div>
+<div class="desc">Un brebaje mágico con potentes poderes curativos y de buen sabor, hecho a base de cuerno de unicornio.
+
+<br/><br/><strong>Bonus</strong> Anula el efecto de venenos e inmuniza al personaje durante el resto del tema.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 70 a. Descuento de 10 a. a hijos de Dagda y Brigid.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Dije de triqueta</div>
+<div class="desc">Los druidas celtas utilizaban la triqueta para invocar y repeler a la muerte. Llevado en collares, pulseras, pendientes, el dije protegerá al semidiós de cualquier infortunio.
+
+<br/><br/><strong>Bonus</strong> Al llegar 0 PV o menos, permite que el personaje escape del combate pero, tras ponerse a salvo, cae inconsciente.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 250 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Fíada encapsulada</div>
+<div class="desc">Si la magia no es problema, los celtas son capaces de portar niebla encapsulada para usos prácticos y otros no tanto, perfecto para crear una distracción momentánea.
+
+<br/><br/><strong>Bonus</strong> Otorga un turno sin recibir ataque del enemigo.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, solo uno por enemigo
+<br/><strong>Precio</strong> 50 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Poción mística</div>
+<div class="desc">Un antiguo tónico cuya receta secreta solo conocen los druidas de cada clan. Un pequeño sorbo fortalece al semidiós e intensifica sus capacidades en combate, ¡pero cuidado con beber demasiado!
+
+<br/><br/><strong>Bonus</strong> Suma 1 punto a elección en PC, VEL o PR por el resto del tema.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, máximo 5 dosis por tema.
+<br/><strong>Precio</strong> 100 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Pulsera de nudo</div>
+<div class="desc">No es una pulsera cualquiera. Es una pulsera que simboliza un pacto, un pacto de sangre entre varios cazadores bajo la promesa de luchar siempre codo con codo.
+
+<br/><br/><strong>Bonus</strong> Suma +1 PC y +1 PE cuando los semidioses del pacto están juntos. Máximo 4 personajes por pulsera y debe tenerse equipada en el tema.
+<br/><strong>Tipo</strong> Cachivache 
+<br/><strong>Usos</strong> 2 temas
+<br/><strong>Precio</strong> 200 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Sangre de Beithir</div>
+<div class="desc">Terriblemente venenosa, un poco de la sangre del cien pies gigante es capaz de mermar la resistencia de un enemigo hasta la mitad en cuestión de un par de minutos. 
+
+<br/><br/><strong>Bonus</strong> Al realizar un ataque de Combate crítico, envenena al enemigo haciendo que pierda 1 PR cada 4 turnos. Curable con Cuerno de Unicornio o habilidades de sanación.
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Cachivache, no usable contra Beithir.
+<br/><strong>Precio</strong> 400 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Símbolo de Lauburu</div>
+<div class="desc">El Lauburu es un símbolo celta que significa "orador". Aplicándolo el diseño sobre el arma, permite establecer una conexión con los dioses mayor y recibir su bendición en la batalla.
+
+<br/><br/><strong>Bonus</strong> +1 PE. Otorga al ataque de Combate un efecto parcialmente mágico (un hijo de Cailleach produciría hielo) y su daño ignora 2 PR enemigos una vez por tema.
+<br/><strong>Tipo</strong> Cachivache mágico
+<br/><strong>Usos</strong> Consumible, 1 tema
+<br/><strong>Precio</strong> 200 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado">Woad encantado</div>
+<div class="desc">Pintura azul utilizada por los celtas para dibujar tatuajes y símbolos en su rostro y cuerpo. Su magia mejora el aguante durante la batalla y, bueno, ¿no creen que resultan muy impresionantes a la vista?
+
+<br/><br/><strong>Bonus</strong> Suma +1 PR y +1 VEL
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> 2 temas, solo un uso por tema
+<br/><strong>Precio</strong> 250 a.</div></div> 
+<div class="objeto cel cach"><div class="tbase-destacado">Carnyx</div><div class="df2avam">Consumible - 650 a.</div>
+<div class="desc">Cuando oigas su potente sonido en la distancia, sabrás que la guerra está por cruzar el suelo que pisas. Este instrumento de viento ha sido por siglos usados por la Cacería Salvaje antes de iniciar una cacería o batalla.
+
+<br/><br/><strong>Bonus</strong> Suma +1 a un stat físico a tantos aliados y durante tantos turnos como indique el dado de acción (resultado no modificable).
+<br/><strong>Tipo</strong> Cachivache
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 650 a.</div></div> 
+<div class="objeto cel trampa"><div class="tbase-destacado">Fuego de pesadilla</div>
+<div class="desc">Solución creada por los hijos de Brigid a partir de las propias monturas o Pesadillas salvajes, este fuego es casi imposible de apagar sin la utilización de magia. 
+
+<br/><br/><strong>Bonus</strong> Quema al enemigo y hace que pierda 2 PV cada 3 turnos. Curable solo con Bloqueador de coco o habilidades de sanación.
+<br/><strong>Tipo</strong> Cachivache trampa
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 100 a.</div></div>
+<div class="objeto cel cach"><div class="tbase-destacado" style="letter-spacing:.5px;">Condones Amoquinéticos</div>
+<div class="desc">Tratados con una fórmula creada por el mismísimo Angus para que no termines el tema en un post. 
+
+<br/><br/><strong>Bonus</strong> Permite no traer bendiciones al campamento
+<br/><strong>Tipo</strong> Cachivache narrativo
+<br/><strong>Usos</strong> Consumible
+<br/><strong>Precio</strong> 10 a. Descuento de 1 a. a hijos de Cernunnos.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Arco de caza</div>
+<div class="desc">Los celtas no acostumbraban a llevar arcos en batalla, pues consideran que hay más honor en el combate cuerpo a cuerpo. Sin embargo si eran excepcionales cazadores y capaces de crear arcos pequeños, flexibles y ligeros.
+
+El primer disparo contra un oponente recibe un +50% al dado de combate. +1 PC.
+<div class="df2avam">3 remas - Reparable - 400 a.</div></div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Fiadbac</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">El único arco que los celtas consideran apto para la batalla. Fabricado generalmente en maderas que consideraban sagradas, este arco largo podía superar fácilmente el metro y medio de longitud lo que obligaba a poseer una fuerza considerable para poder dispararlo. 
+
+Exclusivo: Arco. El primer disparo contra un oponente recibe un 50% extra y, una vez por enemigo, permite reducir un 50% el daño crítico recibido. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Ballesta</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">Un arma nueva entre los celtas, pues aunque los ataques a distancia son considerados poco honorables, actualmente el honor está en un segundo plano. Los druidas han modificado un par de arcos hasta crear ballestas pequeñas y con una presión asombrosa, armas más sencillas a la hora de cargar pero ligeramente más complicadas de manipular por el culatazo que da la saeta. 
+
+Exclusivo: Arco. Gracias a la potencia del disparo, el primer disparo contra un oponente siempre recibe un +100% extra de daño, y en caso de critico, una vez por enemigo anula el siguiente ataque del enemigo. +1 PC y +1 VEL.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Mattucashlass</div><div class="df2avam">3 temas - Reparable - 400 a.</div>
+<div class="desc">Un puñal ligero y corto diseñado para combate en distancias cortas. Suele ocultarse en las mangas o bajo la axila.
+
+Una vez por enemigo, el dado de combate de 100% hace 50% más daño. +1 PC. Especialidad: Escudo puede usarlo junto a sus bonus.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Sgian dubh</div><div class="df2avam">3 temas - Reparable - 500 a.</div>
+<div class="desc">Una daga larga, con una hoja de aproximadamente entre 8-10 cm., que suele llevarse escondida en las pantorrillas al modo tradicional. Puede emplearse en combate a corta distancia o ser arrojada contra el enemigo.
+
+Exclusivo: Daga. El dado de combate de 50% del semidiós ignora PR. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Dirk</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">De empuñadura cilíndrica la hoja de esta daga, estrecha y alargada, suele superar los doce centímetros de largo. Cuentan con un solo filo labrado con una filigrana decorativa conocida como <i>jimping</i>.
+
+Exclusivo: Daga. Una vez por oponente, el daño crítico del enemigo puede esquivarse. Si el PC del enemigo es superior al PC del semidiós, aumenta en +1 VEL. +1 PC y +1 VEL.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Espada de antenas</div><div class="df2avam">3 temas - Reparable - 500 a.</div>
+<div class="desc">Espada corta de doble filo y con punta triangular, muy afilada, su nombre se debe a la pieza que brota de la empuñadura, en forma de arco y rematada por dos pequeños casquillos. Esta pieza facilita el agarre del arma y la hace muy óptima para golpes de tajo y de punta.
+
+Otorga una esquiva adicional de 50% o 100% por oponente. +1PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Espada tené</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">Una larga espada de hoja ancha y dos filos. Esta espada está diseñada con el propósito de cortar y de dar golpes terribles con el filo a enemigos a media distancia, lo que hace que la hoja sea muy fuerte, pero algo menos útil en distancias muy cortas.
+
+Exclusiva de Especialidad: Espada. De realizar daño poco efectivo, aumenta el daño en un 100% una vez por oponente. Si se usa contra un oponente con más PR que el PC del semidiós, suma +1 PC. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Claymore</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">El arma tradicional de los highlanders. Es un mandoble de doble hoja, y una empuñadura de gran longitud, que requiere de las dos manos para poder ser blandida. Tiene una guarda muy reconocible con dos brazos simétricos cuya función principal era realizar acciones defensivas a falta de un escudo.
+
+Exclusivo: Espada. Una vez por oponente, aumenta el daño en +50%. Una vez por oponente pueden ignorar la mitad del PR enemigo. +2 PC. No puede usarse al mismo tiempo que un escudo.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Hacha arrojadiza</div><div class="df2avam">3 temas - Reparable - 500 a.</div>
+<div class="desc">Hacha con una sola hoja de menor tamaño y materiales más ligeros que, por lo tanto, permite una mayor maniobrabilidad y la posibilidad de arrojarla a un objetivo. Posee un pequeño anillo en el extremo para poder engancharla o recogerla con facilidad.
+
+Exclusivo: Hacha. Una vez por oponente, permite reaplicar un bonus que indique una sola vez por enemigo. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Tuag</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">Hacha de dos manos con un mango de metro y medio, poseía una hoja afiliada con grabados que comúnmente describían las hazañas del celta que la llevaba o de antiguos dueños. 
+
+Exclusivo: Hacha. Una vez por oponente, aumenta el daño en 50%. De tener menos PC que el PR del enemigo, aumenta +1PC. +2 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Dedannan</div><div class="df2avam">3 temas - Reparable - 400 a.</div>
+<div class="desc">Una lanza estrecha, larga y elegante con una afilada cabeza de punta completamente recta. 
+
+Exclusivo: Lanza. El daño crítico hace un daño mínimo, independientemente del PR del enemigo, de 3PV. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Fiarlann</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">Una lanza ancha y gruesa, con una gran empuñadura y cuya cabeza de punta se reconoce fácilmente por ser curvada en vez de recta. Su gran peso impide que pueda ser utilizada al mismo tiempo que un escudo.
+
+Exclusivo: Lanza. Otorga una esquiva de 50% o 100% una vez por enemigo. De tener el enemigo más VEL que el semidiós, este recibe +1 PC extra. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Madaris</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">Una lanza tipo jabalina, extremadamente afilada y fácil de manejar, apropiada para combate a corta distancia o para ser arrojada al enemigo. 
+
+Exclusivo: Lanza. Una vez por oponente, en caso de sacar 0% o 50% puedes intercambiar el dado con el que de tu enemigo. En caso de que el PC del enemigo sea superior al del semidiós, el mismo obtendrá +1 PC. +1 PC y +1 VEL.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Martillo de guerra</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">Una maza con la peculiaridad de que tener cabeza con forma de martillo de guerra, con picos en un costado. Perfecta para golpear escudos, bloquear ataques y destrozar armaduras.
+
+Exclusivo: Maza. El primer golpe contra un oponente recibe un +50% extra de daño. De tener el enemigo más PC que el semidiós, este recibe +1 PC extra. +1 PC.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Matam</div><div class="df2avam">3 temas - Reparable - 800 a.</div>
+<div class="desc">Una pesada maza a dos manos que se caracteriza por su particular cabeza redondeada y de la que sobresalen una serie de largos y afilados pinchos metálicos.
+
+Exclusivo: Maza. Una vez por enemigo, suman +50% al daño. Una vez por enemigo, un 50% pasa a 100%. +2 PC.</div></div>
+
+<div class="objeto cel arma"><div class="tbase-destacado">Dardos</div><div class="df2avam">3 usos - Trampa - 100 a.</div>
+<div class="desc">Tres dardos largos utilizados para hostigar enemigos o deshacer formaciones, siendo como flechas pequeñas con un peso entre la madera y la punta metálica para facilitar su lanzamiento.
+
+Permite provocar al enemigo, haciendo que el daño de su siguiente ataque recaiga sobre él. Cada dardo  produce un turno de provocación.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Suaineamh</div><div class="df2avam">3 usos - Trampa - 50 a.</div>
+<div class="desc">Una correa de cuero curtido que, colocada en la muñeca y enganchada a la cabeza de un dardo, permite dar potencia y alcance superior a su lanzamiento.
+
+Permite atacar al usar dardos, pero el daño debe calcularse con el valor de PC sin sumarle bonus de ningún arma adicional (pues se está atacando con los dardos).</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Agujas rastreadoras</div><div class="df2avam">3 usos - Trampa - 50 a.</div>
+<div class="desc">Tres agujas finas que, tras dispararlas a un enemigo, lo hacen sangrar muy débilmente. La herida no causa daños mayores pero deja un rastro fácilmente detectable por todo buen cazador.
+
+Evita que un enemigo escape por medios de engañar a los sentidos, pues siempre indica su ubicación con un color iridiscente. Si hay que rastrear luego, otorga un +2 a esas tiradas, al teñir brillante el rastro de sangre de la víctima.</div></div>
+<div class="objeto cel arma"><div class="tbase-destacado">Carcaj con Flechas</div><div class="df2avam">1 tema - 400 a.</div>
+<div class="desc">Un carcaj repleto de flechas con puntas de hierro druida, estas flechas gracias a la ligereza de su peso, tienen una precisión mucho mayor a la usual. 
+
+Exclusivo: Arco. Dos veces por oponente, convierte un 0% en un 50%. </div></div>
+<div class="objeto cel esc"><div class="tbase-destacado">Broquel</div><div class="df2avam">3 temas - Reparable - 400 a.</div>
+<div class="desc">Escudo pequeño diseñado exclusivamente para el combate agresivo y de contacto. Habitualmente de forma cuadrada o circular pero también pueden encontrarse con forma de H, con un umbo metálico en el centro para golpear al enemigo.
+
+Una vez por enemigo, rebaja en un 50% el daño recibido. +1 PR. Especialidades: Espada y Lanza pueden usarlo junto a sus bonus.</div></div>
+<div class="objeto cel esc"><div class="tbase-destacado">Escudo oval</div><div class="df2avam">3 temas - Reparable - 550 a.</div>
+<div class="desc">Escudo plano de forma ovalada, presenta una espina de madera en el anverso que está protegida por un umbo de hierro en el centro. De diseño muy colorista, suelen decorarlos con motivos naturales o nudos sinuosos.
+
+Otorga un +50% dos defensas por oponente. +1 PR.</div></div>
+<div class="objeto cel esc"><div class="tbase-destacado">Escudo hexagonal</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">Escudo de roble, ancho y con forma de hexágono alargado, lo que hace que el cuerpo del guerrero esté bien protegido frente a las flechas enemigas y lo ataques directos.
+
+Exclusivo: Escudo. Anula el daño poco efectivo y una vez por oponente anula el daño crítico. +2 PR.</div></div>
+<div class="objeto cel esc"><div class="tbase-destacado">Collar de púas</div><div class="df2avam">3 temas - Reparable - 400 a.</div>
+<div class="desc">Un largo collar de púas hecho de hierro druida, este collar se coloca sobre la parte frontal de escudo de forma que quién lo toque, resulte herido por los largos pinchos que especiales para desgarrar carne, ayudarán al escudero a realizar ataques ofensivos, y no permaneciendo únicamente a la defensiva durante todo el combate. 
+
+Exclusivo: Escudo. Una vez por oponente, aumenta el dado de combate en +50%. +1 PC.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Brazales de Cúchulainn</div><div class="df2avam">2 temas  - 500 a.</div>
+<div class="desc">Son brazaletes pesados que dan un extra a la hora de dar golpes gracias a la inercia que producen, se ganaron este nombre ya que Cúchulainn entrenaba con 10 de estos y tomaba la sopa con 5. 
+
+Vestimenta. Aportan +50% al daño de Combate una vez por enemigo. No puede equiparse junto a otros brazalates.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Braccae bendecidos</div><div class="df2avam">Permanente - 400 a.</div>
+<div class="desc">Pantalones reforzados que protegen los muslos y las pantorrillas, bendecidos por los dioses para defensa de sus campeones. Además, montar a caballo es mucho más cómodo.
+
+Vestimenta. Otorga +5 PV. No puede usarse en conjunto con armadura y no requiere reparaciones.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Torque</div><div class="df2avam">Permanente - 400 a.</div>
+<div class="desc">El famoso collar que llevaban los celtas en la batalla. Hecho con piezas de diferentes metales y bendecido por los dioses y los druidas, sus propiedades mágicas protegen al semidiós de cualquier mal.
+
+Vestimenta. Convierte un crítico en efectivo dos veces por tema. Solo se puede tener un torque y no requiere reparaciones.</div> </div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Botas de Lugh</div><div class="df2avam">3 temas - 200 a.</div>
+<div class="desc">Haciendo acopio de sus dotes en la artesanía y la manufactura, los hijos de Lugh diseñaron estas botas para que correr no volviera a ser un problema para nadie. Lugh no es el dios de la velocidad ni está asociada especialmente a ella pero, como es el dios de todas las cosas, pues cuando uno quiere ser veloz mejor pedírselo a él, ¿no?
+
+Vestimenta. +1 VEL. No se puede equipar junto a otrasbotas.
+Descuento de 30 a. a hijos de Lugh.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Botas reforzadas</div><div class="df2avam">3 temas - 400 a.</div>
+<div class="desc">Porque una buena armadura no puede ser completada sin el calzado adecuado, estas son las botas perfectas para ir a matar monstruos. Ya sabes, por si te pinchan en los pies.
+
+Pieza de armadura. +1 PR. Una vez por enemigo, de recibir crítico, anula el desgaste de Resistencia. No se puede equipar junto a otras botas.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Casco de hierro</div><div class="df2avam">3 temas - 250 a.</div>
+<div class="desc">Protege tu cabeza gracias a este casco que podrás decorar a tu gusto. ¿Runas? ¿Cuernos? ¿Plumas? La imaginación es el límite.
+
+Pieza de armadura. Convierte un ataque efectivo en poco efectivo (50%) por oponente. Evita el efecto de "aturdimiento" en una única ocasión. No se puede equipar junto a otro casco.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Coraza parcheada</div><div class="df2avam">3 temas - Reparable - 650 a.</div>
+<div class="desc">La chaqueta de la Cacería Salvaje está muy bien, pero ir a la guerra sólo con ella igual es demasiado temerario. Esta armadura de cuero reforzado con parches de hierro druida es bastante resistente y está pensada para adaptarse a los movimientos de quién la porta.
+
+Armadura ligera. Suma +5 PV y +1 PR y resta -1 VEL. Reduce en un 50% un ataque por enemigo. Con Especialidad: Escudo no reduce VEL.</div></div>
+<div class="objeto cel armdr"><div class="tbase-destacado">Cota de malla</div><div class="df2avam">3 temas - Reparable - 600 a.</div>
+<div class="desc">Un camisote de malla metálica con placas de hierro druida que, usando las mejores técnicas de herrería céltica, se ha logrado que reduzca la movilidad lo menos posibles. Porque eso de ir a pecho descubierto es solo para los locos.
+
+Armadura intermedia. Suma +5 PV y +1 PR y resta -1 VEL. Convierte en un 0% el primer ataque de cada enemigo. Con Especialidad: Escudo, no reduce VEL.</div></div>
+</div></div>
