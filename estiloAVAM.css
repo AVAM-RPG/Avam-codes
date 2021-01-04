@@ -142,6 +142,8 @@
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
 
+@font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/BebasNeue-Regular.ttf'); }
+@font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/LemonMilk/LEMONMILK-Regular.otf'); }
 @font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/Good%20Things.ttf'); }
 
 /*CSS base de los toggle*/
