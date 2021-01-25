@@ -388,7 +388,7 @@ margin-top: 27px !important;
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 .sceditor-dropdown div a:hover {background: var(--color-acento);}
 div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
-color: var(--color-texto-claro);
+color: var(--color-texto-claro) !important;
 font-family: var(--fuente-tit);
 text-transform: uppercase;
 font-weight: 900;
@@ -414,7 +414,7 @@ border-top: 0px!important;
 border: 0px!important;}
 .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
 border: none;
-background: none;
+background: none !important;
 }
 div.sceditor-dropdown .sceditor-mention-user:hover {color: var(--color-acento);}
 .sceditor-mention-user img {
