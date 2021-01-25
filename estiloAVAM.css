@@ -388,7 +388,7 @@ margin-top: 27px !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-option.post-content:hover, div.sceditor-dropdown .sceditor-mention-user:hover {
-color: var(--color-acento); 
+color: var(--color-acento) !important; 
 background: none !important;
 }
 div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
