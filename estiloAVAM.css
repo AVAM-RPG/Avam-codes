@@ -413,6 +413,7 @@ letter-spacing: 1px;
 div.sceditor-dropdown textarea {
 border-top: 0px!important;
 border: 0px!important;}
+div.sceditor-dropdown.sceditor-color-picker {padding: 6px;}
 .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
 border: none;
 background: none !important;
