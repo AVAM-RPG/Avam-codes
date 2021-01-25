@@ -387,8 +387,11 @@ border-radius: 0 !important;
 margin-top: 27px !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
-.sceditor-dropdown div a:hover {background: var(--color-acento);}
-div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-option.post-content:hover, div.sceditor-dropdown .sceditor-mention-user:hover {
+color: var(--color-acento); 
+background: none !important;
+}
+div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
 color: var(--color-texto-claro) !important;
 font-family: var(--fuente-tit);
 text-transform: uppercase;
@@ -418,7 +421,6 @@ div.sceditor-dropdown.sceditor-color-picker {padding: 6px;}
 border: none;
 background: none !important;
 }
-div.sceditor-dropdown .sceditor-mention-user:hover {color: var(--color-acento);}
 .sceditor-mention-user img {
 background: none;
 border: none;
