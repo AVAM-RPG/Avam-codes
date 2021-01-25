@@ -408,11 +408,11 @@ letter-spacing: 1px;
 div.sceditor-dropdown textarea {
 border-top: 0px!important;
 border: 0px!important;}
-.sceditor-mention-user, .sceditor-mention-user:hover {
+.sceditor-mention-div .sceditor-mention-user, .sceditor-mention-div .sceditor-mention-user:hover {
 border: none;
 background: none;
 }
-.sceditor-mention-user:hover {color: var(--color-acento);}
+.sceditor-mention-div .sceditor-mention-user:hover {color: var(--color-acento);}
 .sceditor-mention-user img {
 background: none;
 border: none;
