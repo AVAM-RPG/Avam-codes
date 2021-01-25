@@ -382,6 +382,7 @@ div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown 
 background: var(--fondo-oscuro) !important;
 border: 1px solid var(--color-acento) !important;
 border-radius: 0 !important;
+margin-top: 27px !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 .sceditor-dropdown div a:hover {background: var(--color-acento);}
