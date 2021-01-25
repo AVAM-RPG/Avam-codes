@@ -379,7 +379,9 @@ font-style: normal;
 .sceditor-dropdown {border: 0px!important;}
 div.sceditor-dropdown div input {border: 0px;}
 div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown div .button:hover {
-    background: var(--fondo-oscuro) !important;
+background: var(--fondo-oscuro) !important;
+border: 1px solid var(--color-acento) !important;
+border-radius: 0 !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 .sceditor-dropdown div a:hover {background: var(--color-acento);}
