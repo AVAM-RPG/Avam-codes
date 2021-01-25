@@ -4,7 +4,8 @@
 .postgroup-narracion .post-cabecera-icon, .postgroup-narracion .postprofile-icon, .postgroup-narracion .postprofile-contact span a, .profilegroup-narracion .perfil-icon .dato, .profilegroup-narracion #botones1 .botoncito1  {
     border-color: var(--color-narracion);
 }
-.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
+.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofil
+    margin-top: 27px !important;e-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
     border-color: var(--color-romanos);
 }
 .postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile-icon, .postgroup-griegos .postprofile-contact span a, .profilegroup-griegos .perfil-icon .dato, .profilegroup-griegos #botones1 .botoncito1  {
@@ -386,7 +387,7 @@ margin-top: 27px !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 .sceditor-dropdown div a:hover {background: var(--color-acento);}
-div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+div.sceditor-dropdown div a, div.sceditor-dropdown div a:link, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
 color: var(--color-texto-claro);
 font-family: var(--fuente-tit);
 text-transform: uppercase;
@@ -411,7 +412,7 @@ letter-spacing: 1px;
 div.sceditor-dropdown textarea {
 border-top: 0px!important;
 border: 0px!important;}
-div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+.sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
 border: none;
 background: none;
 }
