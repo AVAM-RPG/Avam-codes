@@ -4,8 +4,7 @@
 .postgroup-narracion .post-cabecera-icon, .postgroup-narracion .postprofile-icon, .postgroup-narracion .postprofile-contact span a, .profilegroup-narracion .perfil-icon .dato, .profilegroup-narracion #botones1 .botoncito1  {
     border-color: var(--color-narracion);
 }
-.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofil
-    margin-top: 27px !important;e-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
+.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
     border-color: var(--color-romanos);
 }
 .postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile-icon, .postgroup-griegos .postprofile-contact span a, .profilegroup-griegos .perfil-icon .dato, .profilegroup-griegos #botones1 .botoncito1  {
@@ -384,7 +383,8 @@ div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown 
 background: var(--fondo-oscuro) !important;
 border: 1px solid var(--color-acento) !important;
 border-radius: 0 !important;
-margin-top: 27px !important;
+margin-top: 27.5px !important;
+margin-left: -2px !important;
 }
 a.sceditor-color-option {border-color: var(--fondo-oscuro);}
 div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-option.post-content:hover, div.sceditor-dropdown .sceditor-mention-user:hover {
