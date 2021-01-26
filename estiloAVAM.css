@@ -391,7 +391,7 @@ div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-optio
 color: var(--color-acento) !important; 
 background: none !important;
 }
-div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user {
 color: var(--color-texto-claro) !important;
 font-family: var(--fuente-tit);
 text-transform: uppercase;
