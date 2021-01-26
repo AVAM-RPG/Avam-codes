@@ -1,54 +1,10 @@
 @charset "UTF-8";
 
 /*Colores generales de grupos*/
-.postgroup-narracion .post-cabecera-icon, .postgroup-narracion .postprofile-icon, .postgroup-narracion .postprofile-contact span a, .profilegroup-narracion .perfil-icon .dato, .profilegroup-narracion #botones1 .botoncito1  {
-    border-color: var(--color-narracion);
-}
-.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile-icon, .postgroup-romanos .postprofile-contact span a, .profilegroup-romanos .perfil-icon .dato, .profilegroup-romanos #botones1 .botoncito1  {
-    border-color: var(--color-romanos);
-}
-.postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile-icon, .postgroup-griegos .postprofile-contact span a, .profilegroup-griegos .perfil-icon .dato, .profilegroup-griegos #botones1 .botoncito1  {
-    border-color: var(--color-griegos);
-}
-.postgroup-celtas .post-cabecera-icon, .postgroup-celtas .postprofile-icon, .postgroup-celtas .postprofile-contact span a, .profilegroup-celtas .perfil-icon .dato, .profilegroup-celtas #botones1 .botoncito1  {
-    border-color: var(--color-celtas);
-}
-.postgroup-narracion .postprofile-field.postprofile-field-nivel, .postgroup-narracion .postprofile-field-edad .postprofile-field-content, .postgroup-narracion .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-narracion .postprofile-field-monedas .postprofile-field-content, .postgroup-narracion .postprofile-field-mensajes .postprofile-field-content, .postgroup-narracion .default-icon, .postgroup-narracion .postprofile-field-content .ra, .profilegroup-narracion .campoperfil .dato, .profilegroup-narracion .perfil-titulo, .profilegroup-narracion .campoperfil.c6 .dato .ra, .profilegroup-narracion .botoncito1.activo, .profilegroup-narracion .infosa .dato u, .profilegroup-narracion .perfil-subtitulo, .profilegroup-narracion .perfil-stats .dato strong {
-    color: var(--color-narracion);
-}
-.postgroup-romanos .postprofile-field.postprofile-field-nivel, .postgroup-romanos .postprofile-field-edad .postprofile-field-content, .postgroup-romanos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-romanos .postprofile-field-monedas .postprofile-field-content, .postgroup-romanos .postprofile-field-mensajes .postprofile-field-content, .postgroup-romanos .default-icon, .postgroup-romanos .postprofile-field-content .ra, .profilegroup-romanos .campoperfil .dato, .profilegroup-romanos .perfil-titulo, .profilegroup-romanos .campoperfil.c6 .dato .ra, .profilegroup-romanos .botoncito1.activo, .profilegroup-romanos .infosa .dato u, .profilegroup-romanos .perfil-subtitulo, .profilegroup-romanos .perfil-stats .dato strong {
-    color: var(--color-romanos);
-}
-.postgroup-griegos .postprofile-field.postprofile-field-nivel, .postgroup-griegos .postprofile-field-edad .postprofile-field-content, .postgroup-griegos .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-griegos .postprofile-field-monedas .postprofile-field-content, .postgroup-griegos .postprofile-field-mensajes .postprofile-field-content, .postgroup-griegos .default-icon, .postgroup-griegos .postprofile-field-content .ra, .profilegroup-griegos .campoperfil .dato, .profilegroup-griegos .perfil-titulo, .profilegroup-griegos .campoperfil.c6 .dato .ra, .profilegroup-griegos .botoncito1.activo, .profilegroup-griegos .infosa .dato u, .profilegroup-griegos .perfil-subtitulo, .profilegroup-griegos .perfil-stats .dato strong {
-    color: var(--color-griegos);
-}
-.postgroup-celtas .postprofile-field.postprofile-field-nivel, .postgroup-celtas .postprofile-field-edad .postprofile-field-content, .postgroup-celtas .postprofile-field-anos-de-servicio .postprofile-field-content, .postgroup-celtas .postprofile-field-monedas .postprofile-field-content, .postgroup-celtas .postprofile-field-mensajes .postprofile-field-content, .postgroup-celtas .default-icon, .postgroup-celtas .postprofile-field-content .ra, .profilegroup-celtas .campoperfil .dato, .profilegroup-celtas .perfil-titulo, .profilegroup-celtas .campoperfil.c6 .dato .ra, .profilegroup-celtas .botoncito1.activo, .profilegroup-celtas .infosa .dato u, .profilegroup-celtas .perfil-subtitulo, .profilegroup-celtas .perfil-stats .dato strong {
-    color: var(--color-celtas);
-}
-.postgroup-narracion .postprofile-avatar {
-    outline-color: var(--color-narracion);
-}
-.postgroup-romanos .postprofile-avatar {
-    outline-color: var(--color-romanos);
-}
-.postgroup-griegos .postprofile-avatar {
-    outline-color: var(--color-griegos);
-}
-.postgroup-celtas .postprofile-avatar {
-    outline-color: var(--color-celtas);
-}
-.usergroup-narracion a.userlink, .profilegroup-narracion #perfil-avamesta::-webkit-scrollbar-thumb {
-    background: var(--color-narracion);
-}
-.usergroup-romanos a.userlink, .profilegroup-romanos #perfil-avamesta::-webkit-scrollbar-thumb {
-    background: var(--color-romanos);
-}
-.usergroup-griegos a.userlink, .profilegroup-griegos #perfil-avamesta::-webkit-scrollbar-thumb {
-    background: var(--color-griegos);
-}
-.usergroup-celtas a.userlink, .profilegroup-celtas #perfil-avamesta::-webkit-scrollbar-thumb {
-    background: var(--color-celtas);
-}
+.postgroup-narracion, .profilegroup-narracion, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
+.postgroup-romanos, .profilegroup-romanos, .usergroup-romanos a.userlink {--color-acento: var(--color-romanos);}
+.postgroup-griegos, .profilegroup-griegos, .usergroup-griegos a.userlink {--color-acento: var(--color-griegos);}
+.postgroup-celtas, .profilegroup-celtas, .usergroup-celtas a.userlink {--color-acento: var(--color-celtas);}
 
 /*Variaciones expedientes*/
 .postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
@@ -56,12 +12,12 @@
 .postgroup-celtas .expavam {--color-acento: var(--color-celtas);}
 
 /*Variaciones tablilla PNJs*/
-.pnjs2.celta .expavam-infoicon, .pnjs2.celta .cajadatos { border-color: var(--color-celtas); } .pnjs2.celta .nf2avam, .pnjs2.celta .df2avam i, .pnjs2.celta .expavam-infod { color: var(--color-celtas);} .pnjs2.celta .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-celtas);} .pnjs2.celta .imaf1avam {outline-color: var(--color-celtas);}
-.pnjs2.romano .expavam-infoicon, .pnjs2.romano .cajadatos { border-color: var(--color-romanos);} .pnjs2.romano .nf2avam, .pnjs2.romano .df2avam i, .pnjs2.romano .expavam-infod { color: var(--color-romanos);} .pnjs2.romano .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-romanos);} .pnjs2.romano .imaf1avam {outline-color: var(--color-romanos);}
-.pnjs2.griego .expavam-infoicon, .pnjs2.griego .cajadatos { border-color: var(--color-griegos);} .pnjs2.griego .nf2avam, .pnjs2.griego .df2avam i, .pnjs2.griego .expavam-infod { color: var(--color-griegos);} .pnjs2.griego .cr-res::-webkit-scrollbar-thumb { background-color: var(--color-griegos);} .pnjs2.griego .imaf1avam {outline-color: var(--color-griegos);}
+.pnjs2.celta {--color-acento: var(--color-celtas);} 
+.pnjs2.romano {--color-acento: var(--color-romanos);}
+.pnjs2.griego {--color-acento: var(--color-griegos);}
 
 /*Variaciones iconos tablilla Stats*/
-.arco .pj .rpg-icon div:before {content: "\e054"; font-family: "saturnicons";}
+.arco .pj .rpg-icon div:before {content: "\e054"; font-family: saturnicons;}
 .dagas .pj .rpg-icon div:before {content: "";}
 .escudo .pj .rpg-icon div:before {content: "\efe6"; font-family: IcoFont;}
 .espada .pj .rpg-icon div:before {content: "";}
@@ -137,7 +93,6 @@
 .rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
 
 /**** FUENTES ****/ 
-
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
