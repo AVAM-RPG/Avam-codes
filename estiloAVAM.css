@@ -12,9 +12,9 @@
 .postgroup-celtas .expavam {--color-acento: var(--color-celtas);}
 
 /*Variaciones tablilla PNJs*/
-.pnjs2.celta {--color-acento: var(--color-celtas);} 
-.pnjs2.romano {--color-acento: var(--color-romanos);}
-.pnjs2.griego {--color-acento: var(--color-griegos);}
+.pnjs.celta {--color-acento: var(--color-celtas);} 
+.pnjs.romano {--color-acento: var(--color-romanos);}
+.pnjs.griego {--color-acento: var(--color-griegos);}
 
 /*Variaciones iconos tablilla Stats*/
 .arco .pj .rpg-icon div:before {content: "\e054"; font-family: saturnicons;}
