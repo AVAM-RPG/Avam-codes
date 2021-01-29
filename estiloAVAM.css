@@ -328,6 +328,60 @@ div.sceditor-dropdown div.colorpicker_submit {
 }
 .colorpicker { z-index: 3; }
 
+/*Modificaciones de los BBCodes*/
+.sceditor-dropdown {border: 0px!important;}
+div.sceditor-dropdown div input {border: 0px;}
+div.sceditor-dropdown {
+margin-top: 27.5px !important;
+margin-left: -2px !important;
+}
+div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown div .button:hover {
+background: var(--fondo-oscuro) !important;
+border: 1px solid var(--color-acento) !important;
+border-radius: 0 !important;
+}
+a.sceditor-color-option {border-color: var(--fondo-oscuro);}
+div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-option.post-content:hover, div.sceditor-dropdown .sceditor-mention-user:hover {
+color: var(--color-acento) !important; 
+background: none !important;
+}
+div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user {
+color: var(--color-texto-claro) !important;
+font-family: var(--fuente-tit);
+text-transform: uppercase;
+font-weight: 900;
+font-size: 11px;
+letter-spacing: .5px;
+}
+div.sceditor-dropdown div input {
+border: 0px;
+text-transform: none; 
+background: var(--fondo-claro);}
+div.sceditor-dropdown div .button {
+color: var(--color-texto-claro);
+border-color: var(--color-acento);
+border-radius: 0;
+text-transform: uppercase;
+font-family: calibri;
+font-size: 10px;
+font-weight: 00;
+letter-spacing: 1px;
+}
+div.sceditor-dropdown textarea {
+border-top: 0px!important;
+border: 0px!important;}
+div.sceditor-dropdown.sceditor-color-picker {padding: 6px;}
+.sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+border: none;
+background: none !important;
+}
+.sceditor-mention-user img {
+background: none;
+border: none;
+border-radius: 0;
+display: none;
+}
+
 /*NOTIFICACIONES*/
 a#fa_show, #fa_menu, .fa_tbMainElement #fa_hide {display:none!important;}
 #fa_toolbar {z-index:4!important;position:fixed;top:-50px}
