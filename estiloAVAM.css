@@ -168,7 +168,7 @@ font-style: normal;
    height: 176px;
    overflow: hidden;
    position: absolute;
-   background-image: url(https://i.imgur.com/CWWyFrd.png) !important;
+   background-image: url(https://i.imgur.com/h04R6fU.png) !important;
    font-family: Arial, Helvetica, sans-serif;
    display: none;
    padding: 0 !important;    
@@ -237,6 +237,17 @@ font-style: normal;
    top: 13px;
    background: #f00;
 }
+.colorpicker_current_color:after {
+    content: 'Último usado';
+    position: absolute;
+    top: 35px;
+    font-size: 9px;
+    color: var(--color-texto-claro);
+    font-family: calibri;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    width: 65px;
+}
 div.sceditor-dropdown.colorpicker input {
    text-align: center;
    margin: 0 0 0 4px;
@@ -302,6 +313,9 @@ div.sceditor-dropdown div.colorpicker_submit {
  height: auto;
  line-height: 14px;
  color: var(--color-texto-claro);
+}
+.colorpicker_submit:before {
+    content: 'Usar';
 }
 .colorpicker_focus {
    background-position: center;
