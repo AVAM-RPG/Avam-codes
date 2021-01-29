@@ -111,7 +111,7 @@ font-family: arial;
 font-weight: bold;
 cursor: pointer;
 }
-.toggle .info, .toggle .info-asc {
+.toggle .info, .toggle .info-asc, .bestiario .info {
 display: none;
 font-size: 12px;
 font-weight: normal; 
