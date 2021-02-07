@@ -2,9 +2,9 @@
 
 /*Colores generales de grupos*/
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
-.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile, .profilegroup-romanos .perfil-u, .usergroup-romanos a.userlink {--color-acento: var(--color-romanos);}
-.postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile, .profilegroup-griegos .perfil-u, .usergroup-griegos a.userlink {--color-acento: var(--color-griegos);}
-.postgroup-celtas .post-cabecera-icon, .postgroup-celtas .postprofile, .profilegroup-celtas .perfil-u, .usergroup-celtas a.userlink {--color-acento: var(--color-celtas);}
+.postgroup-romanos .post-cabecera-icon, .postgroup-romanos .postprofile, .profilegroup-romanos .perfil-u, .usergroup-romanos a.userlink, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
+.postgroup-griegos .post-cabecera-icon, .postgroup-griegos .postprofile, .profilegroup-griegos .perfil-u, .usergroup-griegos a.userlink, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
+.postgroup-celtas .post-cabecera-icon, .postgroup-celtas .postprofile, .profilegroup-celtas .perfil-u, .usergroup-celtas a.userlink, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
 
 /*Variaciones expedientes*/
 .postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
