@@ -162,7 +162,7 @@ font-style: normal;
 }
 
 /* Selector de color avanzado */
-.sceditor-dropdown.colorpicker {margin-top: 1px !important;}
+.sceditor-dropdown.colorpicker {margin-top: 1.5px !important;}
 .colorpicker {
    width: 356px;
    height: 176px;
