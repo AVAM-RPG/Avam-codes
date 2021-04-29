@@ -96,7 +96,26 @@
 .rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
 .grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
 .rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
-.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;} 
+.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;}
+
+/*Árbol de navidad 2020*/
+.card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
+.arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
+.arb .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .arb .card .back { transform: rotateY(180deg); } 
+.arb .card .side div {margin: auto; width: 205px; height: 205px; padding: 0 5px; position: relative; top: -325px; color: #f6f6f6; text-align: justify; font-size: 12px; line-height: 15px; overflow: auto;} 
+.arb .card .side div::-webkit-scrollbar {width: 2px;} .arb .card .side div img {width:100px;} 
+.arb .nota { background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 190px; top: 250px;} 
+.arb:hover .nota { top: 80px; left: 330px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
+
+/*Regalo de navidad 2020*/
+.card-container.reg {height: 255px; position: relative; width: 200px; margin:auto;} 
+.reg .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .reg:hover .card { transform: rotateY(180deg); } 
+.reg .card img {width: 200px;} 
+.reg .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .reg .card .back { transform: rotateY(180deg); } 
+.reg .card .side div {margin: auto; width: 150px; height: 150px; padding: 10px; position: relative; top: -160px; color: #f6f6f6; text-align: center; font-size: 12px; line-height: 15px;} 
+.reg .card .side div img {width: 50px;} 
+.reg .nota {background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 40px; top: 100px;} 
+.reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
 
 /**** FUENTES ****/ 
 @font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
@@ -447,22 +466,3 @@ visibility: visible;
 color: var(--color-acento) !important;
  }
 #fa_toolbar #fa_right #notif_list li hr {display: none;}
-
-/*Árbol de navidad 2020*/
-.card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
-.arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
-.arb .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .arb .card .back { transform: rotateY(180deg); } 
-.arb .card .side div {margin: auto; width: 205px; height: 205px; padding: 0 5px; position: relative; top: -325px; color: #f6f6f6; text-align: justify; font-size: 12px; line-height: 15px; overflow: auto;} 
-.arb .card .side div::-webkit-scrollbar {width: 2px;} .arb .card .side div img {width:100px;} 
-.arb .nota { background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 190px; top: 250px;} 
-.arb:hover .nota { top: 80px; left: 330px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
-
-/*Regalo de navidad 2020*/
-.card-container.reg {height: 255px; position: relative; width: 200px; margin:auto;} 
-.reg .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .reg:hover .card { transform: rotateY(180deg); } 
-.reg .card img {width: 200px;} 
-.reg .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .reg .card .back { transform: rotateY(180deg); } 
-.reg .card .side div {margin: auto; width: 150px; height: 150px; padding: 10px; position: relative; top: -160px; color: #f6f6f6; text-align: center; font-size: 12px; line-height: 15px;} 
-.reg .card .side div img {width: 50px;} 
-.reg .nota {background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 40px; top: 100px;} 
-.reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
