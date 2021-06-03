@@ -17,7 +17,7 @@
 .pnjs.griego {--color-acento: var(--color-griegos);}
 
 /*Variaciones iconos tablilla Stats*/
-.arco .pj .rpg-icon div:before {content: "\e054"; font-family: saturnicons;}
+.arco .pj .rpg-icon div:before {content: "\e981"; font-family: cappuccicons;}
 .dagas .pj .rpg-icon div:before {content: "";}
 .escudo .pj .rpg-icon div:before {content: "\efe6"; font-family: IcoFont;}
 .espada .pj .rpg-icon div:before {content: "";}
