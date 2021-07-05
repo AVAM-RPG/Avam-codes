@@ -1,0 +1,452 @@
+@charset "UTF-8";
+
+/*Colores generales de grupos*/
+.postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
+.postgroup-romanos .post-cabecera-usuario, .postgroup-romanos .postprofile, .profilegroup-romanos .perfil-u, .usergroup-romanos a.userlink, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
+.postgroup-griegos .post-cabecera-usuario, .postgroup-griegos .postprofile, .profilegroup-griegos .perfil-u, .usergroup-griegos a.userlink, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
+.postgroup-celtas .post-cabecera-usuario, .postgroup-celtas .postprofile, .profilegroup-celtas .perfil-u, .usergroup-celtas a.userlink, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
+
+/*Variaciones expedientes*/
+.postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
+.postgroup-griegos .expavam {--color-acento: var(--color-griegos);}
+.postgroup-celtas .expavam {--color-acento: var(--color-celtas);}
+
+/*Variaciones tablilla PNJs*/
+.pnjs.celta {--color-acento: var(--color-celtas);} 
+.pnjs.romano {--color-acento: var(--color-romanos);}
+.pnjs.griego {--color-acento: var(--color-griegos);}
+
+/*Variaciones iconos tablilla Stats*/
+.arco .pj .rpg-icon div:before {content: "\e981"; font-family: cappuccicons;}
+.dagas .pj .rpg-icon div:before {content: "";}
+.escudo .pj .rpg-icon div:before {content: "\efe6"; font-family: IcoFont;}
+.espada .pj .rpg-icon div:before {content: "";}
+.hacha .pj .rpg-icon div:before {content: "";}
+.lanza .pj .rpg-icon div:before {content: "";}
+.maza .pj .rpg-icon div:before {content: "";}
+.intermedio .op .rpg-icon div:before {content: "";}
+.avanzado .op .rpg-icon div:before {content: "";}
+.epico .op .rpg-icon div:before {content: "";}
+
+/**Variaciones tablilla Tramas*/
+.postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
+.postgroup-griegos .bf3, .postgroup-griegos .tab-batalla, .postgroup-griegos .rpg {--color-acento: var(--color-griegos);}
+.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}
+
+/*OLD - Expedientes */
+.bfh2,.bfhd2 { text-align: justify; } 
+.imaf111, .imaf1 { margin: auto; width: 100px; height: 100px; } 
+.imf { width: 400px; height: 150px; } 
+.df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
+
+/*OLD - Tablilla de stats*/
+.rpg {background: var(--fondo-claro); font-family: arial; font-size: 11px; font-weight: 400; margin: 10px auto; outline: 1px solid #161616; outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 380px; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; width: 184px; justify-content: space-between; } .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
+.rpg .nf2avam {width: 100%;font-size: 12px;white-space:nowrap;overflow:hidden;line-height:10px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
+.rpg .caja {height: auto; background: #060606; outline: 1px solid #111; font-family: calibri; letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
+.rpg .caja.vida {width: 100%; display: block;}
+.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 22px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 9px; margin-top: 0px; border-right: 1px solid #0a0a0a; background: #040404; float: left;}
+.rpg .caja .puntos { display: inline-block; width: calc(100% - 36px); margin: auto; text-align: center; vertical-align: top; padding-top: 12px; }
+.rpg .pj .puntos, .rpg .op .puntos {padding-top: 7px; letter-spacing: 1px; } 
+.rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -2px;font-size: 10px;} 
+.rpg c {margin-right: -5px;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
+.rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
+.rpg .df222 {width: 100%; height: 35px; display: flex; align-items: center; justify-content: center; background: #060606; overflow: auto; outline: 1px solid #111; margin: 2px 0; padding: 9px 6px; font-size: 11px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px; }
+.rpg .datos {margin: 7px 0 0; padding: 5px; background: #060606; outline: 1px solid #111; overflow: auto; max-height: 100px; width: 100%;}
+.rpg .datos strong, .rpg .datos a { color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
+.rpg .op .datos {padding:12px;height:155px;max-height:155px;overflow:auto;margin:0}
+.rpg.mini { width: 230px;} .rpg.mini .pj { width: 100%; padding: 0px;}
+.rpg .datos::-webkit-scrollbar, .rpg .df222::-webkit-scrollbar {width: 5px;}
+
+/*OLD - Variaciones tablilla stats Tramas*/
+.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
+.arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
+.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat, .lanza.rpg .datos strong, .lanza.rpg c:before {color: #736e8e;}
+.lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
+.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat, .maza.rpg .datos strong, .maza.rpg c:before {color: #707070;}
+.maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.hacha.rpg .nf2avam { border-color: #707070;} .hacha.rpg .caja .stat, .hacha.rpg .datos strong, .maza.rpg c:before {color: #707070;}
+.hacha.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam {border-color: #34694e;} 
+.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .datos strong, .escudo.rpg .datos strong, .espada.rpg c:before, .escudo.rpg c:before {color: #34694e;}
+.espada.rpg .df222::-webkit-scrollbar-thumb, .escudo.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
+.daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #466388;} 
+.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .datos strong, .dagas.rpg .datos strong, .picaro.rpg .datos strong {color: #466388;} 
+.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #466388 !important;} 
+.daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #466388;} 
+
+.tgrom .df3a, .rpg.tgrom .nf2avam {border-color: var(--color-romanos);} 
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos strong, .rpg.tgrom .fa-angle-right, .rpg.tgrom c:before, .res.tgrom strong {color: var(--color-romanos)}
+.rpg.tgrom .df222::-webkit-scrollbar-thumb, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: var(--color-romanos);} 
+.tggri .df3a, .rpg.tggri .nf2avam {border-color: var(--color-griegos);} 
+.rpg.tggri .caja .stat, .rpg.tggri .datos strong, .rpg.tggri .fa-angle-right, .rpg.tggri c:before, .res.tggri strong {color: var(--color-griegos)}
+.rpg.tggri .df222::-webkit-scrollbar-thumb, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: var(--color-griegos);} 
+.tgcel .df3a, .rpg.tgcel .nf2avam {border-color: var(--color-celtas);} 
+.rpg.tgcel .caja .stat, .rpg.tgcel .datos strong, .rpg.tgcel .fa-angle-right, .rpg.tgcel c:before, .res.tgcel strong {color: var(--color-celtas)}
+.rpg.tgcel .df222::-webkit-scrollbar-thumb, .rpg.tgcel .datos::-webkit-scrollbar-thumb { background: var(--color-celtas);} 
+
+.grupo-a .df3a, .rpg.grupo-a .nf2avam {border-color: #82545a;} 
+.rpg.grupo-a .caja .stat, .rpg.grupo-a .datos strong, .rpg.grupo-a c:before, .res.grupo-a strong {color: #82545a}
+.rpg.grupo-a .df222::-webkit-scrollbar-thumb, .rpg.grupo-a .datos::-webkit-scrollbar-thumb { background: #82545a;}
+.grupo-b .df3a, .rpg.grupo-b .nf2avam {border-color: #587758;} 
+.rpg.grupo-b .caja .stat, .rpg.grupo-b .datos strong, .rpg.grupo-b c:before, .res.grupo-b strong {color: #587758}
+.rpg.grupo-b .df222::-webkit-scrollbar-thumb, .rpg.grupo-b .datos::-webkit-scrollbar-thumb { background: #587758;} 
+.grupo-c .df3a, .rpg.grupo-c .nf2avam {border-color: #7c704a;} 
+.rpg.grupo-c .caja .stat, .rpg.grupo-c .datos strong, .rpg.grupo-c c:before, .res.grupo-c strong {color: #7c704a}
+.rpg.grupo-c .df222::-webkit-scrollbar-thumb, .rpg.grupo-c .datos::-webkit-scrollbar-thumb { background: #7c704a;}
+.grupo-d .df3a, .rpg.grupo-d .nf2avam {border-color: #826354;} 
+.rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
+.rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;}
+
+/*Árbol de navidad 2020*/
+.card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
+.arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
+.arb .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .arb .card .back { transform: rotateY(180deg); } 
+.arb .card .side div {margin: auto; width: 205px; height: 205px; padding: 0 5px; position: relative; top: -325px; color: #f6f6f6; text-align: justify; font-size: 12px; line-height: 15px; overflow: auto;} 
+.arb .card .side div::-webkit-scrollbar {width: 2px;} .arb .card .side div img {width:100px;} 
+.arb .nota { background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 190px; top: 250px;} 
+.arb:hover .nota { top: 80px; left: 330px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
+
+/*Regalo de navidad 2020*/
+.card-container.reg {height: 255px; position: relative; width: 200px; margin:auto;} 
+.reg .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .reg:hover .card { transform: rotateY(180deg); } 
+.reg .card img {width: 200px;} 
+.reg .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .reg .card .back { transform: rotateY(180deg); } 
+.reg .card .side div {margin: auto; width: 150px; height: 150px; padding: 10px; position: relative; top: -160px; color: #f6f6f6; text-align: center; font-size: 12px; line-height: 15px;} 
+.reg .card .side div img {width: 50px;} 
+.reg .nota {background: white; width: 120px; padding: 20px 0; text-align: center; color: black; transition: top 1s ease-in-out 0.5s, left 1s ease-in-out, transform 1s ease-in-out; position: relative; left: 40px; top: 100px;} 
+.reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
+
+/**** FUENTES ****/ 
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
+@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
+
+@font-face { font-family: Summer Vibes; src: url('https://AVAM-RPG.github.io/Avam-codes/SummerVibes.ttf'); }
+@font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/Good%20Things.ttf'); }
+
+/*CSS base de los toggle*/
+.toggle .click { 
+text-transform: uppercase; 
+font-size: 12px; 
+margin: 0 0 -15px; 
+font-weight: bold;
+cursor: pointer;
+}
+.toggle .info, .toggle .info-asc, .bestiario .info {
+display: none;
+font-size: 12px;
+font-weight: normal; 
+text-transform: none;
+font-style: normal;
+}
+.toggle .info-asc {line-height: 15px;}
+
+/*CSS de los modals del tablon*/
+.modal-container>.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.modal-container>.modal.show {
+  display: flex;
+  z-index: 5;
+}
+.modal-container>.modal>.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000bf;
+  z-index: 10;
+  display: none;
+}
+.modal-container>.modal.show>.modal-backdrop {
+  display: block;
+}
+.modal-container>.modal>.modal-content {
+  position: fixed;
+  margin: auto;
+  z-index: 100;
+  transform: scale(0);
+  transition: transform .2s ease-out;
+}
+.modal-container>.modal.show>.modal-content {
+  transform: scale(1);
+  transition: transform .2s ease-out;
+}
+
+/* Selector de color avanzado */
+.sceditor-dropdown.colorpicker {margin-top: 1.5px !important;}
+.colorpicker {
+   width: 356px;
+   height: 176px;
+   overflow: hidden;
+   position: absolute;
+   background-image: url(https://i.imgur.com/h04R6fU.png) !important;
+   font-family: Arial, Helvetica, sans-serif;
+   display: none;
+   padding: 0 !important;    
+}
+.colorpicker.dark{
+ background-image: url(https://i.imgur.com/h04R6fU.png) !important;
+}
+.colorpicker_color {
+   width: 150px;
+   height: 150px;
+   left: 14px;
+   top: 13px;
+   position: absolute;
+   background: #f00;
+   overflow: hidden;
+   cursor: crosshair;
+}
+.colorpicker_color div {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 150px;
+   height: 150px;
+   background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp10.png);
+}
+.colorpicker_color div div {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 11px;
+   height: 11px;
+   overflow: hidden;
+   background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp10.gif);
+   margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+   position: absolute;
+   top: 13px;
+   left: 171px;
+   width: 35px;
+   height: 150px;
+   cursor: n-resize;
+}
+.colorpicker_hue div {
+   position: absolute;
+   width: 35px;
+   height: 9px;
+   overflow: hidden;
+   background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp11.gif) left top;
+   margin: -4px 0 0 0;
+   left: 0px;
+}
+.colorpicker_new_color {
+   position: absolute;
+   width: 60px;
+   height: 30px;
+   left: 213px;
+   top: 13px;
+   background: #f00;
+}
+.colorpicker_current_color {
+   position: absolute;
+   width: 60px;
+   height: 30px;
+   left: 283px;
+   top: 13px;
+   background: #f00;
+}
+.colorpicker_current_color:after {
+    content: 'Último usado';
+    position: absolute;
+    top: 35px;
+    font-size: 9px;
+    color: var(--color-texto-claro);
+    font-family: calibri;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    width: 65px;
+}
+div.sceditor-dropdown.colorpicker input {
+   text-align: center;
+   margin: 0 0 0 4px;
+   padding: 2px;
+}
+.colorpicker_field, .colorpicker_hex {
+   height: 22px;
+   width: 62px;
+   background-position: top;
+   position: absolute;
+   color: var(--color-texto-claro);
+   font-weight: 900;
+   display: flex;
+   align-items: center;
+}
+.colorpicker_hex {
+   left: 212px;
+   top: 142px;
+}
+.colorpicker_rgb_r:before {content: 'R';}
+.colorpicker_rgb_g:before {content: 'G';}
+.colorpicker_rgb_b:before {content: 'B';}
+.colorpicker_hex:before {content: '#';}
+.colorpicker_rgb_r {
+   top: 52px;
+   left: 212px;
+}
+.colorpicker_rgb_g {
+   top: 82px;
+   left: 212px;
+}
+.colorpicker_rgb_b {
+   top: 112px;
+   left: 212px;
+}
+
+.colorpicker_field span {
+   position: absolute;
+   width: 4px;
+   height: 18px;
+   top: 2px;
+   right: 0;
+   cursor: n-resize;
+   background: var(--color-acento);
+   display: none;
+}
+.colorpicker_hsb_h, .colorpicker_hsb_s, .colorpicker_hsb_b {
+ display: none;
+}
+div.sceditor-dropdown div.colorpicker_submit {
+ position: absolute;
+ cursor: pointer;
+ right: 10px;
+ top: 140px;
+ text-transform: uppercase;
+ font-family: calibri;
+ font-size: 10px;
+ font-weight: 900;
+ letter-spacing: 1px;
+ background: var(--fondo-oscuro);
+ border: 1px solid var(--color-acento);
+ padding: 4px 10px;
+ height: auto;
+ line-height: 14px;
+ color: var(--color-texto-claro);
+}
+.colorpicker_submit:before {
+    content: 'Usar';
+}
+.colorpicker_focus {
+   background-position: center;
+}
+.colorpicker_hex.colorpicker_focus {
+   background-position: bottom;
+}
+.colorpicker_slider {
+   background-position: bottom;
+}
+.colorpicker { z-index: 3; }
+
+/*Modificaciones de los BBCodes*/
+.sceditor-dropdown {border: 0px!important;}
+div.sceditor-dropdown div input {border: 0px;}
+div.sceditor-dropdown {
+margin-top: 27.5px !important;
+margin-left: -2px !important;
+}
+div.sceditor-dropdown, div.sceditor-dropdown div .button, div.sceditor-dropdown div .button:hover {
+background: var(--fondo-oscuro) !important;
+border: 1px solid var(--color-acento) !important;
+border-radius: 0 !important;
+}
+a.sceditor-color-option {border-color: var(--fondo-oscuro);}
+div.sceditor-dropdown div a:hover, .sceditor-dropdown div .sceditor-header-option.post-content:hover, div.sceditor-dropdown .sceditor-mention-user:hover {
+color: var(--color-acento) !important; 
+background: none !important;
+}
+div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user {
+color: var(--color-texto-claro) !important;
+font-family: var(--fuente-tit);
+text-transform: uppercase;
+font-weight: 900;
+font-size: 11px;
+letter-spacing: .5px;
+}
+div.sceditor-dropdown div input {
+border: 0px;
+text-transform: none; 
+background: var(--fondo-claro);}
+div.sceditor-dropdown div .button {
+color: var(--color-texto-claro);
+border-color: var(--color-acento);
+border-radius: 0;
+text-transform: uppercase;
+font-family: calibri;
+font-size: 10px;
+font-weight: 00;
+letter-spacing: 1px;
+}
+div.sceditor-dropdown textarea {
+border-top: 0px!important;
+border: 0px!important;}
+div.sceditor-dropdown.sceditor-color-picker {padding: 6px;}
+.sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user, div.sceditor-dropdown .sceditor-mention-user:hover {
+border: none;
+background: none !important;
+}
+.sceditor-mention-user img {
+background: none;
+border: none;
+border-radius: 0;
+display: none;
+}
+
+/*NOTIFICACIONES*/
+#fa_toolbar {top: 20px !important; width: 100%;}
+#fa_left, #fa_search, #fa_share {display: none;}
+#fa_right {float: right;}
+#fa_right #notif_list {
+position: absolute;
+border: 0;
+display: none;
+list-style: none;
+padding: 8px;
+top: 30px;
+font-size: 12px;
+line-height: 12px;
+text-transform: none;
+letter-spacing: 0;
+font-weight: normal;
+background: var(--fondo-claro);
+width: 200px;
+}
+#fa_right.notification #notif_list {display: block;}
+#fa_notifications {cursor: pointer;} #fa_notifications:before {content: '\f0f3'}
+#notif_list .content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px 0;
+}
+#notif_list .content:before {
+font-family: 'Font Awesome 5 Free';
+color: var(--color-acento);
+font-weight: 900;
+content: '\f111';
+font-size: 10px;
+}
+#notif_list .unread .content:before {content: '\f06a';}
+.contentText {width: 173px;}
+#fa_right .delete:before {
+font-family: 'Font Awesome 5 Free';
+content: '\f00d';
+color: var(--color-acento);
+}
+.see_all {
+text-align: right;
+margin-top: 5px;
+}
+a.rightHeaderLink[href="https://forokoa.activo.mx/login"], a.rightHeaderLink[href="https://forokoa.activo.mx/register"] {display: none;}
