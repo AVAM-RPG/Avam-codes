@@ -118,12 +118,11 @@
 .reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
 
 /**** FUENTES ****/ 
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Regular%20PERSONAL%20USE.otf'); }
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Black%20PERSONAL%20USE.otf'); font-weight: bold;}
-@font-face { font-family: MADE Canvas; src: url('https://AVAM-RPG.github.io/Avam-codes/MADE%20Canvas/MADE%20Canvas%20Light%20PERSONAL%20USE.otf'); font-weight: lighter;}
+@font-face { font-family: Olympus Mount; src: url('https://avam-rpg.github.io/Avam-codes/Olympus_Mount.ttf'); }
 
 @font-face { font-family: Summer Vibes; src: url('https://AVAM-RPG.github.io/Avam-codes/SummerVibes.ttf'); }
 @font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/Good%20Things.ttf'); }
+
 
 /*CSS base de los toggle*/
 .toggle .click { 
