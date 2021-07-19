@@ -24,9 +24,9 @@
 .hacha .pj .rpg-icon div:before {content: "";}
 .lanza .pj .rpg-icon div:before {content: "";}
 .maza .pj .rpg-icon div:before {content: "";}
-.intermedio .op .rpg-icon div:before {content: "";}
-.avanzado .op .rpg-icon div:before {content: "";}
-.epico .op .rpg-icon div:before {content: "";}
+.intermedio .op .rpg-icon div:before, .intermedio.intermedio .pj .rpg-icon div:before, .intermedio.avanzado .pj .rpg-icon div:before, .intermedio.epico .pj .rpg-icon div:before {content: "";}
+.avanzado .op .rpg-icon div:before, .avanzado.intermedio .pj .rpg-icon div:before, .avanzado.avanzado .pj .rpg-icon div:before, .avanzado.epico .pj .rpg-icon div:before {content: "";}
+.epico .op .rpg-icon div:before, .epico.intermedio .pj .rpg-icon div:before, .epico.avanzado .pj .rpg-icon div:before, .epico.epico .pj .rpg-icon div:before {content: "";}
 
 /**Variaciones tablilla Tramas*/
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
