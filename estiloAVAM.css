@@ -24,9 +24,9 @@
 .hacha .pj .rpg-icon div:before {content: '\e91c';}
 .lanza .pj .rpg-icon div:before {content: '\eaac';}
 .maza .pj .rpg-icon div:before {content: '\e9cc';}
-.intermedio .op .rpg-icon div:before, .intermedio.intermedio .pj .rpg-icon div:before, .intermedio.avanzado .pj .rpg-icon div:before, .intermedio.epico .pj .rpg-icon div:before {content:  '\eae7';}
-.avanzado .op .rpg-icon div:before, .avanzado.intermedio .pj .rpg-icon div:before, .avanzado.avanzado .pj .rpg-icon div:before, .avanzado.epico .pj .rpg-icon div:before {content: '\ea91';}
-.epico .op .rpg-icon div:before, .epico.intermedio .pj .rpg-icon div:before, .epico.avanzado .pj .rpg-icon div:before, .epico.epico .pj .rpg-icon div:before {content: '\eaeb';}
+.intermedio .op .rpg-icon div:before, .intermedio:not(.hacha,.arco,.maza,.dagas,.espada,.escudo,.lanza,.monstruo,.especialidad) .pj .rpg-icon div:before {content: '\eae7';}
+.avanzado .op .rpg-icon div:before, .avanzado:not(.hacha,.arco,.maza,.dagas,.espada,.escudo,.lanza,.monstruo,.especialidad) .pj .rpg-icon div:before {content: '\ea91';}
+.epico .op .rpg-icon div:before, .epico:not(.hacha,.arco,.maza,.dagas,.espada,.escudo,.lanza,.monstruo,.especialidad) .pj .rpg-icon div:before {content: '\eaeb';}
 
 /**Variaciones tablilla Tramas*/
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
