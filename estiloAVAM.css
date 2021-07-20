@@ -17,16 +17,16 @@
 .pnjs.griego {--color-acento: var(--color-griegos);}
 
 /*Variaciones iconos tablilla Stats*/
-.arco .pj .rpg-icon div:before {content: '\e981' !important; font-family: cappuccicons;}
-.dagas .pj .rpg-icon div:before, .daga .pj .rpg-icon div:before {content: '\e989' !important;}
-.escudo .pj .rpg-icon div:before {content: '\efe6' !important; font-family: IcoFont;}
-.espada .pj .rpg-icon div:before {content: '\e946' !important;}
-.hacha .pj .rpg-icon div:before {content: '\e91c' !important;}
-.lanza .pj .rpg-icon div:before {content: '\eaac' !important;}
-.maza .pj .rpg-icon div:before {content: '\e9cc' !important;}
-.intermedio .op .rpg-icon div:before, .intermedio.intermedio .pj .rpg-icon div:before, .intermedio.avanzado .pj .rpg-icon div:before, .intermedio.epico .pj .rpg-icon div:before {content:  '\eae7';}
-.avanzado .op .rpg-icon div:before, .avanzado.intermedio .pj .rpg-icon div:before, .avanzado.avanzado .pj .rpg-icon div:before, .avanzado.epico .pj .rpg-icon div:before {content: '\ea91';}
-.epico .op .rpg-icon div:before, .epico.intermedio .pj .rpg-icon div:before, .epico.avanzado .pj .rpg-icon div:before, .epico.epico .pj .rpg-icon div:before {content: '\eaeb';}
+.arco .pj .rpg-icon div:before {content: '\e981' font-family: cappuccicons;}
+.dagas .pj .rpg-icon div:before, .daga .pj .rpg-icon div:before {content: '\e989';}
+.escudo .pj .rpg-icon div:before {content: '\efe6'; font-family: IcoFont;}
+.espada .pj .rpg-icon div:before {content: '\e946';}
+.hacha .pj .rpg-icon div:before {content: '\e91c';}
+.lanza .pj .rpg-icon div:before {content: '\eaac';}
+.maza .pj .rpg-icon div:before {content: '\e9cc';}
+.intermedio .op .rpg-icon div:before {content: '\eae7';}
+.avanzado .op .rpg-icon div:before {content: '\ea91';}
+.epico .op .rpg-icon div:before {content: '\eaeb';}
 
 /**Variaciones tablilla Tramas*/
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
