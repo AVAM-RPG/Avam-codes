@@ -24,6 +24,9 @@
 .hacha .pj .rpg-icon div:before {content: '\e91c';}
 .lanza .pj .rpg-icon div:before {content: '\eaac';}
 .maza .pj .rpg-icon div:before {content: '\e9cc';}
+.intermedio .op .rpg-icon div:before {content: '\eae7';}
+.avanzado .op .rpg-icon div:before {content: '\ea91';}
+.epico .op .rpg-icon div:before {content: '\eaeb';}
 
 /**Variaciones tablilla Tramas*/
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
