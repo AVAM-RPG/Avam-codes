@@ -118,7 +118,7 @@
 .reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
 
 /**** FUENTES ****/ 
-@font-face { font-family: 'The Bold'; src: url('https://avam-rpg.github.io/Avam-codes/thebold.ttf'); 
+@font-face { font-family: 'The Bold'; src: url('https://avam-rpg.github.io/Avam-codes/thebold.ttf'); }
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular.ttf'); }
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold.ttf'); font-weight: bold;}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Italic.ttf'); font-style: italic;}
