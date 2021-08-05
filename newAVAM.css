@@ -120,10 +120,10 @@
 /**** FUENTES ****/ 
 @font-face { font-family: 'The Bold'; src: url('https://avam-rpg.github.io/Avam-codes/thebold.ttf'); 
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular.ttf'); }
-@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Bold.ttf'); font-weight: bold;}
-@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Italic.ttf'); font-style: italic;}
-@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Bold%20Italic.ttf'); font-weight: bold; font-style: italic;}
-@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Light.ttf'); font-weight: lighter;}
+@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad20Bold.ttf'); font-weight: bold;}
+@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Italic.ttf'); font-style: italic;}
+@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold%20Italic.ttf'); font-weight: bold; font-style: italic;}
+@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Light.ttf'); font-weight: lighter;}
 
 /*EDITOR DE MENSAJES*/
 #smiley-box, .smile-status-box {
