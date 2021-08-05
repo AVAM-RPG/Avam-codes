@@ -118,13 +118,63 @@
 .reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
 
 /**** FUENTES ****/ 
-@font-face { font-family: Olympus Mount; src: url('https://avam-rpg.github.io/Avam-codes/Olympus_Mount.ttf'); }
-@font-face { font-family: 'The Bold'; src: url('https://avam-rpg.github.io/Avam-codes/thebold.ttf'); }
+@font-face { font-family: 'The Bold'; src: url('https://avam-rpg.github.io/Avam-codes/thebold.ttf'); 
+@font-face { font-family: Freeroad; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular.ttf'); }
+@font-face { font-family: Freeroad; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Bold.ttf'); font-weight: bold;}
+@font-face { font-family: Freeroad; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular%20Light.ttf'); font-weight: lighter;}
 
-
-@font-face { font-family: Summer Vibes; src: url('https://AVAM-RPG.github.io/Avam-codes/SummerVibes.ttf'); }
-@font-face { font-family: Good Things; src: url('https://AVAM-RPG.github.io/Avam-codes/Good%20Things.ttf'); }
-
+/*EDITOR DE MENSAJES*/
+#smiley-box, .smile-status-box {
+float: right;
+margin-top: 15px;
+width: 200px;
+}
+#smiley-box iframe, .smile-status-box iframe {
+height: 280px;
+overflow: auto;
+width: 100%;
+}
+#textarea_content {
+width: 730px;
+}
+.sceditor-container {
+border: 0!important;
+border-radius: 0!important;
+background: var(--fondo-oscuro)!important;
+}
+.sceditor-container .sceditor-toolbar {
+background: var(--fondo-claro);
+padding: 10px;
+border:0;
+}
+#textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
+background: var(--fondo-oscuro);
+font-family: arial;
+padding: 10px;
+width: 100%!important;
+color: white !important;
+margin: 0!important;
+}
+#textarea_content .sceditor-group {
+background: var(--fondo-oscuro);
+border: 1px solid var(--color-acento);
+border-radius:0;
+}
+.sceditor-container .sceditor-button {
+background: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-texto-claro);
+text-indent:0;
+margin:3px;
+}
+#textarea_content .sceditor-button.active, #textarea_content .sceditor-button:active, #textarea_content .sceditor-button:hover {
+background: none;
+box-shadow: none;
+color: var(--color-acento) !important;
+}
+.sceditor-container .sceditor-button.disabled {color: #AAA;}
 
 /*CSS base de los toggle*/
 .toggle .click { 
