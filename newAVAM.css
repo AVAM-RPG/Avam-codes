@@ -492,11 +492,15 @@ content: '\f111';
 font-size: 10px;
 }
 #notif_list .unread .content:before {content: '\f06a';}
-.contentText {width: 173px;}
+.contentText {
+width: 173px;
+line-height: 10px;
+}
 #fa_right .delete:before {
 font-family: 'Font Awesome 5 Free';
 content: '\f00d';
 color: var(--color-acento);
+font-weight: 900;
 }
 .see_all {
 text-align: right;
