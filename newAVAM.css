@@ -463,7 +463,6 @@ display: none;
 #fa_right {float: right;}
 #fa_right #notif_list {
 position: absolute;
-border: 0;
 display: none;
 list-style: none;
 padding: 8px;
@@ -475,6 +474,7 @@ letter-spacing: 0;
 font-weight: normal;
 background: var(--fondo-claro);
 width: 200px;
+z-index: 2;
 }
 #fa_right.notification #notif_list {display: block;}
 #fa_notifications {cursor: pointer;} #fa_notifications:before {content: '\f0f3'}
