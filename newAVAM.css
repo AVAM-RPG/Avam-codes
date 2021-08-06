@@ -473,7 +473,7 @@ text-transform: none;
 letter-spacing: 0;
 font-weight: normal;
 background: var(--fondo-claro);
-width: 200px;
+width: 210px;
 z-index: 2;
 }
 #fa_right.notification #notif_list {display: block;}
@@ -493,7 +493,7 @@ font-size: 10px;
 }
 #notif_list .unread .content:before {content: '\f06a';}
 .contentText {
-width: 173px;
+width: 170px;
 line-height: 10px;
 }
 #fa_right .delete:before {
