@@ -142,7 +142,7 @@ width: 700px !important;
 .sceditor-container, .sceditor-container .sceditor-toolbar  {
 border: 0!important;
 border-radius: 0!important;
-background: var(--fondo-base)!important;
+background: var(--fondo-claro)!important;
 }
 .sceditor-container .sceditor-toolbar {
 padding: 10px;
