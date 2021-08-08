@@ -476,6 +476,7 @@ font-weight: normal;
 background: var(--fondo-claro);
 width: 240px;
 z-index: 2;
+margin-left: -3px;
 }
 #fa_right.notification #notif_list {display: block;}
 #fa_notifications {cursor: pointer;} #fa_notifications:before {content: '\f0f3'}
