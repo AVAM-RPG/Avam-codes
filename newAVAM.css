@@ -474,7 +474,7 @@ text-transform: none;
 letter-spacing: 0;
 font-weight: normal;
 background: var(--fondo-claro);
-width: 210px;
+width: 240px;
 z-index: 2;
 }
 #fa_right.notification #notif_list {display: block;}
