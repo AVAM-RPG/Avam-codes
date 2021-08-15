@@ -477,7 +477,7 @@ z-index: 2;
 margin-left: -6px;
 }
 #fa_right.notification #notif_list {display: block;}
-#fa_notifications {cursor: pointer;} #fa_notifications:before {content: '\f0f3'}
+#fa_notifications {cursor: pointer;}
 #notif_list .content {
 display: flex;
 justify-content: space-between;
