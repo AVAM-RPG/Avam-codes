@@ -154,6 +154,7 @@ padding: 10px;
 width: 100%!important;
 color: white !important;
 margin: 0!important;
+min-height: 250px;
 }
 #textarea_content .sceditor-group {
 background: var(--fondo-oscuro);
