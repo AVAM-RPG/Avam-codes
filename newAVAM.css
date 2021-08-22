@@ -477,7 +477,7 @@ font-weight: normal;
 background: var(--fondo-oscuro);
 width: 268px;
 z-index: 2;
-margin-left: -15px;
+margin-left: -10px;
 }
 #fa_right.notification #notif_list {display: block;}
 #fa_notifications {cursor: pointer;}
