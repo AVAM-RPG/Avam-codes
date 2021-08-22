@@ -142,12 +142,10 @@ width: 88% !important;
 .sceditor-container, .sceditor-container .sceditor-toolbar  {
 border: 0!important;
 border-radius: 0!important;
+background: var(--fondo-base)!important;
 }
 .respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {
 background: var(--fondo-claro)!important;
-}
-.pagina-post .sceditor-container,.pagina-post .sceditor-container .sceditor-toolbar  {
-background: var(--fondo-base)!important;
 }
 .sceditor-container .sceditor-toolbar {
 padding: 10px;
