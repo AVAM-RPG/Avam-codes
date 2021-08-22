@@ -137,7 +137,8 @@ overflow: auto;
 width: 100%;
 }
 #message-box, #textarea_content {
-width: 88%;
+width: 100% !important;
+max-width: 700px;
 }
 .sceditor-container, .sceditor-container .sceditor-toolbar  {
 border: 0!important;
