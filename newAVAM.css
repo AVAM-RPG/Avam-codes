@@ -137,11 +137,16 @@ overflow: auto;
 width: 100%;
 }
 #message-box, #textarea_content {
-width: 700px !important;
+width: 88% !important;
 }
 .sceditor-container, .sceditor-container .sceditor-toolbar  {
 border: 0!important;
 border-radius: 0!important;
+}
+.respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {
+background: var(--fondo-claro)!important;
+}
+.pagina-post .sceditor-container,.pagina-post .sceditor-container .sceditor-toolbar  {
 background: var(--fondo-base)!important;
 }
 .sceditor-container .sceditor-toolbar {
