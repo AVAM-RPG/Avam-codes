@@ -551,7 +551,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 .df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
 
 /*OLD - Tablilla de stats*/
-.rpg {background: var(--fondo-base); font-size: 12px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 380px; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.rpg {background: var(--fondo-base); font-size: 13px; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 415px; display: flex; flex-wrap: wrap; justify-content: space-between; }
 .rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; width: 184px; justify-content: space-between; } .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:10px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
 .rpg .caja {height: auto; background: #060606; outline: 1px solid #111; letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
@@ -566,7 +566,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 .rpg .datos {margin: 7px 0 0; padding: 5px; background: #060606; outline: 1px solid var(--borde-gris; overflow: auto; max-height: 100px; width: 100%;}
 .rpg .datos strong, .rpg .datos a { color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
 .rpg .op .datos {padding:12px;height:155px;max-height:155px;overflow:auto;margin:0}
-.rpg.mini { width: 230px;} .rpg.mini .pj { width: 100%; padding: 0px;}
+.rpg.mini { width: 265px;} .rpg.mini .pj { width: 100%; padding: 0px;}
 .rpg .datos::-webkit-scrollbar, .rpg .df222::-webkit-scrollbar {width: 5px;}
 
 /*OLD - Variaciones tablilla stats Tramas*/
