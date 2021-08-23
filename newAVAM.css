@@ -425,8 +425,8 @@ font-size: 14px;
 .rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
 .rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
 .rpg .inv, .baul-stats .inv {padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
-.inv .item {background: #00000078; border: 1px solid var(--borde-gris); color: #b5b5b5; font-size: 10px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
-.inv .item strong {font-size: 12px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
+.inv .item {background: var(--fondo-opacity); border: 1px solid var(--borde-gris); font-size: 11px; overflow-y: auto; overflow-x: hidden; letter-spacing: .5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
+.inv .item strong {font-size: 13px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
 .inv .item .usos {float: right; width: 0; margin: -12px 3px 0 0; cursor: default; font-size: 10px; line-height: 7px;}
 .inv .usos + .usos {margin-right: -14px; }
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
@@ -479,9 +479,9 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 
 /*Recuadro Sistema de Entrenamientos*/
 .entcaja1 {min-width: 104px; margin: 1px;} 
-.entxt1 {text-transform: uppercase; font-weight: 900; font-size: 12px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
-.entcaja2 {background-color: #0f0f0f; font-size: 11px; padding: 7px; line-height: 110%;}
-.entxt3 {font-size: 10px;text-align: center; background-color: var(--fondo-oscuro);}
+.entxt1 {text-transform: uppercase; font-weight: 900; font-size: 14px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
+.entcaja2 {background-color: #0f0f0f; font-size: 12px; padding: 7px; line-height: 110%;}
+.entxt3 {font-size: 11px;text-align: center; background-color: var(--fondo-oscuro);}
 
 /*Tablilla Sistema de Niveles*/
 .tabla-niveles {width: 408px; margin: auto;display: flex;flex-wrap: wrap;} 
