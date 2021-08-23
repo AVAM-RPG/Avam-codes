@@ -485,9 +485,9 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 
 /*Tablilla Sistema de Niveles*/
 .tabla-niveles {width: 408px; margin: auto;display: flex;flex-wrap: wrap;} 
-.tblnvcelda-años {width: 37px; text-align: center; line-height: 12px; padding: 2px; text-transform: uppercase; letter-spacing: -1px; font-weight: 900; font-size: 9px;} 
-.tblnvcelda {width: 37px; text-align: center; line-height: 12px; padding: 3px 2px; font-size: 10px;} 
-.tblnvcelda2 {width: 37px; text-align: center; line-height: 12px; color: var(--color-texto-claro); background-color: var(--color-acento); padding: 3px 2px; font-size: 10px;}
+.tblnvcelda-años {width: 41px; text-align: center; line-height: 12px; padding: 2px; text-transform: uppercase; letter-spacing: -.5px; font-weight: 900; font-size: 11px;} 
+.tblnvcelda,.tblnvcelda2 {width: 41px; text-align: center; line-height: 12px; padding: 3px 2px; font-size: 12px;} 
+.tblnvcelda2 {background-color: var(--color-acento);}
 
 /*Tablilla forja*/
 .forja-text {width: 700px; margin: auto; display: flex; flex-wrap: wrap; justify-content: center; } .forja-text table {border-spacing: 0;} 
