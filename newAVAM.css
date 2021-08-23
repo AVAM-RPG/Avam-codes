@@ -420,7 +420,7 @@ font-size: 14px;
 
 .rpg .img-expediente {margin: 10px auto 30px;}
 .rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
-.rpg .caja .ra {width: 25px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 9px; text-align: center; border-right: 1px solid #0a0a0a; background: #040404;} 
+.rpg .caja .ra {width: 35px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid #0a0a0a; background: #040404;} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
 .rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
 .rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
@@ -432,10 +432,10 @@ font-size: 14px;
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
 
 .rpg .bot { display: inline-block; cursor: pointer;} #caja2, #caja3, #caja4 {display: none;} 
-.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-claro);font-weight:400;margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:350px}
-.rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);}
+.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-base);margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:410px}
+.rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);font-family: calibri;}
 .rpg.grande .subfr, .rpg.pesta .subfr {text-align:left;font-size:12px;padding:0;margin:6px 0}
-.rpg.pesta {height: 310px;}
+.rpg.pesta {height: 360px;}
 .rpg.pesta .bot {width: 16px; height: 14px; padding: 2px 0 0 0px; background: var(--color-acento); margin: 2px; position: relative; left: 265px; margin-top: -8px; text-align: center; font-size: 9px; line-height: 15px; letter-spacing: 0.5px;} 
 .rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
 .rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
