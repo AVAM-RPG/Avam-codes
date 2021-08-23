@@ -10,7 +10,7 @@ font-size: 22px;
 font-weight: 900;
 outline: 1px solid var(--borde-gris);
 color: var(--color-acento);
-background: #000000d9;
+background: var(--fondo-oscuro);
 letter-spacing: 1px;
 line-height: 17px;
 padding: 40px;
@@ -18,7 +18,7 @@ text-align: center;
 text-transform:uppercase;
 }
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo {
-background: var(--fondo-claro);
+background: var(--fondo-base);
 font-family: arial;
 font-size: 13px;
 font-weight: 400;
@@ -154,7 +154,7 @@ font-size: 9px;
 .expavam-header {
 border: 1px solid var(--borde-gris);
 margin: auto;
-background: var(--fondo-claro);
+background: var(--fondo-base);
 padding: 40px 30px;
 font-family: arial;
 margin-bottom: -39px;
@@ -177,7 +177,7 @@ outline-offset: 5px;
 .expavam-img {
 outline: 1px solid var(--color-acento);
 outline-offset: 5px;
-background-color: #0a0a0a;
+background: var(--fondo-opacity);
 width: 150px;
 height: 150px;
 margin: 0 auto 30px;
@@ -257,9 +257,9 @@ text-transform: uppercase;
 
 /*TABLILLAS DE ROL*/
 .b16, .bf1, .bf3, .b31 {
-background: var(--fondo-claro);
+background: var(--fondo-base);
 outline: 1px solid var(--borde-gris);
-border: 7px solid var(--fondo-oscuro);
+border: 7px solid var(--fondo-base);
 width: 360px;
 margin: 0 auto;
 padding: 30px;
@@ -355,7 +355,7 @@ font-family: arial;
 
 /*TABLILLA ROL OFICIAL*/
 .post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
-.bf3.res {margin: -18px auto 0; background: var(--fondo-claro); border:0; width: 374px; }
+.bf3.res {margin: -18px auto 0; background: var(--fondo-base); border:0; width: 374px; }
 .bf3.res strong {font-size: 12px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
@@ -409,7 +409,7 @@ font-family: arial;
 
 /*TABLILLA DE STATS*/
 .tab-batalla {font-family: arial; font-size: 12px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; text-align: justify; line-height: 12px; width: 420px; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
-.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-claro); display: flex; flex-wrap: wrap; width: 188px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
+.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; width: 188px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
 .rpg-icon {border: 1px solid var(--color-acento); width: 25px; height: 25px; margin: 0 0 0 5px; font-size: 15px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
 .op .rpg-icon {margin: 0 5px 0 0;} .rpg-icon div, .rpg-icon i {transform: rotate(-45deg); } .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1) rotate(45deg);} 
@@ -417,15 +417,15 @@ font-family: arial;
 .rpg-nombre {width: 145px; margin: 0 auto;letter-spacing: .5px;} 
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
-.rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); outline: 1px solid #111; padding: 5px;} 
+.rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); padding: 5px;} 
 .tab-batalla .caja {flex-basis: 50px;height: 25px;}
-.rpg-cont .caja {background: var(--fondo-oscuro); outline: 1px solid #111; padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+.rpg-cont .caja {background: var(--fondo-opacity); outline: 1px solid #111; padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
 .rpg-cont .pv {flex-grow: 1;} .rpg-cont > * + * {margin-left: 5px;}
 .tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 10px;} .tab-batalla .pt {font-family: calibri;} 
 .rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
 .rpg-oper {width: 100%; max-height: 35px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; font-family: calibri; letter-spacing: .5px;} 
 .rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 10px;} 
-.tab-batalla .datos {margin: 4px 0 0; padding: 10px; background: var(--fondo-claro); overflow: auto; max-height: 110px; width: 100%; } 
+.tab-batalla .datos {margin: 4px 0 0; padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 100%; } 
 .tab-batalla .op + .datos {margin: 8px -7px -7px; border-top: 1px solid var(--borde-gris);} 
 .tab-batalla .op .datos {padding: 0 5px 0 0; margin: 0; height: 170px; max-height: initial; display: block; text-align: justify;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
@@ -458,7 +458,8 @@ font-family: arial;
 .rpg .stat { display: block; font-family: arial; margin-top: 1px; } .rpg.grande .vel + br {display: block;}
 
 /*TABLILLAS BÚSQUEDA*/
-.imagentbr {margin:20px auto; overflow:hidden;width:64px;height:64px;transform:rotate(45deg);outline:1px solid var(--color-acento);outline-offset:5px}.imagentbr img{transform:rotate(-45deg);margin:-13px}
+.imagentbr {margin:20px auto; overflow:hidden;width:64px;height:64px;transform:rotate(45deg);outline:1px solid var(--color-acento);outline-offset:5px}
+.imagentbr img{transform:rotate(-45deg);margin:-13px}
 .cnombrem {text-align:center;padding:15px;}
 .nom {vertical-align:top;display:inline-block;font-size:18px;letter-spacing:.5px;width:203px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900}
 .textonombre {font-family:calibri;font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase}
