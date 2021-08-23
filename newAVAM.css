@@ -19,8 +19,7 @@ text-transform:uppercase;
 }
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo {
 background: var(--fondo-base);
-font-family: arial;
-font-size: 13px;
+font-size: 14px;
 font-weight: 400;
 margin: 15px auto;
 outline: 1px solid var(--borde-gris);
@@ -28,12 +27,12 @@ outline-offset: 14px;
 padding: 30px;
 text-align: justify;
 text-transform: none;
-width: 425px;
+width: 485px;
 }
 .tbase-num {
 font-family: var(--fuente-tit);
 color: var(--color-acento);
-font-size: 15px;
+font-size: 16px;
 font-weight: 900;
 letter-spacing: 1px;
 text-transform: uppercase;
@@ -48,8 +47,7 @@ margin-top: 10px;
 .tbase-text a:link, .tbase-text a:active, .tbase-text a:visited, .tbase-text a:hover, .content .fa-angle-right {color: var(--color-acento);}
 .post .content .tbase-text.text-lista i + strong {
 color: var(--color-acento);
-font-family: arial;
-font-size: 11px;
+font-size: 12px;
 font-weight: 900;
 letter-spacing: 0;
 text-transform: uppercase;
@@ -58,7 +56,7 @@ text-transform: uppercase;
 
 .tbase-destacado, .subfr, blockquote cite, .rpg-nombre, form[action="/login"] + script + .panel .h3 {
 color: var(--color-acento);
-font-size: 15px;
+font-size: 14px;
 font-weight: 900;
 font-family: var(--fuente-tit);
 letter-spacing: 1px;
@@ -67,12 +65,11 @@ text-transform: uppercase;
 
 .tbase-apartado {
 text-transform: uppercase; 
-font-size: 9.5px; 
+font-size: 11px; 
 letter-spacing: 0px; 
 border-bottom: 1px solid #293a37; 
 padding-bottom: 3px; 
 margin-top: 15px; 
-font-family: arial; 
 font-weight: bold;
 }
 .tbase-apartado2 {
@@ -103,8 +100,8 @@ float: left;
 }
 
 .tbase-icon {color:var(--color-acento);font-size:25px;font-weight:900;float:left;margin: 6px 0 0 10px;}
-.tbase-titulo {background:#000000d9;outline: 1px solid var(--borde-gris);font-family:var(--fuente-tit);font-size:15px;font-weight:900;padding:10px;text-transform:uppercase;text-align:center}
-.avam-acep {background: var(--fondo-claro); font-family: arial; margin: 1px auto 0;width: 230px; font-size: 12px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
+.tbase-titulo {background:var(--fondo-oscuro);outline: 1px solid var(--borde-gris);font-family:var(--fuente-tit);font-size:15px;font-weight:900;padding:10px;text-transform:uppercase;text-align:center}
+.avam-acep {background: var(--fondo-claro); margin: 1px auto 0;width: 230px; font-size: 13px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
 
 .crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
 .cr-leg {font-family: calibri; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; display: flex;} 
@@ -115,8 +112,8 @@ float: left;
 
 /*ASCENDENCIAS*/
 .tascen {
-font-family: arial; 
-font-size: 16px; 
+font-family: var(--fuente-tit); 
+font-size: 20px; 
 font-weight: 900; 
 letter-spacing: 5px; 
 text-align: center; 
@@ -156,7 +153,6 @@ border: 1px solid var(--borde-gris);
 margin: auto;
 background: var(--fondo-base);
 padding: 40px 30px;
-font-family: arial;
 margin-bottom: -39px;
 width: 453px;
 }
@@ -224,33 +220,30 @@ text-transform: uppercase;
 width: 116px;
 }
 .expavam-infod {
-font-size: 10px;
+font-size: 11px;
 letter-spacing: .5px;
 font-weight: 900;
-font-family: arial;
 color: var(--color-acento);
 }
 .expavam-a, .exp12, .dfxx2, .dfxx, titulo1 {
 text-align: left;
 text-transform: uppercase;
-font-size: 14px;
+font-size: 16px;
 font-weight: 900;
 font-family: var(--fuente-tit);
 letter-spacing: 1px;
 margin-bottom: -15px;
 }
 .expavam-stata {
-font-family: calibri; 
 font-size: 11px; 
 font-weight: normal; 
 letter-spacing: 1px; 
 text-transform: uppercase;
 }
 .expavam-statb {
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 0px; 
 font-weight: 900; 
-font-family: arial; 
 color: var(--color-acento); 
 text-transform: uppercase;
 }
@@ -263,8 +256,7 @@ border: 7px solid var(--fondo-base);
 width: 360px;
 margin: 0 auto;
 padding: 30px;
-font-family: arial;
-font-size: 13px;
+font-size: 14px;
 text-align: justify;
 line-height: 14px; 
 }
@@ -293,7 +285,6 @@ line-height: 20px;
 
 .df3a {
 text-align:center;
-font-family: calibri;
 font-size: 9px;
 letter-spacing: 1px;
 text-transform: uppercase;
@@ -304,7 +295,6 @@ margin: 0 auto 20px;
 .h1avam {text-align: justify;}
 
 .df3b,.df2avam,.b21 {
-font-family: calibri;
 font-size: 10px;
 letter-spacing: 1px;
 text-transform: uppercase;
@@ -321,7 +311,6 @@ text-align: center;
 }
 .b32 {
 border-bottom: 1px solid var(--color-acento);
-font-family: calibri;
 font-size: 10px;
 letter-spacing: 1px;
 text-transform: uppercase;
@@ -345,13 +334,12 @@ margin: 0 8px;
 .tex46, .text33, .h2avam, .h3avam {
 text-align: justify;
 line-height: 15px;
-font-size: 13px;
-font-family: arial;
+font-size: 14px;
 }
 
 .aa { margin: auto; height: auto; width: 270px; } 
-.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
-.ad { background: #0a0a0a; font-family: arial; margin: 0px auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; }
+.ac { background: var(--fondo-base); font-family: var(--fuente-tit); font-size: 16px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
+.ad { background: var(--fondo-base); margin: 0 auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; text-transform: none; font-weight: normal; text-align: justify; }
 
 /*TABLILLA ROL OFICIAL*/
 .post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
@@ -360,11 +348,11 @@ font-family: arial;
 
 /*FILTROS GENERAL*/
 .tbase.tbase-grande {width: 746px;}
-.tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;} 
+.tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;background:bar(--fondo-claro);} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
 .filtro-botones input {display: none;}
-.filtro-botones div {font-family: calibri; font-size: 11px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
+.filtro-botones div {font-size: 11px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
 .filtro-botones input:checked + div  {background: var(--color-acento);} 
 .panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
@@ -408,7 +396,7 @@ font-family: arial;
 .bestiario .grupal {--color-acento: #75684c;}
 
 /*TABLILLA DE STATS*/
-.tab-batalla {font-family: arial; font-size: 12px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; text-align: justify; line-height: 12px; width: 420px; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
+.tab-batalla {font-size: 13px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; text-align: justify; line-height: 12px; width: 420px; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
 .tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; width: 188px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
 .rpg-icon {border: 1px solid var(--color-acento); width: 25px; height: 25px; margin: 0 0 0 5px; font-size: 15px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
@@ -424,7 +412,7 @@ font-family: arial;
 .tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 10px;} .tab-batalla .pt {font-family: calibri;} 
 .rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
 .rpg-oper {width: 100%; max-height: 35px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; font-family: calibri; letter-spacing: .5px;} 
-.rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 10px;} 
+.rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 11px;} 
 .tab-batalla .datos {margin: 4px 0 0; padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 100%; } 
 .tab-batalla .op + .datos {margin: 8px -7px -7px; border-top: 1px solid var(--borde-gris);} 
 .tab-batalla .op .datos {padding: 0 5px 0 0; margin: 0; height: 170px; max-height: initial; display: block; text-align: justify;}
@@ -448,14 +436,14 @@ font-family: arial;
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
 
 .rpg .bot { display: inline-block; cursor: pointer;} #caja2, #caja3, #caja4 {display: none;} 
-.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-claro);font-family:arial;font-size:12px;font-weight:400;margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:350px}
+.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-claro);font-weight:400;margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:350px}
 .rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);}
 .rpg.grande .subfr, .rpg.pesta .subfr {text-align:left;font-size:12px;padding:0;margin:6px 0}
 .rpg.pesta {height: 310px;}
 .rpg.pesta .bot {width: 16px; height: 14px; padding: 2px 0 0 0px; background: var(--color-acento); margin: 2px; position: relative; left: 265px; margin-top: -8px; text-align: center; font-size: 9px; line-height: 15px; letter-spacing: 0.5px;} 
 .rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
 .rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
-.rpg .stat { display: block; font-family: arial; margin-top: 1px; } .rpg.grande .vel + br {display: block;}
+.rpg .stat { display: block; margin-top: 1px; } .rpg.grande .vel + br {display: block;}
 
 /*TABLILLAS BÚSQUEDA*/
 .imagentbr {margin:20px auto; overflow:hidden;width:64px;height:64px;transform:rotate(45deg);outline:1px solid var(--color-acento);outline-offset:5px}
@@ -495,7 +483,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 
 /*Recuadro Sistema de Entrenamientos*/
 .entcaja1 {min-width: 104px; margin: 1px;} 
-.entxt1 {font-family: arial; text-transform: uppercase; font-weight: 900; font-size: 11px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
+.entxt1 {text-transform: uppercase; font-weight: 900; font-size: 12px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
 .entcaja2 {background-color: #0f0f0f; font-size: 11px; padding: 7px; line-height: 110%;}
 .entxt3 {font-size: 10px;text-align: center; background-color: var(--fondo-oscuro);}
 
@@ -506,7 +494,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 .tblnvcelda2 {width: 37px; text-align: center; line-height: 12px; color: var(--color-texto-claro); background-color: var(--color-acento); padding: 3px 2px; font-size: 10px;}
 
 /*Tablilla forja*/
-.forja-text {width: 700px; margin: auto; display: flex; flex-wrap: wrap; font-family: arial; justify-content: center; } .forja-text table {border-spacing: 0;} 
+.forja-text {width: 700px; margin: auto; display: flex; flex-wrap: wrap; justify-content: center; } .forja-text table {border-spacing: 0;} 
 
 .aro, .aro0, .arro, .arro0 {line-height: 10px; background:var(--color-acento); height: 10px; letter-spacing: 1px; padding: 10px; margin: 1px; font-weight: 900; font-size:9px; text-align: center; display: inline-block; text-transform: uppercase; } 
 .arro1,.arro11 { background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; min-height: 40px; } 
@@ -523,9 +511,9 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 .achi1 {width:25px;height:25px;background-color:#000;vertical-align:top;display:inline-block}
 .achi2 {width:140px;height:25px;background-color:#000;vertical-align:top;display:inline-block;margin-left:5px}
 .achi3 {width:150px;height:40px;background-color:#0f0f0f;margin-top:5px;overflow:auto;padding:10px}
-.achtext1 {font-family:Arial;font-size:9px;font-weight:800;text-transform:uppercase;text-align:center;color:var(--color-acento);margin:3px 0;}
+.achtext1 {font-size:10px;font-weight:800;text-transform:uppercase;text-align:center;color:var(--color-acento);margin:3px 0;}
 .achtext2 {font-size:11px;text-align:justify;line-height:120%}
-.achtext3 {font-family:Arial;font-size:9px;font-weight:800;text-align:center;margin:6px;line-height:13px}
+.achtext3 {font-size:10px;font-weight:800;text-align:center;margin:6px;line-height:13px}
 
 /*Colores generales de grupos*/
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
