@@ -344,7 +344,7 @@ font-size: 14px;
 
 /*FILTROS GENERAL*/
 .tbase.tbase-grande {width: 746px;}
-.tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;background:bar(--fondo-claro);} 
+.tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;background:var(--fondo-claro);} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
 .filtro-botones input {display: none;}
@@ -358,7 +358,7 @@ font-size: 14px;
 .cr-evento .cr-icon {background: var(--fondo-oscuro); margin: 0; float: left; line-height: 13px; position: relative; top: 5px; left: -19px;}
 .cr-icon span {display: block; font-size: 10px; font-weight: 400; color: var(--color-texto);}
 .cr-text {width: calc(100% - 50px); border: 0; padding: 0 0 0 10px; display: block;} 
-.cr-date {line-height: 16px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-family: calibri;}
+.cr-date {line-height: 16px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;}
 .cr-links {text-transform: uppercase; font-size: 11px; font-family: calibri; letter-spacing: .5px; text-align: left; line-height: 10px; margin: 0;} 
 .cr-res {max-height: 150px; overflow: auto; padding-right: 5px; margin-top: -5px; height: auto;}
 .multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) {padding-top: 5px;}
@@ -383,7 +383,7 @@ font-size: 14px;
 .bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
 .betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;} 
 .bestiario .cr-icon {margin: 0 auto -5px; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
-.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; font-size: 11px; font-style: normal; margin-bottom: 10px; display: none; width: 425px;}
+.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; display: none; width: 425px;}
 .bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
 .bestiario .col1 .info::before {left: 100px;} 
 .bestiario .col2 .info::before {left: 315px;}
@@ -492,7 +492,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 /*Tablilla forja*/
 .forja-text {width: 700px; margin: auto; display: flex; flex-wrap: wrap; justify-content: center; } .forja-text table {border-spacing: 0;} 
 
-.aro, .aro0, .arro, .arro0 {line-height: 10px; background:var(--color-acento); height: 10px; letter-spacing: 1px; padding: 10px; margin: 1px; font-weight: 900; font-size:9px; text-align: center; display: inline-block; text-transform: uppercase; } 
+.aro, .aro0, .arro, .arro0 {line-height: 10px; background:var(--color-acento); color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px; margin: 1px; font-weight: 900; font-size:12px; text-align: center; display: inline-block; text-transform: uppercase; } 
 .arro1,.arro11 { background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; min-height: 40px; } 
 .aro1, .aro2,.aroo1, .aroo2, .arro2 { background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; vertical-align: top; display: inline-flex; align-items: center; font-size: 11px; min-height: 40px; }
 
@@ -702,13 +702,7 @@ margin: 0 0 -15px;
 font-weight: bold;
 cursor: pointer;
 }
-.toggle .info, .toggle .info-asc, .bestiario .info {
-display: none;
-font-size: 12px;
-font-weight: normal; 
-text-transform: none;
-font-style: normal;
-}
+.toggle .info, .toggle .info-asc, .bestiario .info {display: none;}
 .toggle .info-asc {line-height: 15px;}
 
 /*CSS de los modals del tablon*/
