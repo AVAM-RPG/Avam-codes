@@ -58,7 +58,7 @@ text-transform: uppercase;
 
 .tbase-destacado, .subfr, blockquote cite, .rpg-nombre, form[action="/login"] + script + .panel .h3 {
 color: var(--color-acento);
-font-size: 12px;
+font-size: 15px;
 font-weight: 900;
 font-family: var(--fuente-tit);
 letter-spacing: 1px;
@@ -359,7 +359,7 @@ font-family: arial;
 .bf3.res strong {font-size: 12px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
-.tbase.tbase-grande {width: 806px;}
+.tbase.tbase-grande {width: 746px;}
 .tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
