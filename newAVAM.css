@@ -47,9 +47,9 @@ margin-top: 10px;
 .tbase-text a:link, .tbase-text a:active, .tbase-text a:visited, .tbase-text a:hover, .content .fa-angle-right {color: var(--color-acento);}
 .post .content .tbase-text.text-lista i + strong {
 color: var(--color-acento);
-font-size: 12px;
+font-size: 13px;
 font-weight: 900;
-letter-spacing: 0;
+letter-spacing: .5px;
 text-transform: uppercase;
 }
 .text-lista ul {margin: 0 0 0 3em;}
@@ -393,7 +393,7 @@ font-size: 14px;
 
 /*TABLILLA DE STATS*/
 .tab-batalla {font-size: 13px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; text-align: justify; line-height: 12px; width: 420px; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
-.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; width: 188px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
+.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; width: calc(50% - 2px); justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
 .rpg-icon {border: 1px solid var(--color-acento); width: 25px; height: 25px; margin: 0 0 0 5px; font-size: 15px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
 .op .rpg-icon {margin: 0 5px 0 0;} .rpg-icon div, .rpg-icon i {transform: rotate(-45deg); } .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1) rotate(45deg);} 
@@ -402,18 +402,18 @@ font-size: 14px;
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
 .rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); padding: 5px;} 
-.tab-batalla .caja {flex-basis: 50px;height: 25px;}
-.rpg-cont .caja {background: var(--fondo-opacity); outline: 1px solid #111; padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+.tab-batalla .caja {flex-basis: 50px;}
+.rpg-cont .caja {background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;height: 35px;}
 .rpg-cont .pv {flex-grow: 1;} .rpg-cont > * + * {margin-left: 5px;}
-.tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 10px;} .tab-batalla .pt {font-family: calibri;} 
+.tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 13px;}
 .rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
-.rpg-oper {width: 100%; max-height: 35px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; font-family: calibri; letter-spacing: .5px;} 
-.rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 11px;} 
+.rpg-oper {width: 100%; max-height: 35px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px;} 
+.rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 12px;} 
 .tab-batalla .datos {margin: 4px 0 0; padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 100%; } 
 .tab-batalla .op + .datos {margin: 8px -7px -7px; border-top: 1px solid var(--borde-gris);} 
 .tab-batalla .op .datos {padding: 0 5px 0 0; margin: 0; height: 170px; max-height: initial; display: block; text-align: justify;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
-.tab-batalla .expavam-a {font-size: 11px; margin-bottom: -8px;} 
+.tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
 
 /*BAÚL*/
 .baul-stats .expavam-infot {width: 106px;} 
@@ -425,7 +425,7 @@ font-size: 14px;
 .rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
 .rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
 .rpg .inv, .baul-stats .inv {padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
-.inv .item {background: #00000078; border: 1px solid #111; color: #b5b5b5; font-size: 10px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
+.inv .item {background: #00000078; border: 1px solid var(--borde-gris); color: #b5b5b5; font-size: 10px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
 .inv .item strong {font-size: 12px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
 .inv .item .usos {float: right; width: 0; margin: -12px 3px 0 0; cursor: default; font-size: 10px; line-height: 7px;}
 .inv .usos + .usos {margin-right: -14px; }
