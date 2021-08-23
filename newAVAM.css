@@ -104,7 +104,7 @@ float: left;
 .avam-acep {background: var(--fondo-claro); margin: 1px auto 0;width: 230px; font-size: 13px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
 
 .crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
-.cr-leg {font-family: calibri; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; display: flex;} 
+.cr-leg {font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; display: flex;align-items: center;} 
 .cr-leg i {font-size: 20px; padding: 0 4px 0 0;}
 .cr-icon, .post-numero {border: 1px solid var(--color-acento); width: 35px; height: 35px; text-align: center; font-weight: 900; font-size: 16px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center;}
 .cr-icon div, .post-numero div {transform: rotate(-45deg);}
