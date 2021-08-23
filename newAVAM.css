@@ -428,9 +428,9 @@ font-size: 14px;
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
 .rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
 .rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
-.rpg .inv, .baul-stats .inv {padding: 0px; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
-.inv .item {background: #00000078; border: 1px solid #111; color: #b5b5b5; font-size: 8px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
-.inv .item strong {font-size: 10px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
+.rpg .inv, .baul-stats .inv {padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
+.inv .item {background: #00000078; border: 1px solid #111; color: #b5b5b5; font-size: 10px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
+.inv .item strong {font-size: 12px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
 .inv .item .usos {float: right; width: 0; margin: -12px 3px 0 0; cursor: default; font-size: 10px; line-height: 7px;}
 .inv .usos + .usos {margin-right: -14px; }
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
