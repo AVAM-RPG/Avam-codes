@@ -1,4 +1,530 @@
 @charset "UTF-8";
+/*TABLILLAS STAFF*/
+.tbase {
+margin: 20px auto 0;
+width: 513px;
+}
+.tbase-titulo2, .dfxxx {
+font-family: var(--fuente-tit);
+font-size: 22px;
+font-weight: 900;
+outline: 1px solid var(--borde-gris);
+color: var(--color-acento);
+background: #000000d9;
+letter-spacing: 1px;
+line-height: 17px;
+padding: 40px;
+text-align: center;
+text-transform:uppercase;
+}
+.tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo {
+background: var(--fondo-claro);
+font-family: arial;
+font-size: 13px;
+font-weight: 400;
+margin: 15px auto;
+outline: 1px solid var(--borde-gris);
+outline-offset: 14px;
+padding: 30px;
+text-align: justify;
+text-transform: none;
+width: 425px;
+}
+.tbase-num {
+font-family: var(--fuente-tit);
+color: var(--color-acento);
+font-size: 15px;
+font-weight: 900;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.tbase-textcol {
+display: inline-block; 
+width: 203px; 
+vertical-align: top; 
+margin-top: 10px;
+}
+
+.tbase-text a:link, .tbase-text a:active, .tbase-text a:visited, .tbase-text a:hover, .content .fa-angle-right {color: var(--color-acento);}
+.post .content .tbase-text.text-lista i + strong {
+color: var(--color-acento);
+font-family: arial;
+font-size: 11px;
+font-weight: 900;
+letter-spacing: 0;
+text-transform: uppercase;
+}
+.text-lista ul {margin: 0 0 0 3em;}
+
+.tbase-destacado, .subfr, blockquote cite, .rpg-nombre, form[action="/login"] + script + .panel .h3 {
+color: var(--color-acento);
+font-size: 12px;
+font-weight: 900;
+font-family: var(--fuente-tit);
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.tbase-apartado {
+text-transform: uppercase; 
+font-size: 9.5px; 
+letter-spacing: 0px; 
+border-bottom: 1px solid #293a37; 
+padding-bottom: 3px; 
+margin-top: 15px; 
+font-family: arial; 
+font-weight: bold;
+}
+.tbase-apartado2 {
+background: var(--color-acento);
+text-transform: uppercase; 
+font-size: 9.5px; 
+font-weight: bold; 
+padding: 5px; 
+width: auto;
+}
+
+.tbase-num2 {
+background-color: var(--color-acento);
+width: 25px; 
+height: 25px; 
+margin-top: 0px; 
+margin-right: 5px; 
+text-align: center; 
+font-family: var(--fuente-tit); 
+font-weight: 900; 
+font-size: 9px; 
+line-height: 25px; 
+border-radius: 20px; 
+-moz-border-radius: 20px; 
+-webkit-border-radius: 20px; 
+-o-border-radius: 20px; 
+float: left;
+}
+
+.tbase-icon {color:var(--color-acento);font-size:25px;font-weight:900;float:left;margin: 6px 0 0 10px;}
+.tbase-titulo {background:#000000d9;outline: 1px solid var(--borde-gris);font-family:var(--fuente-tit);font-size:15px;font-weight:900;padding:10px;text-transform:uppercase;text-align:center}
+.avam-acep {background: var(--fondo-claro); font-family: arial; margin: 1px auto 0;width: 230px; font-size: 12px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
+
+.crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
+.cr-leg {font-family: calibri; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; display: flex;} 
+.cr-leg i {font-size: 20px; padding: 0 4px 0 0;}
+.cr-icon, .post-numero {border: 1px solid var(--color-acento); width: 35px; height: 35px; text-align: center; font-weight: 900; font-size: 16px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center;}
+.cr-icon div, .post-numero div {transform: rotate(-45deg);}
+.cr-line {width: 80px; background-color: var(--color-acento); height: 1px; display: inline-block; vertical-align: top;}
+
+/*ASCENDENCIAS*/
+.tascen {
+font-family: arial; 
+font-size: 16px; 
+font-weight: 900; 
+letter-spacing: 5px; 
+text-align: center; 
+text-transform: uppercase;
+line-height: 20px;
+}
+.tascen i {
+color: var(--color-acento);
+font-size: 55px;
+}
+.ascen .cr-icon {
+float: left;
+margin: -18px 7px 0 0;
+}
+.ascen .toggle .click {padding: 0;}
+.ascen-bonus {
+text-align: center;
+margin: -10px 0;
+}
+.asc-text {
+border-left: 1px solid var(--color-acento);
+width: 325px;
+display: inline-block;
+margin-top: -20px;
+padding: 0 0 0 15px;
+}
+.asc-text .toggle:nth-child(2) + br {display: none;}
+.click .fa-plus-circle {
+position: relative;
+top: -1px;
+font-size: 9px;
+}
+
+/*EXPEDIENTE*/
+.expavam-header {
+border: 1px solid var(--borde-gris);
+margin: auto;
+background: var(--fondo-claro);
+padding: 40px 30px;
+font-family: arial;
+margin-bottom: -39px;
+width: 453px;
+}
+
+.img-expediente {
+overflow: hidden;
+width: 64px;
+height: 64px;
+margin: 20px auto 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: rotate(45deg);
+outline: 1px solid var(--color-acento);
+outline-offset: 5px;
+}
+.img-expediente img {transform: rotate(-45deg);}
+.expavam-img {
+outline: 1px solid var(--color-acento);
+outline-offset: 5px;
+background-color: #0a0a0a;
+width: 150px;
+height: 150px;
+margin: 0 auto 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.expavam-name, .nf, .nf2 {
+color: var(--color-acento);
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+font-family: var(--fuente-tit);
+font-weight: 900;
+letter-spacing: 1px;
+}
+.expavam-infodiv {
+line-height: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.expavam-infodiv.b {margin-top: -15px;}
+.expavam-infoicon {
+transform: rotate(45deg);
+border: 1px solid var(--color-acento);
+font-size: 10px;
+height: 18px;
+text-align: center;
+width: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: var(--fondo-oscuro);
+margin: 0 10px 0 5px;
+}
+.expavam-infoicon i {transform: rotate(-45deg);}
+.expavam-infot {
+font-family: calibri;
+font-size: 10px;
+letter-spacing: 1px;
+text-transform: uppercase;
+width: 116px;
+}
+.expavam-infod {
+font-size: 10px;
+letter-spacing: .5px;
+font-weight: 900;
+font-family: arial;
+color: var(--color-acento);
+}
+.expavam-a, .exp12, .dfxx2, .dfxx, titulo1 {
+text-align: left;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 900;
+font-family: var(--fuente-tit);
+letter-spacing: 1px;
+margin-bottom: -15px;
+}
+.expavam-stata {
+font-family: calibri; 
+font-size: 11px; 
+font-weight: normal; 
+letter-spacing: 1px; 
+text-transform: uppercase;
+}
+.expavam-statb {
+font-size: 11px;
+letter-spacing: 0px; 
+font-weight: 900; 
+font-family: arial; 
+color: var(--color-acento); 
+text-transform: uppercase;
+}
+
+/*TABLILLAS DE ROL*/
+.b16, .bf1, .bf3, .b31 {
+background: var(--fondo-claro);
+outline: 1px solid var(--borde-gris);
+border: 7px solid var(--fondo-oscuro);
+width: 360px;
+margin: 0 auto;
+padding: 30px;
+font-family: arial;
+font-size: 13px;
+text-align: justify;
+line-height: 14px; 
+}
+.b16 img, .bf1 img, .bf3 img, .b31 img { max-width: 340px;}
+
+.imaglarga1, .imaf1avam {
+outline: 1px solid var(--color-acento);
+outline-offset: 5px;
+margin: 0 auto 15px;
+}
+.imaf1avam {
+height: 100px;
+width: 100px;
+}
+
+.b26, .bf3-t, .nf2avam1 {
+font-size: 20px;
+font-family: var(--fuente-tit);
+font-weight: 900;
+letter-spacing: .5px;
+text-align: center;
+text-transform: uppercase;
+padding: 5px 0;
+line-height: 20px;
+}
+
+.df3a {
+text-align:center;
+font-family: calibri;
+font-size: 9px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 0 auto 20px;
+}
+
+.nf2avam {text-align:center;font-size:15px;font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;letter-spacing:.5px}
+.h1avam {text-align: justify;}
+
+.df3b,.df2avam,.b21 {
+font-family: calibri;
+font-size: 10px;
+letter-spacing: 1px;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px 0;
+}
+.b21 {
+background: var(--color-acento);
+color: var(--color-texto-claro);
+padding: 7px 8px 8px;
+text-align: center;
+}
+.b32 {
+border-bottom: 1px solid var(--color-acento);
+font-family: calibri;
+font-size: 10px;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 7px;
+text-align: center;
+}
+.df2avam i, .b21 i {margin: 0 5px;}
+.bf1 .df2avam i {color: var(--color-acento);}
+.df3b-icon {
+font-size: 9px;
+height: 15px;
+width: 15px;
+border: 1px solid var(--color-acento);
+transform: rotate(45deg);
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 8px;
+}
+.df3b-icon i {transform: rotate(-45deg);}
+.tex46, .text33, .h2avam, .h3avam {
+text-align: justify;
+line-height: 15px;
+font-size: 13px;
+font-family: arial;
+}
+
+.aa { margin: auto; height: auto; width: 270px; } 
+.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
+.ad { background: #0a0a0a; font-family: arial; margin: 0px auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; }
+
+/*TABLILLA ROL OFICIAL*/
+.post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
+.bf3.res {margin: -18px auto 0; background: var(--fondo-claro); border:0; width: 374px; }
+.bf3.res strong {font-size: 12px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
+
+/*FILTROS GENERAL*/
+.tbase.tbase-grande {width: 806px;}
+.tbase-text.cronologia, .tbase-text.catalogo {width: 718px; margin: 15px auto 15px;} 
+.filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
+.filtro-botones label {padding: 0;} 
+.filtro-botones input {display: none;}
+.filtro-botones div {font-family: calibri; font-size: 11px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
+.filtro-botones input:checked + div  {background: var(--color-acento);} 
+.panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
+.filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
+
+/*CRONOLOGÍA*/
+.cr-evento {margin: 0 90px 0 100px; border-left: 1px solid var(--color-narracion); display: flex; flex-wrap: wrap; padding: 20px 0 15px; line-height: 15px;} 
+.cr-evento .cr-icon {background: var(--fondo-oscuro); margin: 0; float: left; line-height: 13px; position: relative; top: 5px; left: -19px;}
+.cr-icon span {display: block; font-size: 10px; font-weight: 400; color: var(--color-texto);}
+.cr-text {width: calc(100% - 50px); border: 0; padding: 0 0 0 10px; display: block;} 
+.cr-date {line-height: 16px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-family: calibri;}
+.cr-links {text-transform: uppercase; font-size: 11px; font-family: calibri; letter-spacing: .5px; text-align: left; line-height: 10px; margin: 0;} 
+.cr-res {max-height: 150px; overflow: auto; padding-right: 5px; margin-top: -5px; height: auto;}
+.multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) {padding-top: 5px;}
+.multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) .cr-icon {visibility: hidden;}
+
+.trama-global {--color-acento: #754c4c;} 
+.trama-grupos {--color-acento: #4b6379;} 
+.minitrama {--color-acento: #605265;} 
+.tema-grupal {--color-acento: #75684c;}
+
+/*TIENDA*/
+.tbase-text.tienda {display: flex; flex-wrap: wrap; padding: 5px; width: 475px;}
+.objeto {outline: 1px solid var(--borde-gris); margin: 4px; position: relative; padding: 12px; width: 205px; background: var(--fondo-base);}
+.objeto .tbase-destacado {text-align: center; margin: 0 auto 5px; font-size: 13px;}
+.objeto strong {font-weight: 900; font-size: 11px; color: var(--color-acento); text-transform: uppercase;} 
+.objeto .df2avam {margin: 0 auto -12px;}
+.tienda .desc {height: 135px; overflow: auto; padding-right: 2px; line-height: 17px;}
+
+/*BESTIARIO*/
+.bestiario {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.bestiario .col1, .col2 {display: block; margin: 8px 0; vertical-align: top; width: 210px; } .bestiario .col2 .info {margin-left: -215px;}
+.bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
+.betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;} 
+.bestiario .cr-icon {margin: 0 auto -5px; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
+.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; font-size: 11px; font-style: normal; margin-bottom: 10px; display: none; width: 425px;}
+.bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
+.bestiario .col1 .info::before {left: 100px;} 
+.bestiario .col2 .info::before {left: 315px;}
+.bestiario .celta {--color-acento: var(--color-celtas);}
+.bestiario .otros {--color-acento: #636363;}
+.bestiario .grupal {--color-acento: #75684c;}
+
+/*TABLILLA DE STATS*/
+.tab-batalla {font-family: arial; font-size: 12px; font-weight: 400; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; text-align: justify; line-height: 12px; width: 420px; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
+.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-claro); display: flex; flex-wrap: wrap; width: 188px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
+.rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
+.rpg-icon {border: 1px solid var(--color-acento); width: 25px; height: 25px; margin: 0 0 0 5px; font-size: 15px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
+.op .rpg-icon {margin: 0 5px 0 0;} .rpg-icon div, .rpg-icon i {transform: rotate(-45deg); } .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1) rotate(45deg);} 
+.especialidad .pj .rpg-icon div:before {content: "";} .monstruo .op .rpg-icon div:before {content: "";}
+.rpg-nombre {width: 145px; margin: 0 auto;letter-spacing: .5px;} 
+.rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
+.rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
+.rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); outline: 1px solid #111; padding: 5px;} 
+.tab-batalla .caja {flex-basis: 50px;height: 25px;}
+.rpg-cont .caja {background: var(--fondo-oscuro); outline: 1px solid #111; padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+.rpg-cont .pv {flex-grow: 1;} .rpg-cont > * + * {margin-left: 5px;}
+.tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 10px;} .tab-batalla .pt {font-family: calibri;} 
+.rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
+.rpg-oper {width: 100%; max-height: 35px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; font-family: calibri; letter-spacing: .5px;} 
+.rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 10px;} 
+.tab-batalla .datos {margin: 4px 0 0; padding: 10px; background: var(--fondo-claro); overflow: auto; max-height: 110px; width: 100%; } 
+.tab-batalla .op + .datos {margin: 8px -7px -7px; border-top: 1px solid var(--borde-gris);} 
+.tab-batalla .op .datos {padding: 0 5px 0 0; margin: 0; height: 170px; max-height: initial; display: block; text-align: justify;}
+.tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
+.tab-batalla .expavam-a {font-size: 11px; margin-bottom: -8px;} 
+
+/*BAÚL*/
+.baul-stats .expavam-infot {width: 106px;} 
+
+.rpg .img-expediente {margin: 10px auto 30px;}
+.rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
+.rpg .caja .ra {width: 25px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 9px; text-align: center; border-right: 1px solid #0a0a0a; background: #040404;} 
+.rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
+.rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
+.rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
+.rpg .inv, .baul-stats .inv {padding: 0px; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
+.inv .item {background: #00000078; border: 1px solid #111; color: #b5b5b5; font-size: 8px; height: 25px; overflow-y: auto; overflow-x: hidden; letter-spacing: 0.5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
+.inv .item strong {font-size: 10px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
+.inv .item .usos {float: right; width: 0; margin: -12px 3px 0 0; cursor: default; font-size: 10px; line-height: 7px;}
+.inv .usos + .usos {margin-right: -14px; }
+.post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
+
+.rpg .bot { display: inline-block; cursor: pointer;} #caja2, #caja3, #caja4 {display: none;} 
+.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-claro);font-family:arial;font-size:12px;font-weight:400;margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:350px}
+.rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);}
+.rpg.grande .subfr, .rpg.pesta .subfr {text-align:left;font-size:12px;padding:0;margin:6px 0}
+.rpg.pesta {height: 310px;}
+.rpg.pesta .bot {width: 16px; height: 14px; padding: 2px 0 0 0px; background: var(--color-acento); margin: 2px; position: relative; left: 265px; margin-top: -8px; text-align: center; font-size: 9px; line-height: 15px; letter-spacing: 0.5px;} 
+.rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
+.rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
+.rpg .stat { display: block; font-family: arial; margin-top: 1px; } .rpg.grande .vel + br {display: block;}
+
+/*TABLILLAS BÚSQUEDA*/
+.imagentbr {margin:20px auto; overflow:hidden;width:64px;height:64px;transform:rotate(45deg);outline:1px solid var(--color-acento);outline-offset:5px}.imagentbr img{transform:rotate(-45deg);margin:-13px}
+.cnombrem {text-align:center;padding:15px;}
+.nom {vertical-align:top;display:inline-block;font-size:18px;letter-spacing:.5px;width:203px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900}
+.textonombre {font-family:calibri;font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase}
+.datosm {font-size: 10px;height: 105px;margin:auto;display: flex;flex-wrap: wrap;align-items:center;} .datosm .col {width:160px;}
+.temas-icon {width:25px;height:25px;margin-right:5px;text-align:center;font-weight: 900;background: #111;color: var(--color-acento);float: left;line-height:23px;} 
+datom{margin:0 0 -4px;font-weight: 900;display:block;line-height:12px;color:var(--color-acento);}
+rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; font-size: 9px; display: block;}
+.extrainfo {font-size:12px;max-height:100px;margin-top:10px;padding: 0 5px 0 0;line-height: 14px;overflow: auto;}
+.busquedatab .imagentbr {float: right; margin:20px 10px;}
+.tinformacion {font-size:10px;height:265px;padding:0 10px;line-height:12px;overflow:auto;float:right;width:220px}
+.imgtb {width:160px;height:90px;outline:1px solid var(--color-acento);outline-offset:5px;margin:5px}
+.bt1 .datosm {margin: 15px 0 0 -1px;height:auto;}
+.bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 192px; margin: 10px 0;}
+.z-info {font-family:var(--fuente-tit); font-size: 11px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
+.z-info-mini {text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; margin-top: -5px;} 
+.ch-text {padding: 5px 5px 0 0; overflow: auto;height: 65px; font-size: 10px; line-height: 12px;}
+
+/*MISIONES*/
+.misiones .fas {color: var(--color-acento); padding-right: 2px; width: 16px; text-align: center; } .misiones .fa-dollar-sign {font-size: 15px;} 
+.misiones-info {vertical-align: middle;display: inline-block;font-family: calibri;font-size: 12px;font-weight: 900;line-height: 12px;text-transform: uppercase; max-width: 395px;border-left: 1px solid var(--color-acento);padding: 3px 0 3px 5px; margin: 0 0 4px;}
+.misiones .click {border: 0; display: inline-block; margin: 0; padding: 0;}
+.misiones .click i {border:0; margin-left: -4px;}
+
+/*TABLILLA DE PNJ*/
+.pnjs {margin: auto;display: flex;flex-wrap: wrap;align-items: center;}
+.pnjs a {display: block;margin: 6px;height: 100px;}
+.pnjbtn {transition:.5s;background:var(--fondo-base);width:50px;height:20px;padding:40px 25px;font-size:9px;opacity:0;letter-spacing:1px;font-family:calibri}
+.pnjs:hover .pnjbtn {opacity: 1;}
+.pnjs .expavam-info{margin: 0 0 10px 15px;height: 120px;}
+.pnjs .nf2avam{font-size:12px;color:var(--color-acento);margin:0 0 -10px}
+.pnjs .expavam-infodiv {margin: 0 0 -5px;}.pnjs .expavam-infoicon {margin-right: 8px;}
+.pnjs .info {line-height: 15px; padding-right: 4px;} 
+
+/*Recuadro Sistema de Entrenamientos*/
+.entcaja1 {min-width: 104px; margin: 1px;} 
+.entxt1 {font-family: arial; text-transform: uppercase; font-weight: 900; font-size: 11px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
+.entcaja2 {background-color: #0f0f0f; font-size: 11px; padding: 7px; line-height: 110%;}
+.entxt3 {font-size: 10px;text-align: center; background-color: var(--fondo-oscuro);}
+
+/*Tablilla Sistema de Niveles*/
+.tabla-niveles {width: 408px; margin: auto;display: flex;flex-wrap: wrap;} 
+.tblnvcelda-años {width: 37px; text-align: center; line-height: 12px; padding: 2px; text-transform: uppercase; letter-spacing: -1px; font-weight: 900; font-size: 9px;} 
+.tblnvcelda {width: 37px; text-align: center; line-height: 12px; padding: 3px 2px; font-size: 10px;} 
+.tblnvcelda2 {width: 37px; text-align: center; line-height: 12px; color: var(--color-texto-claro); background-color: var(--color-acento); padding: 3px 2px; font-size: 10px;}
+
+/*Tablilla forja*/
+.forja-text {width: 700px; margin: auto; display: flex; flex-wrap: wrap; font-family: arial; justify-content: center; } .forja-text table {border-spacing: 0;} 
+
+.aro, .aro0, .arro, .arro0 {line-height: 10px; background:var(--color-acento); height: 10px; letter-spacing: 1px; padding: 10px; margin: 1px; font-weight: 900; font-size:9px; text-align: center; display: inline-block; text-transform: uppercase; } 
+.arro1,.arro11 { background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; min-height: 40px; } 
+.aro1, .aro2,.aroo1, .aroo2, .arro2 { background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; vertical-align: top; display: inline-flex; align-items: center; font-size: 11px; min-height: 40px; }
+
+.arro1.pc, .arro11.pc, .arro2.pc {background-color: #754c4c;}
+.arro1.pe, .arro11.pe, .arro2.pe {background-color: #605265;}
+.arro1.pr, .arro11.pr, .arro2.pr {background-color: #4b6379;}
+.arro1.vel, .arro11.vel, .arro2.vel {background-color: #75684c;}
+.arro1.na, .arro11.na, .arro2.na {background-color: #151414;}
+
+/*Tablilla de Logros*/
+.achi {width:174px;height:95px;vertical-align:top;display:inline-block}
+.achi1 {width:25px;height:25px;background-color:#000;vertical-align:top;display:inline-block}
+.achi2 {width:140px;height:25px;background-color:#000;vertical-align:top;display:inline-block;margin-left:5px}
+.achi3 {width:150px;height:40px;background-color:#0f0f0f;margin-top:5px;overflow:auto;padding:10px}
+.achtext1 {font-family:Arial;font-size:9px;font-weight:800;text-transform:uppercase;text-align:center;color:var(--color-acento);margin:3px 0;}
+.achtext2 {font-size:11px;text-align:justify;line-height:120%}
+.achtext3 {font-family:Arial;font-size:9px;font-weight:800;text-align:center;margin:6px;line-height:13px}
 
 /*Colores generales de grupos*/
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
