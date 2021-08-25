@@ -483,6 +483,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .entxt3 {font-size: 11px;text-align: center; background-color: var(--fondo-oscuro);}
 
 /*Tablilla Sistema de Niveles*/
+.tbase-tabla { overflow: auto; padding: 0 0 5px; }
 .tabla-niveles {width: 408px; margin: auto;display: flex;flex-wrap: wrap;} 
 .tblnvcelda-años {width: 41px; text-align: center; line-height: 12px; padding: 2px; text-transform: uppercase; letter-spacing: -.5px; font-weight: 900; font-size: 11px;} 
 .tblnvcelda,.tblnvcelda2 {width: 41px; text-align: center; line-height: 12px; padding: 3px 2px; font-size: 12px;} 
