@@ -17,7 +17,7 @@ padding: 40px;
 text-align: center;
 text-transform:uppercase;
 }
-.tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo {
+.tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
 font-size: 14px;
 font-weight: 400;
@@ -418,12 +418,12 @@ font-size: 14px;
 /*BAÚL*/
 .baul-stats .expavam-infot {width: 106px;} 
 
-.rpg .img-expediente {margin: 10px auto 30px;}
+.rpg .img-expediente {margin: 25px auto 30px;}
 .rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
-.rpg .caja .ra {width: 35px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid #0a0a0a; background: #040404;} 
+.rpg .caja .ra {width: 35px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid  var(--borde-gris); background: var(--fondo-oscuro);} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
-.rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:50px;margin-top:15px;}
-.rpg .caja2 strong {color: var(--color-acento); font-size: 11px; font-weight: 900; text-transform: uppercase;}
+.rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:70px;margin-top:15px;}
+.rpg .caja2 strong {color: var(--color-acento); font-weight: 900; text-transform: uppercase;}
 .rpg .inv, .baul-stats .inv {padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
 .inv .item {background: var(--fondo-opacity); border: 1px solid var(--borde-gris); font-size: 11px; overflow-y: auto; overflow-x: hidden; letter-spacing: .5px; line-height: 12px; margin: 1px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 24px); flex: 1 0 auto; } 
 .inv .item strong {font-size: 13px; letter-spacing: 0; color: var(--color-acento); font-weight: 900;} 
@@ -432,11 +432,11 @@ font-size: 14px;
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
 
 .rpg .bot { display: inline-block; cursor: pointer;} #caja2, #caja3, #caja4 {display: none;} 
-.rpg.grande, .rpg.pesta {display:block;height:auto;background:var(--fondo-base);margin:10px auto auto;outline:1px solid var(--borde-gris);outline-offset:14px;padding:30px 30px 29px;text-align:justify;text-transform:none;width:410px}
-.rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);font-family: calibri;}
-.rpg.grande .subfr, .rpg.pesta .subfr {text-align:left;font-size:12px;padding:0;margin:6px 0}
-.rpg.pesta {height: 360px;}
-.rpg.pesta .bot {width: 16px; height: 14px; padding: 2px 0 0 0px; background: var(--color-acento); margin: 2px; position: relative; left: 265px; margin-top: -8px; text-align: center; font-size: 9px; line-height: 15px; letter-spacing: 0.5px;} 
+.rpg.grande, .rpg.pesta {display:block;30px 29px;}
+.rpg.grande .stat, .rpg.pesta .stat {color: var(--color-texto);}
+.rpg.grande .subfr, .rpg.pesta .subfr {margin:6px 0}
+.rpg.pesta {height: 415px;}
+.rpg.pesta .bot {width: 19px; padding: 2px 0; background: var(--color-acento); margin: 2px; position: relative; left: 335px; text-align: center; font-size: 11px; line-height: 15px; letter-spacing: .5px;color: var(--color-texto-claro);} 
 .rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
 .rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
 .rpg .stat { display: block; margin-top: 1px; } .rpg.grande .vel + br {display: block;}
@@ -551,7 +551,7 @@ rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; fo
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:10px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
 .rpg .caja {height: auto; background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
 .rpg .caja.vida {width: 100%; display: block;}
-.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 22px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 9px; margin-top: 0px; border-right: 1px solid var(--borde-gris); background: #040404; float: left;}
+.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 22px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 9px; margin-top: 0px; border-right: 1px solid var(--borde-gris); background: var(--fondo-oscuro); float: left;}
 .rpg .caja .puntos { display: inline-block; width: calc(100% - 36px); margin: auto; text-align: center; vertical-align: top; padding-top: 12px; }
 .rpg .pj .puntos, .rpg .op .puntos {padding-top: 7px; letter-spacing: 1px; } 
 .rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -2px;font-size: 10px;} 
