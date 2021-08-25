@@ -18,7 +18,7 @@ padding: 40px;
 text-align: center;
 text-transform:uppercase;
 }
-.tbase-text, .busquedatab, .bt1, .bt11, .mf, .cuadroinformativo, .rpg.grande, .rpg.pesta {
+.tbase-text, .busquedatab, .bt1, .bt11, .mf, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
 font-size: 14px;
 font-weight: 400;
@@ -244,7 +244,7 @@ color: var(--color-acento);
 }
 
 /*TABLILLAS DE ROL*/
-.b16, .bf1, .bf3, .b31 {
+.b16, .bf1, .bf3, .b31, .cuadroinformativo {
 background: var(--fondo-base);
 outline: 1px solid var(--borde-gris);
 border: 7px solid var(--fondo-base);
@@ -570,9 +570,9 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .rpg .datos::-webkit-scrollbar, .rpg .df222::-webkit-scrollbar {width: 4px;}
 
 /*OLD - Expedientes */
-.bfh2,.bfhd2 { text-align: justify; } 
+.bfh2,.bfhd2 {margin: 5px 0;} 
 .imaf111, .imaf1 { margin: auto; width: 100px; height: 100px; } 
-.imf { width: 400px; height: 150px; } 
+.imf { max-width: 400px; height: 150px; } 
 .df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
 .mf2 { vertical-align: top; display: inline-flex !important; height: 100px; align-content: space-around; justify-content: center; flex-wrap: wrap; flex: 1; }
 
