@@ -135,7 +135,7 @@ margin: -10px 0;
 }
 .asc-text {
 border-left: 1px solid var(--color-acento);
-width: 325px;
+width: calc(100% - 82px);
 display: inline-block;
 margin-top: -20px;
 padding: 0 0 0 15px;
