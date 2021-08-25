@@ -503,13 +503,13 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .arro1.na, .arro11.na, .arro2.na {background-color: #151414;}
 
 /*Tablilla de Logros*/
-.achi {width:174px;height:95px;vertical-align:top;display:inline-block}
-.achi1 {width:25px;height:25px;background-color:#000;vertical-align:top;display:inline-block}
-.achi2 {width:140px;height:25px;background-color:#000;vertical-align:top;display:inline-block;margin-left:5px}
-.achi3 {width:150px;height:40px;background-color:#0f0f0f;margin-top:5px;overflow:auto;padding:10px}
-.achtext1 {font-size:10px;font-weight:800;text-transform:uppercase;text-align:center;color:var(--color-acento);margin:3px 0;}
-.achtext2 {font-size:11px;text-align:justify;line-height:120%}
-.achtext3 {font-size:10px;font-weight:800;text-align:center;margin:6px;line-height:13px}
+.achi {width: 175px; height: 100px; vertical-align: top; display: inline-block;}
+.achi1 {width: 25px; height: 25px; background-color: var(--fondo-oscuro); vertical-align: top; display: inline-block}
+.achi2 {width: 140px; height: 25px; background-color: var(--fondo-oscuro); vertical-align: top; display: inline-block; margin-left: 5px;}
+.achi3 {width: 170px; height: 65px; background-color: var(--fondo-claro); margin-top: 5px; overflow: auto; padding: 10px;}
+.achtext1 {font-size:12px;font-weight:800;text-transform:uppercase;text-align:center;color:var(--color-acento);margin:6px 0;letter-spacing: .5px;}
+.achtext2 {font-size:12px;text-align:justify;}
+.achtext3 {font-size:11px;font-weight:800;text-align:center;margin:6px;}
 
 /*Colores generales de grupos*/
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink {--color-acento: var(--color-narracion);}
