@@ -1,16 +1,17 @@
 @charset "UTF-8";
 /*TABLILLAS STAFF*/
-.tbase {
+.tbase, .expavam-header {
 margin: 20px auto 0;
-width: 513px;
+max-width: 513px;
+width:100%;
+outline: 1px solid var(--borde-gris);
+background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
 font-family: var(--fuente-tit);
+color: var(--color-acento);
 font-size: 22px;
 font-weight: 900;
-outline: 1px solid var(--borde-gris);
-color: var(--color-acento);
-background: var(--fondo-oscuro);
 letter-spacing: 1px;
 line-height: 17px;
 padding: 40px;
@@ -27,7 +28,8 @@ outline-offset: 14px;
 padding: 30px;
 text-align: justify;
 text-transform: none;
-width: 485px;
+max-width: 485px;
+width:100%;
 }
 .tbase-num {
 font-family: var(--fuente-tit);
@@ -149,12 +151,9 @@ font-size: 9px;
 
 /*EXPEDIENTE*/
 .expavam-header {
-outline: 1px solid var(--borde-gris);
-margin: auto;
 background: var(--fondo-base);
 padding: 40px 30px;
 margin-bottom: -34px;
-width: 513px;
 }
 
 .img-expediente {
