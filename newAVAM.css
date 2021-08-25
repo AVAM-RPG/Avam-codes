@@ -456,7 +456,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .tinformacion {height: 265px; padding: 0 10px; overflow: auto; float: right; width: 50%;}
 .imgtb {width:160px;height:90px;outline:1px solid var(--color-acento);outline-offset:5px;margin:5px}
 .bt1 .datosm {margin: 15px 0 0 -1px;height:auto;}
-.bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 50%;}
+.bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 50%; min-width: 150px; flex: 1;}
 .z-info {font-family:var(--fuente-tit); font-size: 14px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
 .z-info-mini {text-align: center; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; } 
 .ch-text {padding: 10px 5px 0 0; overflow: auto;height: 65px;}
