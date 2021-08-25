@@ -444,22 +444,22 @@ font-size: 14px;
 /*TABLILLAS BÚSQUEDA*/
 .imagentbr {margin:20px auto; overflow:hidden;width:64px;height:64px;transform:rotate(45deg);outline:1px solid var(--color-acento);outline-offset:5px}
 .imagentbr img{transform:rotate(-45deg);margin:-13px}
-.cnombrem {text-align:center;padding:15px;}
-.nom {vertical-align:top;display:inline-block;font-size:18px;letter-spacing:.5px;width:203px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900}
-.textonombre {font-family:calibri;font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase}
-.datosm {font-size: 10px;height: 105px;margin:auto;display: flex;flex-wrap: wrap;align-items:center;} .datosm .col {width:160px;}
-.temas-icon {width:25px;height:25px;margin-right:5px;text-align:center;font-weight: 900;background: #111;color: var(--color-acento);float: left;line-height:23px;} 
-datom{margin:0 0 -4px;font-weight: 900;display:block;line-height:12px;color:var(--color-acento);}
-rdatom {font-family: calibri; text-transform: uppercase; letter-spacing: 1px; font-size: 9px; display: block;}
-.extrainfo {font-size:12px;max-height:100px;margin-top:10px;padding: 0 5px 0 0;line-height: 14px;overflow: auto;}
-.busquedatab .imagentbr {float: right; margin:20px 10px;}
-.tinformacion {font-size:10px;height:265px;padding:0 10px;line-height:12px;overflow:auto;float:right;width:220px}
+.cnombrem {text-align:center;margin: 0 0 15px;}
+.nom {font-size:18px;letter-spacing:.5px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;margin: 0 0 -15px;}
+.textonombre {font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase;}
+.datosm {font-size: 12px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;} .datosm .col {width:170px;}
+.temas-icon {width: 25px; height: 21px; margin-right: 5px; text-align: center; font-weight: 900; background: var(--fondo-claro); color: var(--color-acento); float: left; line-height: 21px;} 
+datom {margin:0 0 -1px;font-weight: 900;display:block;line-height:12px;color:var(--color-acento);}
+rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display: block;}
+.extrainfo {max-height:100px;margin-top:10px;padding: 0 5px 0 0;overflow: auto;}
+.busquedatab .imagentbr {float: right; margin:20px;}
+.tinformacion {height: 265px; padding: 0 10px; overflow: auto; float: right; width: 50%;}
 .imgtb {width:160px;height:90px;outline:1px solid var(--color-acento);outline-offset:5px;margin:5px}
 .bt1 .datosm {margin: 15px 0 0 -1px;height:auto;}
-.bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 192px; margin: 10px 0;}
-.z-info {font-family:var(--fuente-tit); font-size: 11px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
-.z-info-mini {text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; margin-top: -5px;} 
-.ch-text {padding: 5px 5px 0 0; overflow: auto;height: 65px; font-size: 10px; line-height: 12px;}
+.bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 50%;}
+.z-info {font-family:var(--fuente-tit); font-size: 14px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
+.z-info-mini {text-align: center; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; } 
+.ch-text {padding: 10px 5px 0 0; overflow: auto;height: 65px;}
 
 /*MISIONES*/
 .misiones .fas {color: var(--color-acento); padding-right: 2px; width: 16px; text-align: center; } .misiones .fa-dollar-sign {font-size: 15px;} 
