@@ -41,7 +41,7 @@ text-transform: uppercase;
 }
 .tbase-textcol {
 display: inline-block; 
-width: 203px; 
+max-width: 203px; 
 vertical-align: top; 
 margin-top: 10px;
 }
@@ -148,6 +148,12 @@ padding: 0 0 0 15px;
 position: relative;
 top: -1px;
 font-size: 9px;
+}
+
+@media screen and (max-width: 435px) {
+    .ascen .cr-icon {margin: auto;float: none;}
+    .cr-line {display: none;}
+    .asc-text {margin: 10px 0 0;width: 100%;padding: 0;border: 0;}
 }
 
 /*EXPEDIENTE*/
