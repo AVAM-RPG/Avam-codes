@@ -666,7 +666,8 @@ padding: 10px;
 }
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
 background: var(--fondo-oscuro);
-font-family: arial;
+font-family: calibri;
+font-size: 14px;
 padding: 10px;
 width: 100%!important;
 color: white !important;
