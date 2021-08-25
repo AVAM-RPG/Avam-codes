@@ -294,6 +294,7 @@ font-size: 11px;
 letter-spacing: 1px;
 text-transform: uppercase;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 margin: 5px 0;
@@ -413,6 +414,11 @@ font-size: 14px;
 .tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; display: block; text-align: justify;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
+
+@media screen and (max-width: 435px) {
+  .tab-batalla .pj, .tab-batalla .op {flex: 1;}
+  .tab-batalla .pj {border: 1px solid var(--fondo-claro);border-width: 0 0 2px;
+}
 
 /*BAÚL*/
 .baul-stats .expavam-infot {width: 106px;} 
@@ -568,7 +574,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .imaf111, .imaf1 { margin: auto; width: 100px; height: 100px; } 
 .imf { width: 400px; height: 150px; } 
 .df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
-
+.mf2 { vertical-align: top; display: inline-flex !important; height: 100px; align-content: space-around; justify-content: center; flex-wrap: wrap; flex: 1; }
 
 /*OLD - Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
