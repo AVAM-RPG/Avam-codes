@@ -472,15 +472,15 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .pnjs a {display: block;margin: 6px;height: 100px;}
 .pnjbtn {transition: .5s; background: var(--fondo-base); width: 100px; height: 100px; display: flex; font-size: 11px; opacity: 0; text-align: center; letter-spacing: 1px; justify-content: center; align-items: center;}
 .pnjs:hover .pnjbtn {opacity: 1;}
-.pnjs .expavam-info { height: 112px; width: calc(100% - 112px);min-width: 255px;}
-.pnjs .nf2avam {margin: 0 0 -10px;} .pnjs .expavam-infodiv {margin: 0 0 -5px;} .pnjs .expavam-infoicon {margin-right: 8px;}
+.pnjs .nf2avam {margin: 0 0 -10px;} .pnjs .expavam-info { min-height: 112px; width: calc(100% - 112px);min-width: 255px;}
+.pnjs .expavam-infodiv {margin: 0 0 -5px;} .pnjs .expavam-infoicon {margin-right: 8px;}
 .pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;} 
 
 /*Recuadro Sistema de Entrenamientos*/
-.entcaja1 {min-width: 104px; margin: 1px;} 
-.entxt1 {text-transform: uppercase; font-weight: 900; font-size: 14px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
-.entcaja2 {background-color: #0f0f0f; font-size: 12px; padding: 7px; line-height: 110%;}
-.entxt3 {font-size: 11px;text-align: center; background-color: var(--fondo-oscuro);}
+.entcaja1 {min-width: 110px; width: 100%; margin: 1px; flex: 1; } 
+.entxt1,.entxt3 {text-transform: uppercase; font-weight: 900; font-size: 14px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
+.entcaja2 {background-color: var(--fondo-claro); font-size: 12px; padding: 7px; line-height: 110%; height: 55px;}
+.entxt3 {font-size: 12px; color: var(--color-texto-claro);}
 
 /*Tablilla Sistema de Niveles*/
 .tbase-tabla { overflow: auto; padding: 0 0 5px; }
