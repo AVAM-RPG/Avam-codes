@@ -417,7 +417,7 @@ font-size: 14px;
 
 @media screen and (max-width: 435px) {
   .tab-batalla .pj, .tab-batalla .op {flex: 1;}
-  .tab-batalla .pj {border: 1px solid var(--fondo-claro);border-width: 0 0 2px;
+  .tab-batalla .pj {border: 1px solid var(--fondo-claro);border-width: 0 0 2px;}
 }
 
 /*BAÚL*/
