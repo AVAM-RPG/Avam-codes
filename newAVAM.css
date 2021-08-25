@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*TABLILLAS STAFF*/
 .tbase, .expavam-header {
-margin: 20px auto 0;
+margin: 0 auto;
 max-width: 513px;
 width:100%;
 outline: 1px solid var(--borde-gris);
@@ -29,7 +29,7 @@ padding: 30px;
 text-align: justify;
 text-transform: none;
 max-width: 485px;
-width:100%;
+width:calc(100% - 28px);
 }
 .tbase-num {
 font-family: var(--fuente-tit);
