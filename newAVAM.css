@@ -403,7 +403,7 @@ font-size: 14px;
 .bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
 .betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;} 
 .bestiario .cr-icon {margin: 0 auto -5px; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
-.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; display: none; width: 425px;}
+.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; width: 425px;}
 .bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
 .bestiario .col1 .info::before {left: 100px;} 
 .bestiario .col2 .info::before {left: 315px;}
@@ -730,9 +730,7 @@ cursor: pointer;
 }
 .toggle .info, .toggle .info-asc, .bestiario .info {
 display: none;
-font-weight: normal; 
-text-transform: none;
-font-style: normal;
+overflow: initial !important;
 }
 .toggle .info-asc {line-height: 15px;}
 
