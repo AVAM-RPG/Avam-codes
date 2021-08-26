@@ -31,7 +31,7 @@ max-width: 515px;
 width:100%;
 /*margin: 15px auto;
 outline: 1px solid var(--borde-gris);
-max-width: 485px;
+max-width: 487px;
 width:calc(100% - 28px);*/
 }
 .tbase-num {
@@ -401,7 +401,7 @@ font-size: 14px;
 .bestiario {display: flex; flex-wrap: wrap; justify-content: space-between;}
 .bestiario .col1, .col2 {display: block; margin: 8px 0; vertical-align: top; width: 210px; } .bestiario .col2 .info {margin-left: -215px;}
 .bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
-.betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;} 
+.betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;overflow: initial !important;} 
 .bestiario .cr-icon {margin: 0 auto -5px; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
 .bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; width: 425px;}
 .bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
@@ -504,7 +504,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 /*Recuadro Sistema de Entrenamientos*/
 .entcaja1 {min-width: 110px; width: 100%; margin: 1px; flex: 1; } 
 .entxt1,.entxt3 {text-transform: uppercase; font-weight: 900; font-size: 14px; background-color: var(--fondo-oscuro); color: var(--color-acento); text-align: center; padding: 3px 0;} 
-.entcaja2 {background-color: var(--fondo-claro); font-size: 12px; padding: 7px; line-height: 110%; height: 55px;}
+.entcaja2 {background-color: var(--fondo-claro); font-size: 12px; padding: 7px; line-height: 110%; min-height: 55px;}
 .entxt3 {font-size: 12px; color: var(--color-texto-claro);}
 
 /*Tablilla Sistema de Niveles*/
@@ -728,10 +728,7 @@ margin: 0 0 -15px;
 font-weight: bold;
 cursor: pointer;
 }
-.toggle .info, .toggle .info-asc, .bestiario .info {
-display: none;
-overflow: initial !important;
-}
+.toggle .info, .toggle .info-asc, .bestiario .info {display: none;}
 .toggle .info-asc {line-height: 15px;}
 
 /*CSS de los modals del tablon*/
