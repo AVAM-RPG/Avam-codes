@@ -161,9 +161,10 @@ font-size: 9px;
 
 /*EXPEDIENTE*/
 .expavam-header {
-background: var(--fondo-base);
+background: var(--fondo-oscuro);
 padding: 30px;
-margin-bottom: -34px;
+margin-bottom: -39px;
+border-bottom: 4px solid var(--color-acento);
 }
 
 .img-expediente {
@@ -196,6 +197,7 @@ display: flex;
 flex-wrap: wrap;
 align-content: space-around;
 align-items: center;
+justify-content: center;
 height: 120px;
 }
 .expavam-name, .nf, .nf2 {
@@ -495,7 +497,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .pnjs a {display: block;margin: 6px;height: 100px;}
 .pnjbtn {transition: .5s; background: var(--fondo-base); width: 100px; height: 100px; display: flex; font-size: 11px; opacity: 0; text-align: center; letter-spacing: 1px; justify-content: center; align-items: center;}
 .pnjs:hover .pnjbtn {opacity: 1;}
-.pnjs .nf2avam {margin: 0 0 -10px;} .pnjs .expavam-info { min-height: 112px; width: calc(100% - 112px);min-width: 255px;}
+.pnjs .expavam-info {height: 112px; width: calc(100% - 112px);min-width: 255px;}
 .pnjs .expavam-infodiv {margin: 0 0 -5px;} .pnjs .expavam-infoicon {margin-right: 8px;}
 .pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;} 
 
