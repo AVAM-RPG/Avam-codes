@@ -726,7 +726,12 @@ margin: 0 0 -15px;
 font-weight: bold;
 cursor: pointer;
 }
-.toggle .info, .toggle .info-asc, .bestiario .info {display: none;}
+.toggle .info, .toggle .info-asc, .bestiario .info {
+display: none;
+font-weight: normal; 
+text-transform: none;
+font-style: normal;
+}
 .toggle .info-asc {line-height: 15px;}
 
 /*CSS de los modals del tablon*/
