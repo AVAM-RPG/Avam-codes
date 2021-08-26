@@ -569,7 +569,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 
 
 /*OLD - Tablilla de stats*/
-.rpg {background: var(--fondo-base); font-size: 13px; margin: 10px auto; outline: 1px solid var(--borde-gris); outline-offset: 7px; padding: 20px; text-align: justify; line-height: 12px; width: 415px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.rpg {background: var(--fondo-base); font-size: 13px; margin: 10px auto; padding: 20px; text-align: justify; line-height: 12px; max-width: 415px; display: flex; flex-wrap: wrap; justify-content: space-between;}
 .rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; width: 184px; justify-content: space-between; } .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:10px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
 .rpg .caja {height: auto; background: var(--fondo-claro); outline: 1px solid var(--borde-gris); letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
