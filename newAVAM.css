@@ -2,9 +2,9 @@
 /*TABLILLAS STAFF*/
 .tbase, .expavam-header {
 margin: 0 auto;
-max-width: 513px;
+max-width: 515px;
 width:100%;
-outline: 1px solid var(--borde-gris);
+/*outline: 1px solid var(--borde-gris);*/
 background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
@@ -22,14 +22,17 @@ text-transform:uppercase;
 background: var(--fondo-base);
 font-size: 14px;
 font-weight: 400;
-margin: 15px auto;
-outline: 1px solid var(--borde-gris);
 outline-offset: 14px;
 padding: 30px;
 text-align: justify;
 text-transform: none;
+margin: 5px 0 0;
+max-width: 515px;
+width:100%;
+/*margin: 15px auto;
+outline: 1px solid var(--borde-gris);
 max-width: 485px;
-width:calc(100% - 28px);
+width:calc(100% - 28px);*/
 }
 .tbase-num {
 font-family: var(--fuente-tit);
