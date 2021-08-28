@@ -390,9 +390,9 @@ font-size: 14px;
 .tema-grupal {--color-acento: #75684c;}
 
 /*TIENDA*/
-.tbase-text.tienda {display: flex; flex-wrap: wrap; padding: 5px; width: 475px;}
-.objeto {outline: 1px solid var(--borde-gris); margin: 4px; position: relative; padding: 12px; width: 205px; background: var(--fondo-base);}
-.objeto .tbase-destacado {text-align: center; margin: 0 auto 5px; font-size: 13px;}
+.tbase-text.tienda {display: flex; flex-wrap: wrap; padding: 5px; max-width: 475px;}
+.objeto {outline: 1px solid var(--borde-gris); margin: 4px; position: relative; padding: 12px; width: 220px; background: var(--fondo-base);}
+.objeto .tbase-destacado {text-align: center; margin: 0 auto 5px;}
 .objeto strong {font-weight: 900; font-size: 11px; color: var(--color-acento); text-transform: uppercase;} 
 .objeto .df2avam {margin: 0 auto -12px;}
 .tienda .desc {height: 135px; overflow: auto; padding-right: 2px; line-height: 17px;}
