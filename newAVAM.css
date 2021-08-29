@@ -430,7 +430,7 @@ font-size: 14px;
 .rpg-oper {width: 100%; max-height: 55px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px;} 
 .rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 12px;} 
 .tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 104%; } 
-.tab-batalla .op + .datos {margin: 8px -7px -7px; border-top: 1px solid var(--borde-gris);} 
+.tab-batalla .op + .datos {margin: 7px -7px -7px; border-top: 1px solid var(--borde-gris);} 
 .tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; display: block; text-align: justify;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
