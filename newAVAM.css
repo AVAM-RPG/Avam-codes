@@ -412,8 +412,8 @@ font-size: 14px;
 .bestiario .grupal {--color-acento: #75684c;}
 
 /*TABLILLA DE STATS*/
-.tab-batalla {font-size: 13px; margin: auto; outline: 1px solid var(--borde-gris);border: 7px solid var(--fondo-claro); line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
-.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; width: calc(50% - 2px); min-width: 190px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
+.tab-batalla {font-size: 13px; margin: auto; outline: 1px solid var(--borde-gris);line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
+.tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap;  flex: 1 0 50%; min-width: 190px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
 .rpg-icon {border: 1px solid var(--color-acento); width: 25px; height: 25px; margin: 0 0 0 5px; font-size: 15px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
 .op .rpg-icon {margin: 0 5px 0 0;} .rpg-icon div, .rpg-icon i {transform: rotate(-45deg); } .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1) rotate(45deg);} 
@@ -421,23 +421,22 @@ font-size: 14px;
 .rpg-nombre {width: 145px; margin: 0 auto;letter-spacing: .5px;} 
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
-.rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); padding: 5px;} 
+.rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); outline: 1px solid var(--borde-gris); padding: 5px;} 
 .tab-batalla .caja {flex-basis: 50px;}
-.rpg-cont .caja {background: var(--fondo-opacity); outline: 1px solid var(--borde-gris); padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;height: 35px;}
+.rpg-cont .caja {background: var(--fondo-oscuro); outline: 1px solid var(--borde-gris); padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;height: 35px;}
 .rpg-cont .pv {flex-grow: 1;} .rpg-cont > * + * {margin-left: 5px;}
 .tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 13px;}
 .rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
 .rpg-oper {width: 100%; max-height: 55px; overflow: auto; padding: 10px 0 3px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px;} 
 .rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 12px;} 
-.tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 104%; } 
-.tab-batalla .op + .datos {margin: 7px -7px -7px; border-top: 1px solid var(--borde-gris);} 
-.tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; display: block; text-align: justify;}
+.tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 110px; width: 100%; } 
+.tab-batalla .op + .datos {background: var(--fondo-oscuro); border-top: 1px solid var(--borde-gris);7*border-top: 3px solid var(--color-acento);*/} 
+.tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; text-align: justify;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
 
 @media screen and (max-width: 435px) {
-  .tab-batalla .pj, .tab-batalla .op {flex: 1;}
-  .tab-batalla .pj {border: 1px solid var(--fondo-claro);border-width: 0 0 2px;}
+  .tab-batalla .pj {border-bottom: 1px solid var(--borde-gris);border-right: 0;}
 }
 
 /*BAÚL*/
