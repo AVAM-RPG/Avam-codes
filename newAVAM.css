@@ -3,7 +3,7 @@
 /*TABLILLAS STAFF*/
 .tbase, .expavam-header {
 margin: 0 auto;
-max-width: 515px;
+max-width: 500px;
 width:100%;
 outline: 1px solid var(--borde-gris);
 background: var(--fondo-oscuro);
@@ -27,7 +27,7 @@ padding: 30px;
 text-align: justify;
 text-transform: none;
 margin: 1px auto 0;
-max-width: 515px;
+max-width: 500px;
 width:100%;
 outline: 1px solid var(--borde-gris);    
 /*margin: 15px auto;
@@ -164,7 +164,7 @@ font-size: 9px;
 .expavam-header {
 background: var(--fondo-oscuro);
 padding: 30px;
-margin-bottom: -39px;
+margin-bottom: -34px;
 border-bottom: 4px solid var(--color-acento);
 }
 
@@ -359,8 +359,8 @@ font-size: 14px;
 
 /*TABLILLA ROL OFICIAL*/
 .post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
-.bf3.res {margin: -18px auto 0; background: var(--fondo-base); border:0; width: 374px; }
-.bf3.res strong {font-size: 12px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
+.bf3.res {margin: -16px auto 0; background: var(--fondo-oscuro); width: 100%; max-width: 430px; border-top: 4px solid var(--color-acento);}
+.bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
 .tbase.tbase-grande {max-width: 750px;}
