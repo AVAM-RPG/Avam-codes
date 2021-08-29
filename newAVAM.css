@@ -472,7 +472,7 @@ font-size: 14px;
 .cnombrem {text-align:center;margin: 0 0 15px;}
 .nom {font-size:18px;letter-spacing:.5px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;margin: 0 0 -15px;}
 .textonombre {font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase;}
-.datosm {font-size: 12px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;} .datosm .col {width:170px;}
+.datosm {font-size: 12px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;} .datosm .col {width:165px;}
 .temas-icon {width: 25px; height: 21px; margin-right: 5px; text-align: center; font-weight: 900; background: var(--fondo-claro); color: var(--color-acento); float: left; line-height: 21px;} 
 datom {margin:0 0 -1px;font-weight: 900;display:block;line-height:12px;color:var(--color-acento);}
 rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display: block;}
