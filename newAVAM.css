@@ -266,7 +266,7 @@ color: var(--color-acento);
 .b16, .bf1, .bf3, .b31, .cuadroinformativo {
 background: var(--fondo-base);
 outline: 1px solid var(--borde-gris);
-border: 7px solid var(--fondo-base);
+/*border: 7px solid var(--fondo-claro);*/
 width: 100%;
 max-width: 430px;
 margin: 0 auto;
