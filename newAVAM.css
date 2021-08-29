@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*TABLILLAS STAFF*/
 .tbase, .expavam-header {
 margin: 0 auto;
@@ -309,13 +310,12 @@ margin: 0 auto 20px;
 .nf2avam {text-align:center;font-size:15px;font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;letter-spacing:.5px}
 .h1avam {text-align: justify;}
 
-.df3b,.df2avam,.b21 {
+.df3b, .df2avam, .b21 {
 font-size: 11px;
 letter-spacing: 1px;
 text-transform: uppercase;
 display: flex;
 flex-wrap: wrap;
-align-items: center;
 justify-content: center;
 margin: 5px 0;
 }
