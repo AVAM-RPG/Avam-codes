@@ -135,7 +135,11 @@ font-size: 55px;
 float: left;
 margin: -18px 7px 0 0;
 }
-.ascen .toggle .click {padding: 0;}
+.ascen .toggle .click {
+font-family: var(--fuente-tit);
+font-size: 15px;
+letter-spacing: .5px;
+}
 .ascen-bonus {
 text-align: center;
 margin: -10px 0;
