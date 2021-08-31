@@ -1046,4 +1046,4 @@ font-weight: 900;
 text-align: right;
 margin-top: 5px;
 }
-a.rightHeaderLink[href^="login"], a.rightHeaderLink[href^="/register"] {display: none;}
+a.rightHeaderLink[href$="login"], a.rightHeaderLink[href$="/register"] {display: none;}
