@@ -174,17 +174,17 @@ border-bottom: 4px solid var(--color-acento);
 
 .img-expediente {
 overflow: hidden;
-width: 64px;
-height: 64px;
-margin: 20px auto 30px;
+width: 90px;
+height: 90px;
+margin: 6px auto;
 display: flex;
 align-items: center;
 justify-content: center;
-transform: rotate(45deg);
+/*transform: rotate(45deg);*/
 outline: 1px solid var(--color-acento);
 outline-offset: 5px;
 }
-.img-expediente img {transform: rotate(-45deg);}
+.img-expediente img {width: 90px;/*width: rotate(-45deg);*/}
 .expavam-img {
 outline: 1px solid var(--color-acento);
 outline-offset: 5px;
@@ -204,6 +204,7 @@ align-content: space-around;
 align-items: center;
 justify-content: center;
 height: 120px;
+margin: 10px 0 0;
 }
 .expavam-name, .nf, .nf2 {
 color: var(--color-acento);
@@ -216,34 +217,33 @@ letter-spacing: 1px;
 width: 100%;
 }
 .expavam-infodiv {
-line-height: 10px;
+line-height: 11px;
+font-size: 10px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .expavam-infoicon {
-transform: rotate(45deg);
+/*transform: rotate(45deg);*/
 border: 1px solid var(--color-acento);
-font-size: 10px;
-height: 18px;
+height: 19px;
 text-align: center;
-width: 18px;
+width: 19px;
 display: flex;
 align-items: center;
 justify-content: center;
 background: var(--fondo-oscuro);
-margin: 0 10px 0 5px;
+border-radius: 100%;
+margin: 0 5px 0 0;
 }
-.expavam-infoicon i {transform: rotate(-45deg);}
+/*.expavam-infoicon i {transform: rotate(-45deg);}*/
 .expavam-infot {
-font-family: calibri;
-font-size: 10px;
 letter-spacing: 1px;
 text-transform: uppercase;
-width: 116px;
+width: 120px;
 }
 .expavam-infod {
-font-size: 11px;
+font-size: 12px;
 letter-spacing: .5px;
 font-weight: 900;
 color: var(--color-acento);
@@ -446,7 +446,6 @@ font-size: 14px;
 /*BAÚL*/
 .baul-stats .expavam-infot {width: 106px;} 
 
-.rpg .img-expediente {margin: 25px auto 30px;}
 .rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
 .rpg .caja .ra {width: 35px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid  var(--borde-gris); background: var(--fondo-oscuro);} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
