@@ -540,19 +540,19 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 
 /*Colores generales de grupos*/
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion a.userlink .usergroup-narracion .navbar-icon, .usergroup-narracion .navbar-username, .postgroup-narracion.miembro-caja  {--color-acento: var(--color-narracion);}
-.postgroup-romanos .post-datos, .postgroup-romanos .postprofile, .profilegroup-romanos .perfil-u, .usergroup-romanos .navbar-icon, .usergroup-romanos .navbar-username, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
-.postgroup-griegos .post-datos, .postgroup-griegos .postprofile, .profilegroup-griegos .perfil-u, .usergroup-griegos .navbar-icon, .usergroup-griegos .navbar-username, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
-.postgroup-celtas .post-datos, .postgroup-celtas .postprofile, .profilegroup-celtas .perfil-u, .usergroup-celtas .navbar-icon, .usergroup-celtas .navbar-username, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
+.postgroup-romanos, .profilegroup-romanos .perfil-u, .usergroup-romanos .navbar-icon, .usergroup-romanos .navbar-username, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
+.postgroup-griegos, .profilegroup-griegos .perfil-u, .usergroup-griegos .navbar-icon, .usergroup-griegos .navbar-username, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
+.postgroup-celtas, .profilegroup-celtas .perfil-u, .usergroup-celtas .navbar-icon, .usergroup-celtas .navbar-username, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
 
-/*Variaciones expedientes*/
+/*Variaciones expedientes
 .postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
 .postgroup-griegos .expavam {--color-acento: var(--color-griegos);}
-.postgroup-celtas .expavam {--color-acento: var(--color-celtas);}
+.postgroup-celtas .expavam {--color-acento: var(--color-celtas);}*/
 
-/*Variaciones tablilla Tramas*/
+/*Variaciones tablilla Tramas
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
 .postgroup-griegos .bf3, .postgroup-griegos .tab-batalla, .postgroup-griegos .rpg {--color-acento: var(--color-griegos);}
-.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}
+.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}*/
 
 /*Variaciones tablilla PNJs*/
 .pnjs.celta {--color-acento: var(--color-celtas);} 
