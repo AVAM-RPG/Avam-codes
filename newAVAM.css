@@ -475,6 +475,7 @@ font-size: 14px;
 .rpg.grande .subfr, .rpg.pesta .subfr {margin:6px 0}
 .rpg.pesta {height: 415px;}
 .rpg.pesta .bot {width: 20px; padding: 2px 0; border: 1px solid var(--color-acento); float: right; margin: 2px; text-align: center; font-size: 11px; line-height: 15px; letter-spacing: .5px;color: var(--color-texto-claro);} 
+.pesta .contenido {margin: 10px 0 0;}
 .rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
 .rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
 .rpg .stat {display: block; margin-top: 1px; font-family: calibri;} .rpg.grande .vel + br {display: block;}
