@@ -500,7 +500,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
     
 /*MISIONES*/
 .misiones .fas {color: var(--color-acento); padding-right: 2px; width: 16px; text-align: center; } .misiones .fa-dollar-sign {font-size: 15px;} 
-.misiones-info {vertical-align: middle;display: inline-block;font-size: 12px;font-weight: 900;line-height: 12px;text-transform: uppercase; max-width: 395px;border-left: 1px solid var(--color-acento);padding: 3px 0 3px 5px; margin: 0 0 4px;}
+.misiones-info {vertical-align: middle;display: inline-block;font-size: 12px;font-weight: 900;line-height: 12px;text-transform: uppercase; max-width: calc(100% - 20px);border-left: 1px solid var(--color-acento);padding: 3px 0 3px 5px; margin: 0 0 4px;}
 .misiones .click {border: 0; display: inline-block; margin: 0; padding: 0;}
 .misiones .click i {border:0; margin-left: -4px;}
 
