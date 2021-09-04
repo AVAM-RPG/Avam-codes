@@ -584,7 +584,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .epico .op .rpg-icon div:before {content: "";}
 
 /*OLD - Tablilla de stats*/
-.rpg {background: var(--fondo-base); font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; border: 1px solid var(--borde-gris);}
+.rpg {background: var(--fondo-base); font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between;}
 .rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; min-width: 90px; flex: 1 0 50%;min-width: 190px; justify-content: space-between;padding: 10px;} .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
 .rpg .pj {border-right: 1px solid var(--borde-gris);}
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:14px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
