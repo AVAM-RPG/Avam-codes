@@ -118,6 +118,9 @@ float: left;
 /*.cr-icon div, .post-numero div {transform: rotate(-45deg);}*/
 .cr-line {width: 80px; background-color: var(--color-acento); height: 1px; display: inline-block; vertical-align: top;}
 
+.tbase-tabla { overflow: auto; padding: 0 0 5px; }
+.tabla-inner {width: 440px; margin: auto;display: flex;flex-wrap: wrap;} 
+
 /*ASCENDENCIAS*/
 .tascen {
 font-family: var(--fuente-tit); 
@@ -521,8 +524,6 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .entxt3 {font-size: 12px; color: var(--color-texto-claro);}
 
 /*Tablilla Sistema de Niveles*/
-.tbase-tabla { overflow: auto; padding: 0 0 5px; }
-.tabla-niveles {width: 435px; margin: auto;display: flex;flex-wrap: wrap;} 
 .tblnvcelda-años {width: 45px; text-align: center; line-height: 12px; padding: 2px; text-transform: uppercase; font-weight: 900; font-size: 11px;} 
 .tblnvcelda,.tblnvcelda2 {width: 45px; text-align: center; line-height: 12px; padding: 3px 2px; font-size: 12px;} 
 .tblnvcelda2 {background-color: var(--color-acento);}
