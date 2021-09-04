@@ -110,7 +110,7 @@ float: left;
 .tbase-icon {color:var(--color-acento);font-size:25px;font-weight:900;float:left;margin: 6px 0 0 10px;}
 .tbase-titulo {background:var(--fondo-oscuro);outline: 1px solid var(--borde-gris);font-family:var(--fuente-tit);font-size:15px;font-weight:900;padding:10px;text-transform:uppercase;text-align:center}
 .avam-acep {background: var(--fondo-base); margin: 1px auto 0;width:100%;max-width: 270px; font-size: 13px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
-.tbase[style="width: 270px;"] {width: 100% !important;}
+.tbase[style="width: 270px;"] {width: 100% !important; max-width: 270px;}
 
 .crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
 .cr-leg {font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; display: flex;align-items: center;} 
