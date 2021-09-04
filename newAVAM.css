@@ -46,6 +46,7 @@ text-transform: uppercase;
 .tbase-textcol {
 display: inline-block; 
 max-width: 210px; 
+width: 100%;
 vertical-align: top; 
 margin-top: 10px;
 }
