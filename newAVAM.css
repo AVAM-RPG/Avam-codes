@@ -431,7 +431,7 @@ font-size: 14px;
 .tab-batalla {font-size: 13px; margin: auto; outline: 1px solid var(--borde-gris);line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
 .tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap;  flex: 1 0 50%; min-width: 190px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
-.rpg-icon {border: 1px solid var(--color-acento);border-radius: 100%;width: 30px; height: 30px; font-size: 16px; background: var(--fondo-oscuro); transform: rotate(45deg); float: left; display: flex; align-items: center; justify-content: center;} 
+.rpg-icon {border: 1px solid var(--color-acento);border-radius: 100%;width: 30px; height: 30px; font-size: 16px; background: var(--fondo-oscuro); display: flex; align-items: center; justify-content: center;} 
 .tab-batalla .pj {border-right: 1px solid var(--borde-gris);} .op .rpg-icon {} .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1);} 
 .especialidad .pj .rpg-icon div:before {content: "";} .monstruo .op .rpg-icon div:before {content: "";}
 .rpg-nombre {width: calc(100% - 35px); margin: 0;letter-spacing: .5px;} 
