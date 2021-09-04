@@ -461,7 +461,7 @@ font-size: 14px;
 .rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
 .rpg .caja .ra {width: 36px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid  var(--borde-gris); background: var(--fondo-oscuro);} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
-.rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:70px;margin-top:15px;}
+.rpg .exp12 {margin: 0;}.rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:70px;}
 .rpg .caja2 strong {color: var(--color-acento); font-weight: 900; text-transform: uppercase;}
 .rpg .inv, .baul-stats .inv {margin: 15px -2px 0;padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
 .inv .item {background: var(--fondo-claro); border: 1px solid var(--borde-gris); font-size: 11px; overflow-y: auto; overflow-x: hidden; letter-spacing: .5px; line-height: 12px; margin: 2px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 4px); min-width: 100px; flex: 1 0 auto; } 
