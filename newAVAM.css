@@ -203,7 +203,7 @@ flex-wrap: wrap;
 align-content: space-around;
 align-items: center;
 justify-content: center;
-height: 120px;
+height: 125px;
 margin: 10px 0 0;
 }
 .expavam-name, .nf, .nf2 {
@@ -265,6 +265,13 @@ text-transform: uppercase;
 .expavam-statb { 
 font-weight: 900; 
 color: var(--color-acento); 
+}
+
+@media screen and (max-width: 990px) {
+  .expavam-infodiv {width: 145px; height: 75px;}
+}
+@media screen and (max-width: 395px) {
+  .expavam-info {height: auto;}
 }
 
 /*TABLILLAS DE ROL*/
@@ -487,6 +494,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .z-info-mini {text-align: center; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; } 
 .ch-text {padding: 10px 5px 0 0; overflow: auto;height: 65px;}
 
+@media screen and (max-width: 435px) {
+.tinformacion {float: none;height: auto;width: 100%; margin: 0 0 10px;}
+}
+    
 /*MISIONES*/
 .misiones .fas {color: var(--color-acento); padding-right: 2px; width: 16px; text-align: center; } .misiones .fa-dollar-sign {font-size: 15px;} 
 .misiones-info {vertical-align: middle;display: inline-block;font-size: 12px;font-weight: 900;line-height: 12px;text-transform: uppercase; max-width: 395px;border-left: 1px solid var(--color-acento);padding: 3px 0 3px 5px; margin: 0 0 4px;}
