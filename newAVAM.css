@@ -113,8 +113,8 @@ float: left;
 .crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
 .cr-leg {font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; display: flex;align-items: center;} 
 .cr-leg i {font-size: 20px; padding: 0 4px 0 0;}
-.cr-icon, .post-numero {border: 1px solid var(--color-acento); width: 35px; height: 35px; text-align: center; font-weight: 900; font-size: 16px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center;}
-.cr-icon div, .post-numero div {transform: rotate(-45deg);}
+.cr-icon, .post-numero {border: 1px solid var(--color-acento); background: var(--fondo-oscuro); color: var(--color-texto-claro);width: 40px; height: 40px; text-align: center; font-weight: 900; font-size: 16px; display: flex; align-items: center; justify-content: center;}
+/*.cr-icon div, .post-numero div {transform: rotate(-45deg);}*/
 .cr-line {width: 80px; background-color: var(--color-acento); height: 1px; display: inline-block; vertical-align: top;}
 
 /*ASCENDENCIAS*/
@@ -133,7 +133,7 @@ font-size: 55px;
 }
 .ascen .cr-icon {
 float: left;
-margin: -18px 7px 0 0;
+margin: -20px 0 0;
 }
 .ascen .toggle .click {
 font-family: var(--fuente-tit);
@@ -382,7 +382,7 @@ font-size: 14px;
 .cr-evento .cr-icon {background: var(--fondo-oscuro); margin: 0; float: left; line-height: 13px; position: relative; top: 5px; left: -19px;}
 .cr-icon span {display: block; font-size: 10px; font-weight: 400; color: var(--color-texto);}
 .cr-text {width: calc(100% - 50px); border: 0; padding: 0 0 0 10px; display: block;} 
-.cr-date {line-height: 16px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;}
+.cr-date {line-height: 16px; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
 .cr-links {text-transform: uppercase; font-size: 11px; font-family: calibri; letter-spacing: .5px; text-align: left; line-height: 10px; margin: 0;} 
 .cr-res {max-height: 150px; overflow: auto; padding-right: 5px; margin-top: -5px; height: 100%;}
 .multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) {padding-top: 5px;}
@@ -406,7 +406,7 @@ font-size: 14px;
 .bestiario .col1, .col2 {display: block; margin: 8px 0; vertical-align: top; width: 210px; } .bestiario .col2 .info {margin-left: -215px;}
 .bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
 .betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;overflow: initial !important;} 
-.bestiario .cr-icon {margin: 0 auto -5px; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
+.bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
 .bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; width: 425px;}
 .bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
 .bestiario .col1 .info::before {left: 100px;} 
@@ -447,7 +447,7 @@ font-size: 14px;
 .baul-stats .expavam-infot {width: 106px;} 
 
 .rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
-.rpg .caja .ra {width: 35px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid  var(--borde-gris); background: var(--fondo-oscuro);} 
+.rpg .caja .ra {width: 36px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; border-right: 1px solid  var(--borde-gris); background: var(--fondo-oscuro);} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
 .rpg .caja2 {max-height: 270px;overflow: auto;padding-right: 4px;min-height:70px;margin-top:15px;}
 .rpg .caja2 strong {color: var(--color-acento); font-weight: 900; text-transform: uppercase;}
