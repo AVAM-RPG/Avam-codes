@@ -61,7 +61,7 @@ text-transform: uppercase;
 }
 .text-lista ul {margin: 0 0 0 3em;}
 
-.tbase-destacado, .subfr, blockquote cite, .rpg-nombre, form[action="/login"] + script + .panel .h3 {
+.tbase-destacado, .subfr, blockquote cite, #perfil-avamesta u, .perfil-subtitulo, .rpg-nombre, form[action="/login"] + script + .panel .h3 {
 color: var(--color-acento);
 font-size: 14px;
 font-weight: 900;
@@ -253,7 +253,7 @@ letter-spacing: .5px;
 font-weight: 900;
 color: var(--color-acento);
 }
-.expavam-a, .exp12, .dfxx2, .dfxx, titulo1 {
+.expavam-a, .exp12, .dfxx2, .dfxx, titulo1, .perfil-titulo {
 text-align: left;
 text-transform: uppercase;
 font-size: 16px;
