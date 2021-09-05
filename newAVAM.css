@@ -680,18 +680,15 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 /*EDITOR DE MENSAJES*/
 #smiley-box, .smile-status-box {
 float: right;
-margin-top: 15px;
-width: 22%;
+width: 200px;
 }
 #smiley-box iframe, .smile-status-box iframe {
 height: 280px;
 overflow: auto;
 width: 100%;
 }
-#message-box, #textarea_content {
-width: 100% !important;
-max-width: 695px;
-}
+#message-box {width: calc(100% - 205px);}
+#textarea_content {width: 100% !important;}
 .sceditor-container, .sceditor-container .sceditor-toolbar  {
 border: 0!important;
 border-radius: 0!important;
@@ -712,6 +709,7 @@ width: 100%!important;
 color: white !important;
 margin: 0!important;
 min-height: 250px;
+max-height: 255px;
 }
 #textarea_content .sceditor-group {
 background: var(--fondo-oscuro);
