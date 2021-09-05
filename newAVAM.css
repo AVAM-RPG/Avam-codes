@@ -708,7 +708,7 @@ padding: 10px;
 width: 100%!important;
 color: white !important;
 margin: 0!important;
-min-height: 250px;
+min-height: 255px;
 max-height: 255px;
 }
 #textarea_content .sceditor-group {
