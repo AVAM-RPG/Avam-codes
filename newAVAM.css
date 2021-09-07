@@ -389,7 +389,7 @@ font-size: 14px;
 .panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
 
-@media screen and (max-width: 580px)
+@media screen and (max-width: 580px) {
   .cr-evento {margin: 0 0 0 30px;}
 }
 
