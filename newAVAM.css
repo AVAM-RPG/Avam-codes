@@ -389,6 +389,10 @@ font-size: 14px;
 .panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
 
+@media screen and (max-width: 580px)
+  .cr-evento {margin: 0 0 0 30px;}
+}
+
 /*CRONOLOGÍA*/
 .cr-evento {margin: 0 70px 0 80px; border-left: 1px solid var(--color-narracion); display: flex; flex-wrap: wrap; padding: 20px 0 15px; line-height: 15px;} 
 .cr-evento .cr-icon {background: var(--fondo-oscuro); margin: 0; float: left; line-height: 13px; position: relative; top: 5px; left: -19px;}
