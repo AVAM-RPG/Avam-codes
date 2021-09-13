@@ -295,7 +295,7 @@ line-height: 14px;
 }
 .b16 img, .bf1 img, .bf3 img, .b31 img { max-width: 340px;}
 
-.imaglarga1, .imaf1avam {
+.imaglarga1, .imaf1avam, .imaf111, .imaf1 {
 outline: 1px solid var(--color-acento);
 outline-offset: 5px;
 margin: 0 auto 15px;
