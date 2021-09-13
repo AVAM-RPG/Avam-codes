@@ -225,6 +225,7 @@ width: 100%;
 line-height: 11px;
 font-size: 10px;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
