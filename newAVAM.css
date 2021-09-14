@@ -5,7 +5,7 @@
 margin: 0 auto;
 max-width: 500px;
 width:100%;
-outline: 1px solid var(--borde-gris);
+/*outline: 1px solid var(--borde-gris);*/
 background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
@@ -26,14 +26,10 @@ font-weight: 400;
 padding: 30px;
 text-align: justify;
 text-transform: none;
-margin: 1px auto 0;
+margin: 3px auto 0;
 max-width: 500px;
 width:100%;
-outline: 1px solid var(--borde-gris);    
-/*margin: 15px auto;
-outline-offset: 14px;
-max-width: 487px;
-width:calc(100% - 28px);*/
+/*outline: 1px solid var(--borde-gris);*/
 }
 .tbase-num {
 font-family: var(--fuente-tit);
@@ -74,7 +70,7 @@ text-transform: uppercase;
 text-transform: uppercase; 
 font-size: 11px; 
 letter-spacing: 0px; 
-border-bottom: 1px solid #293a37; 
+border-bottom: 1px solid var(--color-acento); 
 padding-bottom: 3px; 
 margin-top: 15px; 
 font-weight: bold;
@@ -108,8 +104,17 @@ float: left;
 
 .tbase.mini {max-width: 270px;}
 .tbase-icon {color:var(--color-acento);font-size:25px;font-weight:900;float:left;margin: 6px 0 0 10px;}
-.tbase-titulo {background:var(--fondo-oscuro);outline: 1px solid var(--borde-gris);font-family:var(--fuente-tit);font-size:15px;font-weight:900;padding:10px;text-transform:uppercase;text-align:center}
-.avam-acep {background: var(--fondo-base); margin: 1px auto 0;width:100%;max-width: 270px; font-size: 13px; padding: 20px;line-height: 15px; outline:1px solid var(--borde-gris);}
+.tbase-titulo {
+background:var(--fondo-oscuro);
+/*outline: 1px solid var(--borde-gris);*/
+font-family:var(--fuente-tit);
+font-size:15px;
+font-weight:900;
+padding:10px;
+text-transform:uppercase;
+text-align:center
+}
+.avam-acep {background: var(--fondo-base); margin: 3px auto 0;width:100%;max-width: 270px; font-size: 13px; padding: 20px;line-height: 15px; /*outline:1px solid var(--borde-gris);*/}
 .tbase[style="width: 270px;"] {width: 100% !important; max-width: 270px;}
 
 .crono-leyenda {display: flex; justify-content: space-evenly; align-items: center;} 
@@ -174,7 +179,7 @@ font-size: 9px;
 background: var(--fondo-oscuro);
 padding: 30px;
 margin-bottom: -34px;
-border-bottom: 4px solid var(--color-acento);
+border-bottom: 2px solid var(--color-acento);
 }
 
 .img-expediente {
@@ -283,8 +288,7 @@ color: var(--color-acento);
 /*TABLILLAS DE ROL*/
 .b16, .bf1, .bf3, .b31, .cuadroinformativo {
 background: var(--fondo-base);
-outline: 1px solid var(--borde-gris);
-/*border: 7px solid var(--fondo-claro);*/
+/*outline: 1px solid var(--borde-gris);*/
 width: 100%;
 max-width: 430px;
 margin: 0 auto;
@@ -343,7 +347,7 @@ padding: 7px 8px 8px;
 text-align: center;
 }
 .b32 {
-border-bottom: 1px solid var(--color-acento);
+border-bottom: 2px solid var(--color-acento);
 font-size: 10px;
 letter-spacing: 1px;
 text-transform: uppercase;
@@ -372,11 +376,11 @@ font-size: 14px;
 
 .aa { margin: auto; height: auto; width: 270px; } 
 .ac { background: var(--fondo-base); font-family: var(--fuente-tit); font-size: 16px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
-.ad { background: var(--fondo-base); margin: 0 auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; text-transform: none; font-weight: normal; text-align: justify; }
+.ad { background: var(--fondo-base); margin: 0 auto auto auto; /*border-top: 1px solid var(--borde-gris);*/ width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; text-transform: none; font-weight: normal; text-align: justify; }
 
 /*TABLILLA ROL OFICIAL*/
 .post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
-.bf3.res {margin: -16px auto 0; background: var(--fondo-oscuro); width: 100%; max-width: 430px; border-top: 4px solid var(--color-acento);}
+.bf3.res {margin: -16px auto 0; background: var(--fondo-oscuro); width: 100%; max-width: 430px; border-top: 2px solid var(--color-acento);}
 .bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
@@ -433,11 +437,11 @@ font-size: 14px;
 .bestiario .grupal {--color-acento: #75684c;}
 
 /*TABLILLA DE STATS*/
-.tab-batalla {font-size: 13px; margin: auto; outline: 1px solid var(--borde-gris);line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
+.tab-batalla {font-size: 13px; margin: auto; /*outline: 1px solid var(--borde-gris);*/line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
 .tab-batalla .pj, .tab-batalla .op {background: var(--fondo-base); display: flex; flex-wrap: wrap;  flex: 1 0 50%; min-width: 190px; justify-content: space-between; align-items: flex-start; text-align: center; padding: 10px;} 
 .rpg-pers {width: 100%; height: 35px; margin: 0 0 10px; display: flex; align-items: center; justify-content: space-between;} 
 .rpg-icon {border: 1px solid var(--color-acento);border-radius: 100%;width: 30px; height: 30px; font-size: 16px; background: var(--fondo-oscuro); display: flex; align-items: center; justify-content: center;} 
-.tab-batalla .pj {border-right: 1px solid var(--borde-gris);} .op .rpg-icon {} .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1);} 
+.tab-batalla .pj {/*border-right: 1px solid var(--borde-gris);*/} .op .rpg-icon {} .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1);} 
 .especialidad .pj .rpg-icon div:before {content: "";} .monstruo .op .rpg-icon div:before {content: "";}
 .rpg-nombre {width: calc(100% - 35px); margin: 0;letter-spacing: .5px;} 
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
@@ -451,13 +455,13 @@ font-size: 14px;
 .rpg-oper {width: 100%; max-height: 55px; padding: 1px; overflow: auto; margin: 10px 0 0; text-transform: uppercase; line-height: 13px; letter-spacing: .5px;} 
 .rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 12px;} 
 .tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 130px; width: 100%;} 
-.tab-batalla .op + .datos {background: var(--fondo-oscuro); border-top: 1px solid var(--borde-gris);/*border-top: 3px solid var(--color-acento);*/} 
+.tab-batalla .op + .datos {background: var(--fondo-oscuro); margin: 2px 0 0;/*border-top: 1px solid var(--borde-gris);border-top: 2px solid var(--color-acento);*/} 
 .tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; text-align: justify; background: none;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
 
 @media screen and (max-width: 435px) {
-  .tab-batalla .pj, .rpg .pj {border-bottom: 1px solid var(--borde-gris);border-right: 0;}
+  .tab-batalla .pj, .rpg .pj {/*border-bottom: 1px solid var(--borde-gris);border-right: 0;*/}
 }
 
 /*BAÚL*/
@@ -469,7 +473,7 @@ font-size: 14px;
 .rpg .exp12 {margin: 0;}.rpg .caja2 {max-height: 270px;overflow: auto;padding: 0 4px 4px 0;}
 .rpg .caja2 strong {color: var(--color-acento); font-weight: 900; text-transform: uppercase;}
 .rpg .inv, .baul-stats .inv {margin: 0 -2px;padding: 0; width: auto; display: flex; flex-wrap: wrap;padding-right: 1px;} 
-.inv .item {background: var(--fondo-claro); border: 1px solid var(--borde-gris); font-size: 11px; overflow-y: auto; overflow-x: hidden; letter-spacing: .5px; line-height: 12px; margin: 2px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 4px); min-width: 100px; flex: 1 0 auto; } 
+.inv .item {background: var(--fondo-claro); /*border: 1px solid var(--borde-gris);*/ font-size: 11px; overflow-y: auto; overflow-x: hidden; letter-spacing: .5px; line-height: 12px; margin: 2px; padding: 12px 10px; text-align: center; text-transform: uppercase; width: calc(50% - 4px); min-width: 100px; flex: 1 0 auto; } 
 .inv .item strong {font-size: 13px;} .inv .item .usos {float: right; width: 0; margin: -12px 3px 0 0; cursor: default; font-size: 10px; line-height: 7px;}
 .inv .usos + .usos {margin-right: -14px; }
 .post .content .rpg a, .post .content .baul-stats .inv a {color: var(--color-acento);}
@@ -589,20 +593,20 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .epico .op .rpg-icon div:before {content: "";}
 
 /*OLD - Tablilla de stats*/
-.rpg {background: var(--fondo-base); font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; outline: 1px solid var(--borde-gris);}
+.rpg {background: var(--fondo-base); font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; /*outline: 1px solid var(--borde-gris);*/}
 .rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; min-width: 90px; flex: 1 0 50%;min-width: 190px; justify-content: space-between;padding: 10px;} .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
-.rpg .pj {border-right: 1px solid var(--borde-gris);}
+.rpg .pj {/*border-right: 1px solid var(--borde-gris);*/}
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:14px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
 .rpg .caja {height: auto; background: var(--fondo-claro); outline: 1px solid var(--borde-gris); letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
 .rpg .caja.vida {width: 100%; display: block;}
-.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 30px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 12px; margin-top: 0px; border-right: 1px solid var(--borde-gris); background: var(--fondo-oscuro); float: left;}
+.rpg .pj .caja .stat, .rpg .op .caja .stat {width: 30px; color: var(--color-acento); font-weight: 900; padding: 7px 4px; font-size: 12px; margin-top: 0px; /*border-right: 1px solid var(--borde-gris);*/ background: var(--fondo-oscuro); float: left;}
 .rpg .caja .puntos {display: inline-block; width: calc(100% - 36px); margin: auto; text-align: center; vertical-align: top; padding-top: 12px; }
 .rpg .pj .puntos, .rpg .op .puntos {padding-top: 7px; letter-spacing: 1px; } 
 .rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -2px;font-size: 10px;} 
 .rpg c {margin-right: -5px;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c {top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 {width: 100%; height: 45px; display: flex; align-items: center; justify-content: center; background: var(--fondo-claro); overflow: auto; outline: 1px solid var(--borde-gris); margin: 5px 0 0; padding: 9px 6px; font-size: 12px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px; }
-.rpg .datos {padding: 10px; background: var(--fondo-oscuro); border-top: 1px solid var(--borde-gris); overflow: auto; max-height: 100px; width: 100%;}
+.rpg .datos {padding: 10px; background: var(--fondo-oscuro); /*border-top: 1px solid var(--borde-gris);*/ overflow: auto; max-height: 100px; width: 100%;}
 .rpg .datos strong, .rpg .datos a {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 11px; letter-spacing: .5px;}
 .rpg .op .datos {height: initial; max-height: 172px; padding: 0 5px 0 0; border: 0; background: none;}
 .rpg.mini {width: 265px;} .rpg.mini .pj {width: 100%; border: 0;}
