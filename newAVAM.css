@@ -704,12 +704,8 @@ border: 0!important;
 border-radius: 0!important;
 background: var(--fondo-base)!important;
 }
-.respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {
-background: var(--fondo-claro)!important;
-}
-.sceditor-container .sceditor-toolbar {
-padding: 10px;
-}
+.respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {background: var(--fondo-claro)!important;}
+.sceditor-container .sceditor-toolbar {padding: 15px;}
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
 background: var(--fondo-oscuro);
 font-family: calibri;
@@ -722,23 +718,24 @@ min-height: 255px;
 max-height: 255px;
 }
 #textarea_content .sceditor-group {
-background: var(--fondo-oscuro);
-border: 1px solid var(--color-acento);
+background: transparent;
+border: 0;
 border-radius:0;
+padding: 0;
+margin: 0 10px 0 0;
 }
 .sceditor-container .sceditor-button {
 background: none;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--color-texto-claro);
+color: var(--color-acento);
 text-indent:0;
-margin:3px;
+margin: 0 4px;
 }
 #textarea_content .sceditor-button.active, #textarea_content .sceditor-button:active, #textarea_content .sceditor-button:hover {
 background: none;
 box-shadow: none;
-color: var(--color-acento) !important;
 }
 .sceditor-container .sceditor-button.disabled {color: #AAA;}
 
