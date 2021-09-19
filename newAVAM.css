@@ -300,11 +300,9 @@ line-height: 14px;
 .b16 img, .bf1 img, .bf3 img, .b31 img { max-width: 340px;}
 
 .imaglarga1, .imaf1avam, .imaf111, .imaf1 {
-outline: 1px solid var(--color-acento);
-outline-offset: 5px;
-margin: 0 auto 15px;
-}
-.imaf1avam {
+border: 1px solid var(--color-acento);
+margin: 0 auto;
+border-radius: 100%;
 height: 100px;
 width: 100px;
 }
@@ -462,7 +460,7 @@ font-size: 14px;
 /*BAÚL*/
 .baul-stats .expavam-infot {width: 106px;} 
 
-.rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-top: 10px;}
+.rpg .imaf1avam {background-image: url(http://via.placeholder.com/100x100); margin-bottom: 10px;}
 .rpg .caja .ra {width: 36px; display: inline-block; color: var(--color-acento); font-weight: 900; padding: 7px 5px; font-size: 11px; text-align: center; /*border-right: 1px solid  var(--borde-gris);*/ background: var(--fondo-oscuro);} 
 .rpg .ra-broken-shield:before, .rpg .ra-capitol:before {margin-left: 1px;}
 .rpg .exp12 {margin: 0;}.rpg .caja2 {max-height: 270px;overflow: auto;padding: 0 4px 4px 0;}
@@ -604,7 +602,6 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .rpg .caja .puntos {display: inline-block; width: calc(100% - 36px); margin: auto; text-align: center; vertical-align: top; padding-top: 12px; }
 .rpg .pj .puntos, .rpg .op .puntos {padding-top: 7px; letter-spacing: 1px; } 
 .rpg c:before {content: '•'; width: 5px; color: var(--color-acento); display: inline-block; vertical-align: top; margin-top: -2px;font-size: 10px;} 
-.rpg c {margin-right: -5px;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c {top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 {width: 100%; height: 45px; display: flex; align-items: center; justify-content: center; background: var(--fondo-claro); overflow: auto; /*outline: 1px solid var(--borde-gris);*/ margin: 5px 0 0; padding: 9px 6px; font-size: 12px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px; }
 .rpg .datos {padding: 10px; background: var(--fondo-oscuro); margin: 2px 0 0;/*border-top: 1px solid var(--borde-gris);*/ overflow: auto; max-height: 100px; width: 100%;}
@@ -615,10 +612,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 
 /*OLD - Expedientes */
 .bfh2,.bfhd2 {margin: 5px 0;} 
-.imaf111, .imaf1 { margin: auto; width: 100px; height: 100px; } 
-.imf { max-width: 400px; height: 150px; } 
+.imf {max-width: 400px; height: 150px; margin: auto;} 
 .df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
 .mf2 { vertical-align: top; display: inline-flex !important; height: 100px; align-content: space-around; justify-content: center; flex-wrap: wrap; flex: 1; }
+.bf1 .nf2 + br + div { margin: auto; width: 270px; display: flex; flex-wrap: wrap;justify-content: center;}
 
 /*OLD - Variaciones tablilla stats Tramas*/
 .arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat, .arco.rpg .datos strong, .arco.rpg c:before {color: #6f2727;}
