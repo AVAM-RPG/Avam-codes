@@ -425,9 +425,8 @@ font-size: 14px;
 /*BESTIARIO*/
 .bestiario {display: flex; flex-wrap: wrap; justify-content: space-between;}
 .bestiario .col1, .bestiario  .col2 {margin: 10px 0; max-width: 220px; width: 100%;}
-.bestiario .toggle {text-align: center; margin: 0 auto -10px;}
-.bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
-.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; width: 100%; overflow: unset !important;}
+.bestiario .toggle {text-align: center;} .bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
+.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; width: 100%;}
 .bestiario .info:before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; left: 100px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
 .bestiario info. + br + .info:before {left: 315px;}
 .bestiario .grupal {--color-acento: #75684c;} .bestiario .celta {--color-acento: var(--color-celtas);} .bestiario .otros {--color-acento: #636363;}
