@@ -282,7 +282,7 @@ color: var(--color-acento);
   .expavam .expavam-infodiv {width: 145px;}
 }
 @media screen and (max-width: 395px) {
-  .expavam-info {height: 100% !important; width: 100% !important;}
+  .expavam-info {height: 100%; width: 100%;}
 }
 
 /*TABLILLAS DE ROL*/
@@ -521,7 +521,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;}
 
 @media screen and (max-width: 765px) {
-  .expavam .expavam-infodiv {width: 145px;}
+  .pnjs .expavam-infodiv {width: 145px;}
+}
+@media screen and (max-width: 460px) {
+  .pnjs .expavam-info {height: 100%;width: 100%;}
 }
 
 /*Recuadro Sistema de Entrenamientos*/
