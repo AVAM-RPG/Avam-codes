@@ -423,7 +423,7 @@ font-size: 14px;
 .tienda .desc {height: 135px; overflow: auto; padding-right: 2px; line-height: 17px;}
 
 /*BESTIARIO*/
-.bestiario {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.bestiario .dual-col {display: flex; flex-wrap: wrap; justify-content: space-between;}
 .bestiario .col1, .bestiario  .col2 {margin: 10px 0; max-width: 220px; width: 100%;}
 .bestiario .toggle {text-align: center;} .bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
 .bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; width: 100%;}
