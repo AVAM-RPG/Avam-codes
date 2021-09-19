@@ -594,9 +594,9 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .epico .op .rpg-icon div:before {content: "";}
 
 /*OLD - Tablilla de stats*/
-.rpg {background: var(--fondo-base); font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; /*outline: 1px solid var(--borde-gris);*/}
-.rpg .pj, .rpg .op {display: flex; flex-wrap: wrap; min-width: 90px; flex: 1 0 50%;min-width: 190px; justify-content: space-between;padding: 10px;} .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
-.rpg .pj {/*border-right: 1px solid var(--borde-gris);*/}
+.rpg {font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; /*outline: 1px solid var(--borde-gris);*/}
+.rpg .pj, .rpg .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; flex: 1 0 49%;min-width: 190px; justify-content: space-between;padding: 10px;} .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
+.rpg .pj {/*border-right: 1px solid var(--borde-gris);*/ margin: 0 2px 0 0;}
 .rpg .nf2avam {width: 100%;font-size: 14px;white-space:nowrap;overflow:hidden;line-height:14px;text-overflow:ellipsis} .rpg .df2avam {width: 100%;}
 .rpg .caja {height: auto; background: var(--fondo-claro); /*outline: 1px solid var(--borde-gris);*/ letter-spacing: .5px; margin: 2px 0; text-transform: uppercase; text-align: center; display: inline-block; width: 49%;}
 .rpg .caja.vida {width: 100%; display: block;}
@@ -607,10 +607,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .rpg c {margin-right: -5px;} .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c {top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 {width: 100%; height: 45px; display: flex; align-items: center; justify-content: center; background: var(--fondo-claro); overflow: auto; /*outline: 1px solid var(--borde-gris);*/ margin: 5px 0 0; padding: 9px 6px; font-size: 12px; text-transform: uppercase; line-height: 13px; letter-spacing: .5px; }
-.rpg .datos {padding: 10px; background: var(--fondo-oscuro); /*border-top: 1px solid var(--borde-gris);*/ overflow: auto; max-height: 100px; width: 100%;}
+.rpg .datos {padding: 10px; background: var(--fondo-oscuro); margin: 2px 0 0;/*border-top: 1px solid var(--borde-gris);*/ overflow: auto; max-height: 100px; width: 100%;}
 .rpg .datos strong, .rpg .datos a {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 11px; letter-spacing: .5px;}
 .rpg .op .datos {height: initial; max-height: 172px; padding: 0 5px 0 0; border: 0; background: none;}
-.rpg.mini {width: 265px;} .rpg.mini .pj {width: 100%; border: 0;}
+.rpg.mini {max-width: 265px;} .rpg.mini .pj {width: 100%; margin: 0;}
 .rpg .datos::-webkit-scrollbar, .rpg .df222::-webkit-scrollbar {width: 4px;}
 
 /*OLD - Expedientes */
