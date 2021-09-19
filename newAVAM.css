@@ -732,6 +732,7 @@ justify-content: center;
 color: var(--color-acento);
 text-indent:0;
 margin: 0 4px;
+font-size: 15px;
 }
 #textarea_content .sceditor-button.active, #textarea_content .sceditor-button:active, #textarea_content .sceditor-button:hover {
 background: none;
