@@ -10,7 +10,6 @@ background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
 font-family: var(--fuente-tit);
-color: var(--color-acento);
 font-size: 22px;
 font-weight: 900;
 letter-spacing: 1px;
@@ -19,6 +18,7 @@ padding: 40px;
 text-align: center;
 text-transform:uppercase;
 }
+.tbase-titulo2 i {color: var(--color-acento);}
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
 font-size: 14px;
