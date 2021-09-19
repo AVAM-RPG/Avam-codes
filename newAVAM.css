@@ -10,9 +10,9 @@ background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
 font-family: var(--fuente-tit);
-font-size: 22px;
+font-size: 25px;
 font-weight: 900;
-letter-spacing: 1px;
+letter-spacing: .5px;
 line-height: 17px;
 padding: 40px;
 text-align: center;
