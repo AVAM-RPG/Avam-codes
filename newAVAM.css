@@ -520,7 +520,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .pnjs .expavam-info {height: 112px; width: calc(100% - 112px);min-width: 255px; margin: 0;} .pnjs .expavam-infot {width: 112px;}
 .pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;}
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 390px) {
   .pnjs .expavam-infodiv {width: 145px;}
 }
 @media screen and (max-width: 460px) {
