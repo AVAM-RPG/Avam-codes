@@ -424,17 +424,13 @@ font-size: 14px;
 
 /*BESTIARIO*/
 .bestiario {display: flex; flex-wrap: wrap; justify-content: space-between;}
-.bestiario .col1, .col2 {display: block; margin: 8px 0; vertical-align: top; width: 210px; } .bestiario .col2 .info {margin-left: -215px;}
-.bestiario .toggle {text-align: center; margin: 0 auto -10px;} 
-.betiario .toggle .click {display: inline-block; letter-spacing: .5px; margin: 0; padding: 0;overflow: initial !important;} 
+.bestiario .col1, .bestiario  .col2 {margin: 10px 0; max-width: 220px; width: 100%;}
+.bestiario .toggle {text-align: center; margin: 0 auto -10px;}
 .bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
-.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; margin-bottom: 10px; width: 425px;}
-.bestiario .info::before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
-.bestiario .col1 .info::before {left: 100px;} 
-.bestiario .col2 .info::before {left: 315px;}
-.bestiario .celta {--color-acento: var(--color-celtas);}
-.bestiario .otros {--color-acento: #636363;}
-.bestiario .grupal {--color-acento: #75684c;}
+.bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 0 0; width: 100%; overflow: unset !important;}
+.bestiario .info:before {content: '\f0d8'; font-family: 'Font Awesome 5 Free'; position: relative; top: -23px; left: 100px; width: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;} 
+.bestiario info. + br + .info:before {left: 315px;}
+.bestiario .grupal {--color-acento: #75684c;} .bestiario .celta {--color-acento: var(--color-celtas);} .bestiario .otros {--color-acento: #636363;}
 
 /*TABLILLA DE STATS*/
 .tab-batalla {font-size: 13px; margin: auto; /*outline: 1px solid var(--borde-gris);*/line-height: 12px; max-width: 430px; width:100%; display: flex; flex-wrap: wrap; justify-content: space-between;} .tab-batalla div::-webkit-scrollbar {width: 4px;}
