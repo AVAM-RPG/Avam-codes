@@ -558,10 +558,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .achtext3 {font-size:11px;font-weight:800;text-align:center;margin:6px;}
 
 /*Colores generales de grupos*/
-.postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion .navbar-content, .postgroup-narracion.miembro-caja  {--color-acento: var(--color-narracion);}
-.postgroup-romanos, .profilegroup-romanos .perfil-u, .usergroup-romanos .navbar-content, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
-.postgroup-griegos, .profilegroup-griegos .perfil-u, .usergroup-griegos .navbar-content, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
-.postgroup-celtas, .profilegroup-celtas .perfil-u, .usergroup-celtas .navbarcontent, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
+.postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion .navbar-icon, .usergroup-narracion .navbar-content, .postgroup-narracion.miembro-caja  {--color-acento: var(--color-narracion);}
+.postgroup-romanos, .profilegroup-romanos .perfil-u, .usergroup-narracion .navbar-icon, .usergroup-romanos .navbar-content, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
+.postgroup-griegos, .profilegroup-griegos .perfil-u, .usergroup-narracion .navbar-icon, .usergroup-griegos .navbar-content, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
+.postgroup-celtas, .profilegroup-celtas .perfil-u, .usergroup-narracion .navbar-icon, .usergroup-celtas .navbarcontent, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
 
 /*Variaciones expedientes
 .postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
