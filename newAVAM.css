@@ -527,7 +527,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .forja-text {max-width: 700px; width: 100%; margin: auto; display: flex; flex-wrap: wrap; justify-content: center;} .forja-text table {border-spacing: 0;} 
 
 .arro1,.arro11 {background: var(--fondo-base); width: 20%; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; min-height: 40px;} 
-.aro2, .arro2 {background: var(--fondo-base); width: 37%; padding: 12px; line-height: 40px; margin: 1px; line-height: 13px; text-align: justify; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px;}
+.aro2, .arro2 {background: var(--fondo-base); width: 36%; padding: 12px; line-height: 40px; margin: 1px; line-height: 13px; text-align: justify; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px;}
 .aro, .aro0 {line-height: 10px; background: var(--color-acento); color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px; line-height: 13px; font-weight: 900; justify-content: center; text-transform: uppercase; min-height: auto;} 
 
 .arro1.pc, .arro11.pc, .arro2.pc {background-color: #754c4c;}
