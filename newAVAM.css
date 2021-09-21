@@ -531,7 +531,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .aro2, .arro2 {background: var(--fondo-base); width: 36%; padding: 12px; line-height: 40px; margin: 1px; line-height: 13px; text-align: justify; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px;}
 .aro, .aro0 {line-height: 10px; background: var(--color-acento); color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px; line-height: 13px; font-weight: 900; justify-content: center; text-transform: uppercase; min-height: auto;} 
 
-th.arro1, td.arro1 {width:23%;} th.arro11, td.arro11 {width: 22%;} th.arro2, td.arro2 {width: 52%;}
+th.arro1, td.arro1 {width:23%;} th.arro11, td.arro11 {width: 22%;} th.arro2, td.arro2 {width: 53.5%;}
 .arro1.pc, .arro11.pc, .arro2.pc {background-color: #754c4c;}
 .arro1.pe, .arro11.pe, .arro2.pe {background-color: #605265;}
 .arro1.pr, .arro11.pr, .arro2.pr {background-color: #4b6379;}
