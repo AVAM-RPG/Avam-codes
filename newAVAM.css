@@ -525,6 +525,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 
 /*Tablilla forja*/
 .forja-text {max-width: 700px; width: 100%; margin: auto; display: flex; flex-wrap: wrap; justify-content: center;} .forja-text table {border-spacing: 0;} 
+.forja-tit { display: flex; flex-wrap: wrap; width: 100%; justify-content: center; }
 
 .arro1,.arro11 {background: var(--fondo-base); width: 20%; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; min-height: 40px;} 
 .aro2, .arro2 {background: var(--fondo-base); width: 36%; padding: 12px; line-height: 40px; margin: 1px; line-height: 13px; text-align: justify; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px;}
