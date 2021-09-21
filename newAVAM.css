@@ -192,7 +192,7 @@ justify-content: center;
 align-items: center;
 /*transform: rotate(45deg);*/
 }
-.img-expediente img, .imagentbr img {width: 90px;border-radius: 100%;/*width: rotate(-45deg);*/}
+.img-expediente img, .imagentbr img {width: 90px;border-radius: 100%;display: block;/*width: rotate(-45deg);*/}
 .expavam-img {width: 164px;height: 164px;}
 
 .expavam-info {
