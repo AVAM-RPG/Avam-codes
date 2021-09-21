@@ -371,7 +371,7 @@ font-size: 14px;
 
 /*FILTROS GENERAL*/
 .tbase.tbase-grande {max-width: 750px;}
-.tbase-text.cronologia, .tbase-text.catalogo {max-width: 750px; margin: 0 auto;background:var(--fondo-claro);} 
+.tbase-text.cronologia, .tbase-text.catalogo {max-width: 750px; background:var(--fondo-claro);} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
 .filtro-botones input {display: none;}
