@@ -25,11 +25,12 @@ font-weight: 400;
 padding: 30px;
 text-align: justify;
 text-transform: none;
-margin: 3px auto 0;
+margin: 0 auto;
 max-width: 500px;
 width:100%;
 /*outline: 1px solid var(--borde-gris);*/
 }
+.tbase-text {margin: 3px auto 0;}
 .tbase-num {
 font-family: var(--fuente-tit);
 color: var(--color-acento);
@@ -481,7 +482,7 @@ font-size: 14px;
 .rpg .stat {display: block; margin-top: 1px; font-family: calibri;} .rpg.grande .vel + br {display: block;}
 
 /*TABLILLAS BÚSQUEDA*/
-.imagentbr {margin:0 auto;width:100px;height:100px;border:2px solid var(--color-acento);padding:5px;border-radius: 100%;display: flex;} .imagentbr img {width: 90px;border-radius: 100%;}
+.imagentbr {margin:0 auto;width:104px;height:104px;border:2px solid var(--color-acento);border-radius: 100%;display: flex;display: flex;justify-content: center;align-items: center;} .imagentbr img {width: 90px;border-radius: 100%;}
 .cnombrem {text-align:center;margin: 0 0 15px;}
 .nom {font-size:18px;letter-spacing:.5px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;margin: 0 0 -15px;}
 .textonombre {font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase;}
@@ -492,7 +493,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .extrainfo {max-height:100px;margin-top:10px;padding: 0 5px 0 0;overflow: auto;}
 .busquedatab .imagentbr {float: right; margin:0;}
 .tinformacion {height: 265px; padding: 0 10px; overflow: auto; float: right; width: 50%;}
-.imgtb {width:160px;height:90px;outline:1px solid var(--color-acento);outline-offset:5px;margin:5px}
+.imgtb {width:160px;height:90px; outline:2px solid var(--color-acento);outline-offset:5px;margin:5px}
 .bt1 .datosm {margin: 15px 0 0 -1px;height:auto;}
 .bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 50%; min-width: 150px; flex: 1;}
 .z-info {font-family:var(--fuente-tit); font-size: 14px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
