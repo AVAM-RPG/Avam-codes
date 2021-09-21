@@ -266,7 +266,7 @@ font-weight: 900;
 color: var(--color-acento); 
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1010px) {
   .expavam .expavam-infodiv {width: 145px;}
 }
 @media screen and (max-width: 395px) {
