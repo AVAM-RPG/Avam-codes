@@ -529,6 +529,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .arro1,.arro11 {background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; min-height: 40px;} 
 .aro1, .aro2,.aroo1, .aroo2, .arro2 {background: var(--fondo-base); width: 118px; padding: 12px; line-height: 40px; margin: 1px; text-align: center; vertical-align: top; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px;}
 .aro, .aro0, .arro, .arro0 {line-height: 10px; background: var(--color-acento); color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px; font-weight: 900; justify-content: center; text-transform: uppercase; min-height: auto;} 
+.arro2 {width: 240px;}
 
 .arro1.pc, .arro11.pc, .arro2.pc {background-color: #754c4c;}
 .arro1.pe, .arro11.pe, .arro2.pe {background-color: #605265;}
