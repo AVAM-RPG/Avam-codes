@@ -730,6 +730,43 @@ box-shadow: none;
 }
 .sceditor-container .sceditor-button.disabled {color: #AAA;}
 
+/*BINGO*/
+.bCards {
+      text-align: center;
+      width: 100%;
+      max-width: 300px;
+      margin: 10px auto;
+}
+.bTitle {
+      text-align: center;
+      font-weight: 900;
+      letter-spacing: .5px;
+      padding: 10px 0;
+      color: var(--color-texto-claro);
+      font-family: var(--fuente-tit);
+      font-size: 20px;
+      text-transform: uppercase;
+}
+.post .bCards .bTitle i {display: none;}
+.bRow {
+      display: flex;
+      flex-flow: wrap;
+}
+.bCell {
+      display: table-cell;
+      border: 1px solid var(--borde-gris);
+      vertical-align: middle;
+      padding: 7px;
+      flex: 1;
+      font-size: 16px;
+      background: var(--fondo-base);
+}
+.bCell.marcado {
+    background: var(--color-acento);
+    font-weight: 900;
+    color: var(--color-texto-claro);
+}
+
 /*CSS base de los toggle*/
 .toggle .click { 
 text-transform: uppercase; 
