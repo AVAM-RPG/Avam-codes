@@ -428,7 +428,7 @@ font-size: 14px;
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
 .rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); /*outline: 1px solid var(--borde-gris);*/ padding: 5px;} 
-.tab-batalla .caja {flex-basis: 55px;}
+.tab-batalla .rpg-desg {flex-basis: 65px;}
 .rpg-cont .caja {background: var(--fondo-oscuro); /*outline: 1px solid var(--borde-gris);*/ padding: 5px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;height: 35px;}
 .rpg-cont .pv {flex-grow: 1;} .rpg-cont > * + * {margin-left: 5px;}
 .tab-batalla .st {color: var(--color-acento); font-weight: 900; text-transform: uppercase; font-size: 13px;}
