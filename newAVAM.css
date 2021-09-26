@@ -650,6 +650,15 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 .rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
 .rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;}
 
+/*Diseño 4o aniversario*/
+.forum-47 {
+--color-acento: #5f2626;
+--color-narracion: #5f2626;
+}
+.forum-47 a span[style="color:#6B4231"] strong {color: var(--color-acento);}
+.forum-47 .author-1 .postprofile-avatar img{content:url(https://i.imgur.com/F5n7g69.png);}
+.forum-47 .author-643 .postprofile-avatar img{content:url(https://i.imgur.com/Yy8qKcP.png);}
+
 /*Árbol de navidad 2020*/
 .card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
 .arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
