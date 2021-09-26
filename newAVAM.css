@@ -655,6 +655,7 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 --color-acento: #5f2626;
 --color-narracion: #5f2626;
 }
+body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 .forum-47 a span[style="color:#6B4231"] strong {color: var(--color-acento);}
 .forum-47 .author-1 .postprofile-avatar img{content:url(https://i.imgur.com/F5n7g69.png);}
 .forum-47 .author-643 .postprofile-avatar img{content:url(https://i.imgur.com/Yy8qKcP.png);}
