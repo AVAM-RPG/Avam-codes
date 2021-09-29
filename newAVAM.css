@@ -555,7 +555,7 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 .postgroup-narracion, .profilegroup-narracion .perfil-u, .usergroup-narracion .navbar-icon, .usergroup-narracion .navbar-content, .postgroup-narracion.miembro-caja  {--color-acento: var(--color-narracion);}
 .postgroup-romanos, .profilegroup-romanos .perfil-u, .usergroup-romanos .navbar-icon, .usergroup-romanos .navbar-content, .postgroup-romanos.miembro-caja {--color-acento: var(--color-romanos);}
 .postgroup-griegos, .profilegroup-griegos .perfil-u, .usergroup-griegos .navbar-icon, .usergroup-griegos .navbar-content, .postgroup-griegos.miembro-caja {--color-acento: var(--color-griegos);}
-.postgroup-celtas, .profilegroup-celtas .perfil-u, .usergroup-celtas .navbar-icon, .usergroup-celtas .navbarcontent, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
+.postgroup-celtas, .profilegroup-celtas .perfil-u, .usergroup-celtas .navbar-icon, .usergroup-celtas .navbar-content, .postgroup-celtas.miembro-caja {--color-acento: var(--color-celtas);}
 
 /*Variaciones expedientes
 .postgroup-romanos .expavam {--color-acento: var(--color-romanos);}
