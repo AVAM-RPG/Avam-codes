@@ -5,7 +5,6 @@ t@charset "UTF-8";
 margin: 0 auto;
 max-width: 500px;
 width:100%;
-/*outline: 1px solid var(--borde-gris);*/
 background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
@@ -28,7 +27,6 @@ text-transform: none;
 margin: 0 auto;
 max-width: 500px;
 width:100%;
-/*outline: 1px solid var(--borde-gris);*/
 }
 .tbase-text {margin: 3px auto 0;}
 .tbase-num {
