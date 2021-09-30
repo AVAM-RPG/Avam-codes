@@ -4,7 +4,7 @@ t@charset "UTF-8";
 .tbase, .expavam-header {
 margin: 0 auto;
 max-width: 500px;
-width:100%;
+width: 100%;
 background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
