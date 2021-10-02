@@ -709,7 +709,7 @@ background: var(--fondo-base)!important;
 width: 100% !important;
 }
 div.sceditor-resize-cover {
-background: none;
+background: none !important;
 }
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
 background: var(--fondo-oscuro);
