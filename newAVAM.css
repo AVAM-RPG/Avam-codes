@@ -706,7 +706,7 @@ background: var(--fondo-base)!important;
 .respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {background: var(--fondo-claro)!important;}
 .sceditor-container .sceditor-toolbar {padding: 15px;}
 .sceditor-container.ltr.sourceMode {
-max-width: 695px;
+max-width: 693px;
 width: 100% !important;
 }
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
