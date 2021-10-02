@@ -16,6 +16,7 @@ padding: 40px;
 text-align: center;
 text-transform:uppercase;
 }
+.tbase-titulo2 div {font-family: calibri;}
 .tbase-titulo2 i {color: var(--color-acento);}
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
