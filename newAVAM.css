@@ -705,6 +705,10 @@ background: var(--fondo-base)!important;
 }
 .respuesta-rapida .sceditor-container,.respuesta-rapida .sceditor-container .sceditor-toolbar  {background: var(--fondo-claro)!important;}
 .sceditor-container .sceditor-toolbar {padding: 15px;}
+.sceditor-container.ltr.sourceMode {
+max-width: 695px;
+width: 100% !important;
+}
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
 background: var(--fondo-oscuro);
 font-family: calibri;
@@ -714,7 +718,6 @@ width: 100%!important;
 color: white !important;
 margin: 0!important;
 min-height: 255px;
-max-height: 255px;
 }
 #textarea_content .sceditor-group {
 background: transparent;
@@ -738,6 +741,10 @@ background: none;
 box-shadow: none;
 }
 .sceditor-container .sceditor-button.disabled {color: #AAA;}
+
+.sceditor-button.sceditor-button-embed, .sceditor-button.sceditor-button-table, .sceditor-button.sceditor-button-removeformat, .sceditor-button.sceditor-button-pastetext, .sceditor-button.sceditor-button-source, .sceditor-button.sceditor-button-more, .sceditor-button.sceditor-button-date, .sceditor-button.sceditor-button-time, .sceditor-group:nth-child(7) {
+display: none;
+}
 
 /*BINGO*/
 .bCards {
