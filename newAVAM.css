@@ -423,7 +423,7 @@ font-size: 14px;
 .rpg-icon {border: 1px solid var(--color-acento);border-radius: 100%;width: 30px; height: 30px; font-size: 16px; background: var(--fondo-oscuro); display: flex; align-items: center; justify-content: center;} 
 .tab-batalla .pj {/*border-right: 1px solid var(--borde-gris);*/ margin-right: 2px;} .op .rpg-icon {} .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1);} 
 .especialidad .pj .rpg-icon div:before {content: "";} .monstruo .op .rpg-icon div:before {content: "";}
-.rpg-nombre {width: calc(100% - 35px); margin: 0;letter-spacing: .5px;} 
+.rpg-nombre {flex: calc(100% - 35px); margin: 0;letter-spacing: .5px;} 
 .rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
 .rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); /*outline: 1px solid var(--borde-gris);*/ padding: 5px;} 
