@@ -526,10 +526,10 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .forja-text, .forja-tabla {max-width: 700px; width: 100%; margin: auto; display: flex; flex-wrap: wrap; justify-content: center;} .forja-text table {border-spacing: 0;} 
 .forja-tit { display: flex; flex-wrap: wrap; width: 100%; justify-content: center; }
 
+.tbase-text .aro2, .tbase-text .arro1 {background: var(--fondo-claro);}
 .arro1,.arro11 {background: var(--fondo-base); width: 20%; padding: 12px; line-height: 40px; margin: 1px; text-align: center; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; min-height: 40px;} 
-.tbase .aro2, .tbase .arro1 {background: var(--fondo-claro);}
 .aro2, .arro2 {background: var(--fondo-base); width: 36%; padding: 12px; line-height: 40px; margin: 1px; line-height: 13px; text-align: justify; display: inline-flex; align-items: center; font-size: 13px; min-height: 40px; overflow: auto;}
-.aro, .aro0 {background: var(--color-acento); color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px 12px; line-height: 10px; font-weight: 900; justify-content: center; text-transform: uppercase; min-height: auto;} 
+.aro, .aro0 {background: var(--color-acento) !important; color: var(--color-texto-claro); letter-spacing: 1px; padding: 10px 12px; line-height: 10px; font-weight: 900; justify-content: center; text-transform: uppercase; min-height: auto;} 
 .forja-tabla .arro1 {width: 32%;}
 
 th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, td.arro2 {width: 53%;}
