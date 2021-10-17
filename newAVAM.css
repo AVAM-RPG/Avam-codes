@@ -101,6 +101,7 @@ border-radius: 20px;
 float: left;
 }
 
+.tbase.tbase-grande, .tbase-text.text-grande {max-width: 750px;}
 .tbase.mini {max-width: 270px;}
 .tbase-icon {color:var(--color-acento);font-size:25px;font-weight:900;float:left;margin: 6px 0 0 10px;}
 .tbase-titulo {
@@ -370,7 +371,6 @@ font-size: 14px;
 .bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
-.tbase.tbase-grande {max-width: 750px;}
 .tbase-text.cronologia, .tbase-text.catalogo {max-width: 750px; background:var(--fondo-claro);} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
