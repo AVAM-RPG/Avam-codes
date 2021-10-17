@@ -660,6 +660,9 @@ body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 .forum-47 .author-1 .postprofile-avatar img{content:url(https://i.imgur.com/F5n7g69.png);}
 .forum-47 .author-643 .postprofile-avatar img{content:url(https://i.imgur.com/Yy8qKcP.png);}
 
+.tirada-bestiario-olimpico .tirada-user:before {content: '¿Qué es eso de por ahí, ';}
+.tirada-bestiario-olimpico .tirada-user:after {content: '?';}
+
 /*Árbol de navidad 2020*/
 .card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
 .arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
