@@ -684,7 +684,7 @@ body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 
 /**** FUENTES ****/ 
 @font-face { font-family: 'Open Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/OpenSans/OpenSans.ttf');}
-@font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/OpenSans/OpenSans-Italic.ttf'); font-style: italic;}
+@font-face { font-family: 'Open Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/OpenSans/OpenSans-Italic.ttf'); font-style: italic;}
 
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular.ttf'); }
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold.ttf'); font-weight: bold;}
