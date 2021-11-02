@@ -4,7 +4,7 @@ An icon font for [game-icons/icons](https://github.com/game-icons/icons). Unfort
 # Usage
 
 * get the .css file
-* add an icon: `<i class="game-icon game-icon-anchor">`
+* add an icon: `<i class="gi gi-anchor">`
 
 # Want to build it yourself?
 
