@@ -8,7 +8,7 @@ width: 100%;
 background: var(--fondo-oscuro);
 }
 .tbase-titulo2, .dfxxx {
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 font-size: 25px;
 font-weight: 900;
 line-height: 20px;
@@ -31,7 +31,7 @@ width:100%;
 }
 .tbase-text {margin: 3px auto 0;}
 .tbase-num {
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 color: var(--color-acento);
 font-size: 16px;
 font-weight: 900;
@@ -60,7 +60,7 @@ text-transform: uppercase;
 color: var(--color-acento);
 font-size: 14px;
 font-weight: 900;
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 letter-spacing: 1px;
 text-transform: uppercase;
 }
@@ -90,7 +90,7 @@ height: 25px;
 margin-top: 0px; 
 margin-right: 5px; 
 text-align: center; 
-font-family: var(--fuente-tit); 
+font-family: var(--fuente-titulo); 
 font-weight: 900; 
 font-size: 9px; 
 line-height: 25px; 
@@ -107,7 +107,7 @@ float: left;
 .tbase-titulo {
 background:var(--fondo-oscuro);
 /*outline: 1px solid var(--borde-gris);*/
-font-family:var(--fuente-tit);
+font-family:var(--fuente-titulo);
 font-size:15px;
 font-weight:900;
 padding:10px;
@@ -130,7 +130,7 @@ text-align:center
 
 /*ASCENDENCIAS*/
 .tascen {
-font-family: var(--fuente-tit); 
+font-family: var(--fuente-titulo); 
 font-size: 20px; 
 font-weight: 900; 
 letter-spacing: 5px; 
@@ -147,7 +147,7 @@ float: left;
 margin: -20px 0 0;
 }
 .ascen .toggle .click {
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 font-size: 15px;
 letter-spacing: .5px;
 }
@@ -210,7 +210,7 @@ color: var(--color-acento);
 text-align: center;
 text-transform: uppercase;
 font-size: 18px;
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 font-weight: 900;
 letter-spacing: 1px;
 width: 100%;
@@ -253,7 +253,7 @@ text-align: left;
 text-transform: uppercase;
 font-size: 16px;
 font-weight: 900;
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 letter-spacing: 1px;
 margin-bottom: -15px;
 }
@@ -298,7 +298,7 @@ width: 100px;
 
 .b26, .bf3-t, .nf2avam1 {
 font-size: 20px;
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 font-weight: 900;
 letter-spacing: .5px;
 text-align: center;
@@ -315,7 +315,7 @@ text-transform: uppercase;
 margin: 0 auto 20px;
 }
 
-.nf2avam {text-align:center;font-size:15px;font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;letter-spacing:.5px}
+.nf2avam {text-align:center;font-size:15px;font-family:var(--fuente-titulo);text-transform:uppercase;font-weight:900;letter-spacing:.5px}
 .h1avam {text-align: justify;}
 
 .df3b, .df2avam, .b21 {
@@ -362,13 +362,13 @@ font-size: 14px;
 }
 
 .aa { margin: auto; height: auto; width: 270px; } 
-.ac { background: var(--fondo-base); font-family: var(--fuente-tit); font-size: 16px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
+.ac { background: var(--fondo-base); font-family: var(--fuente-titulo); font-size: 16px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid var(--color-acento);}
 .ad { background: var(--fondo-base); margin: 0 auto auto auto; /*border-top: 1px solid var(--borde-gris);*/ width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; text-transform: none; font-weight: normal; text-align: justify; }
 
 /*TABLILLA ROL OFICIAL*/
 .post-numero {margin: -5px auto 10px;color: var(--color-texto-claro);font-size: 14px;}
 .bf3.res {margin: -16px auto 0; background: var(--fondo-oscuro); width: 100%; max-width: 430px; border-top: 2px solid var(--color-acento);}
-.bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-tit); color: var(--color-acento); text-transform: uppercase;}
+.bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-titulo); color: var(--color-acento); text-transform: uppercase;}
 
 /*FILTROS GENERAL*/
 .tbase-text.cronologia, .tbase-text.catalogo {max-width: 750px; background:var(--fondo-claro);} 
@@ -470,7 +470,7 @@ font-size: 14px;
 
 /*TABLILLAS BÚSQUEDA*/
 .cnombrem {text-align:center;margin: 0 0 15px;}
-.nom {font-size:18px;letter-spacing:.5px;color:var(--color-acento);font-family:var(--fuente-tit);text-transform:uppercase;font-weight:900;margin: 0 0 -15px;}
+.nom {font-size:18px;letter-spacing:.5px;color:var(--color-acento);font-family:var(--fuente-titulo);text-transform:uppercase;font-weight:900;margin: 0 0 -15px;}
 .textonombre {font-size:10px;letter-spacing:1px;line-height:9px;text-align:center;text-transform:uppercase;}
 .datosm {font-size: 12px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;} .datosm .col {width:165px;}
 .temas-icon {width: 25px; height: 21px; margin-right: 5px; text-align: center; font-weight: 900; background: var(--fondo-claro); color: var(--color-acento); float: left; line-height: 21px;} 
@@ -482,7 +482,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .imgtb {width:160px;height:90px; outline:2px solid var(--color-acento);outline-offset:5px;margin:5px}
 .bt1 .datosm {margin: 15px 0 0 -1px;height:auto;}
 .bt11 {display: flex; flex-wrap: wrap;} .gcontainer {padding: 0 10px; width: 50%; min-width: 150px; flex: 1;}
-.z-info {font-family:var(--fuente-tit); font-size: 14px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
+.z-info {font-family:var(--fuente-titulo); font-size: 14px; letter-spacing: 1px; font-weight: 900; text-transform: uppercase; text-align: center; color:var(--color-texto-claro)} 
 .z-info-mini {text-align: center; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; } 
 .ch-text {padding: 10px 5px 0 0; overflow: auto;height: 65px;}
 
@@ -769,7 +769,7 @@ display: none;
       letter-spacing: .5px;
       padding: 10px 0;
       color: var(--color-texto-claro);
-      font-family: var(--fuente-tit);
+      font-family: var(--fuente-titulo);
       font-size: 20px;
       text-transform: uppercase;
 }
@@ -1031,7 +1031,7 @@ background: none !important;
 }
 div.sceditor-dropdown div a, div.sceditor-dropdown div label, .sceditor-dropdown div .sceditor-header-option.post-content, div.sceditor-dropdown .sceditor-mention-user {
 color: var(--color-texto-claro) !important;
-font-family: var(--fuente-tit);
+font-family: var(--fuente-titulo);
 text-transform: uppercase;
 font-weight: 900;
 font-size: 11px;
