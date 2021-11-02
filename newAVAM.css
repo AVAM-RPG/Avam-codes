@@ -16,7 +16,7 @@ padding: 40px;
 text-align: center;
 text-transform:uppercase;
 }
-.tbase-titulo2 div {font-family: calibri;}
+.tbase-titulo2 div {font-family: --fuente-texto;}
 .tbase-titulo2 i {color: var(--color-acento);}
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
@@ -390,7 +390,7 @@ font-size: 14px;
 .cr-icon span {display: block; font-size: 10px; font-weight: 400; color: var(--color-texto);}
 .cr-text {width: calc(100% - 50px); border: 0; padding: 0 0 0 10px; display: block;} 
 .cr-date {line-height: 16px; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
-.cr-links {text-transform: uppercase; font-size: 11px; font-family: calibri; letter-spacing: .5px; text-align: left; line-height: 10px; margin: 0;} 
+.cr-links {text-transform: uppercase; font-size: 11px; font-family: --fuente-texto; letter-spacing: .5px; text-align: left; line-height: 10px; margin: 0;} 
 .cr-res {max-height: 150px; overflow: auto; padding-right: 5px; margin-top: -5px; height: 100%;}
 .multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) {padding-top: 5px;}
 .multi-evento:not([style$="display: none;"]) + .multi-evento:not([style$="display: none;"]) .cr-icon {visibility: hidden;}
@@ -424,7 +424,7 @@ font-size: 14px;
 .tab-batalla .pj {/*border-right: 1px solid var(--borde-gris);*/ margin-right: 2px;} .op .rpg-icon {} .op .rpg-icon div, .op .rpg-icon i {transform: scaleX(-1);} 
 .especialidad .pj .rpg-icon div:before {content: "";} .monstruo .op .rpg-icon div:before {content: "";}
 .rpg-nombre {flex: calc(100% - 35px); margin: 0;letter-spacing: .5px;} 
-.rpg-tipo {line-height: 14px; font-size: 11px; font-family: calibri; color: var(--color-texto); font-weight: normal;} 
+.rpg-tipo {line-height: 14px; font-size: 11px; font-family: --fuente-texto; color: var(--color-texto); font-weight: normal;} 
 .rpg-cont {display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 6px;} 
 .rpg-stats {display: flex; justify-content: space-around; align-items: center; width: 100%; background: var(--fondo-oscuro); /*outline: 1px solid var(--borde-gris);*/ padding: 5px;} 
 .tab-batalla .rpg-desg {flex-basis: 65px;}
@@ -466,7 +466,7 @@ font-size: 14px;
 .rpg.pesta .bot {width: 20px; padding: 2px 0; border: 1px solid var(--color-acento); margin: 2px; text-align: center; font-size: 11px; line-height: 15px; letter-spacing: .5px;color: var(--color-texto-claro);} 
 .rpg.pesta .nf2avam, .rpg.grande .nf2avam {font-size: 16px; line-height: 16px; color: var(--color-acento);}
 .rpg.pesta .caja, .rpg.grande .caja {width: calc(50% - 4px);margin:2px;}
-.rpg .stat {display: block; margin-top: 1px; font-family: calibri;} .rpg.grande .vel + br {display: block;}
+.rpg .stat {display: block; margin-top: 1px; font-family: --fuente-texto;} .rpg.grande .vel + br {display: block;}
 
 /*TABLILLAS BÚSQUEDA*/
 .cnombrem {text-align:center;margin: 0 0 15px;}
@@ -607,7 +607,7 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 /*OLD - Expedientes */
 .bfh2,.bfhd2 {margin: 5px 0;} 
 .imf {max-width: 400px; height: 150px; margin: auto;} 
-.df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: calibri; letter-spacing: 1px; min-width: 100px; }
+.df, .df2, .df222 { text-align: center; text-transform: uppercase; font-size: 9px; font-family: --fuente-texto; letter-spacing: 1px; min-width: 100px; }
 .mf2 { vertical-align: top; display: inline-flex !important; height: 100px; align-content: space-around; justify-content: center; flex-wrap: wrap; flex: 1; }
 .bf1 .nf2 + br + div { margin: auto; width: 270px; display: flex; flex-wrap: wrap;justify-content: center;}
 
@@ -721,7 +721,7 @@ background: none !important;
 }
 #textarea_content .sceditor-container iframe, #textarea_content .sceditor-container textarea {
 background: var(--fondo-oscuro);
-font-family: calibri;
+font-family: --fuente-texto;
 font-size: 14px;
 padding: 10px;
 width: 100%!important;
@@ -927,7 +927,7 @@ cursor: pointer;
     top: 35px;
     font-size: 9px;
     color: var(--color-texto-claro);
-    font-family: calibri;
+    font-family: --fuente-texto;
     text-transform: uppercase;
     letter-spacing: .5px;
     width: 65px;
@@ -987,7 +987,7 @@ div.sceditor-dropdown div.colorpicker_submit {
  right: 10px;
  top: 140px;
  text-transform: uppercase;
- font-family: calibri;
+ font-family: --fuente-texto;
  font-size: 10px;
  font-weight: 900;
  letter-spacing: 1px;
@@ -1046,7 +1046,7 @@ color: var(--color-texto-claro);
 border-color: var(--color-acento);
 border-radius: 0;
 text-transform: uppercase;
-font-family: calibri;
+font-family: --fuente-texto;
 font-size: 10px;
 font-weight: 00;
 letter-spacing: 1px;
