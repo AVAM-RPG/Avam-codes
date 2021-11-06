@@ -165,7 +165,7 @@ padding: 0 0 0 15px;
 .asc-text .toggle:nth-child(2) + br {display: none;}
 .click .fa-plus-circle {
 position: relative;
-top: -1px;
+top: -2px;
 font-size: 9px;
 }
 
