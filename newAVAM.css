@@ -401,8 +401,9 @@ font-size: 14px;
 .tema-grupal {--color-acento: #75684c;}
 
 /*TIENDA*/
+.tienda-catalogo, .tiendas .filtro-contenido {margin: 0 -4px;} 
 .objeto {/*outline: 1px solid var(--borde-gris);*/ margin: 4px; position: relative; padding: 12px; width: 220px; background: var(--fondo-base);}
-.tienda-catalogo {margin: 0 -4px;} .tienda-catalogo .objeto {background: var(--fondo-claro);flex: 1; min-width: 200px; max-width: 220px;}
+.tienda-catalogo .objeto, .tiendas .objeto {background: var(--fondo-claro);flex: 1; min-width: 200px; max-width: 220px;} .tiendas .objeto {max-width: 216px;}
 .objeto .tbase-destacado {text-align: center; margin: 0 auto 5px;}
 
 .objeto strong {font-weight: 900; font-size: 12px; color: var(--color-acento); text-transform: uppercase;} 
