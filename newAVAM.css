@@ -588,6 +588,17 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 .avanzado .op .rpg-icon div:before {content: "";}
 .epico .op .rpg-icon div:before {content: "";}
 
+/*OLD - Subforos viejos de eventos*/
+.sub-img + .foro-text {
+max-height: 100px;
+flex: 1 200px;
+}
+.sub-img img {
+width: 200px;
+height: 100px;
+object-fit: cover;
+}
+
 /*OLD - Tablilla de stats*/
 .rpg {font-size: 13px; margin: 0 auto; text-align: justify; line-height: 12px; max-width: 430px; display: flex; flex-wrap: wrap; justify-content: space-between; /*outline: 1px solid var(--borde-gris);*/}
 .rpg .pj, .rpg .op {background: var(--fondo-base); display: flex; flex-wrap: wrap; flex: 1 0 49%;min-width: 190px; justify-content: space-between;padding: 10px;} .rpg .op + br, .rpg .pr + br, .rpg .vel + br {display: none;}
