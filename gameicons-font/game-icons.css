@@ -7,7 +7,7 @@
 		url('./game-icons.svg#gis') format('svg');
 }
 
-.gi:before {
+.gi:before, [class*=" gi-"]:before,[class^=gi-]:before {
 	font-family: "game-icons";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
