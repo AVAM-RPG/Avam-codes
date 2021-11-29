@@ -437,9 +437,8 @@ font-size: 14px;
 .rpg-cont .st {margin-right: 5px;} .rpg-stats .st {display: block;}
 .rpg-oper {width: 100%; max-height: 55px; padding: 1px; overflow: auto; margin: 10px 0 0; text-transform: uppercase; line-height: 13px; letter-spacing: .5px;} 
 .rpg-oper strong, .tab-batalla .datos strong {color: var(--color-acento); text-transform: uppercase; font-weight: 900; font-size: 12px;} 
-.tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 130px; width: 100%;} 
-.tab-batalla .op + .datos, .tab-batalla .op + br + .datos {background: var(--fondo-oscuro); margin: 2px 0 0;/*border-top: 1px solid var(--borde-gris);border-top: 2px solid var(--color-acento);*/} 
-.tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; text-align: justify; background: none;}
+.tab-batalla .datos {padding: 10px; background: var(--fondo-base); overflow: auto; max-height: 130px; width: 100%; background: var(--fondo-oscuro); margin: 2px 0 0} 
+.tab-batalla .op .datos {padding: 0 5px 0 0; height: 170px; max-height: initial; text-align: justify; background: none; margin: 0;}
 .tab-batalla .datos::-webkit-scrollbar {width: 5px;} 
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
 
