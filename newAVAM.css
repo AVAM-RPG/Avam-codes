@@ -1,4 +1,4 @@
-@charset "UTF-8";
+s@charset "UTF-8";
 
 /*TABLILLAS STAFF*/
 .tbase, .expavam-header {
@@ -676,7 +676,7 @@ object-fit: cover;
 body.forum-13 {background-image: url(https://i.imgur.com/nsz0xsb.png);}
 .forum-13 .cabecera-tit span, .forum-13 .cabecera-tit3 span {display: none;}
 .forum-13 .cabecera-tit:before {
-content: 'Santa está de huelga';
+content: 'Santa esta de huelga';
 font-family: 'Christmas Bless';
 letter-spacing: 0;
 line-height: 110px;
