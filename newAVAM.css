@@ -667,15 +667,6 @@ object-fit: cover;
 .rpg.grupo-d .caja .stat, .rpg.grupo-d .datos strong, .rpg.grupo-d c:before, .res.grupo-d strong {color: #826354}
 .rpg.grupo-d .df222::-webkit-scrollbar-thumb, .rpg.grupo-d .datos::-webkit-scrollbar-thumb { background: #826354;}
 
-/*Diseño Navidad 2021*/
-.forum-13 {
---color-acento: #7d2517;
---color-narracion: #7d2517;
-}
-body.forum-13 {background-image: url(https://i.imgur.com/nsz0xsb.png);}
-.forum-13 .author-1 .postprofile-avatar img{content:url(https://i.imgur.com/u9JPXhH.png);}
-.forum-13 .author-643 .postprofile-avatar img{content:url(https://i.imgur.com/jSiG1PM.png);
-
 /*Diseño 4o aniversario*/
 .forum-47 {
 --color-acento: #5f2626;
