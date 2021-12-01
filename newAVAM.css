@@ -689,7 +689,6 @@ body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 .tirada-bestiario-olimpico .tirada-user:after {content: '?';}
 
 /*Árbol de navidad 2020*/
-@font-face { font-family: 'Christmas Bless'; src: url('https://AVAM-RPG.github.io/Avam-codes/Christmas_Bless.ttf');}
 .card-container.arb { height: 600px; position: relative; width: 500px; margin:auto;} 
 .arb .card { height: 100%; position: absolute; transform-style: preserve-3d; transition: all 1s ease-in-out; width: 100%; z-index:1;} .arb:hover .card { transform: rotateY(180deg); } 
 .arb .card .side { backface-visibility: hidden; height: 100%; position: absolute; width: 100%; } .arb .card .back { transform: rotateY(180deg); } 
