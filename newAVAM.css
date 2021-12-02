@@ -443,7 +443,7 @@ font-size: 14px;
 .tab-batalla .expavam-a {font-size: 14px; margin-bottom: -8px;} 
 
 .spoiler_content.hidden .tab-batalla .pj, .spoiler_content.hidden .tab-batalla .op {background: var(--fondo-opacity);}
-.rpg-cont .caja, .rpg-stats {background: var(--fondo-base);
+.spoiler_content.hidden .rpg-cont .caja, .spoiler_content.hidden .rpg-stats {background: var(--fondo-base);
 }
 @media screen and (max-width: 435px) {
   .tab-batalla .pj, .rpg .pj {/*border-bottom: 1px solid var(--borde-gris);border-right: 0;*/ margin: 0 0 2px;}
