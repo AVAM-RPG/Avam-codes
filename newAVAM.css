@@ -729,6 +729,16 @@ body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold%20Italic.ttf'); font-weight: bold; font-style: italic;}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Light.ttf'); font-weight: lighter;}
 
+/*CSS base de los toggle*/
+.toggle .click { 
+text-transform: uppercase; 
+margin: 0 0 -15px; 
+font-weight: bold;
+cursor: pointer;
+}
+.toggle .info, .toggle .info-asc, .bestiario .info {display: none;}
+.toggle .info-asc {line-height: 15px;}
+
 /*EDITOR DE MENSAJES*/
 #smiley-box, .smile-status-box {
 float: right;
@@ -827,17 +837,6 @@ display: none;
     font-weight: 900;
     color: var(--color-texto-claro);
 }
-
-/*CSS base de los toggle*/
-.toggle .click { 
-text-transform: uppercase; 
-font-size: 12px; 
-margin: 0 0 -15px; 
-font-weight: bold;
-cursor: pointer;
-}
-.toggle .info, .toggle .info-asc, .bestiario .info {display: none;}
-.toggle .info-asc {line-height: 15px;}
 
 /*CSS de los modals del tablon*/
 .modal-container>.modal {
