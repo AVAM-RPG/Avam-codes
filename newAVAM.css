@@ -673,7 +673,7 @@ object-fit: cover;
 --color-acento: #7d2517;
 --color-narracion: #7d2517;
 }
-a [style="color:#4f675d"] {color: var(--color-narracion) !important;}
+a span[style="color:#4f675d"] {color: var(--color-narracion) !important;}
 body.forum-13 {background-image: url(https://i.imgur.com/nsz0xsb.png);}
 .forum-13 .cabecera-tit span, .forum-13 .cabecera-tit3 span {display: none;}
 .forum-13 .cabecera-tit:before {
