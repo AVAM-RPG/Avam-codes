@@ -142,6 +142,7 @@ line-height: 20px;
 color: var(--color-acento);
 font-size: 55px;
 }
+.tascen div {margin: 5px 0 0;}
 .ascen .cr-icon {
 float: left;
 margin: -20px 0 0;
