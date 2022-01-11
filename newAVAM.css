@@ -194,7 +194,12 @@ justify-content: center;
 align-items: center;
 /*transform: rotate(45deg);*/
 }
-.img-expediente img, .imagentbr img {width: 90px;border-radius: 100%;display: block;}
+.img-expediente img, .imagentbr img {
+width: 90px;
+height: 90px;
+border-radius: 100%;
+overflow: hidden;
+}
 .expavam-img {background-position: top center;}
 
 .expavam-info {
