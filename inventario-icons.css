@@ -1,9 +1,9 @@
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
 .bolsita-encantada .item-icon:before {content: '\eb2c';font-family: 'game-icons';}
 .sarcina-sin-fondo .item-icon:before {content: '\eaec';font-family: 'IcoFont';}
-.botiquin .item-icon:before {content: '\eb67';}
+.botiquin .item-icon:before {content: '\ec1d';}
 .caramelo-de-la-suerte .item-icon:before {content: '\eb67';}
-.cuerno-de-unicornio .item-icon:before {content: '\eba2';}
+.cuerno-de-unicornio .item-icon:before {content: '\e1ee';font-family: 'game-icons';}
 .tinte-magico .item-icon:before {content: '\eb67';}
 .spray-de-glamour .item-icon:before {content: '\eb67';}
 .cubo-de-ambrosia .item-icon:before {content: '\eb67';}
@@ -12,7 +12,7 @@
 .capsula-de-esencia .item-icon:before {content: '\eb67';}
 .extracto-de-esencia .item-icon:before {content: '\eb67';}
 .bomba-de-humo .item-icon:before {content: '\eb67';}
-.buccina .item-icon:before {content: '\eb67';}
+.buccina .item-icon:before {content: '\e02d';font-family: 'game-icons';}
 .c4-oro-imperial .item-icon:before {content: '\eb67';}
 .camiseta-del-campamento-jupiter .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .flor-de-iris .item-icon:before {content: '\eb67';}
@@ -22,7 +22,7 @@
 .talisman-de-la-suerte .item-icon:before {content: '\eb67';}
 .tribulus .item-icon:before {content: '\eb67';}
 .veneno .item-icon:before {content: '\eb67';}
-.vendaje .item-icon:before {content: '\eb67';}
+.vendaje .item-icon:before {content: '\ea4a';font-family: 'game-icons';}
 .vitaminas-de-trivia .item-icon:before {content: '\eb67';}
 .pugio-ligero .item-icon:before {content: '\eb67';}
 .pugios-duales .item-icon:before {content: '\eb67';}
@@ -95,7 +95,7 @@
 .cerveza-feerica .item-icon:before {content: '\eb44';}
 .amuleto-de-lugh .item-icon:before {content: '\eb67';}
 .amuleto-runico .item-icon:before {content: '\eb67';}
-.carnyx .item-icon:before {content: '\eb67';}
+.carnyx .item-icon:before {content: '\e1f4';font-family: 'game-icons';}
 .ceniza-estival .item-icon:before {content: '\eb67';}
 .chaqueta-de-la-caceria-salvaje .item-icon:before {content: '\eb67';}
 .dije-de-triqueta .item-icon:before {content: '\eb67';}
@@ -130,33 +130,16 @@
 .brazales-de-cuchulainn .item-icon:before {content: '\eb67';}
 
 /*OBJETOS ESPECIALES*/
-[class$="-descuento"] .item-icon:before {
-content: '\f3ff';
-font-family: var(--font-awesome);
-font-weight: 900;
-}
-[class$="-monedas"] .item-icon:before {
-content: '\ef9d';
-}
+[class$="-descuento"] .item-icon:before {content: '\f3ff';font-family: var(--font-awesome);font-weight: 900;}
+[class$="-monedas"] .item-icon:before {content: '\ef9d';}
 
-[class*="chaqueta"] .item-icon:before {
-content: '\ef54';
-}
-[class*="camiseta"] .item-icon:before {
-content: '\f553';
-font-family: var(--font-awesome);
-font-weight: 900;
-}
+[class*="chaqueta"] .item-icon:before {content: '\ef54';}
+[class*="camiseta"] .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 
+
 /*OBJETOS DE EVENTOS*/
-.chocolate-especiado .item-icon:before {
-content: '\e9f0';
-font-family: cappuccicons;
-}
-.tampones .item-icon:before {
-content: '\f479';
-font-family: var(--font-awesome);
-font-weight: 900;
-}
+.pastillero .item-icon:before {content: '\ec1a';}
+.chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
+.tampones .item-icon:before {content: '\f479';font-family: var(--font-awesome);font-weight: 900;}
