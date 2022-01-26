@@ -3,7 +3,7 @@
 .sarcina-sin-fondo .item-icon:before  {content: '\eb67';}
 .botiquin .item-icon:before  {content: '\eb67';}
 .caramelo-de-la-suerte .item-icon:before  {content: '\eb67';}
-.cuerno-de-unicornio .item-icon:before  {content: '\eb67';}
+.cuerno-de-unicornio .item-icon:before  {content: '\eba2';}
 .tinte-magico .item-icon:before  {content: '\eb67';}
 .spray-de-glamour .item-icon:before  {content: '\eb67';}
 .cubo-de-ambrosia .item-icon:before  {content: '\eb67';}
@@ -14,7 +14,7 @@
 .bomba-de-humo .item-icon:before  {content: '\eb67';}
 .buccina .item-icon:before  {content: '\eb67';}
 .c4-oro-imperial .item-icon:before  {content: '\eb67';}
-.camiseta-del-campamento-jupiter .item-icon:before  {content: '\eb67';}
+.camiseta-del-campamento-jupiter .item-icon:before  {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .flor-de-iris .item-icon:before  {content: '\eb67';}
 .lazo .item-icon:before  {content: '\eb67';}
 .afilador .item-icon:before  {content: '\eb67';}
@@ -57,7 +57,7 @@
 .bomba-cerdo .item-icon:before  {content: '\eb67';}
 .cadena .item-icon:before  {content: '\eb67';}
 .collar-de-cuentas .item-icon:before  {content: '\eb67';}
-.camiseta-del-campamento-mestizo .item-icon:before  {content: '\eb67';}
+.camiseta-del-campamento-mestizo .item-icon:before  {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .crema-antimagia .item-icon:before  {content: '\eb67';}
 .bloqueador-de-coco .item-icon:before  {content: '\eb67';}
 .fuego-griego .item-icon:before  {content: '\eb67';}
@@ -91,8 +91,8 @@
 .quitonsios .item-icon:before  {content: '\eb67';}
 .cinturon-magico .item-icon:before  {content: '\eb67';}
 .saquito-encantado .item-icon:before  {content: '\eb67';}
-.alforjas-sin-fondo .item-icon:before  {content: '\eb67';}
-.cerveza-feerica .item-icon:before  {content: '\eb67';}
+.alforjas-sin-fondo .item-icon:before  {content: '\eaec';font-family: 'IcoFont';}
+.cerveza-feerica .item-icon:before  {content: '\eb44';}
 .amuleto-de-lugh .item-icon:before  {content: '\eb67';}
 .amuleto-runico .item-icon:before  {content: '\eb67';}
 .carnyx .item-icon:before  {content: '\eb67';}
@@ -119,7 +119,7 @@
 .ballesta .item-icon:before  {content: '\eb67';}
 .hacha-arrojadiza .item-icon:before  {content: '\eb67';}
 .hacha-de-guerra .item-icon:before  {content: '\eb67';}
-.tuag .item-icon:before  {content: '\eb67';}
+.tuag .item-icon:before  {content: '\e91c';font-family: 'RPGAwesome';}
 .martillo-de-guerra .item-icon:before  {content: '\eb67';}
 .maza-de-armas .item-icon:before  {content: '\eb67';}
 .matam .item-icon:before  {content: '\eb67';}
@@ -128,3 +128,35 @@
 .escudo-hexagonal .item-icon:before  {content: '\eb67';}
 .torque .item-icon:before  {content: '\eb67';}
 .brazales-de-cuchulainn .item-icon:before  {content: '\eb67';}
+
+/*OBJETOS ESPECIALES*/
+[class$="-descuento"] .item-icon:before {
+content: '\f3ff';
+font-family: var(--font-awesome);
+font-weight: 900;
+}
+[class$="-monedas"] .item-icon:before {
+content: '\ef9d';
+}
+
+[class*="chaqueta"] .item-icon:before {
+content: '\ef54';
+}
+[class*="camiseta"] .item-icon:before {
+content: '\f553';
+font-family: var(--font-awesome);
+font-weight: 900;
+}
+
+/*OBJETOS NARRATIVOS / PERSONALES*/
+
+/*OBJETOS DE EVENTOS*/
+.chocolate-especiado .item-icon:before {
+content: '\e9f0';
+font-family: cappuccicons;
+}
+.tampones .item-icon:before {
+content: '\f479';
+font-family: var(--font-awesome);
+font-weight: 900;
+}
