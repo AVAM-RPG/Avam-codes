@@ -5,13 +5,13 @@
 .caramelo-de-la-suerte .item-icon:before {content: '\eb67';}
 .cuerno-de-unicornio .item-icon:before {content: '\e1ee';font-family: 'game-icons';}
 .tinte-magico .item-icon:before {content: '\eb67';}
-.spray-de-glamour .item-icon:before {content: '\eb67';}
+.spray-de-glamour .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 .cubo-de-ambrosia .item-icon:before {content: '\eb67';}
-.cantimplora-con-nectar .item-icon:before {content: '\eb67';}
+.cantimplora-con-nectar .item-icon:before {content: '\eddb';}
 .capsula-multivitaminica .item-icon:before {content: '\eb67';}
 .capsula-de-esencia .item-icon:before {content: '\eb67';}
 .extracto-de-esencia .item-icon:before {content: '\eb67';}
-.bomba-de-humo .item-icon:before {content: '\eb67';}
+.bomba-de-humo .item-icon:before {content: '\ed7e';font-family: 'game-icons';}
 .buccina .item-icon:before {content: '\e02d';font-family: 'game-icons';}
 .c4-oro-imperial .item-icon:before {content: '\eb67';}
 .camiseta-del-campamento-jupiter .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
@@ -52,7 +52,7 @@
 .cinto-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
 .bolsa-encantada .item-icon:before {content: '\eb2c';font-family: 'game-icons';}
 .morral-sin-fondo .item-icon:before {content: '\eaec';font-family: 'IcoFont';}
-.petaca-con-nectar .item-icon:before {content: '\eb67';}
+.petaca-con-nectar .item-icon:before {content: '\eddb';}
 .bomba-de-luz .item-icon:before {content: '\eb67';}
 .bomba-cerdo .item-icon:before {content: '\eb67';}
 .cadena .item-icon:before {content: '\eb67';}
