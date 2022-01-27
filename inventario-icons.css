@@ -248,7 +248,7 @@
 .acebo .item-icon:before {content: '\eb0b';font-family: cappuccicons;}
 .recalentado .item-icon:before {content: '\ea2a';font-family: cappuccicons;font-size: 22px;}
 .nectar-de-apolo .item-icon:before {content: '\ED0A';font-family: 'game-icons';}
-.pocion-flamante-de-brigid .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
+.pocion-flamante-de-brigid .item-icon:before, .pocion-de-brigid .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
 .colgante-de-atenea .item-icon:before {content: '\ef9d';}
 .fuck-you-narry-4000 .item-icon:before {content: '\f806';font-family: var(--font-awesome);font-weight: 900;}
 .unas-de-nike .item-icon:before {content: '\ef9d';}
@@ -257,7 +257,7 @@
 .neumatico-de-taranis .item-icon:before {content: '\edbe';font-family: 'IcoFont';}
 .spray-de-nemesis .item-icon:before {content: '\E31D';font-family: 'game-icons';}
 .lentes-de-sol-de-marte .item-icon:before {content: '\E7F8';font-family: 'game-icons';}
-.pocion-punteria-de-zeus .item-icon:before {content: '\EA67';font-family: 'game-icons';}
+.pocion-punteria-de-zeus .item-icon:before, .pocion-de-zeus .item-icon:before {content: '\EA67';font-family: 'game-icons';}
 .perfume-de-cerridwen .item-icon:before {content: '\EA5F';font-family: 'game-icons';}
 .carbon .item-icon:before {content: '\ef9d';}
 .muneca-sin-cabeza .item-icon:before {content: '\ef9d';}
