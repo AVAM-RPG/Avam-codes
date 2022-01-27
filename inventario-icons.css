@@ -143,6 +143,8 @@
 [class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
+[class*="perfume"] .item-icon:before {content: '\EA6C';font-family: 'game-icons';}
+[class*="galleta"] .item-icon:before {content: '\ea30';font-family: cappuccicons;}
 
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
@@ -199,7 +201,7 @@
 .marcador-negro .item-icon:before {content: '\ef9d';}
 .tijeras-sin-filo .item-icon:before {content: '\ec5a';font-family: cappuccicons;}
 .cadena-de-saturnalia .item-icon:before {content: '\e59c';font-family: 'game-icons';}
-.perfume-de-avon .item-icon:before {content: '\EA6C';font-family: 'game-icons';}
+.perfume-de-avon .item-icon:before {content: '\EA5F';font-family: 'game-icons';}
 .cuchillo-oxidado .item-icon:before {content: '\eb48';font-family: cappuccicons;}
 .chicle-usado .item-icon:before {content: '\ef9d';}
 .golpe-de-remo-espiritual .item-icon:before {content: '\ef9d';}
