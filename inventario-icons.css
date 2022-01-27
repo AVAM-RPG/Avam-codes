@@ -253,7 +253,7 @@
 .fuck-you-narry-4000 .item-icon:before {content: '\f806';font-family: var(--font-awesome);font-weight: 900;}
 .unas-de-nike .item-icon:before {content: '\ef9d';}
 .espuma-del-sr.-d .item-icon:before {content: '\ec64';font-family: cappuccicons;}
-.dados-cargados-de-tique .item-icon:before {content: '\ef02';font-family: 'IcoFont';}
+.dados-cargados-de-tique .item-icon:before, .dados-de-tique .item-icon:before {content: '\ef02';font-family: 'IcoFont';}
 .neumatico-de-taranis .item-icon:before {content: '\edbe';font-family: 'IcoFont';}
 .spray-de-nemesis .item-icon:before {content: '\E31D';font-family: 'game-icons';}
 .lentes-de-sol-de-marte .item-icon:before {content: '\E7F8';font-family: 'game-icons';}
