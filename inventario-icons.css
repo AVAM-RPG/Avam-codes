@@ -17,7 +17,7 @@
 .c4-oro-imperial .item-icon:before {content: '\ed74';font-family: 'game-icons';}
 .camiseta-del-campamento-jupiter .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .flor-de-iris .item-icon:before {content: '\eab7';font-family: cappuccicons;}
-.lazo .item-icon:before {content: '\e59c';font-family: 'game-icons';}
+.lazo .item-icon:before, .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 .afilador .item-icon:before {content: '\ED4C'; font-family:'game-icons';}
 .talisman-equitativo .item-icon:before {content: '\e94f';font-family: 'game-icons';}
 .talisman-de-la-suerte .item-icon:before {content: '\e94c';font-family: 'game-icons';}
