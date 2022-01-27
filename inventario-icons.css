@@ -7,7 +7,7 @@
 .cuerno-de-unicornio .item-icon:before {content: '\ecee';font-family: 'cappuccicons';}
 .tinte-magico .item-icon:before {content: '\ecaf';font-family: 'cappuccicons';}
 .spray-de-glamour .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
-.cubo-de-ambrosia .item-icon:before {content: '\eb5ffont-family: 'IcoFont';}
+.cubo-de-ambrosia .item-icon:before {content: '\eb5f';font-family: 'IcoFont';}
 .cantimplora-con-nectar .item-icon:before {content: '\eddb';font-family: 'IcoFont';}
 .capsula-multivitaminica .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
 .capsula-de-esencia .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
