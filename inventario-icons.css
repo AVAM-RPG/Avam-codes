@@ -134,18 +134,23 @@
 .cota-de-malla .item-icon:before {content: '\eddf';font-family: 'game-icons';}
 .casco-de-hierro .item-icon:before {content: '\e1b0';font-family: 'game-icons'}
 
-
 /*OBJETOS ESPECIALES*/
 [class$="-descuento"] .item-icon:before {content: '\f3ff';font-family: var(--font-awesome);font-weight: 900;}
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 
-[class*="chaqueta"] .item-icon:before {content: '\ef54';}
+[class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 [class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
+[class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
+[class*="pocion"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
 
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 
+/*OBJETOS NARRATIVOS / PERSONALES*/
+.cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
+
+/*IOFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
 .sueter-feerico .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 .gato-siberiano .item-icon:before {content: '\E3E9';font-family: 'game-icons';}
@@ -171,8 +176,6 @@
 .suero-de-colmillo .item-icon:before {content: '\ef9d';}
 .pulsera-ojo-de-venado .item-icon:before {content: '\ef9d';}
 
-/*OBJETOS NARRATIVOS / PERSONALES*/
-.cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 
 /*OBJETOS DE EVENTOS*/
 .cojin-de-apoyo .item-icon:before {content: '\EB15';font-family: 'game-icons';}
