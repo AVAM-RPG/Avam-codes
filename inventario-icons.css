@@ -140,6 +140,7 @@
 
 [class*="chaqueta"] .item-icon:before {content: '\ef54';}
 [class*="camiseta"] .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
+[class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .zorro-negro .item-icon:before {content: '\e5b6';font-family: 'game-icons';}
