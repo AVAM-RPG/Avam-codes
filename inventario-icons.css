@@ -246,7 +246,7 @@
 .pizza-fria .item-icon:before {content: '\eb84';font-family: 'IcoFont';}
 .tupperware .item-icon:before {content: '\ef9d';}
 .acebo .item-icon:before {content: '\eb0b';font-family: cappuccicons;}
-.recalentado .item-icon:before {content: '\ea2a';font-family: cappuccicons;}
+.recalentado .item-icon:before {content: '\ea2a';font-family: cappuccicons;font-size: 22px;}
 .nectar-de-apolo .item-icon:before {content: '\ED0A';font-family: 'game-icons';}
 .pocion-flamante-de-brigid .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
 .colgante-de-atenea .item-icon:before {content: '\ef9d';}
