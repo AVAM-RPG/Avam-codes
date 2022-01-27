@@ -144,6 +144,7 @@
 [class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
+.baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
 .sueter-feerico .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
