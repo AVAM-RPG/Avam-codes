@@ -7,7 +7,7 @@
 .cuerno-de-unicornio .item-icon:before {content: '\ecee';font-family: 'cappuccicons';}
 .tinte-magico .item-icon:before {content: '\ecaf';font-family: 'cappuccicons';}
 .spray-de-glamour .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
-.cubo-de-ambrosia .item-icon:before {content: '\ea30';font-family: cappuccicons;}
+.cubo-de-ambrosia .item-icon:before {content: '\ea41';font-family: cappuccicons;}
 .cantimplora-con-nectar .item-icon:before {content: '\eddb';}
 .capsula-multivitaminica .item-icon:before {content: '\ec12';}
 .capsula-de-esencia .item-icon:before {content: '\ec12';}
@@ -18,15 +18,15 @@
 .camiseta-del-campamento-jupiter .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .flor-de-iris .item-icon:before {content: '\eab7';font-family: cappuccicons;}
 .lazo .item-icon:before {content: '\e59c';font-family: 'game-icons';}
-.afilador .item-icon:before {content: '\eb67';}
+.afilador .item-icon:before {content: '\ED4C'; font-family:'game-icons';}
 .talisman-equitativo .item-icon:before {content: '\e94f';font-family: 'game-icons';}
 .talisman-de-la-suerte .item-icon:before {content: '\e94c';font-family: 'game-icons';}
 .tribulus .item-icon:before {content: '\e4ee';font-family: 'game-icons';}
 .veneno .item-icon:before {content: '\ea6d'; font-family: 'game-icons';}
 .vendaje .item-icon:before {content: '\ea4a';font-family: 'game-icons';}
 .vitaminas-de-trivia .item-icon:before {content: '\ec1b';}
-.pugio-ligero .item-icon:before {content: '\eb67';}
-.pugios-duales .item-icon:before {content: '\eb67';}
+.pugio-ligero .item-icon:before {content: '\EEF3';font-family: 'game-icons';}
+.pugios-duales .item-icon:before {content: '\E2FE';font-family: 'game-icons';}
 .gladius .item-icon:before {content: '\EEFF';font-family: 'game-icons';}
 .falcata .item-icon:before {content: '\EEE4';font-family: 'game-icons';}
 .spatha .item-icon:before {content: '\EEE8';font-family: 'game-icons';}
@@ -64,14 +64,14 @@
 .fuego-griego .item-icon:before {content: '\e363';font-family: 'game-icons';}
 .termo-de-los-vientos .item-icon:before {content: '\e030';font-family: 'game-icons';}
 .vitaminas-de-hecate .item-icon:before {content: '\ec1b';}
-.parazonium-ligero .item-icon:before {content: '\eb67';}
-.parazonium-pesado .item-icon:before {content: '\eb67';}
-.parazonium-duales .item-icon:before {content: '\eb67';}
+.parazonium-ligero .item-icon:before {content: '\E315';font-family: 'game-icons';}
+.parazonium-pesado .item-icon:before {content: '\EED3';font-family: 'game-icons';}
+.parazonium-duales .item-icon:before {content: '\E320';font-family: 'game-icons';}
 .xiphos .item-icon:before {content: '\E270';font-family: 'game-icons';}
 .sable-corvo .item-icon:before {content: '\EEF4';font-family: 'game-icons';}
 .doru-ligero .item-icon:before {content: '\EEE1';font-family: 'game-icons';}
 .sarisa .item-icon:before {content: '\E249';font-family: 'game-icons';}
-.arco-corto .item-icon:before {content: '\eb67';}
+.arco-corto .item-icon:before {content: '\E220';font-family: 'game-icons';}
 .arco-de-pino .item-icon:before {content: '\E271';font-family: 'game-icons';}
 .arco-largo .item-icon:before {content: '\E30A';font-family: 'game-icons';}
 .hacha-arrojadiza .item-icon:before {content: '\E7C8';font-family: 'game-icons';}
@@ -110,8 +110,8 @@
 .simbolo-de-lauburu .item-icon:before {content: '\ea24';font-family: 'RPGAwesome';}
 .woad-encantado .item-icon:before {content: '\EA30';font-family: 'game-icons';}
 .corteza-masticable .item-icon:before {content: '\E79C';font-family: 'game-icons';}
-.mattucashlass .item-icon:before {content: '\eb67';}
-.dirk .item-icon:before {content: '\eb67';}
+.mattucashlass .item-icon:before {content: '\EEE6';font-family:'game-icons';}
+.dirk .item-icon:before {content: '\EEEC';font-family:'game-icons';}
 .espada-de-antenas .item-icon:before {content: '\EEFA';font-family:'game-icons';}
 .claymore .item-icon:before {content: '\EEF5';font-family:'game-icons';}
 .dedannan .item-icon:before {content: '\EEEF';font-family:'game-icons';}
