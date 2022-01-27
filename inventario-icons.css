@@ -17,7 +17,7 @@
 .c4-oro-imperial .item-icon:before {content: '\ed74';font-family: 'game-icons';}
 .camiseta-del-campamento-jupiter .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .flor-de-iris .item-icon:before {content: '\eab7';font-family: cappuccicons;}
-.lazo .item-icon:before, .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
+.lazo .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 .afilador .item-icon:before {content: '\ED4C'; font-family:'game-icons';}
 .talisman-equitativo .item-icon:before {content: '\e94f';font-family: 'game-icons';}
 .talisman-de-la-suerte .item-icon:before {content: '\e94c';font-family: 'game-icons';}
@@ -61,7 +61,7 @@
 .camiseta-del-campamento-mestizo .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 .crema-antimagia .item-icon:before {content: '\ea63'; font-family: 'game-icons';}
 .bloqueador-de-coco .item-icon:before {content: '\E6BB'; font-family: 'game-icons';}
-.fuego-griego .item-icon:before {content: '\e363';font-family: 'game-icons';}
+.fuego-griego .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
 .termo-de-los-vientos .item-icon:before {content: '\e030';font-family: 'game-icons';}
 .vitaminas-de-hecate .item-icon:before {content: '\ec1b';}
 .parazonium-ligero .item-icon:before {content: '\E315';font-family: 'game-icons';}
@@ -144,6 +144,7 @@
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .zorro-negro .item-icon:before {content: '\e5b6';font-family: 'game-icons';}
+.cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 
 /*OBJETOS DE EVENTOS*/
 .pastillero .item-icon:before {content: '\ec1a';}
