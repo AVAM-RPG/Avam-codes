@@ -157,7 +157,6 @@
 .casco-de-hierro .item-icon:before {content: '\e1b0';font-family: 'game-icons'}
 
 /*OBJETOS ESPECIALES*/
-
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 .snicker .item-icon:before, .snickers .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
@@ -177,12 +176,13 @@
 .cruz .item-icon:before {content: '\f654';font-family: var(--font-awesome);font-weight: 900;}
 .calavera .item-icon:before {content: '\e81d';font-family: 'IcoFont';}
 .fantasma .item-icon:before {content: '\ead7';font-family: cappuccicons;}
+[class*="arbol"]  .item-icon:before {content: '\e824';font-family: 'IcoFont';}
+[class*="hada"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
 [class*="hada"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
-[class*="arkan-sonney"] .item-icon:before {content: '\eb05';font-family: cappuccicons;}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
