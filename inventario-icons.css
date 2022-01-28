@@ -157,7 +157,7 @@
 .casco-de-hierro .item-icon:before {content: '\e1b0';font-family: 'game-icons'}
 
 /*OBJETOS ESPECIALES*/
-.chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
+[class*="chocolate"] .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 .snicker .item-icon:before, .snickers .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .copo-de-nieve .item-icon:before, .snickers .item-icon:before {content: '\ee6c';}
