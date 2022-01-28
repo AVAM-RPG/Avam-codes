@@ -154,6 +154,12 @@
 .snicker .item-icon:before, .snickers .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .copo-de-nieve .item-icon:before, .snickers .item-icon:before {content: '\ee6c';}
 [class*="adorno"] .item-icon:before, .bola-de-navidad .item-icon:before {content: '\e9f2';font-family: cappuccicons;}
+.topacio .item-icon:before {content: '\E92E';font-family: 'game-icons';}
+.esmeralda .item-icon:before {content: '\E94A';font-family: 'game-icons';}
+.zafiro .item-icon:before {content: '\E953';font-family: 'game-icons';}
+.cuarzo .item-icon:before {content: '\E947';font-family: 'game-icons';}
+.diamante .item-icon:before {content: '\E949';font-family: 'game-icons';}
+.amatista .item-icon:before {content: '\E92C';font-family: 'game-icons';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
