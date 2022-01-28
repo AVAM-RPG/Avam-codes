@@ -118,7 +118,7 @@
 .cerveza-feerica .item-icon:before {content: '\eb44';font-family: 'IcoFont';}
 .amuleto-de-lugh .item-icon:before {content: '\E936';font-family: 'game-icons';}
 .amuleto-runico .item-icon:before {content: '\e935';font-family: 'game-icons';}
-.carnyx .item-icon:before {content: '\e1f4';font-family: 'game-icons';}
+.carnyx .item-icon:before {content: '\e4fb';font-family: 'game-icons';}
 .ceniza-estival .item-icon:before {content: '\ec61';font-family: 'game-icons';}
 .chaqueta-de-la-caceria-salvaje .item-icon:before {content: '\ef54';}
 .dije-de-triqueta .item-icon:before {content: '\e821';font-family: 'IcoFont';}
@@ -126,7 +126,7 @@
 .hierba-hambrienta .item-icon:before {content: '\e780';font-family: 'game-icons';}
 .pocion-mistica .item-icon:before {content: '\e503';font-family: 'game-icons';}
 .pulsera-de-nudo .item-icon:before {content: '\E593';font-family: 'game-icons';}
-.polvo-de-hadas .item-icon:before {content: '\EAB3';font-family: 'game-icons';}
+.polvo-de-hadas .item-icon:before .polvo-de-estrellas .item-icon:before {content: '\EAB3';font-family: 'game-icons';}
 .sangre-de-beithir .item-icon:before {content: '\EA69';font-family: 'game-icons';}
 .shamrock .item-icon:before {content: 'ea07';font-family: 'cappuccicons';}
 .simbolo-de-lauburu .item-icon:before {content: '\ea24';font-family: 'RPGAwesome';}
