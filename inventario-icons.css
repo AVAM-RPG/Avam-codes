@@ -172,6 +172,11 @@
 .citrino .item-icon:before {content: '\ED9D';font-family: 'game-icons';}
 .aguamarina .item-icon:before {content: '\ead5';font-family: cappuccicons;}
 .crin-de-kelpie-lodoso .item-icon:before {content: '\e861';font-family: 'IcoFont';}
+.murcielago .item-icon:before {content: '\e829';font-family: 'IcoFont';}
+.calabaza .item-icon:before {content: '\e80f';font-family: 'IcoFont';}
+.cruz .item-icon:before {content: '\f654';font-family: var(--font-awesome);font-weight: 900;}
+.calavera .item-icon:before {content: '\e81d';font-family: 'IcoFont';}
+.fantasma .item-icon:before {content: '\ead7';font-family: cappuccicons;}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
@@ -270,7 +275,7 @@
 .arroz-con-pollo .item-icon:before {content: '\ec3d';font-family: cappuccicons;}
 .uvas-explosivas .item-icon:before {content: '\eb6c';font-family: 'IcoFont';}
 .cuernos-de-reno .item-icon:before {content: '\e842';font-family: 'IcoFont';}
-.bufanda .item-icon:before {content: '\f4d6';font-family: var(--font-awesome);font-weight: 900;}
+.bufanda .item-icon:before {content: '\f4d6;font-family: var(--font-awesome);font-weight: 900;}
 .coca-sin-gas .item-icon:before {content: '\eb59';font-family: 'IcoFont';}
 .pizza-fria .item-icon:before {content: '\eb84';font-family: 'IcoFont';}
 .tupperware .item-icon:before {content: '\eb8c';font-family: 'IcoFont';}
