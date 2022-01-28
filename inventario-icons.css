@@ -147,7 +147,7 @@
 [class*="pocion"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="pocima"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
 [class*="perfume"] .item-icon:before {content: '\EA6C';font-family: 'game-icons';}
 [class*="galleta"] .item-icon:before {content: '\ea30';font-family: cappuccicons;}
-[class*="estrella"] .item-icon:before {content: '\E112';-E112
+[class*="estrella"] .item-icon:before {content: '\E112';font-family: 'game-icons';}
 
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
@@ -166,7 +166,7 @@
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
 
 
-/*IOFERTAS*/
+/*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
 .sueter-feerico .item-icon:before {content: '\EB31';font-family: 'game-icons';}
 .gato-siberiano .item-icon:before {content: '\E3E9';font-family: 'game-icons';}
