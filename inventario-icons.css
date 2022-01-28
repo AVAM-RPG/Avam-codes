@@ -292,7 +292,7 @@
 .espuma-del-sr-d .item-icon:before {content: '\ec64';font-family: cappuccicons;}
 .dados-cargados-de-tique .item-icon:before, .dados-de-tique .item-icon:before {content: '\ef02';font-family: 'IcoFont';}
 .neumatico-de-taranis .item-icon:before {content: '\edbe';font-family: 'IcoFont';}
-.spray-de-nemesis .item-icon:before {content: '\E31D';font-family: 'game-icons';}
+.spray-de-nemesis .item-icon:before {content: '\E31D';font-family: 'game-icons';font-weight: normal;}
 .lentes-de-sol-de-marte .item-icon:before {content: '\E7F8';font-family: 'game-icons';}
 .pocion-punteria-de-zeus .item-icon:before, .pocion-de-zeus .item-icon:before {content: '\EA67';font-family: 'game-icons';}
 .perfume-de-cerridwen .item-icon:before {content: '\EA5F';font-family: 'game-icons';}
