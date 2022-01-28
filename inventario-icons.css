@@ -177,7 +177,7 @@
 .calavera .item-icon:before {content: '\e81d';font-family: 'IcoFont';}
 .fantasma .item-icon:before {content: '\ead7';font-family: cappuccicons;}
 [class*="arbol"]  .item-icon:before {content: '\e824';font-family: 'IcoFont';}
-.hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
+.arkan-sonney .item-icon:before {content: '\E519';font-family: 'game-icons';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
