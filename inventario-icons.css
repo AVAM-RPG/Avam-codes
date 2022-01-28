@@ -184,17 +184,17 @@
 .zorro-negro .item-icon:before {content: '\e5b6';font-family: 'game-icons';}
 .loro-pirata .item-icon:before {content: '\e876';font-family: 'IcoFont';}
 .mapache-albino .item-icon:before {content: '\E5C8';font-family: 'game-icons';}
-.talisman-de-victoria .item-icon:before {content: '\ef9d';}
-.talisman-de-resurreccion .item-icon:before {content: '\ef9d';}
-.talisman-reparador .item-icon:before {content: '\ef9d';}
-.talisman-ralentizador .item-icon:before {content: '\ef9d';}
+.talisman-de-victoria .item-icon:before {content: '\edb4';font-family: 'IcoFont';}
+.talisman-de-resurreccion .item-icon:before {content: '\E92B';font-family: 'game-icons';}}
+.talisman-reparador .item-icon:before {content: '\E94E';font-family: 'game-icons';}
+.talisman-ralentizador .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 .arco-de-pesadilla .item-icon:before {content: '\ef9d';}
-.dagas-tornasoladas .item-icon:before {content: '\ef9d';}
-.escudo-umbrio .item-icon:before {content: '\ef9d';}
-.espada-espectral .item-icon:before {content: '\ef9d';}
+.dagas-tornasoladas .item-icon:before {content: '\EEEE';font-family: 'game-icons';}
+.escudo-umbrio .item-icon:before {content: '\E071';font-family: 'game-icons';}
+.espada-espectral .item-icon:before {content: '\EEEF';font-family: 'game-icons';}
 .hacha-elemental .item-icon:before {content: '\EFEB';font-family: 'game-icons';}
-.lanza-de-azufre .item-icon:before {content: '\ef9d';}
-.maza-de-colmillo .item-icon:before {content: '\ef9d';}
+.lanza-de-azufre .item-icon:before {content: '\E286';font-family: 'game-icons';}
+.maza-de-colmillo .item-icon:before {content: '\E2E7';font-family: 'game-icons';}
 .cruce-de-pesadilla-75-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
 .cruce-de-pesadilla-50-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
 .cruce-de-pesadilla-25-puro .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
@@ -202,6 +202,7 @@
 .aceite-de-amapola .item-icon:before {content: '\EC8F';font-family: 'game-icons';}
 .suero-de-colmillo .item-icon:before {content: '\f492';font-family: var(--font-awesome);font-weight: 900;}
 .pulsera-ojo-de-venado .item-icon:before {content: '\ef9d';}
+
 
 /*OBJETOS DE EVENTOS*/
 .cojin-de-apoyo .item-icon:before {content: '\EB15';font-family: 'game-icons';}
@@ -213,14 +214,14 @@
 .panal-sucio .item-icon:before {content: '\f619';font-family: var(--font-awesome);font-weight: 900;}
 .zapatitos-de-bebe .item-icon:before {content: '\f696';font-family: var(--font-awesome);font-weight: 900;}
 .pelota-inflable .item-icon:before {content: '\eba8';font-family: 'IcoFont';}
-.papilla .item-icon:before {content: '\ef9d';}
-.crema-panalito .item-icon:before {content: '\ef9d';}
+.papilla .item-icon:before {content: '\eb32';font-family: capuccicons;}
+.crema-panalito .item-icon:before {content: '\EABE';font-family: 'game-icons';}
 .gasas-esterilizadas .item-icon:before {content: '\ec0b';font-family: 'IcoFont';}
 
 .tennis-nike .item-icon:before {content: '\EAE9';font-family: 'game-icons';}
 .disco .item-icon:before {content: '\ecac';font-family: 'IcoFont';}
 .tampones .item-icon:before {content: '\f479';font-family: var(--font-awesome);font-weight: 900;}
-.espantasuegras .item-icon:before {content: '\ef9d';}
+.espantasuegras .item-icon:before {content: '\EB11';font-family: 'game-icons';}
 .munequeras-de-cuero .item-icon:before {content: '\EDD1';font-family: 'game-icons';}
 .cinta-de-embalar .item-icon:before {content: '\f4db';font-family: var(--font-awesome);font-weight: 900;}
 .marcador-negro .item-icon:before {content: '\ebe7';font-family: 'IcoFont';}
@@ -228,15 +229,15 @@
 .cadena-de-saturnalia .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 .perfume-de-avon .item-icon:before {content: '\EA5F';font-family: 'game-icons';}
 .cuchillo-oxidado .item-icon:before {content: '\eb48';font-family: cappuccicons;}
-.chicle-usado .item-icon:before {content: '\ef9d';}
+.chicle-usado .item-icon:before {content: '\eb88';font-family: 'IcoFont';}
 
-.golpe-de-remo-espiritual .item-icon:before, .golpe-de-remo .item-icon:before {content: '\ef9d';}
+.golpe-de-remo-espiritual .item-icon:before, .golpe-de-remo .item-icon:before {content: '\E4EB';font-family: 'game-icons';}
 .glamour .item-icon:before {content: '\EC2A';font-family: 'game-icons';}
 .capsula-magica .item-icon:before {content: '\ED17';font-family: 'game-icons';}
 .amuleto-de-la-suerte .item-icon:before {content: '\E94C';font-family: 'game-icons';}
 .bolsa-secreta .item-icon:before {content: '\eeac';font-family: 'IcoFont';}
-.vincha-de-tique .item-icon:before {content: '\ef9d';}
-.potenciador .item-icon:before {content: '\ef9d';}
+.vincha-de-tique .item-icon:before {content: '\E940';font-family: 'game-icons';}
+.potenciador .item-icon:before {content: '\E503';font-family: 'game-icons';}
 .casco-de-guerra .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
 .nunchaku .item-icon:before {content: '\E2CF';font-family: 'game-icons';}
 .abanico-de-guerra .item-icon:before {content: '\EB09';font-family: 'game-icons';}
@@ -250,7 +251,7 @@
 .caramelo-de-navidad .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 .orejas-de-elfo .item-icon:before {content: '\E5DA';font-family: 'game-icons';}
 .vitaminas-de-santa .item-icon:before, [class*="santa"] .item-icon:before {content: '\ec4b';font-family: cappuccicons;}
-.champan .item-icon:before {content: '\ef9d';}
+.champan .item-icon:before {content: '\f72f;font-family: var(--font-awesome);font-weight: 900;}
 .galleta-de-jengibre .item-icon:before {content: '\eadc';font-family: cappuccicons;}
 .pastillero .item-icon:before {content: '\ec1a';font-family: 'IcoFont';}
 
@@ -270,10 +271,10 @@
 .arroz-con-pollo .item-icon:before {content: '\ec3d';font-family: cappuccicons;}
 .uvas-explosivas .item-icon:before {content: '\eb6c';font-family: 'IcoFont';}
 .cuernos-de-reno .item-icon:before {content: '\e842';font-family: 'IcoFont';}
-.bufanda .item-icon:before {content: '\ef9d';}
+.bufanda .item-icon:before {content: '\f4d6;font-family: var(--font-awesome);font-weight: 900;}
 .coca-sin-gas .item-icon:before {content: '\eb59';font-family: 'IcoFont';}
 .pizza-fria .item-icon:before {content: '\eb84';font-family: 'IcoFont';}
-.tupperware .item-icon:before {content: '\ef9d';}
+.tupperware .item-icon:before {content: '\eb8c';font-family: 'IcoFont';}
 .acebo .item-icon:before {content: '\eb0b';font-family: cappuccicons;}
 .recalentado .item-icon:before {content: '\ea2a';font-family: cappuccicons;font-size: 22px;}
 
@@ -291,7 +292,8 @@
 .perfume-de-cerridwen .item-icon:before {content: '\EA5F';font-family: 'game-icons';}
 
 .carbon .item-icon:before {content: '\ED97';font-family: 'game-icons';}
-.muneca-sin-cabeza .item-icon:before {content: '\ef9d';}
-.carrito-sin-llantas .item-icon:before {content: '\ef9d';}
-.cepillo-sucio .item-icon:before {content: '\ef9d';}
-.pelota-desinflada .item-icon:before {content: '\ef9d';}
+.muneca-sin-cabeza .item-icon:before {content: '\E724';font-family: 'game-icons';}
+.carrito-sin-llantas .item-icon:before {content: '\e9b7';font-family: 'IcoFont';}
+.cepillo-sucio .item-icon:before {content: '\E7FE';font-family: 'game-icons';}
+.pelota-desinflada .item-icon:before {content: '\ec11';font-family: 'IcoFont';}
+.pechera-de-carton .item-icon:before {content: '\EDCF';font-family: 'game-icons';}
