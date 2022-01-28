@@ -255,7 +255,7 @@
 
 .ojo-de-ciclope .item-icon:before {content: '\EF2F';font-family: 'game-icons';}
 .diente-de-leucrota .item-icon:before {content: '\EC8C';font-family: 'game-icons';}
-.veneno-de-arana .item-icon:before {content: '\ec91';ec91
+.veneno-de-arana .item-icon:before {content: '\ec91';font-family: 'game-icons';}
 .pocion-de-bodach .item-icon:before {content: '\E50E';font-family: 'game-icons';}
 .agua-de-kelpie .item-icon:before {content: '\E5AE';font-family: 'game-icons';}
 .unas-de-arpia .item-icon:before {content: '\E986';font-family: 'game-icons';}
