@@ -1,4 +1,4 @@
-bu/*OBJETOS GENÉRICOS*/
+/*OBJETOS GENÉRICOS*/
 [class$="-descuento"] .item-icon:before {content: '\f3ff';font-family: var(--font-awesome);font-weight: 900;font-size: 22px;}
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
