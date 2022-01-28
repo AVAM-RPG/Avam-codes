@@ -12,7 +12,7 @@
 [class*="hacha"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
 [class*="lanza"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
 [class*="maza"] .item-icon:before {content: '\e9ee';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="armadura"] .item-icon:before {content: '\EDD9';font-family: 'game-icons';}
+.inventario-seccion [class*="armadura"] .item-icon:before, [class*="pechera"] .item-icon:before {content: '\EDD9';font-family: 'game-icons';}
 [class*="talisman"] .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="pocima"], [class*="elixir"] .item-icon:before, [class*="pocima"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
@@ -171,6 +171,7 @@
 .amatista .item-icon:before {content: '\E92C';font-family: 'game-icons';}
 .citrino .item-icon:before {content: '\ED9D';font-family: 'game-icons';}
 .aguamarina .item-icon:before {content: '\ead5';font-family: cappuccicons;}
+.crin-de-kelpie-lodoso .item-icon:before {content: '\e861';font-family: 'IcoFont';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
@@ -201,7 +202,6 @@
 .aceite-de-amapola .item-icon:before {content: '\EC8F';font-family: 'game-icons';}
 .suero-de-colmillo .item-icon:before {content: '\f492';font-family: var(--font-awesome);font-weight: 900;}
 .pulsera-ojo-de-venado .item-icon:before {content: '\ef9d';}
-
 
 /*OBJETOS DE EVENTOS*/
 .cojin-de-apoyo .item-icon:before {content: '\EB15';font-family: 'game-icons';}
