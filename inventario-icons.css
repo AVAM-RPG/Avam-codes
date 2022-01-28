@@ -250,7 +250,7 @@
 .caramelo-de-navidad .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 .orejas-de-elfo .item-icon:before {content: '\E5DA';font-family: 'game-icons';}
 .vitaminas-de-santa .item-icon:before, [class*="santa"] .item-icon:before {content: '\ec4b';font-family: cappuccicons;}
-.champan .item-icon:before {content: '\f72f;font-family: var(--font-awesome);font-weight: 900;}
+.champan .item-icon:before {content: '\f72f';font-family: var(--font-awesome);font-weight: 900;}
 .galleta-de-jengibre .item-icon:before {content: '\eadc';font-family: cappuccicons;}
 .pastillero .item-icon:before {content: '\ec1a';font-family: 'IcoFont';}
 
@@ -270,7 +270,7 @@
 .arroz-con-pollo .item-icon:before {content: '\ec3d';font-family: cappuccicons;}
 .uvas-explosivas .item-icon:before {content: '\eb6c';font-family: 'IcoFont';}
 .cuernos-de-reno .item-icon:before {content: '\e842';font-family: 'IcoFont';}
-.bufanda .item-icon:before {content: '\f4d6;font-family: var(--font-awesome);font-weight: 900;}
+.bufanda .item-icon:before {content: '\f4d6';font-family: var(--font-awesome);font-weight: 900;}
 .coca-sin-gas .item-icon:before {content: '\eb59';font-family: 'IcoFont';}
 .pizza-fria .item-icon:before {content: '\eb84';font-family: 'IcoFont';}
 .tupperware .item-icon:before {content: '\eb8c';font-family: 'IcoFont';}
