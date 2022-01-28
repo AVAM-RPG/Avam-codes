@@ -79,17 +79,16 @@
 .martillo-de-guerra .item-icon:before {content: '\E2E7';font-family: 'game-icons';}
 .gran-clava .item-icon:before {content: '\E011';font-family: 'game-icons';}
 .honda .item-icon:before {content: '\E2F5';font-family: 'game-icons';}
-.relieve .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
 .aspis .item-icon:before {content: '\e052';font-family: 'game-icons';}
 .brazales-bendecidos .item-icon:before {content: '\edd1';font-family: 'game-icons';}
 .brazales-de-heracles .item-icon:before {content: '\edce';font-family: 'game-icons';}
 .grebas-consagradas .item-icon:before {content: '\eb49';font-family: 'game-icons';}
 .botas-de-hermes .item-icon:before {content: '\e628';font-family: 'game-icons';}
-.quitonsios .item-icon:before, .quintosios .item-icon:before {content: '\eb46';font-family: 'game-icons';}
+.quiton-acolchado .item-icon:before {content: '\eb34';font-family: 'game-icons';}
 .casco-frigio .item-icon:before {content: '\e1c4';font-family: 'game-icons';}
 .linotorax .item-icon:before {content: '\edda';font-family: 'game-icons';}
 .thorax .item-icon:before {content: '\edd2';font-family: 'game-icons';}
-.quitonsios .item-icon:before {content: '\eb46';font-family: 'game-icons';}
+.quitonsios .item-icon:before, .quintosios .item-icon:before {content: '\eb46';font-family: 'game-icons';}
 .cinturon-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
 .saquito-encantado .item-icon:before {content: '\eb2c';font-family: 'game-icons';}
 .alforjas-sin-fondo .item-icon:before {content: '\eb59';font-family: 'game-icons';}
@@ -139,7 +138,7 @@
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
-[class*="camiseta"] .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
+
 [class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
 [class*="arco"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
@@ -174,6 +173,7 @@
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
+
 
 /*IOFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
