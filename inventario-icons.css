@@ -149,8 +149,10 @@
 .chocolate-especiado .item-icon:before {content: '\e9f0';font-family: cappuccicons;}
 .baston-de-caramelo .item-icon:before {content: '\e9b5';font-family: cappuccicons;}
 
+
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
+
 
 /*IOFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
@@ -170,14 +172,13 @@
 .hacha-elemental .item-icon:before {content: '\ef9d';}
 .lanza-de-azufre .item-icon:before {content: '\ef9d';}
 .maza-de-colmillo .item-icon:before {content: '\ef9d';}
-.cruce-de-pesadilla-75%-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
-.cruce-de-pesadilla-50%-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
-.cruce-de-pesadilla-25%-puro .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
+.cruce-de-pesadilla-75-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
+.cruce-de-pesadilla-50-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
+.cruce-de-pesadilla-25-puro .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 .balsamo-de-roca .item-icon:before {content: '\ef9d';}
 .aceite-de-amapola .item-icon:before {content: '\EC8F';font-family: 'game-icons';}
 .suero-de-colmillo .item-icon:before {content: '\ef9d';}
 .pulsera-ojo-de-venado .item-icon:before {content: '\ef9d';}
-
 
 /*OBJETOS DE EVENTOS*/
 .cojin-de-apoyo .item-icon:before {content: '\EB15';font-family: 'game-icons';}
@@ -252,7 +253,7 @@
 .colgante-de-atenea .item-icon:before {content: '\ef9d';}
 .fuck-you-narry-4000 .item-icon:before {content: '\f806';font-family: var(--font-awesome);font-weight: 900;}
 .unas-de-nike .item-icon:before {content: '\ef9d';}
-.espuma-del-sr.-d .item-icon:before {content: '\ec64';font-family: cappuccicons;}
+.espuma-del-sr-d .item-icon:before {content: '\ec64';font-family: cappuccicons;}
 .dados-cargados-de-tique .item-icon:before, .dados-de-tique .item-icon:before {content: '\ef02';font-family: 'IcoFont';}
 .neumatico-de-taranis .item-icon:before {content: '\edbe';font-family: 'IcoFont';}
 .spray-de-nemesis .item-icon:before {content: '\E31D';font-family: 'game-icons';}
