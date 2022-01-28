@@ -11,7 +11,7 @@
 [class*="espada"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
 [class*="hacha"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
 [class*="lanza"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
-[class*="maza"] .item-icon:before {content: '\e9ee';font-family: 'RpgAwesome';}
+[class*="maza"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
 .inventario-seccion [class*="armadura"] .item-icon:before, [class*="pechera"] .item-icon:before {content: '\EDD9';font-family: 'game-icons';}
 [class*="talisman"] .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
