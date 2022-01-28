@@ -104,7 +104,7 @@
 .hierba-hambrienta .item-icon:before {content: '\e780';font-family: 'game-icons';}
 .pocion-mistica .item-icon:before {content: '\e503';font-family: 'game-icons';}
 .pulsera-de-nudo .item-icon:before {content: '\E593';font-family: 'game-icons';}
-.polvo-de-hadas .item-icon:before {content: '\EC2A';font-family: 'game-icons';}
+.polvo-de-hadas .item-icon:before {content: '\EAB3';font-family: 'game-icons';}
 .sangre-de-beithir .item-icon:before {content: '\EA69';font-family: 'game-icons';}
 .shamrock .item-icon:before {content: 'ea07';font-family: 'cappuccicons';}
 .simbolo-de-lauburu .item-icon:before {content: '\ea24';font-family: 'RPGAwesome';}
@@ -141,7 +141,15 @@
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\f553';font-family: var(--font-awesome);font-weight: 900;}
 [class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
-[class*="casco"]  .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
+[class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
+[class*="arco"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
+[class*="dagas"] .item-icon:before, [class*="daga"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
+[class*="escudo"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
+[class*="espada"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
+[class*="hacha"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
+[class*="lanza"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
+[class*="maza"] .item-icon:before {content: '\e9ee';font-family: 'RpgAwesome';}
+[class*="armadura"] .item-icon:before {content: '\EDD9';font-family: 'game-icons';}
 [class*="talisman"]  .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="pocima"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
@@ -160,13 +168,14 @@
 .cuarzo .item-icon:before {content: '\E947';font-family: 'game-icons';}
 .diamante .item-icon:before {content: '\E949';font-family: 'game-icons';}
 .amatista .item-icon:before {content: '\E92C';font-family: 'game-icons';}
+.citrino .item-icon:before {content: '\ED9D';font-family: 'game-icons';}
+.aguamarina .item-icon:before {content: '\ead5';font-family: cappuccicons;}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
 
-
-/*OFERTAS*/
+/*IOFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
 .sueter-feerico .item-icon:before {content: '\EB31';font-family: 'game-icons';}
 .gato-siberiano .item-icon:before {content: '\E3E9';font-family: 'game-icons';}
@@ -220,7 +229,7 @@
 .cuchillo-oxidado .item-icon:before {content: '\eb48';font-family: cappuccicons;}
 .chicle-usado .item-icon:before {content: '\ef9d';}
 
-.golpe-de-remo-espiritual .item-icon:before {content: '\ef9d';}
+.golpe-de-remo-espiritual .item-icon:before, .golpe-de-remo .item-icon:before {content: '\ef9d';}
 .glamour .item-icon:before {content: '\EC2A';font-family: 'game-icons';}
 .capsula-magica .item-icon:before {content: '\ED17';font-family: 'game-icons';}
 .amuleto-de-la-suerte .item-icon:before {content: '\E94C';font-family: 'game-icons';}
