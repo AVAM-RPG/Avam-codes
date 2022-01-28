@@ -181,12 +181,14 @@ bu/*OBJETOS GENÉRICOS*/
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
+[class*="hada"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
+[class*="arkan-sonney"] .item-icon:before {content: '\eb05';font-family: cappuccicons;}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
 .sueter-feerico .item-icon:before {content: '\EB31';font-family: 'game-icons';}
-.gato-siberiano .item-icon:before {content: '\E3E9';font-family: 'game-icons';}
-.zorro-negro .item-icon:before {content: '\e5b6';font-family: 'game-icons';}
+[class*="gato"] .item-icon:before, [class*="minino"] .item-icon:before {content: '\E3E9';font-family: 'game-icons';}
+[class*="zorro"] .item-icon:before {content: '\e5b6';font-family: 'game-icons';}
 .loro-pirata .item-icon:before {content: '\e876';font-family: 'IcoFont';}
 .mapache-albino .item-icon:before {content: '\E5C8';font-family: 'game-icons';}
 .talisman-de-victoria .item-icon:before {content: '\edb4';font-family: 'IcoFont';}
