@@ -3,7 +3,7 @@
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\ec70';font-family: cappuccicons;}
-[class*="brazal"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
+[class*="brazal"] .item-icon:before, [class*="muñequera"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
 [class*="arco"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
 [class*="dagas"] .item-icon:before, [class*="daga"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
