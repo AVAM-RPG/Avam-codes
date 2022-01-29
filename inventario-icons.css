@@ -189,8 +189,8 @@
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
-.hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
-[class*="huevo"] .item-icon:before {content: '\E396';font-family: 'game-icons';}
+.hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\e519';font-family: 'game-icons';}
+[class*="huevo"] .item-icon:before {content: '\e396';font-family: 'game-icons';}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
