@@ -182,7 +182,7 @@
 .arkan-sonney .item-icon:before {content: '\eb05';font-family: cappuccicons;}
 [class*="parva-"]  .item-icon:before {content: '\e824';font-family: 'game-icons';}
 [class*="guirnalda-"]  .item-icon:before {content: '\E1DD';font-family: 'game-icons';}
-[class*="muerdago-"]  .item-icon:before {content: '\eb89';font-family: cappuccicons;}
+[class*="muerdago"]  .item-icon:before {content: '\eb89';font-family: cappuccicons;}
 [class*="angel-"]  .item-icon:before {content: '\E708';font-family: cappuccicons;}
 [class*="campana-"]  .item-icon:before {content: '\e959';font-family: cappuccicons;}
 
