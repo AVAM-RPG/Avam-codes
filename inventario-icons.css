@@ -20,6 +20,7 @@
 [class*="galleta"] .item-icon:before {content: '\ea30';font-family: cappuccicons;}
 [class*="estrella"] .item-icon:before {content: '\E112';font-family: 'game-icons';}
 [class*="capsula"] .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
+[class*="caramelo"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
 
 /*TIENDA OFICIAL*/
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
