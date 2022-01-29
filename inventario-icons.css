@@ -1,18 +1,18 @@
 /*OBJETOS GENÉRICOS*/
 [class$="-descuento"] .item-icon:before {content: '\f3ff';font-family: var(--font-awesome);font-weight: 900;font-size: 22px;}
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
-.inventario-seccion [class*="arco"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
-.inventario-seccion [class*="dagas"] .item-icon:before, [class*="daga"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="espada"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="hacha"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="lanza"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="maza"] .item-icon:before, .maza [class*="arma-"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
-.inventario-seccion [class*="escudo"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
-.inventario-seccion [class*="armadura"] .item-icon:before, [class*="pechera"] .item-icon:before {content: '\EDD9';font-family: 'game-icons';}
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\ec70';font-family: cappuccicons;}
 [class*="brazal"] .item-icon:before, [class*="muñequera"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
+.armas-y-armaduras [class*="arco"] .item-icon:before, .arco [class*="arma-"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
+.armas-y-armaduras [class*="daga"] .item-icon:before, .dagas [class*="arma-"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
+.armas-y-armaduras [class*="escudo"] .item-icon:before, .escudo [class*="arma-"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
+.armas-y-armaduras [class*="espada"] .item-icon:before, .espada [class*="arma-"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
+.armas-y-armaduras [class*="hacha"] .item-icon:before, .hacha [class*="arma-"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
+.armas-y-armaduras [class*="lanza"] .item-icon:before, .lanza [class*="arma-"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
+.armas-y-armaduras [class*="maza"] .item-icon:before, .maza [class*="arma-"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
+[class*="armadura"] .item-icon:before, [class*="pechera"], [class*="coraza"] .item-icon:before {content: '\edd9';font-family: 'game-icons';}
 [class*="talisman"] .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="pocima"], [class*="elixir"] .item-icon:before, [class*="pocima"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
