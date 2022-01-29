@@ -12,7 +12,7 @@
 .armas-y-armaduras [class*="hacha"] .item-icon:before, .hacha [class*="arma-"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
 .armas-y-armaduras [class*="lanza"] .item-icon:before, .lanza [class*="arma-"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
 .armas-y-armaduras [class*="maza"] .item-icon:before, .maza [class*="arma-"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
-[class*="armadura"] .item-icon:before, [class*="pechera"], [class*="coraza"] .item-icon:before {content: '\edd9';font-family: 'game-icons';}
+.inventario-seccion [class*="armadura"] .item-icon:before, [class*="pechera"], [class*="coraza"] .item-icon:before {content: '\edd9';font-family: 'game-icons';}
 [class*="talisman"] .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="pocima"], [class*="elixir"] .item-icon:before, [class*="pocima"] .item-icon:before {content: '\EA6E';font-family: 'game-icons';}
