@@ -286,7 +286,7 @@
 
 .arroz-con-pollo .item-icon:before {content: '\ec3d';font-family: cappuccicons;}
 .uvas-explosivas .item-icon:before {content: '\eb6c';font-family: 'IcoFont';}
-.cuernos-de-reno .item-icon:before {content: '\e842';font-family: 'IcoFont';}
+.cuernos-de-reno .item-icon:before, .cuernitos-de-reno .item-icon:before {content: '\e842';font-family: 'IcoFont';}
 .bufanda .item-icon:before {content: '\f4d6';font-family: var(--font-awesome);font-weight: 900;}
 .coca-sin-gas .item-icon:before {content: '\eb59';font-family: 'IcoFont';}
 .pizza-fria .item-icon:before {content: '\eb84';font-family: 'IcoFont';}
