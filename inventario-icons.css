@@ -16,12 +16,13 @@
 [class*="talisman"] .item-icon:before {content: '\E94E';font-family: 'game-icons';}
 [class*="spray"] .item-icon:before {content: '\f5bd';font-family: var(--font-awesome);font-weight: 900;}
 [class*="pocion"] .item-icon:before, [class*="pocima"] {content: '\EA6E';font-family: 'game-icons';}
-[class*="filtro-"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="elixir"] .item-icon:before {content: '\EA6A';font-family: 'game-icons';}
+[class*="filtro-"] .item-icon:before, [class*="suero"] .item-icon:before, [class*="elixir"]  .item-icon:before {content: '\EA6A';font-family: 'game-icons';}
 [class*="perfume"] .item-icon:before {content: '\EA6C';font-family: 'game-icons';}
 [class*="galleta"] .item-icon:before {content: '\ea30';font-family: cappuccicons;}
 [class*="estrella"] .item-icon:before {content: '\E112';font-family: 'game-icons';}
 [class*="capsula"] .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
 [class*="caramelo"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
+[class*="flecha"] .item-icon:before {content: '\E27C';font-family: 'game-icons';}
 
 /*TIENDA OFICIAL*/
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
@@ -89,7 +90,7 @@
 .fuego-griego .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
 .termo-de-los-vientos .item-icon:before {content: '\e030';font-family: 'game-icons';}
 .vitaminas-de-hecate .item-icon:before {content: '\ec1b';font-family: 'IcoFont';}
-.parazonium-ligero .item-icon:before, .sgian-dubh .item-icon:before {content: '\e315';font-family: 'game-icons';}
+.parazonium-ligero .item-icon:before, .sgian-dubh .item-icon:before {content: '\E315';font-family: 'game-icons';}
 .parazonium-pesado .item-icon:before {content: '\EED3';font-family: 'game-icons';}
 .parazonium-duales .item-icon:before {content: '\E320';font-family: 'game-icons';}
 .xiphos .item-icon:before {content: '\E270';font-family: 'game-icons';}
@@ -173,6 +174,7 @@
 .citrino .item-icon:before {content: '\ED9D';font-family: 'game-icons';}
 .aguamarina .item-icon:before {content: '\ead5';font-family: cappuccicons;}
 .crin-de-kelpie-lodoso .item-icon:before {content: '\e861';font-family: 'IcoFont';}
+.garrapata-de-sabueso-infernal .item-icon:before {content: '\e40c';font-family: 'game-icons';}
 .murcielago .item-icon:before {content: '\e829';font-family: 'IcoFont';}
 .calabaza .item-icon:before {content: '\e80f';font-family: 'IcoFont';}
 .cruz .item-icon:before {content: '\f654';font-family: var(--font-awesome);font-weight: 900;}
@@ -189,8 +191,8 @@
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
-.hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\e519';font-family: 'game-icons';}
-[class*="huevo"] .item-icon:before {content: '\e396';font-family: 'game-icons';}
+.hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
+[class*="huevo"] .item-icon:before {content: '\E396';font-family: 'game-icons';}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
