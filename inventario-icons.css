@@ -259,7 +259,7 @@
 .nunchaku .item-icon:before {content: '\E2CF';font-family: 'game-icons';}
 .abanico-de-guerra .item-icon:before {content: '\EB09';font-family: 'game-icons';}
 
-.acebo .item-icon:before {content: '\eb0b';font-family: cappuccicons;}
+[class*="acebo"] .item-icon:before {content: '\eb0b';font-family: cappuccicons;}
 .ponche-de-mandragora .item-icon:before {content: '\E6BD';font-family: 'game-icons';}
 .fuego-de-chimenea .item-icon:before {content: '\E340';font-family: 'game-icons';}
 .escudo-de-caramelo .item-icon:before {content: '\E05F';font-family: 'game-icons';}
