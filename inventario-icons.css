@@ -53,9 +53,9 @@
 .vitaminas-de-trivia .item-icon:before {content: '\ec1b';font-family: 'IcoFont';}
 .pugio-ligero .item-icon:before {content: '\EEF3';font-family: 'game-icons';}
 .pugios-duales .item-icon:before {content: '\E2FE';font-family: 'game-icons';}
-.gladius .item-icon:before {content: '\EEFF';font-family: 'game-icons';}
+.gladius .item-icon:before {content: '\E2A6';font-family: 'game-icons';}
 .falcata .item-icon:before {content: '\EEE4';font-family: 'game-icons';}
-.spatha .item-icon:before {content: '\EEE8';font-family: 'game-icons';}
+.spatha .item-icon:before {content: '\EEFF';font-family: 'game-icons';}
 .pilum-ligero .item-icon:before {content: '\E27D';font-family: 'game-icons';}
 .pilum-pesado .item-icon:before {content: '\E24C';font-family: 'game-icons';}
 .contus .item-icon:before {content: '\E279';font-family: 'game-icons';}
