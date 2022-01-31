@@ -60,7 +60,7 @@
 .pilum-pesado .item-icon:before {content: '\E24C';font-family: 'game-icons';}
 .contus .item-icon:before {content: '\E279';font-family: 'game-icons';}
 .arco-corto .item-icon:before {content: '\E220';font-family: 'game-icons';}
-.arco-largo .item-icon:before {content: '\E261';font-family: 'game-icons';}
+.arco-largo .item-icon:before {content: '\E262';font-family: 'game-icons';}
 .relieve .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
 .parma .item-icon:before {content: '\e052';font-family: 'game-icons';}
 .scutum .item-icon:before {content: '\E047';font-family: 'game-icons';}
@@ -99,7 +99,6 @@
 .sarisa .item-icon:before {content: '\E249';font-family: 'game-icons';}
 .arco-corto .item-icon:before {content: '\E220';font-family: 'game-icons';}
 .arco-de-pino .item-icon:before {content: '\E271';font-family: 'game-icons';}
-.arco-largo .item-icon:before {content: '\E30A';font-family: 'game-icons';}
 .hacha-arrojadiza .item-icon:before {content: '\E7C8';font-family: 'game-icons';}
 .labrys .item-icon:before {content: '\E2F2';font-family: 'game-icons';}
 .martillo-de-guerra .item-icon:before {content: '\E2E7';font-family: 'game-icons';}
