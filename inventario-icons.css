@@ -5,6 +5,7 @@
 [class*="camiseta"] .item-icon:before {content: '\ec70';font-family: cappuccicons;}
 [class*="brazal"] .item-icon:before, [class*="munequera"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
+[class*="botas"] .item-icon:before, [class*="bota"] .item-icon:before {content: '\e987';font-family: 'game-icons';}
 .armas-y-armaduras [class*="arco"] .item-icon:before, .arco [class*="arma-"] .item-icon:before {content: '\e981';font-family: 'IcoFont';}
 .armas-y-armaduras [class*="daga"] .item-icon:before, .dagas [class*="arma-"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
 .armas-y-armaduras [class*="escudo"] .item-icon:before, .escudo [class*="arma-"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
