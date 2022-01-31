@@ -123,7 +123,7 @@
 .amuleto-runico .item-icon:before {content: '\e935';font-family: 'game-icons';}
 .carnyx .item-icon:before {content: '\e4fb';font-family: 'game-icons';}
 .ceniza-estival .item-icon:before {content: '\ec61';font-family: 'game-icons';}
-.chaqueta-de-la-caceria-salvaje .item-icon:before {content: '\ef54';}
+.chaqueta-de-la-caceria-salvaje .item-icon:before {content: '\ef54'; font-family: 'IcoFont';}
 .dije-de-triqueta .item-icon:before {content: '\e821';font-family: 'IcoFont';}
 .fiada-encapsulada .item-icon:before {content: '\e97f';font-family: cappuccicons;}
 .hierba-hambrienta .item-icon:before {content: '\e780';font-family: 'game-icons';}
