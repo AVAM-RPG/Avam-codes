@@ -214,7 +214,7 @@
 .maza-de-colmillo .item-icon:before {content: '\E2E7';font-family: 'game-icons';}
 .cruce-de-pesadilla-75-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
 .cruce-de-pesadilla-50-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
-.cruce-de-pesadilla-25-puro .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
+.cruce-de-pesadilla-25-puro .item-icon:before {content: '\e863';font-family: 'IcoFont';}
 .balsamo-de-roca .item-icon:before {content: '\EA34';font-family: 'game-icons';}
 .aceite-de-amapola .item-icon:before {content: '\EC8F';font-family: 'game-icons';}
 .suero-de-colmillo .item-icon:before {content: '\f492';font-family: var(--font-awesome);font-weight: 900;}
