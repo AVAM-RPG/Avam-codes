@@ -231,7 +231,7 @@
 .panal-sucio .item-icon:before {content: '\f619';font-family: var(--font-awesome);font-weight: 900;}
 .zapatitos-de-bebe .item-icon:before, [class*="calcetin"] .item-icon:before {content: '\f696';font-family: var(--font-awesome);font-weight: 900;}
 .pelota-inflable .item-icon:before {content: '\eba8';font-family: 'IcoFont';}
-.papilla .item-icon:before {content: '\eb32';font-family: capuccicons;}
+.papilla .item-icon:before {content: '\eb32';font-family: cappuccicons;}
 .crema-panalito .item-icon:before {content: '\EABE';font-family: 'game-icons';}
 .gasas-esterilizadas .item-icon:before {content: '\ec0b';font-family: 'IcoFont';}
 
