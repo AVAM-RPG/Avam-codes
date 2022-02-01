@@ -91,7 +91,7 @@
 .fuego-griego .item-icon:before {content: '\e363';font-family: 'game-icons';font-size: 27px;}
 .termo-de-los-vientos .item-icon:before {content: '\e030';font-family: 'game-icons';}
 .vitaminas-de-hecate .item-icon:before {content: '\ec1b';font-family: 'IcoFont';}
-.parazonium-ligero .item-icon:before, .sgian-dubh .item-icon:before {content: '\E315';font-family: 'game-icons';}
+.parazonium-ligero .item-icon:before, .sgian-dubh .item-icon:before {content: '\EEE7';font-family: 'game-icons';}
 .parazonium-pesado .item-icon:before {content: '\EED3';font-family: 'game-icons';}
 .parazonium-duales .item-icon:before {content: '\E320';font-family: 'game-icons';}
 .xiphos .item-icon:before {content: '\E270';font-family: 'game-icons';}
