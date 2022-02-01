@@ -3,13 +3,13 @@
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\ec70';font-family: cappuccicons;}
-[class*="arco"] .item-icon:before, .arco [class*="arma-"] .item-icon:before {content: '\e981';font-family: cappuccicons;}
-[class*="daga"] .item-icon:before, .dagas [class*="arma-"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
-[class*="escudo"] .item-icon:before, .escudo [class*="arma-"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
-[class*="espada"] .item-icon:before, .espada [class*="arma-"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
-[class*="hacha"] .item-icon:before, .hacha [class*="arma-"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
-[class*="lanza"] .item-icon:before, .lanza [class*="arma-"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
-[class*="maza"] .item-icon:before, .maza [class*="arma-"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
+[class*="arco-"] .item-icon:before, .arco [class*="arma-"] .item-icon:before {content: '\e981';font-family: 'cappuccicons';}
+[class*="daga-"] .item-icon:before, .dagas [class*="arma-"] .item-icon:before {content: '\ea65';font-family: 'RpgAwesome';}
+[class*="escudo-"] .item-icon:before, .escudo [class*="arma-"] .item-icon:before {content: '\efe6';font-family: 'IcoFont';}
+[class*="espada-"] .item-icon:before, .espada [class*="arma-"] .item-icon:before {content: '\e946';font-family: 'RpgAwesome';}
+[class*="hacha-"] .item-icon:before, .hacha [class*="arma-"] .item-icon:before {content: '\e91c';font-family: 'RpgAwesome';}
+[class*="lanza-"] .item-icon:before, .lanza [class*="arma-"] .item-icon:before {content: '\eaac';font-family: 'RpgAwesome';}
+[class*="maza-"] .item-icon:before, .maza [class*="arma-"] .item-icon:before {content: '\e9cc';font-family: 'RpgAwesome';}
 [class*="armadura-"] .item-icon:before, [class*="pechera"] .item-icon:before, [class*="coraza"] .item-icon:before {content: '\edd9';font-family: 'game-icons';}
 [class*="brazal"] .item-icon:before, [class*="munequera"] .item-icon:before {content: '\edd1';font-family: 'game-icons'}
 [class*="casco"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
