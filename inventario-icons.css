@@ -236,7 +236,7 @@
 .gasas-esterilizadas .item-icon:before {content: '\ec0b';font-family: 'IcoFont';}
 
 .tennis-nike .item-icon:before {content: '\EAE9';font-family: 'game-icons';}
-.disco .item-icon:before {content: '\ecac';font-family: 'IcoFont';}
+.disco .item-icon:before [class*="disco-"] .item-icon:before {content: '\ecac';font-family: 'IcoFont';}
 .tampones .item-icon:before {content: '\f479';font-family: var(--font-awesome);font-weight: 900;}
 .espantasuegras .item-icon:before {content: '\EB11';font-family: 'game-icons';}
 .munequeras-de-cuero .item-icon:before {content: '\EDD1';font-family: 'game-icons';}
