@@ -133,7 +133,7 @@
 .sangre-de-beithir .item-icon:before {content: '\EA69';font-family: 'game-icons';}
 .shamrock .item-icon:before {content: '\ea07';font-family: 'cappuccicons';}
 .simbolo-de-lauburu .item-icon:before {content: '\e081';font-family: 'game-icons';}
-.woad-encantado .item-icon:before {content: '\EA30';font-family: 'game-icons';}
+.woad-encantado .item-icon:before, .woad .item-icon:before {content: '\EA30';font-family: 'game-icons';}
 .corteza-masticable .item-icon:before {content: '\E79C';font-family: 'game-icons';}
 .mattucashlass .item-icon:before {content: '\EEE6';font-family:'game-icons';}
 .dirk .item-icon:before {content: '\EEEC';font-family:'game-icons';}
