@@ -141,7 +141,7 @@
 .claymore .item-icon:before {content: '\EEF5';font-family:'game-icons';}
 .dedannan .item-icon:before {content: '\E250';font-family:'game-icons';}
 .madaris .item-icon:before {content: '\E23A';font-family:'game-icons';}
-.arco-de-caza .item-icon:before {content: '\E21A';font-family:'game-icons';}
+.arco-de-caza .item-icon:before, .fiadbac .item-icon:before {content: '\E21A';font-family:'game-icons';}
 .ballesta .item-icon:before {content: '\E20A'; font-family:'game-icons';}
 .hacha-arrojadiza .item-icon:before {content: '\E2E0';font-family:'game-icons';}
 .hacha-de-guerra .item-icon:before {content: '\E2E5';font-family:'game-icons';}
