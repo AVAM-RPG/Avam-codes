@@ -725,16 +725,19 @@ body.forum-47 {background-image: url(https://i.imgur.com/x8H6C8G.png);}
 .reg:hover .nota { top: -10px; left: 220px; transform: rotate(8deg); transition: top 1s ease-in-out, left 1s ease-in-out 0.5s, transform 1s ease-in-out; }
 
 /**** FUENTES ****/ 
-@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Regular.ttf');}
-@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Italic.ttf'); font-style: italic;}
-@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Bold.ttf'); font-weight: bold;}
-@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-BoldItalic.ttf'); font-weight: bold; font-style: italic;}
-
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Regular.ttf'); }
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold.ttf'); font-weight: bold;}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Italic.ttf'); font-style: italic;}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Bold%20Italic.ttf'); font-weight: bold; font-style: italic;}
 @font-face { font-family: 'Freeroad'; src: url('https://AVAM-RPG.github.io/Avam-codes/freeroad%20font/Freeroad%20Light.ttf'); font-weight: lighter;}
+
+
+@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Regular.ttf');}
+@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Italic.ttf'); font-style: italic;}
+@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-Bold.ttf'); font-weight: bold;}
+@font-face { font-family: 'Fira Sans'; src: url('https://AVAM-RPG.github.io/Avam-codes/FiraSans/FiraSans-BoldItalic.ttf'); font-weight: bold; font-style: italic;}
+
+@font-face { font-family: 'Dollie Script'; src: url('https://AVAM-RPG.github.io/Avam-codes/DollieScript.ttf');}
 
 /*CSS base de los toggle*/
 .toggle .click { 
