@@ -223,10 +223,10 @@
 .pulsera-ojo-de-venado .item-icon:before {content: '\E94D';font-family: 'game-icons';}
 .ramo-de-rosas .item-icon:before {content: '\ECB4';font-family: 'game-icons';}
 .condones-de-cernunnos .item-icon:before {content: '\EF0A';font-family: 'game-icons';}
-.consolador-de-eros .item-icon:before {content: '\eb41';font-family: 'IcoFont';}
+.consolador-de-eros .item-icon:before {content: '\EAA2';font-family: 'game-icons';}
 .anillos-de-bffs .item-icon:before {content: '\E950';font-family: 'game-icons';}
-.polaroid-de-chayanne .item-icon:before {content: '\f3e0';font-family: var(--font-awesome);font-weight: 900;}
-.bombones .item-icon:before {content: '\EAC2';font-family: 'game-icons';}
+.polaroid-de-chayanne .item-icon:before {content: '\f3e0';font-family: var(--font-awesome);font-weight: 900}
+.bombones .item-icon:before {content: '\EF3E';font-family: 'game-icons';}
 
 /*OBJETOS DE EVENTOS*/
 [class*="cojin"] .item-icon:before  {content: '\EB15';font-family: 'game-icons';}
