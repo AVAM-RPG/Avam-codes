@@ -24,6 +24,7 @@
 [class*="capsula"] .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
 [class*="caramelo"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
 [class*="flecha"] .item-icon:before {content: '\E27C';font-family: 'game-icons';}
+[class*="anillo"] .item-icon:before {content: '\E944';font-family: 'game-icons';}
 
 /*TIENDA OFICIAL*/
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
@@ -220,6 +221,12 @@
 .aceite-de-amapola .item-icon:before {content: '\EC8F';font-family: 'game-icons';}
 .suero-de-colmillo .item-icon:before {content: '\f492';font-family: var(--font-awesome);font-weight: 900;}
 .pulsera-ojo-de-venado .item-icon:before {content: '\E94D';font-family: 'game-icons';}
+.ramo-de-rosas .item-icon:before {content: '\ECB4';font-family: 'game-icons';}
+.condones-de-cernunnos .item-icon:before {content: '\EF0A';font-family: 'game-icons';}
+.consolador-de-eros .item-icon:before {content: '\eb41';font-family: 'IcoFont';}
+.anillos-de-bffs .item-icon:before {content: '\E950';font-family: 'game-icons';}
+.polaroid-de-chayanne .item-icon:before {content: '\f3e0';font-family: var(--font-awesome);font-weight: 900;}
+.bombones .item-icon:before {content: '\EAC2';font-family: 'game-icons';}
 
 /*OBJETOS DE EVENTOS*/
 [class*="cojin"] .item-icon:before  {content: '\EB15';font-family: 'game-icons';}
