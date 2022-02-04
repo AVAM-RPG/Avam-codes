@@ -27,7 +27,6 @@
 [class*="anillo"] .item-icon:before {content: '\E944';font-family: 'game-icons';}
 [class*="libro"] .item-icon:before {content: '\EC75';font-family: 'game-icons';}
 
-
 /*TIENDA OFICIAL*/
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
 .bolsita-encantada .item-icon:before {content: '\eb2c';font-family: 'game-icons';}
@@ -198,11 +197,14 @@
 .hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
 [class*="huevo"] .item-icon:before {content: '\E396';font-family: 'game-icons';}
 [class*="carcaj"] .item-icon:before {content: '\E237';font-family: 'game-icons';}
+.papel-higienico .item-icon:before {content: '\f71e';font-family: var(--font-awesome);font-weight: 900;}
+.garra .item-icon:before, [class*="garra-"] .item-icon:before {content: '\E417';font-family: 'game-icons';}
 [class*="espejo"] .item-icon:before {content: '\E69F';font-family: 'game-icons';}
 [class*="linterna"] .item-icon:before {content: '\E019';font-family: 'game-icons';}
 [class*="guitarra"] .item-icon:before {content: '\ec9c';font-family: 'IcoFont';}
 .beso-de-la-suerte .item-icon:before {content: '\f598';font-family: var(--font-awesome);font-weight: 900;}
 [class*="lobo"] .item-icon:before {content: '\E438';font-family: 'game-icons';}
+.cancionero .item-icon:before {content: '\EC6A';font-family: 'game-icons';}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
