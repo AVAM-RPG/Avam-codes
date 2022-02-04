@@ -376,6 +376,8 @@ font-size: 14px;
 .bf3.res {margin: -16px auto 0; background: var(--fondo-oscuro); width: 100%; max-width: 430px; border-top: 2px solid var(--color-acento);}
 .bf3.res strong {font-size: 13px; letter-spacing: 1px; font-weight: 900; font-family: var(--fuente-titulo); color: var(--color-acento); text-transform: uppercase;}
 
+.bf3 blockquote {background: var(--fondo-claro);padding: 0;}
+
 /*FILTROS GENERAL*/
 .tbase-text.cronologia, .tbase-text.catalogo {max-width: 750px; background:var(--fondo-claro);} 
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
