@@ -25,6 +25,8 @@
 [class*="caramelo"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
 [class*="flecha"] .item-icon:before {content: '\E27C';font-family: 'game-icons';}
 [class*="anillo"] .item-icon:before {content: '\E944';font-family: 'game-icons';}
+[class*="libro"] .item-icon:before {content: '\EC75';font-family: 'game-icons';}
+
 
 /*TIENDA OFICIAL*/
 .balteus-magico .item-icon:before {content: '\eb2f';font-family: 'game-icons';}
@@ -142,9 +144,9 @@
 .claymore .item-icon:before {content: '\EEF5';font-family:'game-icons';}
 .dedannan .item-icon:before {content: '\E250';font-family:'game-icons';}
 .madaris .item-icon:before {content: '\E23A';font-family:'game-icons';}
-.arco-de-caza .item-icon:before, .fiadbac .item-icon:before {content: '\E21A';font-family:'game-icons';}
+.arco-de-caza .item-icon:before {content: '\E21A';font-family:'game-icons';}
 .ballesta .item-icon:before {content: '\E20A'; font-family:'game-icons';}
-.hacha-arrojadiza .item-icon:before {content: '\E2E0';font-family:'game-icons';}
+.hacha-arrojadiza .item-icon:before {content: '\E7C8';font-family:'game-icons';}
 .hacha-de-guerra .item-icon:before {content: '\E2E5';font-family:'game-icons';}
 .tuag .item-icon:before {content: '\E2F1';font-family: 'game-icons';}
 .martillo-de-guerra .item-icon:before {content: '\EBD4';font-family:'game-icons';}
@@ -156,7 +158,7 @@
 .torque .item-icon:before {content: '\E4FF';font-family: 'game-icons';}
 .brazales-de-cuchulainn .item-icon:before {content: '\edce';font-family: 'game-icons';}
 .braccae-bendecidos .item-icon:before {content: '\eb2e';font-family: 'game-icons';}
-.botas-de-lugh .item-icon:before {content: '\eaf0';font-family: 'game-icons';}
+[class*="botas"] .item-icon:before, [class*="bota-"] .item-icon:before, [class*="zapato"] .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
 .coraza-parcheada .item-icon:before {content: '\EDD4';font-family: 'game-icons';}
 .cota-de-malla .item-icon:before {content: '\eddf';font-family: 'game-icons';}
 .casco-de-hierro .item-icon:before {content: '\e1b0';font-family: 'game-icons'}
@@ -195,6 +197,12 @@
 [class*="bola-de-cristal"] .item-icon:before {content: '\ea3f';font-family: cappuccicons;}
 .hada .item-icon:before, [class*="hada-"] .item-icon:before {content: '\E519';font-family: 'game-icons';}
 [class*="huevo"] .item-icon:before {content: '\E396';font-family: 'game-icons';}
+[class*="carcaj"] .item-icon:before {content: '\E237';font-family: 'game-icons';}
+[class*="espejo"] .item-icon:before {content: '\E69F';font-family: 'game-icons';}
+[class*="linterna"] .item-icon:before {content: '\E019';font-family: 'game-icons';}
+[class*="guitarra"] .item-icon:before {content: '\ec9c';font-family: 'IcoFont';}
+.beso-de-la-suerte .item-icon:before {content: '\f598';font-family: var(--font-awesome);font-weight: 900;}
+[class*="lobo"] .item-icon:before {content: '\E438';font-family: 'game-icons';}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
@@ -228,8 +236,9 @@
 .polaroid-de-chayanne .item-icon:before {content: '\f3e0';font-family: var(--font-awesome);font-weight: 900}
 .bombones .item-icon:before {content: '\EF3E';font-family: 'game-icons';}
 
+
 /*OBJETOS DE EVENTOS*/
-[class*="cojin"] .item-icon:before  {content: '\EB15';font-family: 'game-icons';}
+[class*="cojin"] .item-icon:before {content: '\EB15';font-family: 'game-icons';}
 .sonaja-explosiva .item-icon:before {content: '\ebac';font-family: 'IcoFont';}
 .chupeta .item-icon:before {content: '\eba4';font-family: 'IcoFont';}
 .biberon .item-icon:before {content: '\eb9f';font-family: 'IcoFont';}
@@ -259,7 +268,7 @@
 .glamour .item-icon:before {content: '\EC2A';font-family: 'game-icons';}
 .capsula-magica .item-icon:before {content: '\ED17';font-family: 'game-icons';}
 .amuleto-de-la-suerte .item-icon:before {content: '\E94C';font-family: 'game-icons';}
-.bolsa-secreta .item-icon:before {content: '\eeac';font-family: 'IcoFont';}
+.bolsa-secreta .item-icon:before {content: '\EB6A';font-family: 'game-icons';}
 .vincha-de-tique .item-icon:before {content: '\E940';font-family: 'game-icons';}
 .potenciador .item-icon:before {content: '\E503';font-family: 'game-icons';}
 .casco-de-guerra .item-icon:before {content: '\E1B0';font-family: 'game-icons';}
