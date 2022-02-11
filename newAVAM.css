@@ -609,6 +609,7 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 .mapa > div:hover:before { opacity: 1; backdrop-filter: grayscale(1);} 
 .mapa > div:not([nombre]):before,.mapa > div[nombre="Nombre"]:before {display: none;} 
 [grupo="celtas"] {--color-acento:var(--color-celtas);} [grupo="romanos"] {--color-acento:var(--color-romanos);} [grupo="griegos"] {--color-acento:var(--color-griegos);}
+.mapa-caja {width: 100%;overflow: auto;padding-bottom: 2px;}
 
 /*OLD - Subforos viejos de eventos*/
 .sub-img + .foro-text {
