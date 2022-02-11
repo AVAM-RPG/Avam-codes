@@ -46,7 +46,8 @@ vertical-align: top;
 margin-top: 10px;
 }
 
-.tbase-text a:link, .tbase-text a:active, .tbase-text a:visited, .tbase-text a:hover, .content .fa-angle-right {color: var(--color-acento);}
+.tbase-text a:link, .tbase-text a:active, .tbase-text a:visited, .tbase-text a:hover {color: var(--color-acento);}
+.content .fa-angle-right {color: var(--color-acento); font-size: .8em;}
 .post .content .tbase-text.text-lista i + strong {
 color: var(--color-acento);
 font-size: 13px;
