@@ -611,8 +611,8 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 .mapa > div:hover:before { opacity: 1; backdrop-filter: grayscale(1);} 
 .mapa > div:not([nombre]):before,.mapa > div[nombre="Nombre"]:before,.mapa > div[nombre="NOMBRE"]:before {display: none;} 
 .mapa > div div { height: calc(var(--grid-size) / 2); width: calc(var(--grid-size) / 2); font-size: 11px; line-height: 11px; } 
-.mapa .multi { display: flex; flex-wrap: wrap; } 
-.mapa .dual div { height: calc(calc(var(--grid-size) / 2) + 3px); width: calc(calc(var(--grid-size) / 2) + 3px); } 
+.mapa .multi { display: flex; flex-wrap: wrap; }
+.mapa .dual div { height: calc(calc(var(--grid-size) / 2) + 3px); width: calc(calc(var(--grid-size) / 2) + 3px); } .mapa .dual br {display: none;}
 .mapa .dual div:last-of-type { float: right; margin-top: -6px; }
 [grupo="celtas"] {--color-acento:var(--color-celtas);} [grupo="romanos"] {--color-acento:var(--color-romanos);} [grupo="griegos"] {--color-acento:var(--color-griegos);}
 .mapa-caja {width: 100%;overflow: auto;padding-bottom: 2px;}
