@@ -1,5 +1,5 @@
 /*OBJETOS GENÉRICOS*/
-[class$="-descuento"] .item-icon:before {content: '\f3ff';font-family: var(--font-awesome);font-weight: 900;font-size: 22px;}
+[class$="-descuento"] .item-icon:before {content: '\f145';font-family: var(--font-awesome);font-weight: 900;font-size: 22px;}
 [class$="-monedas"] .item-icon:before {content: '\ef9d';font-family: 'IcoFont';}
 [class*="chaqueta"] .item-icon:before {content: '\ef54';font-family: 'IcoFont';}
 [class*="camiseta"] .item-icon:before {content: '\ec70';font-family: cappuccicons;}
