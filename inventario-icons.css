@@ -188,8 +188,21 @@
 [class*="parva-"] .item-icon:before {content: '\EDFF';font-family: 'game-icons';}
 [class*="guirnalda-"] .item-icon:before {content: '\E1DD';font-family: 'game-icons';}
 [class*="muerdago"] .item-icon:before {content: '\eb89';font-family: cappuccicons;}
-[class*="angel-"] .item-icon:before {content: '\E708';font-family: 'game-icons';}
 [class*="campana-"] .item-icon:before {content: '\e959';font-family: cappuccicons;}
+[class*="angel-"] .item-icon:before {content: '\E708';font-family: 'game-icons';}
+.semilla-de-granada .item-icon:before {content: '\EA81'; font-family: 'game-icons';}
+.fuego-sagrado .item-icon:before {content: '\E364'; font-family: 'game-icons';}
+.crin-de-pesadilla .item-icon:before {content: '\e861'; font-family: 'IcoFont';}
+.pluma-de-cisne .item-icon:before {content: '\E6E4'; font-family: 'game-icons';}
+.vinilo-de-ariana .item-icon:before {content: '\E5D9'; font-family: 'game-icons';}
+.espejo-maravilla .item-icon:before {content: '\E69F'; font-family: 'game-icons';}
+.corazon-roto .item-icon:before {content: '\EBF1';font-family: 'game-icons';}
+.corazon-de-cristal .item-icon:before {content: '\EC50';font-family: 'game-icons';}
+.corazon-brillante .item-icon:before {content: '\EF40';font-family: 'game-icons';}
+.corazon-reanimado .item-icon:before {content: '\EE53';font-family: 'game-icons';}
+.amor-embotellado .item-icon:before {content: '\EA6B';font-family: 'game-icons';}
+.boxer-animal-print .item-icon:before {content: '\EB56';font-family: 'game-icons';}
+.labial-envenenado .item-icon:before {content: '\EB0B';font-family: 'game-icons';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
