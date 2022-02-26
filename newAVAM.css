@@ -302,6 +302,7 @@ margin: 0 auto;
 border-radius: 100%;
 height: 100px;
 width: 100px;
+overflow: hidden;
 }
 
 .b26, .bf3-t, .nf2avam1 {
@@ -519,7 +520,7 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 /*TABLILLA DE PNJ*/
 .pnjs {margin: auto;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;}
 .pnjs a {display: block;margin: 6px;height: 100px;}
-.pnjbtn {transition: .5s; background: var(--fondo-base); width: 100px; height: 100px; display: flex; font-size: 11px; opacity: 0; text-align: center; letter-spacing: 1px; justify-content: center; align-items: center;}
+.pnjbtn {transition: .5s; background: var(--fondo-opacity); backdrop-filter: grayscale(1); width: 100px; height: 100px; display: flex; font-size: 11px; opacity: 0; text-align: center; letter-spacing: 1px; justify-content: center; align-items: center;}
 .pnjs:hover .pnjbtn {opacity: 1;}
 .pnjs .expavam-info {height: 112px; width: calc(100% - 112px);min-width: 255px; margin: 0;} .pnjs .expavam-infot {width: 112px;}
 .pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;}
