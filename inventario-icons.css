@@ -203,8 +203,8 @@
 .corazon-brillante .item-icon:before {content: '\EF40';font-family: 'game-icons';}
 .corazon-reanimado .item-icon:before {content: '\EE53';font-family: 'game-icons';}
 .amor-embotellado .item-icon:before {content: '\EA6B';font-family: 'game-icons';}
-.boxer-animal-print .item-icon:before {content: '\EB56';font-family: 'game-icons';}
-.labial-envenenado .item-icon:before {content: '\EB0B';font-family: 'game-icons';}
+.boxer-animal-print .item-icon:before, [class*="boxer"] .item-icon:before {content: '\EB56';font-family: 'game-icons';}
+.labial-envenenado .item-icon:before, [class*="labial"] .item-icon:before, [class*="pintalabios"] .item-icon:before, [class*="lip-gloss"] .item-icon:before {content: '\EB0B';font-family: 'game-icons';}
 
 /*OBJETOS NARRATIVOS / PERSONALES*/
 .cuerda .item-icon:before {content: '\e59c';font-family: 'game-icons';}
