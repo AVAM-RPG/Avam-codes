@@ -220,6 +220,7 @@
 .cancionero .item-icon:before {content: '\EC6A';font-family: 'game-icons';}
 .saquito-con-piedras-de-amatista .item-icon:before {content: '\ED9B';font-family: 'game-icons';}
 .arana-mecanica .item-icon:before {content: '\EFDA';font-family: 'game-icons';}
+.comadreja-albina .item-icon:before {content: '\E3C8';font-family: 'game-icons';}
 
 /*OFERTAS*/
 .collar-de-oro .item-icon:before {content: '\E932';font-family: 'game-icons';}
