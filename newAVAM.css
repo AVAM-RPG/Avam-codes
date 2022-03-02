@@ -518,19 +518,20 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .misiones .click i {border:0; margin-left: -4px;}
 
 /*TABLILLA DE PNJ*/
-.pnjs {margin: auto;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;}
-.pnjs a {display: block;margin: 6px;height: 100px;}
-.pnjbtn {transition: .5s; background: var(--fondo-opacity); backdrop-filter: grayscale(1); width: 100px; height: 100px; display: flex; font-size: 11px; opacity: 0; text-align: center; letter-spacing: 1px; justify-content: center; align-items: center;}
-.pnjs:hover .pnjbtn {opacity: 1;}
-.pnjs .expavam-info {height: 112px; width: calc(100% - 112px);min-width: 255px; margin: 0;} .pnjs .expavam-infot {width: 112px;}
-.pnjs .info {line-height: 15px; padding-right: 4px;margin: 10px 0 0;}
+.panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
+.panteon .flt-gri input:checked + div, .objeto.gri {--color-acento: var(--color-griegos);} 
+.panteon .flt-cel input:checked + div, .objeto.cel {--color-acento: var(--color-celtas);} 
+.panteon .flt-otros input:checked + div, .objeto.otros {--color-acento: #636363;} 
+.tbase.grande, .tbase-text.grande {max-width: 700px;} 
+.pnj {width: 48%;min-width: 215px;background: none;padding: 5px;} 
+.pnj .expavam-info {margin: -10px 0;} 
+.pnj .expavam-infodiv {width: 100%;} 
+.pnj .expavam-infot { flex: 1 calc(50% - 24px); min-width: 78px; } 
+.pnj .info { height: 100px; overflow: auto; padding: 0 4px 1px 0; }
 
-@media screen and (max-width: 390px) {
-  .pnjs .expavam-infodiv {width: 145px;}
-}
-@media screen and (max-width: 460px) {
-  .pnjs .expavam-info {height: 100%;width: 100%;}
-}
+@media screen and (max-width: 545px) { .pnj {width: auto;} } 
+@media screen and (max-width: 315px) { .pnj .expavam-infoicon {display: none;} } 
+@media screen and (max-width: 315px) { .pnj .expavam-infoicon {display: none;} }
 
 /*Recuadro Sistema de Entrenamientos*/
 .entcaja1 {min-width: 108px; width: 100%; margin: 1px; flex: 1; } 
