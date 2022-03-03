@@ -198,7 +198,7 @@
 .pluma-de-cisne .item-icon:before {content: '\E6E4'; font-family: 'game-icons';}
 .vinilo-de-ariana .item-icon:before {content: '\E5D9'; font-family: 'game-icons';}
 .espejo-maravilla .item-icon:before, [class*="espejo"] .item-icon:before {content: '\E69F';font-family: 'game-icons';}
-.corazon-roto .item-icon:before {content: '\EBF1';font-family: 'game-icons';}
+.corazon-partido .item-icon:before {content: '\EBF1';font-family: 'game-icons';}
 .corazon-de-cristal .item-icon:before {content: '\EC50';font-family: 'game-icons';}
 .corazon-brillante .item-icon:before {content: '\EF40';font-family: 'game-icons';}
 .corazon-reanimado .item-icon:before {content: '\EE53';font-family: 'game-icons';}
