@@ -192,7 +192,7 @@
 [class*="muerdago"] .item-icon:before {content: '\eb89';font-family: cappuccicons;}
 [class*="campana-"] .item-icon:before {content: '\e959';font-family: cappuccicons;}
 [class*="angel-"] .item-icon:before {content: '\E708';font-family: 'game-icons';}
-.semilla-de-granada .item-icon:before {content: '\EA81'; font-family: 'game-icons';}
+.semillas-de-granada .item-icon:before {content: '\EA81'; font-family: 'game-icons';}
 .fuego-sagrado .item-icon:before {content: '\E364'; font-family: 'game-icons';}
 .crin-de-pesadilla .item-icon:before {content: '\e861'; font-family: 'IcoFont';}
 .pluma-de-cisne .item-icon:before {content: '\E6E4'; font-family: 'game-icons';}
