@@ -524,14 +524,14 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .panteon .flt-otros input:checked + div, .objeto.otros {--color-acento: #636363;} 
 .tbase.grande, .tbase-text.grande {max-width: 700px;} 
 .pnj {width: 48%;min-width: 215px;background: none;padding: 5px;} 
+.pnj a:before {font-size: .8em; line-height: 14px; vertical-align: text-bottom;}
 .pnj .expavam-info {margin: -10px 0;} 
 .pnj .expavam-infodiv {width: 100%;} 
-.pnj .expavam-infot { flex: 1 calc(50% - 24px); min-width: 78px; } 
-.pnj .info { height: 100px; overflow: auto; padding: 0 4px 1px 0; }
+.pnj .expavam-infot {flex: 1 calc(50% - 24px); min-width: 78px;} 
+.pnj .info {height: 100px; overflow: auto; padding: 0 4px 1px 0;}
 
 @media screen and (max-width: 545px) { .pnj {width: auto;} } 
 @media screen and (max-width: 315px) { .pnj .expavam-infoicon {display: none;} } 
-@media screen and (max-width: 315px) { .pnj .expavam-infoicon {display: none;} }
 
 /*Recuadro Sistema de Entrenamientos*/
 .entcaja1 {min-width: 108px; width: 100%; margin: 1px; flex: 1; } 
