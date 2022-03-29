@@ -588,12 +588,12 @@ th.arro1, td.arro1 {width:22.5%;} th.arro11, td.arro11 {width: 22%;} th.arro2, t
 /*Variaciones tablilla Tramas
 .postgroup-romanos .bf3, .postgroup-romanos .tab-batalla, .postgroup-romanos .rpg {--color-acento: var(--color-romanos);}
 .postgroup-griegos .bf3, .postgroup-griegos .tab-batalla, .postgroup-griegos .rpg {--color-acento: var(--color-griegos);}
-.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}*/
+.postgroup-celtas .bf3, .postgroup-celtas .tab-batalla, .postgroup-celtas .rpg {--color-acento: var(--color-celtas);}
 
-/*Variaciones tablilla PNJs*/
+/*Variaciones tablilla PNJs
 .pnjs.celta {--color-acento: var(--color-celtas);} 
 .pnjs.romano {--color-acento: var(--color-romanos);}
-.pnjs.griego {--color-acento: var(--color-griegos);}
+.pnjs.griego {--color-acento: var(--color-griegos);}*/
 
 /*Variaciones iconos tablilla Stats*/
 .arco .pj .rpg-icon div:before {content: "\e981"; font-family: cappuccicons;}
