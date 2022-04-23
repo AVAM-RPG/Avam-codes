@@ -394,7 +394,7 @@ font-size: 14px;
 .filtro-botones div {font-size: 11px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
 .filtro-botones input:checked + div  {background: var(--color-acento);} 
 .panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
-.filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
+.filtro-botones.categoria {margin: -20px auto -10px; max-width: 485px;} 
 
 .panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
 .panteon .flt-gri input:checked + div, .objeto.gri {--color-acento: var(--color-griegos);} 
