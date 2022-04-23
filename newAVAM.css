@@ -1114,7 +1114,8 @@ letter-spacing: .5px;
 div.sceditor-dropdown div input {
 border: 0px;
 text-transform: none; 
-background: var(--fondo-claro);}
+background: var(--fondo-claro);
+}
 div.sceditor-dropdown div .button {
 color: var(--color-texto-claro);
 border-color: var(--color-acento);
