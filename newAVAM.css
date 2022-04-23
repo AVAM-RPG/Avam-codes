@@ -396,6 +396,12 @@ font-size: 14px;
 .panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; width: 480px;} 
 
+.panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
+.panteon .flt-gri input:checked + div, .objeto.gri {--color-acento: var(--color-griegos);} 
+.panteon .flt-cel input:checked + div, .objeto.cel {--color-acento: var(--color-celtas);} 
+.panteon .flt-otros input:checked + div, .objeto.otros {--color-acento: #636363;} 
+.objeto.rom.gri.cel {--color-acento: inherit;}
+
 /*CRONOLOGÍA*/
 .cr-evento {margin: 0 70px 0 80px; border-left: 1px solid var(--color-narracion); display: flex; flex-wrap: wrap; padding: 20px 0 15px; line-height: 15px;} 
 .cr-evento .cr-icon {background: var(--fondo-oscuro); margin: 0; float: left; line-height: 13px; position: relative; top: 5px; left: -19px;}
@@ -518,10 +524,6 @@ rdatom {text-transform: uppercase; letter-spacing: 1px; font-size: 10px; display
 .misiones .click i {border:0; margin-left: -4px;}
 
 /*TABLILLA DE PNJ*/
-.panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
-.panteon .flt-gri input:checked + div, .objeto.gri {--color-acento: var(--color-griegos);} 
-.panteon .flt-cel input:checked + div, .objeto.cel {--color-acento: var(--color-celtas);} 
-.panteon .flt-otros input:checked + div, .objeto.otros {--color-acento: #636363;} 
 .tbase.grande, .tbase-text.grande {max-width: 700px;} 
 .pnj {width: 48%;min-width: 215px;background: none;padding: 5px;} 
 .pnj a:before {font-size: .8em; line-height: 14px; vertical-align: text-bottom;}
