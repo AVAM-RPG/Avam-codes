@@ -17,7 +17,7 @@ text-align: center;
 text-transform:uppercase;
 }
 .tbase-titulo2 div {font-family: var(--fuente-texto);}
-.tbase-titulo2 i {color: var(--color-acento);}
+.tbase-titulo2 i {color: var(--color-acento); font-size: .9em;}
 .tbase-text, .busquedatab, .bt1, .bt11, .mf, .rpg.grande, .rpg.pesta {
 background: var(--fondo-base);
 font-size: 14px;
