@@ -1014,6 +1014,7 @@ div.sceditor-dropdown.colorpicker input {
    width: 62px;
    background-position: top;
    position: absolute;
+   font-family: var(--fuente-titulo);
    color: var(--color-texto-claro);
    font-weight: 900;
    display: flex;
