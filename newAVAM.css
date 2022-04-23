@@ -396,9 +396,9 @@ font-size: 14px;
 .filtro-botones.panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; max-width: 485px;} 
 
-.panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
-.panteon .flt-gri input:checked + div, .objeto.gri {--color-acento: var(--color-griegos);} 
-.panteon .flt-cel input:checked + div, .objeto.cel {--color-acento: var(--color-celtas);} 
+.panteon .flt-rom input:checked + div, .categoria .flt-rom, .objeto.rom {--color-acento: var(--color-romanos);} 
+.panteon .flt-gri input:checked + div, .categoria .flt-gri, .objeto.gri {--color-acento: var(--color-griegos);} 
+.panteon .flt-cel input:checked + div, .categoria .flt-cel, .objeto.cel {--color-acento: var(--color-celtas);} 
 .panteon .flt-otros input:checked + div, .objeto.otros {--color-acento: #636363;} 
 .objeto.rom.gri.cel {--color-acento: inherit;}
 
