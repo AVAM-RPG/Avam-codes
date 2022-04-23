@@ -1140,7 +1140,7 @@ display: none;
 
 /*NOTIFICACIONES*/
 /*#fa_toolbar {top: 20px !important; width: 100%;}*/
-#fa_left, #fa_search, #fa_share {display: none;}
+#fa_left, #fa_search, #fa_share, #notif_list hr {display: none;}
 #fa_right {float: right;}
 #fa_right #notif_list {
 position: absolute;
