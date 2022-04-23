@@ -391,9 +391,9 @@ font-size: 14px;
 .filtro-botones, .filtro-contenido, .tienda-catalogo {display: flex; flex-wrap: wrap; justify-content: center;} 
 .filtro-botones label {padding: 0;} 
 .filtro-botones input {display: none;}
-.filtro-botones div {font-size: 11px; font-weight: 700; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
+.filtro-botones div {font-size: 11px; font-weight: 900; letter-spacing: 1px; background: var(--fondo-oscuro); color: var(--color-texto-claro); border: 1px solid var(--color-acento); padding: 2px 8px; margin: 1px; text-transform: uppercase; cursor: pointer;} 
 .filtro-botones input:checked + div  {background: var(--color-acento);} 
-.panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 0 3px;} 
+.filtro-botones.panteon div {letter-spacing: 2px; padding: 5px 10px; margin: 3px;} 
 .filtro-botones.categoria {margin: -20px auto -10px; max-width: 485px;} 
 
 .panteon .flt-rom input:checked + div, .objeto.rom {--color-acento: var(--color-romanos);} 
@@ -425,7 +425,7 @@ font-size: 14px;
 /*TIENDA*/
 .tienda-catalogo, .tiendas .filtro-contenido {margin: 0 -4px;} 
 .objeto {/*outline: 1px solid var(--borde-gris);*/ margin: 4px; position: relative; padding: 12px; width: 220px; background: var(--fondo-base);}
-.tienda-catalogo .objeto, .tiendas .objeto {background: var(--fondo-claro);flex: 1; min-width: 200px; max-width: 220px;} .tiendas .objeto {max-width: 216px;}
+.tienda-catalogo .objeto, .tiendas .objeto {background: var(--fondo-claro); flex: 1; min-width: 200px; max-width: 220px;} .tiendas .objeto {max-width: 216px;}
 .objeto .tbase-destacado {text-align: center; margin: 0 auto 5px;}
 
 .objeto strong {font-weight: 900; font-size: 12px; color: var(--color-acento); text-transform: uppercase;} 
