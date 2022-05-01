@@ -438,7 +438,7 @@ font-size: 14px;
 .bestiario .col1, .bestiario  .col2, .bestiario .monstruo {margin: 10px 0; max-width: 213px; width: 100%; height: 85px; transition: height .7s ease-out;} .bestiario-caja .tabActive { height: 265px;}
 .bestiario .toggle .click {text-align: center; display: block; margin: 0;} .bestiario .cr-icon {margin: 0 auto; font-size: 20px;} .bestiario .cr-date {font-weight: normal;}
 .bestiario .info {border-top: 1px solid var(--color-acento); padding: 10px 2px 0; width: 100%; position: absolute; left: 0; max-height: 170px; overflow-y: auto !important;}
-.bestiario .click:after { content: '\f0d8'; font-family: 'Font Awesome 5 Free'; margin: 0 50%; position: relative; top: 5px; width: 0; height: 0; display: inline-block; color: var(--color-acento); font-size: 17px; font-weight: bold;opacity: 0; transition: 0s 0s ease-out;}
+.bestiario .click:after { content: '\f0d8'; font-family: var(--font-awesome); margin: 0 50%; position: relative; top: 10px; width: 0; height: 0; display: inline-block; color: var(--color-acento); font-size: 15px; font-weight: 900;opacity: 0; transition: 0s 0s ease-out;}
 .bestiario .tabActive .click:after {opacity: 1; transition: 0s .6s ease-out;} .bestiario .grupal {--color-acento: #75684c;} .bestiario .celta {--color-acento: var(--color-celtas);} .bestiario .otros {--color-acento: #636363;}
 
 /*TABLILLA DE STATS*/
@@ -1170,7 +1170,7 @@ align-items: center;
 padding: 3px 0;
 }
 #notif_list .content:before {
-font-family: 'Font Awesome 5 Free';
+font-family: var(--font-awesome);
 color: var(--color-acento);
 font-weight: 900;
 content: '\f111';
@@ -1183,7 +1183,7 @@ width: 205px;
 line-height: 12px;
 }
 #fa_right .delete:before {
-font-family: 'Font Awesome 5 Free';
+font-family: var(--font-awesome);
 content: '\f00d';
 color: var(--color-acento);
 font-weight: 900;
