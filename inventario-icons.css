@@ -253,6 +253,11 @@
 .anillos-de-bff .item-icon:before, .anillos-de-bffs .item-icon:before {content: '\E950';font-family: 'game-icons';}
 .polaroid-de-chayanne .item-icon:before {content: '\f3e0';font-family: var(--font-awesome);font-weight: 900}
 .bombones .item-icon:before {content: '\EF3E';font-family: 'game-icons';}
+.estandarte-de-la-legion .item-icon:before {content: '\E8B9';font-family: 'game-icons';}
+.segur .item-icon:before {content: '\ED4F';font-family: 'game-icons';}
+.hoja-de-olivo .item-icon:before {content: '\E61B';font-family: 'game-icons';}
+.sangre-de-centauro .item-icon:before {content: '\EF3A';font-family: 'game-icons';}
+.sudario standarte .item-icon:before {content: '\E54E';font-family: 'game-icons';}
 
 /*OBJETOS DE EVENTOS*/
 [class*="cojin"] .item-icon:before {content: '\EB15';font-family: 'game-icons';}
