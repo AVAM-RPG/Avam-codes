@@ -255,6 +255,7 @@
 .bombones .item-icon:before {content: '\EF3E';font-family: 'game-icons';}
 .estandarte-de-la-legion .item-icon:before {content: '\E8B9';font-family: 'game-icons';}
 .segur .item-icon:before {content: '\ED4F';font-family: 'game-icons';}
+.patera .item-icon:before {content: '\E6BD';font-family: 'game-icons';}
 .hoja-de-olivo .item-icon:before {content: '\E61B';font-family: 'game-icons';}
 .sangre-de-centauro .item-icon:before {content: '\EF3A';font-family: 'game-icons';}
 .sudario standarte .item-icon:before {content: '\E54E';font-family: 'game-icons';}
