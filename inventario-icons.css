@@ -22,7 +22,7 @@
 [class*="galleta"] .item-icon:before {content: '\ea30';font-family: cappuccicons;}
 [class*="estrella"] .item-icon:before {content: '\E112';font-family: 'game-icons';}
 [class*="capsula"] .item-icon:before {content: '\ec12';font-family: 'IcoFont';}
-[class*="caramelo"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
+[class*="caramelo"] .item-icon:before, [class*="dulce"] .item-icon:before {content: '\e9b4';font-family: cappuccicons;}
 [class*="flecha"] .item-icon:before {content: '\E27C';font-family: 'game-icons';}
 [class*="anillo"] .item-icon:before {content: '\E944';font-family: 'game-icons';}
 [class*="libro"] .item-icon:before {content: '\EC75';font-family: 'game-icons';}
